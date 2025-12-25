@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <title data-i18n="extName">FlowMouse</title>
+    <style>
+        :root {
+            --bg-primary: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
+            --bg-secondary: rgba(255, 255, 255, 0.05);
+            --text-primary: #fff;
+            --text-secondary: #888;
+            --border-color: rgba(255, 255, 255, 0.1);
+            --accent-color: #4285f4;
+        }
+
+        [data-theme="light"] {
+            --bg-primary: linear-gradient(135deg, #f5f7fa 0%, #e4e8eb 100%);
+            --bg-secondary: rgba(0, 0, 0, 0.03);
+            --text-primary: #333;
+            --text-secondary: #666;
+            --border-color: rgba(0, 0, 0, 0.1);
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            width: 280px;
+            font-family: 'Segoe UI', 'Microsoft YaHei', sans-serif;
+            background: var(--bg-primary);
+            color: var(--text-primary);
+            padding: 15px;
+        }
+
+        .header {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            margin-bottom: 15px;
+            padding-bottom: 12px;
+            border-bottom: 1px solid var(--border-color);
+        }
+
+        .header h1 {
+            font-size: 16px;
+            font-weight: 600;
+        }
+
+        .logo-small {
+            width: 18px;
+            height: 18px;
+            border-radius: 4px;
+        }
+
+        .header .version {
+            font-size: 11px;
+            color: var(--text-secondary);
+            background: var(--bg-secondary);
+            padding: 2px 6px;
+            border-radius: 4px;
+        }
+
+        .status-row {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px 0;
+            border-bottom: 1px solid var(--border-color);
+        }
+
+        .status-label {
+            font-size: 13px;
+        }
+
+        .toggle {
+            position: relative;
+            width: 40px;
+            height: 22px;
+        }
+
+        .toggle input {
+            opacity: 0;
+            width: 0;
+            height: 0;
+        }
+
+        .toggle .slider {
+            position: absolute;
+            cursor: pointer;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background-color: #444;
+            transition: 0.3s;
+            border-radius: 22px;
+        }
+
+        .toggle .slider:before {
+            position: absolute;
+            content: "";
+            height: 16px;
+            width: 16px;
+            left: 3px;
+            bottom: 3px;
+            background-color: #fff;
+            transition: 0.3s;
+            border-radius: 50%;
+        }
+
+        .toggle input:checked+.slider {
+            background-color: var(--accent-color);
+        }
+
+        .toggle input:checked+.slider:before {
+            transform: translateX(18px);
+        }
+
+        .gestures-info {
+            background: var(--bg-secondary);
+            border-radius: 8px;
+            padding: 12px;
+            margin: 15px 0;
+            font-size: 12px;
+        }
+
+        .gestures-info h3 {
+            font-size: 13px;
+            margin-bottom: 8px;
+            color: var(--accent-color);
+        }
+
+        .gesture-list {
+            display: grid;
+            grid-template-columns: 50px 1fr 50px 1fr;
+            gap: 6px 4px;
+            align-items: center;
+        }
+
+        .gesture-pattern {
+            font-weight: bold;
+            text-align: center;
+        }
+
+        .gesture-action {
+            color: var(--text-secondary);
+            font-size: 11px;
+        }
+
+        .actions {
+            display: flex;
+            gap: 8px;
+            margin-top: 15px;
+        }
+
+        .btn {
+            flex: 1;
+            padding: 10px;
+            border: none;
+            border-radius: 6px;
+            font-size: 13px;
+            cursor: pointer;
+            transition: all 0.2s;
+        }
+
+        .btn-primary {
+            background: var(--accent-color);
+            color: #fff;
+        }
+
+        .btn-secondary {
+            background: var(--bg-secondary);
+            color: var(--text-primary);
+            border: 1px solid var(--border-color);
+        }
+
+        .btn:disabled {
+            opacity: 0.5;
+            cursor: not-allowed;
+        }
+
+        .current-site {
+            margin-top: 12px;
+            padding-top: 12px;
+            border-top: 1px solid var(--border-color);
+            font-size: 12px;
+            color: var(--text-secondary);
+        }
+
+        .current-site .domain {
+            color: var(--text-primary);
+            font-weight: 500;
+        }
+
+        .blacklisted {
+            color: #ea4335;
+        }
+
+        .not-available {
+            color: var(--text-secondary);
+            font-style: italic;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="header">
+        <img src="../icons/icon16.png" class="logo-small" alt="Logo">
+        <h1><span data-i18n="extNameShort">FlowMouse 心流鼠标</span></h1>
+        <span class="version">v1.0</span>
+    </div>
+
+    <div class="status-row">
+        <span class="status-label" data-i18n="popupTrail">手势轨迹</span>
+        <label class="toggle">
+            <input type="checkbox" id="enableTrail" checked>
+            <span class="slider"></span>
+        </label>
+    </div>
+
+    <div class="status-row">
+        <span class="status-label" data-i18n="popupHint">操作提示</span>
+        <label class="toggle">
+            <input type="checkbox" id="enableHUD" checked>
+            <span class="slider"></span>
+        </label>
+    </div>
+
+    <div class="gestures-info">
+        <h3 data-i18n="popupCommonGestures">常用手势</h3>
+        <div class="gesture-list">
+            <span class="gesture-pattern">←</span><span class="gesture-action" data-i18n="popupBack">返回</span>
+            <span class="gesture-pattern">→</span><span class="gesture-action" data-i18n="popupForward">前进</span>
+            <span class="gesture-pattern">↑</span><span class="gesture-action" data-i18n="popupScrollUp">上翻</span>
+            <span class="gesture-pattern">↓</span><span class="gesture-action" data-i18n="popupScrollDown">下翻</span>
+            <span class="gesture-pattern">↓→</span><span class="gesture-action" data-i18n="popupClose">关闭</span>
+            <span class="gesture-pattern">→←</span><span class="gesture-action" data-i18n="popupRestore">恢复</span>
+        </div>
+    </div>
+
+    <div class="current-site">
+        <span data-i18n="popupCurrentSite">当前网站</span>: <span class="domain" id="currentDomain">-</span>
+        <span id="blacklistStatus"></span>
+    </div>
+
+    <div class="actions">
+        <button class="btn btn-secondary" id="toggleBlacklist">加入黑名单</button>
+        <button class="btn btn-primary" id="openOptions" data-i18n="settings">设置</button>
+    </div>
+
+    <script src="../js/i18n.js"></script>
+    <script src="../js/popup.js"></script>
+</body>
+
+</html>

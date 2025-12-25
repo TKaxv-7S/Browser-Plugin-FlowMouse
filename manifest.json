@@ -1,0 +1,63 @@
+{
+"update_url": "https://clients2.google.com/service/update2/crx",
+
+    "manifest_version": 3,
+    "name": "__MSG_extName__",
+    "version": "1.0",
+    "author": "Hmily[LCG]",
+    "description": "__MSG_extDescription__",
+    "default_locale": "zh_CN",
+    "permissions": [
+        "tabs",
+        "sessions",
+        "storage",
+        "bookmarks"
+    ],
+    "options_ui": {
+        "page": "pages/options.html",
+        "open_in_tab": true
+    },
+    "host_permissions": [
+        "<all_urls>"
+    ],
+    "background": {
+        "service_worker": "background.js"
+    },
+    "content_scripts": [
+        {
+            "matches": [
+                "<all_urls>"
+            ],
+            "js": [
+                "js/constants.js",
+                "js/gesture-visual.js",
+                "js/content.js"
+            ],
+            "run_at": "document_start",
+            "all_frames": true
+        }
+    ],
+    "action": {
+        "default_popup": "pages/popup.html",
+        "default_icon": {
+            "16": "icons/icon16.png",
+            "48": "icons/icon48.png",
+            "128": "icons/icon128.png"
+        }
+    },
+    "icons": {
+        "16": "icons/icon16.png",
+        "48": "icons/icon48.png",
+        "128": "icons/icon128.png"
+    },
+    "web_accessible_resources": [
+        {
+            "resources": [
+                "_locales/*/messages.json"
+            ],
+            "matches": [
+                "<all_urls>"
+            ]
+        }
+    ]
+}

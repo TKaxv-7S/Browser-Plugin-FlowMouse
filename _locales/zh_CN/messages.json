@@ -1,0 +1,506 @@
+{
+    "extName": {
+        "message": "FlowMouse - 心流鼠标手势",
+        "description": "Extension name"
+    },
+    "extNameShort": {
+        "message": "FlowMouse 心流鼠标",
+        "description": "Short extension name for popup"
+    },
+    "extDescription": {
+        "message": "专注于隐私与流畅体验的鼠标手势扩展。手势操作丝滑跟手，支持超级拖拽，且所有数据仅存储于本地。",
+        "description": "Extension description"
+    },
+    "appearance": {
+        "message": "外观设置",
+        "description": "Appearance section"
+    },
+    "theme": {
+        "message": "主题",
+        "description": "Theme"
+    },
+    "themeDesc": {
+        "message": "切换亮色/暗色主题",
+        "description": "Theme description"
+    },
+    "themeDark": {
+        "message": "深色",
+        "description": "Dark theme"
+    },
+    "themeLight": {
+        "message": "浅色",
+        "description": "Light theme"
+    },
+    "themeAuto": {
+        "message": "跟随系统",
+        "description": "Auto theme - follow system"
+    },
+    "languageDesc": {
+        "message": "选择界面语言",
+        "description": "Language description"
+    },
+    "syncStatus": {
+        "message": "同步状态",
+        "description": "Sync status"
+    },
+    "syncStatusDesc": {
+        "message": "设置通过Chrome账号同步",
+        "description": "Sync status description"
+    },
+    "synced": {
+        "message": "已同步",
+        "description": "Synced"
+    },
+    "author": {
+        "message": "作者",
+        "description": "Author"
+    },
+    "privacyNote": {
+        "message": "🔒 纯本地运行，无任何联网，不收集任何用户数据",
+        "description": "Privacy note in footer"
+    },
+    "backToSettings": {
+        "message": "返回设置",
+        "description": "Back to settings link"
+    },
+    "settings": {
+        "message": "设置",
+        "description": "Settings"
+    },
+    "version": {
+        "message": "版本",
+        "description": "Version"
+    },
+    "basicSettings": {
+        "message": "基础设置",
+        "description": "Basic settings section"
+    },
+    "showTrail": {
+        "message": "显示手势轨迹",
+        "description": "Show gesture trail"
+    },
+    "showTrailDesc": {
+        "message": "在执行手势时显示轨迹线",
+        "description": "Show trail line when performing gestures"
+    },
+    "showHint": {
+        "message": "显示操作提示",
+        "description": "Show action hint"
+    },
+    "showHintDesc": {
+        "message": "在屏幕中央显示当前手势对应的操作",
+        "description": "Show current gesture action in center of screen"
+    },
+    "color": {
+        "message": "颜色",
+        "description": "Color"
+    },
+    "width": {
+        "message": "粗细",
+        "description": "Width/thickness"
+    },
+    "background": {
+        "message": "背景",
+        "description": "Background"
+    },
+    "opacity": {
+        "message": "透明度",
+        "description": "Opacity"
+    },
+    "text": {
+        "message": "文字",
+        "description": "Text"
+    },
+    "dragFeatures": {
+        "message": "拖拽功能",
+        "description": "Drag features section"
+    },
+    "textDragSearch": {
+        "message": "文字拖拽搜索",
+        "description": "Text drag search"
+    },
+    "textDragSearchDesc": {
+        "message": "选中文字后向右拖拽进行搜索",
+        "description": "Drag selected text to the right to search"
+    },
+    "searchEngine": {
+        "message": "搜索引擎",
+        "description": "Search engine"
+    },
+    "custom": {
+        "message": "自定义",
+        "description": "Custom"
+    },
+    "customUrlPlaceholder": {
+        "message": "自定义URL，用 %s 代替搜索词",
+        "description": "Custom URL placeholder"
+    },
+    "imageDrag": {
+        "message": "图片拖拽打开",
+        "description": "Image drag open"
+    },
+    "imageDragDesc": {
+        "message": "拖拽图片在新标签页打开",
+        "description": "Drag image to open in new tab"
+    },
+    "linkDrag": {
+        "message": "链接拖拽打开",
+        "description": "Link drag open"
+    },
+    "linkDragDesc": {
+        "message": "拖拽链接在新标签页打开",
+        "description": "Drag link to open in new tab"
+    },
+    "gestureMapping": {
+        "message": "手势映射",
+        "description": "Gesture mapping section"
+    },
+    "enableCustomGestures": {
+        "message": "启用自定义手势",
+        "description": "Enable custom gestures"
+    },
+    "enableCustomGesturesDesc": {
+        "message": "开启后可自定义每个手势的操作",
+        "description": "Customize each gesture action when enabled"
+    },
+    "gestureAutoSaveHint": {
+        "message": "提示：修改后自动保存。",
+        "description": "Hint about auto-save"
+    },
+    "blacklist": {
+        "message": "网站黑名单",
+        "description": "Website blacklist"
+    },
+    "blacklistPlaceholder": {
+        "message": "输入域名，如 example.com，按回车添加",
+        "description": "Blacklist input placeholder"
+    },
+    "add": {
+        "message": "添加",
+        "description": "Add button"
+    },
+    "emptyBlacklist": {
+        "message": "暂无黑名单，在上方输入域名添加",
+        "description": "Empty blacklist message"
+    },
+    "dataManagement": {
+        "message": "数据管理",
+        "description": "Data management section"
+    },
+    "export": {
+        "message": "导出配置",
+        "description": "Export settings"
+    },
+    "import": {
+        "message": "导入配置",
+        "description": "Import settings"
+    },
+    "reset": {
+        "message": "恢复默认",
+        "description": "Reset to default"
+    },
+    "autoSaved": {
+        "message": "✓ 已自动保存",
+        "description": "Auto-saved message"
+    },
+    "resetConfirm": {
+        "message": "确定要恢复所有设置为默认值吗？",
+        "description": "Reset confirmation"
+    },
+    "resetDone": {
+        "message": "已恢复默认设置",
+        "description": "Reset done message"
+    },
+    "exportDone": {
+        "message": "配置已导出",
+        "description": "Export done message"
+    },
+    "importDone": {
+        "message": "配置已导入",
+        "description": "Import done message"
+    },
+    "importFailed": {
+        "message": "导入失败：无效的配置文件",
+        "description": "Import failed message"
+    },
+    "invalidDomain": {
+        "message": "请输入有效的域名",
+        "description": "Invalid domain message"
+    },
+    "domainExists": {
+        "message": "该域名已在黑名单中",
+        "description": "Domain already in blacklist"
+    },
+    "about": {
+        "message": "关于",
+        "description": "About section"
+    },
+    "language": {
+        "message": "语言",
+        "description": "Language"
+    },
+    "languageAuto": {
+        "message": "跟随系统",
+        "description": "Follow system language"
+    },
+    "privacyFriendly": {
+        "message": "隐私友好",
+        "description": "Privacy friendly"
+    },
+    "localOnly": {
+        "message": "本地运行",
+        "description": "Local only"
+    },
+    "autoSave": {
+        "message": "自动保存",
+        "description": "Auto save"
+    },
+    "actionNone": {
+        "message": "无操作",
+        "description": "No action"
+    },
+    "actionBack": {
+        "message": "返回",
+        "description": "Go back"
+    },
+    "actionForward": {
+        "message": "前进",
+        "description": "Go forward"
+    },
+    "actionScrollUp": {
+        "message": "向上滚动",
+        "description": "Scroll up"
+    },
+    "actionScrollDown": {
+        "message": "向下滚动",
+        "description": "Scroll down"
+    },
+    "actionScrollToTop": {
+        "message": "滚动到顶部",
+        "description": "Scroll to top"
+    },
+    "actionScrollToBottom": {
+        "message": "滚动到底部",
+        "description": "Scroll to bottom"
+    },
+    "actionCloseTab": {
+        "message": "关闭标签页",
+        "description": "Close tab"
+    },
+    "actionRestoreTab": {
+        "message": "重新打开已关闭的标签页",
+        "description": "Restore closed tab"
+    },
+    "actionNewTab": {
+        "message": "打开新标签页",
+        "description": "New tab"
+    },
+    "actionCloseOtherTabs": {
+        "message": "关闭其他选项卡",
+        "description": "Close other tabs"
+    },
+    "actionCloseRightTabs": {
+        "message": "关闭右侧标签页",
+        "description": "Close tabs to the right"
+    },
+    "actionCloseAllTabs": {
+        "message": "关闭所有标签页",
+        "description": "Close all tabs"
+    },
+    "actionSwitchLeftTab": {
+        "message": "切换到左边标签页",
+        "description": "Switch to left tab"
+    },
+    "actionSwitchRightTab": {
+        "message": "切换到右边标签页",
+        "description": "Switch to right tab"
+    },
+    "actionRefresh": {
+        "message": "刷新",
+        "description": "Refresh"
+    },
+    "actionStopLoading": {
+        "message": "停止加载",
+        "description": "Stop loading"
+    },
+    "actionNewWindow": {
+        "message": "新建窗口",
+        "description": "New window"
+    },
+    "actionNewIncognito": {
+        "message": "新建无痕窗口",
+        "description": "New incognito window"
+    },
+    "actionAddToBookmarks": {
+        "message": "添加到收藏夹",
+        "description": "Add to bookmarks"
+    },
+    "actionToggleFullscreen": {
+        "message": "切换全屏",
+        "description": "Toggle fullscreen"
+    },
+    "popupTrail": {
+        "message": "手势轨迹",
+        "description": "Gesture trail in popup"
+    },
+    "popupHint": {
+        "message": "操作提示",
+        "description": "Action hint in popup"
+    },
+    "popupCommonGestures": {
+        "message": "常用手势",
+        "description": "Common gestures"
+    },
+    "popupCurrentSite": {
+        "message": "当前网站",
+        "description": "Current site"
+    },
+    "popupRestricted": {
+        "message": "受限页面",
+        "description": "Restricted page"
+    },
+    "popupDisabled": {
+        "message": "已禁用",
+        "description": "Disabled"
+    },
+    "popupAddBlacklist": {
+        "message": "加入黑名单",
+        "description": "Add to blacklist"
+    },
+    "popupRemoveBlacklist": {
+        "message": "取消黑名单",
+        "description": "Remove from blacklist"
+    },
+    "popupNotAvailable": {
+        "message": "不可用",
+        "description": "Not available"
+    },
+    "popupBack": {
+        "message": "返回",
+        "description": "Back - short"
+    },
+    "popupForward": {
+        "message": "前进",
+        "description": "Forward - short"
+    },
+    "popupScrollUp": {
+        "message": "上翻",
+        "description": "Scroll up - short"
+    },
+    "popupScrollDown": {
+        "message": "下翻",
+        "description": "Scroll down - short"
+    },
+    "popupClose": {
+        "message": "关闭",
+        "description": "Close - short"
+    },
+    "popupRestore": {
+        "message": "恢复",
+        "description": "Restore - short"
+    },
+    "dragSearchText": {
+        "message": "🔍 拖拽搜索",
+        "description": "Drag search hint"
+    },
+    "dragOpenImage": {
+        "message": "🖼️ 打开图片",
+        "description": "Drag open image hint"
+    },
+    "dragOpenLink": {
+        "message": "🔗 打开链接",
+        "description": "Drag open link hint"
+    },
+    "aboutTitle": {
+        "message": "关于 FlowMouse",
+        "description": "About title"
+    },
+    "aboutAuthor": {
+        "message": "作者",
+        "description": "Author"
+    },
+    "aboutWebsite": {
+        "message": "官网",
+        "description": "Website"
+    },
+    "aboutEmail": {
+        "message": "邮箱",
+        "description": "Email"
+    },
+    "aboutPrivacy": {
+        "message": "隐私声明",
+        "description": "Privacy statement"
+    },
+    "aboutPrivacyText": {
+        "message": "本扩展完全本地运行，无任何联网功能，不收集、不上传任何用户数据。您的设置通过Chrome账号同步功能存储，仅在您登录的设备间同步。",
+        "description": "Privacy statement text"
+    },
+    "aboutCredits": {
+        "message": "致谢",
+        "description": "Credits"
+    },
+    "aboutCreditsText": {
+        "message": "感谢 Microsoft Edge 浏览器和 crxMouse 扩展的设计灵感。",
+        "description": "Credits text"
+    },
+    "aboutFeatures": {
+        "message": "特性",
+        "description": "Features"
+    },
+    "aboutFeature1": {
+        "message": "🎯 16种手势支持",
+        "description": "Feature 1"
+    },
+    "aboutFeature2": {
+        "message": "🎨 可视化轨迹反馈",
+        "description": "Feature 2"
+    },
+    "aboutFeature3": {
+        "message": "🔍 文字/图片/链接拖拽",
+        "description": "Feature 3"
+    },
+    "aboutFeature4": {
+        "message": "🚫 网站黑名单",
+        "description": "Feature 4"
+    },
+    "aboutFeature5": {
+        "message": "☁️ Chrome账号同步",
+        "description": "Feature 5"
+    },
+    "aboutFeature6": {
+        "message": "🔒 完全本地运行，无联网",
+        "description": "Feature 6"
+    },
+    "learnMore": {
+        "message": "了解更多 →",
+        "description": "Learn more link"
+    },
+    "badgeNoNetwork": {
+        "message": "🔒 无联网",
+        "description": "No network badge"
+    },
+    "badgeNoData": {
+        "message": "🚫 不收集数据",
+        "description": "No data collection badge"
+    },
+    "badgeLocalRun": {
+        "message": "✅ 本地运行",
+        "description": "Local run badge"
+    },
+    "syncUpload": {
+        "message": "上传配置",
+        "description": "Upload config to sync"
+    },
+    "syncDownload": {
+        "message": "下载配置",
+        "description": "Download config from sync"
+    },
+    "syncUploaded": {
+        "message": "配置已上传到云端",
+        "description": "Config uploaded message"
+    },
+    "syncDownloaded": {
+        "message": "已从云端下载配置",
+        "description": "Config downloaded message"
+    }
+}

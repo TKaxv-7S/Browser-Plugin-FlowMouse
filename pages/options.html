@@ -1,0 +1,667 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title data-i18n="settings">鼠标手势设置</title>
+    <style>
+        :root {
+            --bg-primary: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
+            --bg-secondary: rgba(255, 255, 255, 0.05);
+            --bg-tertiary: rgba(255, 255, 255, 0.03);
+            --text-primary: #fff;
+            --text-secondary: #888;
+            --text-muted: #666;
+            --border-color: rgba(255, 255, 255, 0.1);
+            --accent-color: #4285f4;
+            --accent-hover: #3367d6;
+            --danger-color: #ea4335;
+            --success-color: #34a853;
+            --input-bg: rgba(30, 30, 50, 0.9);
+        }
+
+        [data-theme="light"] {
+            --bg-primary: linear-gradient(135deg, #f5f7fa 0%, #e4e8eb 100%);
+            --bg-secondary: rgba(0, 0, 0, 0.03);
+            --bg-tertiary: rgba(0, 0, 0, 0.02);
+            --text-primary: #333;
+            --text-secondary: #666;
+            --text-muted: #999;
+            --border-color: rgba(0, 0, 0, 0.1);
+            --input-bg: #fff;
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: 'Segoe UI', 'Microsoft YaHei', sans-serif;
+            background: var(--bg-primary);
+            min-height: 100vh;
+            color: var(--text-primary);
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+        }
+
+        header {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+        header h1 {
+            font-size: 2em;
+            margin-bottom: 10px;
+        }
+
+        .section {
+            background: var(--bg-secondary);
+            border-radius: 12px;
+            padding: 20px;
+            margin-bottom: 20px;
+            border: 1px solid var(--border-color);
+        }
+
+        .section h2 {
+            font-size: 1.2em;
+            margin-bottom: 15px;
+            padding-bottom: 10px;
+            border-bottom: 1px solid var(--border-color);
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .setting-row {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 12px 0;
+            border-bottom: 1px solid var(--border-color);
+        }
+
+        .setting-row:last-child {
+            border-bottom: none;
+        }
+
+        .setting-label {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .setting-label span:first-child {
+            font-weight: 500;
+        }
+
+        .setting-label span:last-child {
+            font-size: 0.8em;
+            color: var(--text-secondary);
+            margin-top: 3px;
+        }
+
+        .toggle {
+            position: relative;
+            width: 50px;
+            height: 26px;
+        }
+
+        .toggle input {
+            opacity: 0;
+            width: 0;
+            height: 0;
+        }
+
+        .toggle .slider {
+            position: absolute;
+            cursor: pointer;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background-color: #444;
+            transition: 0.3s;
+            border-radius: 26px;
+        }
+
+        .toggle .slider:before {
+            position: absolute;
+            content: "";
+            height: 20px;
+            width: 20px;
+            left: 3px;
+            bottom: 3px;
+            background-color: #fff;
+            transition: 0.3s;
+            border-radius: 50%;
+        }
+
+        .toggle input:checked+.slider {
+            background-color: var(--accent-color);
+        }
+
+        .toggle input:checked+.slider:before {
+            transform: translateX(24px);
+        }
+
+        select,
+        input[type="text"],
+        input[type="number"] {
+            padding: 8px 12px;
+            border-radius: 6px;
+            border: 1px solid var(--border-color);
+            background: var(--input-bg);
+            color: var(--text-primary);
+            font-size: 14px;
+        }
+
+        select option {
+            background: var(--input-bg);
+            color: var(--text-primary);
+        }
+
+        select:focus,
+        input:focus {
+            outline: none;
+            border-color: var(--accent-color);
+        }
+
+        input[type="color"] {
+            width: 40px;
+            height: 28px;
+            border: none;
+            border-radius: 6px;
+            cursor: pointer;
+            padding: 0;
+        }
+
+        .sub-settings {
+            margin-left: 20px;
+            margin-top: 10px;
+            padding: 15px;
+            background: var(--bg-tertiary);
+            border-radius: 8px;
+            border-left: 3px solid var(--accent-color);
+            display: none;
+        }
+
+        .sub-settings.show {
+            display: block;
+        }
+
+        .inline-settings {
+            display: flex;
+            gap: 20px;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+
+        .color-setting {
+            display: flex;
+            align-items: center;
+            gap: 6px;
+            font-size: 13px;
+        }
+
+        .color-setting input[type="number"] {
+            width: 70px;
+        }
+
+        .gesture-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+            gap: 10px;
+            margin-top: 15px;
+        }
+
+        .gesture-item {
+            background: var(--bg-tertiary);
+            border-radius: 8px;
+            padding: 12px;
+            display: flex;
+            flex-direction: column;
+            gap: 8px;
+        }
+
+        .gesture-item .gesture-pattern {
+            font-size: 1.5em;
+            text-align: center;
+        }
+
+        .gesture-item select {
+            width: 100%;
+        }
+
+        .blacklist-section {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+        }
+
+        .blacklist-add {
+            display: flex;
+            gap: 10px;
+        }
+
+        .blacklist-add input {
+            flex: 1;
+        }
+
+        .blacklist-list {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 8px;
+            min-height: 40px;
+            padding: 10px;
+            background: var(--bg-tertiary);
+            border-radius: 8px;
+        }
+
+        .blacklist-tag {
+            display: flex;
+            align-items: center;
+            gap: 6px;
+            background: var(--bg-secondary);
+            padding: 6px 10px;
+            border-radius: 20px;
+            font-size: 13px;
+            border: 1px solid var(--border-color);
+        }
+
+        .blacklist-tag .delete-btn {
+            background: none;
+            border: none;
+            color: var(--danger-color);
+            cursor: pointer;
+            font-size: 16px;
+            line-height: 1;
+            padding: 0;
+        }
+
+        .empty-list {
+            color: var(--text-muted);
+            font-size: 13px;
+            padding: 10px;
+        }
+
+        .btn {
+            padding: 10px 20px;
+            border-radius: 8px;
+            border: none;
+            cursor: pointer;
+            font-size: 14px;
+            transition: all 0.2s;
+        }
+
+        .btn-primary {
+            background: var(--accent-color);
+            color: #fff;
+        }
+
+        .btn-primary:hover {
+            background: var(--accent-hover);
+        }
+
+        .btn-danger {
+            background: var(--danger-color);
+            color: #fff;
+        }
+
+        .btn-secondary {
+            background: var(--bg-secondary);
+            color: var(--text-primary);
+            border: 1px solid var(--border-color);
+        }
+
+        .btn-secondary:hover {
+            background: var(--bg-tertiary);
+        }
+
+        .actions {
+            display: flex;
+            gap: 10px;
+            justify-content: flex-end;
+            margin-top: 15px;
+        }
+
+        .status {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            padding: 12px 20px;
+            border-radius: 8px;
+            background: var(--success-color);
+            color: #fff;
+            opacity: 0;
+            transform: translateY(20px);
+            transition: all 0.3s;
+            font-size: 14px;
+        }
+
+        .status.show {
+            opacity: 1;
+            transform: translateY(0);
+        }
+
+        .info-box {
+            background: rgba(66, 133, 244, 0.1);
+            border: 1px solid rgba(66, 133, 244, 0.3);
+            border-radius: 8px;
+            padding: 12px;
+            margin-bottom: 15px;
+            font-size: 0.9em;
+            color: #8ab4f8;
+        }
+
+        .setting-group {
+            margin-bottom: 5px;
+        }
+
+        .search-engine-row {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+            margin-top: 10px;
+        }
+
+        .search-engine-row select {
+            min-width: 120px;
+        }
+
+        .search-engine-row input[type="text"] {
+            flex: 1;
+        }
+
+        .sync-status {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            font-size: 13px;
+            color: var(--text-secondary);
+            padding: 8px 12px;
+            background: var(--bg-tertiary);
+            border-radius: 6px;
+        }
+
+        .sync-status .sync-icon {
+            color: var(--success-color);
+        }
+
+        .footer {
+            text-align: center;
+            padding: 20px;
+            margin-top: 20px;
+            color: var(--text-secondary);
+            font-size: 13px;
+            border-top: 1px solid var(--border-color);
+        }
+
+        .footer a {
+            color: var(--accent-color);
+            text-decoration: none;
+        }
+
+        .footer a:hover {
+            text-decoration: underline;
+        }
+
+        .footer .privacy-note {
+            margin-top: 8px;
+            font-size: 12px;
+            color: var(--text-muted);
+        }
+
+        .logo-img {
+            width: 32px;
+            height: 32px;
+            margin-right: 12px;
+            vertical-align: middle;
+            border-radius: 8px;
+        }
+
+        header h1 {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 2em;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <h1>
+                <img src="../icons/icon48.png" class="logo-img" alt="Logo">
+                <span data-i18n="extName">FlowMouse</span>
+                <span class="version" style="margin-left: 10px; font-size: 0.5em; vertical-align: middle;">v1.0</span>
+            </h1>
+        </header>
+
+        <div class="section">
+            <h2>🎨 <span data-i18n="appearance">外观设置</span></h2>
+
+            <div class="setting-row">
+                <div class="setting-label">
+                    <span data-i18n="theme">主题</span>
+                    <span data-i18n="themeDesc">切换亮色/暗色主题</span>
+                </div>
+                <select id="theme">
+                    <option value="auto" data-i18n="themeAuto">跟随系统</option>
+                    <option value="dark" data-i18n="themeDark">深色</option>
+                    <option value="light" data-i18n="themeLight">浅色</option>
+                </select>
+            </div>
+
+            <div class="setting-row">
+                <div class="setting-label">
+                    <span data-i18n="language">语言</span>
+                    <span data-i18n="languageDesc">选择界面语言</span>
+                </div>
+                <select id="language">
+                    <option value="auto" data-i18n="languageAuto">跟随系统</option>
+                    <option value="zh_CN">中文</option>
+                    <option value="en">English</option>
+                </select>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>⚙️ <span data-i18n="basicSettings">基础设置</span></h2>
+
+            <div class="setting-group">
+                <div class="setting-row">
+                    <div class="setting-label">
+                        <span data-i18n="showTrail">显示手势轨迹</span>
+                        <span data-i18n="showTrailDesc">在执行手势时显示轨迹线</span>
+                    </div>
+                    <label class="toggle">
+                        <input type="checkbox" id="enableTrail" checked>
+                        <span class="slider"></span>
+                    </label>
+                </div>
+                <div class="sub-settings" id="trailSettings">
+                    <div class="inline-settings">
+                        <div class="color-setting">
+                            <span data-i18n="color">颜色</span>:
+                            <input type="color" id="trailColor" value="#4285f4">
+                        </div>
+                        <div class="color-setting">
+                            <span data-i18n="width">粗细</span>:
+                            <input type="number" id="trailWidth" value="5" min="1" max="20">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="setting-group">
+                <div class="setting-row">
+                    <div class="setting-label">
+                        <span data-i18n="showHint">显示操作提示</span>
+                        <span data-i18n="showHintDesc">在屏幕中央显示当前手势对应的操作</span>
+                    </div>
+                    <label class="toggle">
+                        <input type="checkbox" id="enableHUD" checked>
+                        <span class="slider"></span>
+                    </label>
+                </div>
+                <div class="sub-settings" id="hudSettings">
+                    <div class="inline-settings">
+                        <div class="color-setting">
+                            <span data-i18n="background">背景</span>:
+                            <input type="color" id="hudBgColor" value="#000000">
+                        </div>
+                        <div class="color-setting">
+                            <span data-i18n="opacity">透明度</span>:
+                            <input type="number" id="hudBgOpacity" value="70" min="0" max="100">
+                        </div>
+                        <div class="color-setting">
+                            <span data-i18n="text">文字</span>:
+                            <input type="color" id="hudTextColor" value="#ffffff">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>🔗 <span data-i18n="dragFeatures">拖拽功能</span></h2>
+
+            <div class="setting-group">
+                <div class="setting-row">
+                    <div class="setting-label">
+                        <span data-i18n="textDragSearch">文字拖拽搜索</span>
+                        <span data-i18n="textDragSearchDesc">选中文字后向右拖拽进行搜索</span>
+                    </div>
+                    <label class="toggle">
+                        <input type="checkbox" id="enableTextDrag" checked>
+                        <span class="slider"></span>
+                    </label>
+                </div>
+                <div class="sub-settings" id="textDragSettings">
+                    <div class="search-engine-row">
+                        <span data-i18n="searchEngine">搜索引擎</span>:
+                        <select id="searchEngine">
+                            <option value="google">Google</option>
+                            <option value="bing">Bing</option>
+                            <option value="baidu">百度</option>
+                            <option value="360">360搜索</option>
+                            <option value="custom" data-i18n="custom">自定义</option>
+                        </select>
+                        <input type="text" id="customSearchUrl" data-i18n-placeholder="customUrlPlaceholder"
+                            placeholder="自定义URL，用 %s 代替搜索词" style="display:none;">
+                    </div>
+                </div>
+            </div>
+
+            <div class="setting-row">
+                <div class="setting-label">
+                    <span data-i18n="imageDrag">图片拖拽打开</span>
+                    <span data-i18n="imageDragDesc">拖拽图片在新标签页打开</span>
+                </div>
+                <label class="toggle">
+                    <input type="checkbox" id="enableImageDrag" checked>
+                    <span class="slider"></span>
+                </label>
+            </div>
+
+            <div class="setting-row">
+                <div class="setting-label">
+                    <span data-i18n="linkDrag">链接拖拽打开</span>
+                    <span data-i18n="linkDragDesc">拖拽链接在新标签页打开</span>
+                </div>
+                <label class="toggle">
+                    <input type="checkbox" id="enableLinkDrag" checked>
+                    <span class="slider"></span>
+                </label>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>🎯 <span data-i18n="gestureMapping">手势映射</span></h2>
+
+            <div class="setting-row">
+                <div class="setting-label">
+                    <span data-i18n="enableCustomGestures">启用自定义手势</span>
+                    <span data-i18n="enableCustomGesturesDesc">开启后可自定义每个手势的操作</span>
+                </div>
+                <label class="toggle">
+                    <input type="checkbox" id="enableGestureCustomization">
+                    <span class="slider"></span>
+                </label>
+            </div>
+
+            <div id="gestureGridContainer" style="display:none;">
+                <div class="info-box" style="margin-top:15px;" data-i18n="gestureAutoSaveHint">
+                    提示：修改后自动保存。
+                </div>
+                <div id="gestureGrid" class="gesture-grid"></div>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>🚫 <span data-i18n="blacklist">网站黑名单</span></h2>
+            <div class="blacklist-section">
+                <div class="blacklist-add">
+                    <input type="text" id="blacklistInput" data-i18n-placeholder="blacklistPlaceholder"
+                        placeholder="输入域名，如 example.com，按回车添加">
+                    <button class="btn btn-primary" id="addDomain" data-i18n="add">添加</button>
+                </div>
+                <div class="blacklist-list" id="blacklistList">
+                    <span class="empty-list" data-i18n="emptyBlacklist">暂无黑名单，在上方输入域名添加</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>💾 <span data-i18n="dataManagement">数据管理</span></h2>
+
+            <div class="setting-row">
+                <div class="setting-label">
+                    <span data-i18n="syncStatus">同步状态</span>
+                    <span data-i18n="syncStatusDesc">设置通过Chrome账号同步</span>
+                </div>
+                <div class="sync-status" id="syncStatus">
+                    <span class="sync-icon">☁️</span>
+                    <span id="syncText" data-i18n="synced">已同步</span>
+                    <span id="syncTime"></span>
+                </div>
+            </div>
+
+            <div class="actions">
+                <button class="btn btn-secondary" id="syncUpload" data-i18n="syncUpload">上传配置</button>
+                <button class="btn btn-secondary" id="syncDownload" data-i18n="syncDownload">下载配置</button>
+                <button class="btn btn-secondary" id="exportSettings" data-i18n="export">导出配置</button>
+                <button class="btn btn-secondary" id="importSettings" data-i18n="import">导入配置</button>
+                <button class="btn btn-danger" id="resetSettings" data-i18n="reset">恢复默认</button>
+            </div>
+        </div>
+
+        <div class="footer">
+            <div>
+                <span data-i18n="extName">鼠标手势</span> v1.0 ·
+                <span data-i18n="author">作者</span>: Hmily[LCG] ·
+                <a href="about.html" data-i18n="learnMore">了解更多 →</a>
+            </div>
+            <div class="privacy-note" data-i18n="privacyNote">
+                🔒 纯本地运行，无任何联网，不收集任何用户数据
+            </div>
+        </div>
+    </div>
+
+    <div class="status" id="status" data-i18n="autoSaved">✓ 已自动保存</div>
+    <input type="file" id="importFile" accept=".json" style="display:none;">
+
+    <script src="../js/i18n.js"></script>
+    <script src="../js/constants.js"></script>
+    <script src="../js/options.js"></script>
+</body>
+
+</html>

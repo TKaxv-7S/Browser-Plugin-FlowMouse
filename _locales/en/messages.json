@@ -1,0 +1,506 @@
+{
+    "extName": {
+        "message": "FlowMouse - Mouse Gestures",
+        "description": "Extension name"
+    },
+    "extNameShort": {
+        "message": "FlowMouse",
+        "description": "Short extension name for popup"
+    },
+    "extDescription": {
+        "message": "A mouse gesture extension focused on privacy and smooth experience. Silky smooth gestures, super drag support, and all data is stored locally.",
+        "description": "Extension description"
+    },
+    "appearance": {
+        "message": "Appearance",
+        "description": "Appearance section"
+    },
+    "theme": {
+        "message": "Theme",
+        "description": "Theme"
+    },
+    "themeDesc": {
+        "message": "Switch between light and dark theme",
+        "description": "Theme description"
+    },
+    "themeDark": {
+        "message": "Dark",
+        "description": "Dark theme"
+    },
+    "themeLight": {
+        "message": "Light",
+        "description": "Light theme"
+    },
+    "themeAuto": {
+        "message": "Follow System",
+        "description": "Auto theme - follow system"
+    },
+    "languageDesc": {
+        "message": "Select interface language",
+        "description": "Language description"
+    },
+    "syncStatus": {
+        "message": "Sync Status",
+        "description": "Sync status"
+    },
+    "syncStatusDesc": {
+        "message": "Settings sync via Chrome account",
+        "description": "Sync status description"
+    },
+    "synced": {
+        "message": "Synced",
+        "description": "Synced"
+    },
+    "author": {
+        "message": "Author",
+        "description": "Author"
+    },
+    "privacyNote": {
+        "message": "🔒 Runs locally, no network access, no data collection",
+        "description": "Privacy note in footer"
+    },
+    "backToSettings": {
+        "message": "Back to Settings",
+        "description": "Back to settings link"
+    },
+    "settings": {
+        "message": "Settings",
+        "description": "Settings"
+    },
+    "version": {
+        "message": "Version",
+        "description": "Version"
+    },
+    "basicSettings": {
+        "message": "Basic Settings",
+        "description": "Basic settings section"
+    },
+    "showTrail": {
+        "message": "Show Gesture Trail",
+        "description": "Show gesture trail"
+    },
+    "showTrailDesc": {
+        "message": "Display trail line when performing gestures",
+        "description": "Show trail line when performing gestures"
+    },
+    "showHint": {
+        "message": "Show Action Hint",
+        "description": "Show action hint"
+    },
+    "showHintDesc": {
+        "message": "Display current gesture action in center of screen",
+        "description": "Show current gesture action in center of screen"
+    },
+    "color": {
+        "message": "Color",
+        "description": "Color"
+    },
+    "width": {
+        "message": "Width",
+        "description": "Width/thickness"
+    },
+    "background": {
+        "message": "Background",
+        "description": "Background"
+    },
+    "opacity": {
+        "message": "Opacity",
+        "description": "Opacity"
+    },
+    "text": {
+        "message": "Text",
+        "description": "Text"
+    },
+    "dragFeatures": {
+        "message": "Drag Features",
+        "description": "Drag features section"
+    },
+    "textDragSearch": {
+        "message": "Text Drag Search",
+        "description": "Text drag search"
+    },
+    "textDragSearchDesc": {
+        "message": "Drag selected text to the right to search",
+        "description": "Drag selected text to the right to search"
+    },
+    "searchEngine": {
+        "message": "Search Engine",
+        "description": "Search engine"
+    },
+    "custom": {
+        "message": "Custom",
+        "description": "Custom"
+    },
+    "customUrlPlaceholder": {
+        "message": "Custom URL, use %s for search term",
+        "description": "Custom URL placeholder"
+    },
+    "imageDrag": {
+        "message": "Image Drag Open",
+        "description": "Image drag open"
+    },
+    "imageDragDesc": {
+        "message": "Drag image to open in new tab",
+        "description": "Drag image to open in new tab"
+    },
+    "linkDrag": {
+        "message": "Link Drag Open",
+        "description": "Link drag open"
+    },
+    "linkDragDesc": {
+        "message": "Drag link to open in new tab",
+        "description": "Drag link to open in new tab"
+    },
+    "gestureMapping": {
+        "message": "Gesture Mapping",
+        "description": "Gesture mapping section"
+    },
+    "enableCustomGestures": {
+        "message": "Enable Custom Gestures",
+        "description": "Enable custom gestures"
+    },
+    "enableCustomGesturesDesc": {
+        "message": "Customize each gesture action when enabled",
+        "description": "Customize each gesture action when enabled"
+    },
+    "gestureAutoSaveHint": {
+        "message": "Tip: Changes are saved automatically.",
+        "description": "Hint about auto-save"
+    },
+    "blacklist": {
+        "message": "Website Blacklist",
+        "description": "Website blacklist"
+    },
+    "blacklistPlaceholder": {
+        "message": "Enter domain, e.g. example.com, press Enter to add",
+        "description": "Blacklist input placeholder"
+    },
+    "add": {
+        "message": "Add",
+        "description": "Add button"
+    },
+    "emptyBlacklist": {
+        "message": "No blacklisted sites. Enter a domain above to add.",
+        "description": "Empty blacklist message"
+    },
+    "dataManagement": {
+        "message": "Data Management",
+        "description": "Data management section"
+    },
+    "export": {
+        "message": "Export",
+        "description": "Export settings"
+    },
+    "import": {
+        "message": "Import",
+        "description": "Import settings"
+    },
+    "reset": {
+        "message": "Reset",
+        "description": "Reset to default"
+    },
+    "autoSaved": {
+        "message": "✓ Auto-saved",
+        "description": "Auto-saved message"
+    },
+    "resetConfirm": {
+        "message": "Are you sure you want to reset all settings to default?",
+        "description": "Reset confirmation"
+    },
+    "resetDone": {
+        "message": "Settings reset to default",
+        "description": "Reset done message"
+    },
+    "exportDone": {
+        "message": "Settings exported",
+        "description": "Export done message"
+    },
+    "importDone": {
+        "message": "Settings imported",
+        "description": "Import done message"
+    },
+    "importFailed": {
+        "message": "Import failed: Invalid configuration file",
+        "description": "Import failed message"
+    },
+    "invalidDomain": {
+        "message": "Please enter a valid domain",
+        "description": "Invalid domain message"
+    },
+    "domainExists": {
+        "message": "Domain already in blacklist",
+        "description": "Domain already in blacklist"
+    },
+    "about": {
+        "message": "About",
+        "description": "About section"
+    },
+    "language": {
+        "message": "Language",
+        "description": "Language"
+    },
+    "languageAuto": {
+        "message": "Follow System",
+        "description": "Follow system language"
+    },
+    "privacyFriendly": {
+        "message": "Privacy Friendly",
+        "description": "Privacy friendly"
+    },
+    "localOnly": {
+        "message": "Local Only",
+        "description": "Local only"
+    },
+    "autoSave": {
+        "message": "Auto Save",
+        "description": "Auto save"
+    },
+    "actionNone": {
+        "message": "None",
+        "description": "No action"
+    },
+    "actionBack": {
+        "message": "Go Back",
+        "description": "Go back"
+    },
+    "actionForward": {
+        "message": "Go Forward",
+        "description": "Go forward"
+    },
+    "actionScrollUp": {
+        "message": "Scroll Up",
+        "description": "Scroll up"
+    },
+    "actionScrollDown": {
+        "message": "Scroll Down",
+        "description": "Scroll down"
+    },
+    "actionScrollToTop": {
+        "message": "Scroll to Top",
+        "description": "Scroll to top"
+    },
+    "actionScrollToBottom": {
+        "message": "Scroll to Bottom",
+        "description": "Scroll to bottom"
+    },
+    "actionCloseTab": {
+        "message": "Close Tab",
+        "description": "Close tab"
+    },
+    "actionRestoreTab": {
+        "message": "Restore Closed Tab",
+        "description": "Restore closed tab"
+    },
+    "actionNewTab": {
+        "message": "New Tab",
+        "description": "New tab"
+    },
+    "actionCloseOtherTabs": {
+        "message": "Close Other Tabs",
+        "description": "Close other tabs"
+    },
+    "actionCloseRightTabs": {
+        "message": "Close Tabs to the Right",
+        "description": "Close tabs to the right"
+    },
+    "actionCloseAllTabs": {
+        "message": "Close All Tabs",
+        "description": "Close all tabs"
+    },
+    "actionSwitchLeftTab": {
+        "message": "Switch to Left Tab",
+        "description": "Switch to left tab"
+    },
+    "actionSwitchRightTab": {
+        "message": "Switch to Right Tab",
+        "description": "Switch to right tab"
+    },
+    "actionRefresh": {
+        "message": "Refresh",
+        "description": "Refresh"
+    },
+    "actionStopLoading": {
+        "message": "Stop Loading",
+        "description": "Stop loading"
+    },
+    "actionNewWindow": {
+        "message": "New Window",
+        "description": "New window"
+    },
+    "actionNewIncognito": {
+        "message": "New Incognito Window",
+        "description": "New incognito window"
+    },
+    "actionAddToBookmarks": {
+        "message": "Add to Bookmarks",
+        "description": "Add to bookmarks"
+    },
+    "actionToggleFullscreen": {
+        "message": "Toggle Fullscreen",
+        "description": "Toggle fullscreen"
+    },
+    "popupTrail": {
+        "message": "Gesture Trail",
+        "description": "Gesture trail in popup"
+    },
+    "popupHint": {
+        "message": "Action Hint",
+        "description": "Action hint in popup"
+    },
+    "popupCommonGestures": {
+        "message": "Common Gestures",
+        "description": "Common gestures"
+    },
+    "popupCurrentSite": {
+        "message": "Current Site",
+        "description": "Current site"
+    },
+    "popupRestricted": {
+        "message": "Restricted Page",
+        "description": "Restricted page"
+    },
+    "popupDisabled": {
+        "message": "Disabled",
+        "description": "Disabled"
+    },
+    "popupAddBlacklist": {
+        "message": "Add to Blacklist",
+        "description": "Add to blacklist"
+    },
+    "popupRemoveBlacklist": {
+        "message": "Remove Blacklist",
+        "description": "Remove from blacklist"
+    },
+    "popupNotAvailable": {
+        "message": "N/A",
+        "description": "Not available"
+    },
+    "popupBack": {
+        "message": "Back",
+        "description": "Back - short"
+    },
+    "popupForward": {
+        "message": "Fwd",
+        "description": "Forward - short"
+    },
+    "popupScrollUp": {
+        "message": "Up",
+        "description": "Scroll up - short"
+    },
+    "popupScrollDown": {
+        "message": "Down",
+        "description": "Scroll down - short"
+    },
+    "popupClose": {
+        "message": "Close",
+        "description": "Close - short"
+    },
+    "popupRestore": {
+        "message": "Undo",
+        "description": "Restore - short"
+    },
+    "dragSearchText": {
+        "message": "🔍 Drag Search",
+        "description": "Drag search hint"
+    },
+    "dragOpenImage": {
+        "message": "🖼️ Open Image",
+        "description": "Drag open image hint"
+    },
+    "dragOpenLink": {
+        "message": "🔗 Open Link",
+        "description": "Drag open link hint"
+    },
+    "aboutTitle": {
+        "message": "About FlowMouse",
+        "description": "About title"
+    },
+    "aboutAuthor": {
+        "message": "Author",
+        "description": "Author"
+    },
+    "aboutWebsite": {
+        "message": "Website",
+        "description": "Website"
+    },
+    "aboutEmail": {
+        "message": "Email",
+        "description": "Email"
+    },
+    "aboutPrivacy": {
+        "message": "Privacy Statement",
+        "description": "Privacy statement"
+    },
+    "aboutPrivacyText": {
+        "message": "This extension runs entirely locally with no network access. It does not collect or upload any user data. Your settings are synced via your Chrome account and only between your logged-in devices.",
+        "description": "Privacy statement text"
+    },
+    "aboutCredits": {
+        "message": "Credits",
+        "description": "Credits"
+    },
+    "aboutCreditsText": {
+        "message": "Thanks to Microsoft Edge browser and crxMouse extension for design inspiration.",
+        "description": "Credits text"
+    },
+    "aboutFeatures": {
+        "message": "Features",
+        "description": "Features"
+    },
+    "aboutFeature1": {
+        "message": "🎯 16 Gesture Support",
+        "description": "Feature 1"
+    },
+    "aboutFeature2": {
+        "message": "🎨 Visual Trail Feedback",
+        "description": "Feature 2"
+    },
+    "aboutFeature3": {
+        "message": "🔍 Text/Image/Link Drag",
+        "description": "Feature 3"
+    },
+    "aboutFeature4": {
+        "message": "🚫 Website Blacklist",
+        "description": "Feature 4"
+    },
+    "aboutFeature5": {
+        "message": "☁️ Chrome Account Sync",
+        "description": "Feature 5"
+    },
+    "aboutFeature6": {
+        "message": "🔒 Runs Locally, No Network",
+        "description": "Feature 6"
+    },
+    "learnMore": {
+        "message": "Learn More →",
+        "description": "Learn more link"
+    },
+    "badgeNoNetwork": {
+        "message": "🔒 No Network",
+        "description": "No network badge"
+    },
+    "badgeNoData": {
+        "message": "🚫 No Data Collection",
+        "description": "No data collection badge"
+    },
+    "badgeLocalRun": {
+        "message": "✅ Runs Locally",
+        "description": "Local run badge"
+    },
+    "syncUpload": {
+        "message": "Upload",
+        "description": "Upload config to sync"
+    },
+    "syncDownload": {
+        "message": "Download",
+        "description": "Download config from sync"
+    },
+    "syncUploaded": {
+        "message": "Settings uploaded to cloud",
+        "description": "Config uploaded message"
+    },
+    "syncDownloaded": {
+        "message": "Settings downloaded from cloud",
+        "description": "Config downloaded message"
+    }
+}
