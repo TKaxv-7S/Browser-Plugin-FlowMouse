@@ -19,6 +19,10 @@
             --danger-color: #ea4335;
             --success-color: #34a853;
             --input-bg: rgba(30, 30, 50, 0.9);
+            --card-bg: #252a41;
+            --bg-color: #1a1a2e;
+            --text-color: var(--text-primary);
+            --primary-color: #4285f4;
         }
 
         [data-theme="light"] {
@@ -30,6 +34,10 @@
             --text-muted: #999;
             --border-color: rgba(0, 0, 0, 0.1);
             --input-bg: #fff;
+            --card-bg: #ffffff;
+            --bg-color: #f5f7fa;
+            --text-color: var(--text-primary);
+            --primary-color: #4285f4;
         }
 
         * {
@@ -89,6 +97,16 @@
 
         .setting-row:last-child {
             border-bottom: none;
+        }
+
+        .setting-notice {
+            background: rgba(255, 193, 7, 0.15);
+            border: 1px solid rgba(255, 193, 7, 0.4);
+            border-radius: 8px;
+            padding: 10px 14px;
+            margin: 8px 0 16px 0;
+            font-size: 13px;
+            color: var(--text-secondary);
         }
 
         .setting-label {
@@ -209,6 +227,24 @@
             font-size: 13px;
         }
 
+        .slider-control {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+        }
+
+        .slider-control input[type="range"] {
+            width: 150px;
+            cursor: pointer;
+        }
+
+        .slider-control span {
+            min-width: 45px;
+            text-align: right;
+            font-weight: 500;
+            color: var(--accent-color);
+        }
+
         .color-setting input[type="number"] {
             width: 70px;
         }
@@ -232,9 +268,367 @@
         .gesture-item .gesture-pattern {
             font-size: 1.5em;
             text-align: center;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+            max-width: 100%;
+        }
+
+        .gesture-desc {
+            font-size: 0.6em;
+            color: var(--text-secondary);
+            font-weight: normal;
+            margin-left: 4px;
         }
 
         .gesture-item select {
+            width: 100%;
+        }
+
+        .gesture-item .custom-url-input {
+            font-size: 13px;
+            padding: 6px 10px;
+            border: 1px solid var(--border-color);
+            border-radius: 6px;
+            background: var(--card-bg);
+            color: var(--text-color);
+        }
+
+        .gesture-item .custom-url-input::placeholder {
+            color: var(--text-secondary);
+            opacity: 0.6;
+        }
+
+        .gesture-action-row {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .gesture-action-row select {
+            flex: 1;
+        }
+
+        .reset-btn {
+            position: absolute;
+            top: 4px;
+            right: 4px;
+            width: 22px;
+            height: 22px;
+            border: none;
+            border-radius: 50%;
+            background: var(--border-color);
+            color: var(--text-secondary);
+            cursor: pointer;
+            font-size: 12px;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            transition: all 0.2s;
+            z-index: 1;
+        }
+
+        .reset-btn:hover {
+            background: var(--primary-color);
+            color: white;
+        }
+
+        .gesture-item.modified {
+            position: relative;
+            background: rgba(66, 133, 244, 0.05);
+            border-radius: 8px;
+        }
+
+        .gesture-item.custom {
+            position: relative;
+            background: rgba(52, 168, 83, 0.05);
+        }
+
+        .delete-gesture-btn {
+            position: absolute;
+            top: 4px;
+            right: 4px;
+            width: 22px;
+            height: 22px;
+            border: none;
+            border-radius: 50%;
+            background: rgba(234, 67, 53, 0.2);
+            color: var(--danger-color);
+            cursor: pointer;
+            font-size: 14px;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            transition: all 0.2s;
+            z-index: 1;
+        }
+
+        .delete-gesture-btn:hover {
+            background: var(--danger-color);
+            color: white;
+        }
+
+        /* 自定义手势绘制区域 */
+        .custom-gesture-section {
+            border-top: 1px solid var(--border-color);
+            padding-top: 15px;
+            margin-top: 15px;
+        }
+
+        .custom-gesture-drawing {
+            display: flex;
+            gap: 20px;
+            align-items: flex-start;
+        }
+
+        .drawing-area {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 10px;
+        }
+
+        #gestureCanvas {
+            border: 2px solid var(--border-color);
+            border-radius: 8px;
+            background: var(--card-bg);
+            cursor: crosshair;
+        }
+
+        .pattern-display {
+            font-size: 14px;
+            color: var(--text-secondary);
+        }
+
+        .pattern-display #drawnPattern {
+            font-size: 18px;
+            font-weight: bold;
+            color: var(--primary-color);
+        }
+
+        .gesture-config {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+            flex: 1;
+        }
+
+        .config-row {
+            display: flex;
+            flex-direction: column;
+            gap: 6px;
+        }
+
+        .config-row label {
+            font-size: 14px;
+            color: var(--text-secondary);
+        }
+
+        .config-buttons {
+            display: flex;
+            gap: 10px;
+        }
+
+        /* 手势绘制弹窗 */
+        .modal {
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            z-index: 9999;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .modal-overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: rgba(0, 0, 0, 0.5);
+            backdrop-filter: blur(5px);
+        }
+
+        .modal-content {
+            position: relative;
+            background: var(--card-bg);
+            border-radius: 16px;
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+            max-width: 90vw;
+            max-height: 90vh;
+            overflow: hidden;
+        }
+
+        .gesture-modal {
+            width: 900px;
+        }
+
+        .gesture-instructions {
+            text-align: center;
+            font-size: 14px;
+            color: var(--text-secondary);
+            margin-bottom: 15px;
+            padding: 10px;
+            background: var(--bg-color);
+            border-radius: 8px;
+        }
+
+        .modal-header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 16px 20px;
+            border-bottom: 1px solid var(--border-color);
+        }
+
+        .modal-header h3 {
+            margin: 0;
+            font-size: 18px;
+            font-weight: 600;
+        }
+
+        .modal-close {
+            background: none;
+            border: none;
+            font-size: 24px;
+            color: var(--text-secondary);
+            cursor: pointer;
+            padding: 0;
+            width: 32px;
+            height: 32px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 50%;
+            transition: all 0.2s;
+        }
+
+        .modal-close:hover {
+            background: var(--border-color);
+            color: var(--text-color);
+        }
+
+        .modal-body {
+            padding: 20px;
+        }
+
+        .modal-footer {
+            display: flex;
+            justify-content: flex-end;
+            gap: 10px;
+            padding: 16px 20px;
+            border-top: 1px solid var(--border-color);
+        }
+
+        /* 手势绘制区域 */
+        .gesture-draw-area {
+            position: relative;
+            display: flex;
+            justify-content: center;
+            margin-bottom: 20px;
+        }
+
+        #gestureCanvas {
+            border: 2px solid var(--border-color);
+            border-radius: 12px;
+            background: var(--bg-color);
+            cursor: crosshair;
+        }
+
+        .direction-hints {
+            position: absolute;
+            top: 0;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 420px;
+            height: 420px;
+            pointer-events: none;
+        }
+
+        .hint-arrow {
+            position: absolute;
+            font-size: 20px;
+            color: var(--text-muted);
+            opacity: 0.6;
+        }
+
+        .hint-up {
+            top: -25px;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+
+        .hint-down {
+            bottom: -25px;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+
+        .hint-left {
+            left: -25px;
+            top: 50%;
+            transform: translateY(-50%);
+        }
+
+        .hint-right {
+            right: -25px;
+            top: 50%;
+            transform: translateY(-50%);
+        }
+
+        .hint-up-right {
+            top: -20px;
+            right: -20px;
+        }
+
+        .hint-down-right {
+            bottom: -20px;
+            right: -20px;
+        }
+
+        .hint-down-left {
+            bottom: -20px;
+            left: -20px;
+        }
+
+        .hint-up-left {
+            top: -20px;
+            left: -20px;
+        }
+
+        .gesture-info {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+        }
+
+        .pattern-display {
+            text-align: center;
+            font-size: 14px;
+            color: var(--text-secondary);
+        }
+
+        .pattern-value {
+            font-size: 24px;
+            font-weight: bold;
+            color: var(--primary-color);
+        }
+
+        .action-select {
+            display: flex;
+            flex-direction: column;
+            gap: 6px;
+        }
+
+        .action-select label {
+            font-size: 14px;
+            color: var(--text-secondary);
+        }
+
+        .action-select select {
             width: 100%;
         }
 
@@ -288,6 +682,172 @@
             color: var(--text-muted);
             font-size: 13px;
             padding: 10px;
+        }
+
+        /* 高级拖拽设置样式 */
+        .advanced-only {
+            display: none;
+        }
+
+        .container.advanced-mode .advanced-only {
+            display: block;
+        }
+
+        .container.advanced-mode .basic-only {
+            display: none;
+        }
+
+        .drag-settings-section {
+            background: var(--bg-tertiary);
+            border-radius: 10px;
+            padding: 12px;
+            margin-top: 12px;
+        }
+
+        /* 拖拽配置行 - 紧凑单行样式 */
+        .drag-rows-container {
+            display: flex;
+            flex-direction: column;
+            gap: 8px;
+        }
+
+        .drag-row {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            flex-wrap: wrap;
+            padding: 8px 10px;
+            background: var(--bg-secondary);
+            border-radius: 8px;
+            border: 1px solid var(--border-color);
+        }
+
+        .drag-row select {
+            padding: 5px 8px;
+            border-radius: 5px;
+            border: 1px solid var(--border-color);
+            background: var(--card-bg);
+            color: var(--text-color);
+            font-size: 13px;
+        }
+
+        .drag-row .direction-select {
+            width: 55px;
+            font-size: 16px;
+            text-align: center;
+        }
+
+        .drag-row .position-select {
+            min-width: 60px;
+        }
+
+        .drag-row .action-select {
+            min-width: 100px;
+        }
+
+        .drag-row .engine-select {
+            min-width: 80px;
+        }
+
+        .drag-row .url-input {
+            padding: 5px 8px;
+            border-radius: 5px;
+            border: 1px solid var(--border-color);
+            background: var(--card-bg);
+            color: var(--text-color);
+            font-size: 12px;
+            flex: 1;
+            min-width: 150px;
+        }
+
+        .drag-row .url-input::placeholder {
+            color: var(--text-muted);
+        }
+
+        .drag-row .active-label {
+            display: flex;
+            align-items: center;
+            gap: 4px;
+            font-size: 12px;
+            color: var(--text-secondary);
+            white-space: nowrap;
+        }
+
+        .drag-row input[type="checkbox"] {
+            width: 14px;
+            height: 14px;
+            cursor: pointer;
+        }
+
+        .drag-delete-btn {
+            padding: 4px 8px;
+            background: transparent;
+            border: none;
+            color: var(--text-muted);
+            cursor: pointer;
+            font-size: 16px;
+            opacity: 0.6;
+            transition: opacity 0.2s, color 0.2s;
+        }
+
+        .drag-delete-btn:hover {
+            opacity: 1;
+            color: var(--danger-color);
+        }
+
+        .drag-add-btn {
+            display: inline-flex;
+            align-items: center;
+            gap: 4px;
+            padding: 6px 12px;
+            margin-top: 8px;
+            background: transparent;
+            border: 1px dashed var(--border-color);
+            border-radius: 6px;
+            color: var(--text-secondary);
+            font-size: 13px;
+            cursor: pointer;
+            transition: all 0.2s;
+        }
+
+        .drag-add-btn:hover {
+            border-color: var(--accent-color);
+            color: var(--accent-color);
+        }
+
+        .tab-position-row {
+            display: flex;
+            align-items: center;
+            gap: 16px;
+            flex-wrap: wrap;
+        }
+
+        .tab-position-row select {
+            padding: 8px 12px;
+            border-radius: 6px;
+            border: 1px solid var(--border-color);
+            background: var(--card-bg);
+            color: var(--text-color);
+            font-size: 14px;
+            min-width: 120px;
+        }
+
+        .image-search-url-input {
+            margin-top: 12px;
+        }
+
+        .image-search-url-input input {
+            width: 100%;
+            padding: 8px 12px;
+            border-radius: 6px;
+            border: 1px solid var(--border-color);
+            background: var(--card-bg);
+            color: var(--text-color);
+            font-size: 13px;
+        }
+
+        .image-search-url-input input::placeholder {
+            color: var(--text-muted);
         }
 
         .btn {
@@ -441,10 +1001,12 @@
             <h1>
                 <img src="../icons/icon48.png" class="logo-img" alt="Logo">
                 <span data-i18n="extName">FlowMouse</span>
-                <span class="version" style="margin-left: 10px; font-size: 0.5em; vertical-align: middle;">v1.0</span>
+                <span class="version version-from-manifest"
+                    style="margin-left: 10px; font-size: 0.5em; vertical-align: middle;">v1.1</span>
             </h1>
         </header>
 
+        
         <div class="section">
             <h2>🎨 <span data-i18n="appearance">外观设置</span></h2>
 
@@ -473,10 +1035,27 @@
             </div>
         </div>
 
+        
         <div class="section">
             <h2>⚙️ <span data-i18n="basicSettings">基础设置</span></h2>
 
-            <div class="setting-group">
+            
+            <div class="setting-row">
+                <div class="setting-label">
+                    <span data-i18n="enableGesture">启用手势功能</span>
+                    <span data-i18n="enableGestureDesc">关闭后将禁用所有鼠标手势操作</span>
+                </div>
+                <label class="toggle">
+                    <input type="checkbox" id="enableGesture" checked>
+                    <span class="slider"></span>
+                </label>
+            </div>
+            
+            <div class="setting-notice" id="macLinuxNotice" style="display: none;">
+                <span data-i18n="macLinuxContextMenuNotice">⚠️ 由于系统限制，Mac/Linux 下需快速双击右键才能打开原生菜单</span>
+            </div>
+
+            <div class="setting-group" id="gestureSettingsGroup">
                 <div class="setting-row">
                     <div class="setting-label">
                         <span data-i18n="showTrail">显示手势轨迹</span>
@@ -497,11 +1076,15 @@
                             <span data-i18n="width">粗细</span>:
                             <input type="number" id="trailWidth" value="5" min="1" max="20">
                         </div>
+                        <div class="color-setting advanced-setting" style="display: none;">
+                            <label style="display: flex; align-items: center; gap: 6px; cursor: pointer;">
+                                <input type="checkbox" id="showTrailOrigin" checked style="width: auto;">
+                                <span data-i18n="showTrailOrigin">显示起始原点</span>
+                            </label>
+                        </div>
                     </div>
                 </div>
-            </div>
 
-            <div class="setting-group">
                 <div class="setting-row">
                     <div class="setting-label">
                         <span data-i18n="showHint">显示操作提示</span>
@@ -520,7 +1103,7 @@
                         </div>
                         <div class="color-setting">
                             <span data-i18n="opacity">透明度</span>:
-                            <input type="number" id="hudBgOpacity" value="70" min="0" max="100">
+                            <input type="number" id="hudBgOpacity" value="70" min="0" max="100">%
                         </div>
                         <div class="color-setting">
                             <span data-i18n="text">文字</span>:
@@ -529,24 +1112,47 @@
                     </div>
                 </div>
             </div>
+
+            
+            <hr class="advanced-setting"
+                style="display: none; margin: 16px 0; border: none; border-top: 1px solid var(--border-color);">
+            <div class="setting-group advanced-setting" style="display: none;">
+                <div class="setting-row">
+                    <div class="setting-label">
+                        <span data-i18n="scrollAmount">滚动距离</span>
+                        <span data-i18n="scrollAmountDesc">上下滚动手势的滚动距离（窗口高度百分比）</span>
+                    </div>
+                    <div class="slider-control">
+                        <input type="range" id="scrollAmount" min="25" max="200" value="75" step="5">
+                        <span id="scrollAmountValue">75%</span>
+                    </div>
+                </div>
+            </div>
         </div>
 
+        
         <div class="section">
             <h2>🔗 <span data-i18n="dragFeatures">拖拽功能</span></h2>
 
+            
             <div class="setting-group">
                 <div class="setting-row">
                     <div class="setting-label">
                         <span data-i18n="textDragSearch">文字拖拽搜索</span>
-                        <span data-i18n="textDragSearchDesc">选中文字后向右拖拽进行搜索</span>
+                        <span data-i18n="textDragSearchDesc">选中文字后拖拽进行搜索</span>
                     </div>
                     <label class="toggle">
                         <input type="checkbox" id="enableTextDrag" checked>
                         <span class="slider"></span>
                     </label>
                 </div>
+                
+                <div class="setting-notice" id="macTextDragNotice" style="display: none;">
+                    <span data-i18n="macTextDragNotice">⚠️ 受系统特性影响，拖拽文本时需先选中文字，按住左键短暂停顿后再拖动，否则可能无法触发搜索。</span>
+                </div>
+                
                 <div class="sub-settings" id="textDragSettings">
-                    <div class="search-engine-row">
+                    <div class="search-engine-row basic-only">
                         <span data-i18n="searchEngine">搜索引擎</span>:
                         <select id="searchEngine">
                             <option value="google">Google</option>
@@ -558,33 +1164,65 @@
                         <input type="text" id="customSearchUrl" data-i18n-placeholder="customUrlPlaceholder"
                             placeholder="自定义URL，用 %s 代替搜索词" style="display:none;">
                     </div>
+                    
+                    <div class="advanced-only drag-settings-section">
+                        <div class="drag-rows-container" id="textDragRows">
+                            
+                        </div>
+                        <button type="button" class="drag-add-btn" data-type="text">+</button>
+                    </div>
                 </div>
             </div>
 
-            <div class="setting-row">
-                <div class="setting-label">
-                    <span data-i18n="imageDrag">图片拖拽打开</span>
-                    <span data-i18n="imageDragDesc">拖拽图片在新标签页打开</span>
+            
+            <div class="setting-group">
+                <div class="setting-row">
+                    <div class="setting-label">
+                        <span data-i18n="imageDrag">图片拖拽打开</span>
+                        <span data-i18n="imageDragDesc">拖拽图片在新标签页打开</span>
+                    </div>
+                    <label class="toggle">
+                        <input type="checkbox" id="enableImageDrag" checked>
+                        <span class="slider"></span>
+                    </label>
                 </div>
-                <label class="toggle">
-                    <input type="checkbox" id="enableImageDrag" checked>
-                    <span class="slider"></span>
-                </label>
+                
+                <div class="sub-settings advanced-only">
+                    <div class="drag-settings-section">
+                        <div class="drag-rows-container" id="imageDragRows">
+                            
+                        </div>
+                        <button type="button" class="drag-add-btn" data-type="image">+</button>
+                    </div>
+                </div>
             </div>
 
-            <div class="setting-row">
-                <div class="setting-label">
-                    <span data-i18n="linkDrag">链接拖拽打开</span>
-                    <span data-i18n="linkDragDesc">拖拽链接在新标签页打开</span>
+            
+            <div class="setting-group">
+                <div class="setting-row">
+                    <div class="setting-label">
+                        <span data-i18n="linkDrag">链接拖拽打开</span>
+                        <span data-i18n="linkDragDesc">拖拽链接在新标签页打开</span>
+                    </div>
+                    <label class="toggle">
+                        <input type="checkbox" id="enableLinkDrag" checked>
+                        <span class="slider"></span>
+                    </label>
                 </div>
-                <label class="toggle">
-                    <input type="checkbox" id="enableLinkDrag" checked>
-                    <span class="slider"></span>
-                </label>
+                
+                <div class="sub-settings advanced-only">
+                    <div class="drag-settings-section">
+                        <div class="drag-rows-container" id="linkDragRows">
+                            
+                        </div>
+                        <button type="button" class="drag-add-btn" data-type="link">+</button>
+                    </div>
+                </div>
             </div>
         </div>
 
-        <div class="section">
+        
+        <div class="section" id="gestureMappingSection">
             <h2>🎯 <span data-i18n="gestureMapping">手势映射</span></h2>
 
             <div class="setting-row">
@@ -603,9 +1241,17 @@
                     提示：修改后自动保存。
                 </div>
                 <div id="gestureGrid" class="gesture-grid"></div>
+
+                
+                <div class="advanced-setting" style="display: none; margin-top: 15px;">
+                    <button class="btn btn-secondary" id="openGestureDrawer" style="width: 100%;">
+                        ➕ <span data-i18n="addCustomGesture">添加自定义手势</span>
+                    </button>
+                </div>
             </div>
         </div>
 
+        
         <div class="section">
             <h2>🚫 <span data-i18n="blacklist">网站黑名单</span></h2>
             <div class="blacklist-section">
@@ -620,6 +1266,22 @@
             </div>
         </div>
 
+        
+        <div class="section">
+            <h2>🔧 <span data-i18n="enableAdvancedSettings">高级设置</span></h2>
+            <div class="setting-row">
+                <div class="setting-label">
+                    <span data-i18n="enableAdvancedSettingsToggle">启用高级设置模式</span>
+                    <span data-i18n="enableAdvancedSettingsDesc">开启后显示更多高级选项</span>
+                </div>
+                <label class="toggle">
+                    <input type="checkbox" id="enableAdvancedSettings">
+                    <span class="slider"></span>
+                </label>
+            </div>
+        </div>
+
+        
         <div class="section">
             <h2>💾 <span data-i18n="dataManagement">数据管理</span></h2>
 
@@ -644,9 +1306,10 @@
             </div>
         </div>
 
+        
         <div class="footer">
             <div>
-                <span data-i18n="extName">鼠标手势</span> v1.0 ·
+                <span data-i18n="extName">鼠标手势</span> <span class="version-from-manifest">v1.1</span> ·
                 <span data-i18n="author">作者</span>: Hmily[LCG] ·
                 <a href="about.html" data-i18n="learnMore">了解更多 →</a>
             </div>
@@ -658,6 +1321,39 @@
 
     <div class="status" id="status" data-i18n="autoSaved">✓ 已自动保存</div>
     <input type="file" id="importFile" accept=".json" style="display:none;">
+
+    
+    <div id="gestureModal" class="modal" style="display: none;">
+        <div class="modal-overlay"></div>
+        <div class="modal-content gesture-modal">
+            <div class="modal-header">
+                <h3 data-i18n="addCustomGesture">添加自定义手势</h3>
+                <button class="modal-close" id="closeGestureModal">×</button>
+            </div>
+            <div class="modal-body">
+                <div class="gesture-instructions" data-i18n="gestureDrawInstructions">
+                    按住鼠标右键在下方区域绘制手势，松开后完成绘制。支持方向：↑ ↓ ← →
+                </div>
+                <div class="gesture-draw-area">
+                    <canvas id="gestureCanvas" width="800" height="450"></canvas>
+                </div>
+                <div class="gesture-info">
+                    <div class="pattern-display">
+                        <span data-i18n="gesturePattern">手势序列</span>:
+                        <span id="drawnPattern" class="pattern-value">-</span>
+                    </div>
+                    <div class="action-select">
+                        <label data-i18n="selectAction">选择动作</label>
+                        <select id="customGestureAction"></select>
+                    </div>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button class="btn btn-secondary" id="clearCanvas" data-i18n="clear" style="display:none">清除</button>
+                <button class="btn btn-primary" id="addCustomGesture" data-i18n="addGesture">添加手势</button>
+            </div>
+        </div>
+    </div>
 
     <script src="../js/i18n.js"></script>
     <script src="../js/constants.js"></script>

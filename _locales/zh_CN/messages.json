@@ -8,7 +8,7 @@
         "description": "Short extension name for popup"
     },
     "extDescription": {
-        "message": "专注于隐私与流畅体验的鼠标手势扩展。手势操作丝滑跟手，支持超级拖拽，且所有数据仅存储于本地。",
+        "message": "专注于隐私与流畅体验的开源鼠标手势扩展。手势操作丝滑跟手，支持超级拖拽，且所有数据仅存储于本地。",
         "description": "Extension description"
     },
     "appearance": {
@@ -67,6 +67,10 @@
         "message": "设置",
         "description": "Settings"
     },
+    "moreSettings": {
+        "message": "更多设置",
+        "description": "More settings button in popup"
+    },
     "version": {
         "message": "版本",
         "description": "Version"
@@ -74,6 +78,22 @@
     "basicSettings": {
         "message": "基础设置",
         "description": "Basic settings section"
+    },
+    "enableGesture": {
+        "message": "启用手势功能",
+        "description": "Enable gesture feature"
+    },
+    "enableGestureDesc": {
+        "message": "关闭后将禁用所有鼠标手势操作",
+        "description": "Disable all mouse gesture operations when turned off"
+    },
+    "macLinuxContextMenuNotice": {
+        "message": "⚠️ 由于系统限制，Mac/Linux 下需快速双击右键才能打开原生菜单",
+        "description": "Notice for Mac/Linux users about double right-click for context menu"
+    },
+    "macTextDragNotice": {
+        "message": "⚠️ 受系统特性影响，拖拽文本时需先选中文字，按住左键短暂停顿后再拖动，否则可能无法触发搜索。",
+        "description": "Notice for Mac users about text drag behavior"
     },
     "showTrail": {
         "message": "显示手势轨迹",
@@ -111,6 +131,14 @@
         "message": "文字",
         "description": "Text"
     },
+    "scrollAmount": {
+        "message": "滚动距离",
+        "description": "Scroll amount"
+    },
+    "scrollAmountDesc": {
+        "message": "上下滚动手势的滚动距离（窗口高度百分比）",
+        "description": "Scroll distance for up/down gestures"
+    },
     "dragFeatures": {
         "message": "拖拽功能",
         "description": "Drag features section"
@@ -120,8 +148,8 @@
         "description": "Text drag search"
     },
     "textDragSearchDesc": {
-        "message": "选中文字后向右拖拽进行搜索",
-        "description": "Drag selected text to the right to search"
+        "message": "选中文字后拖拽进行搜索",
+        "description": "Drag selected text to search"
     },
     "searchEngine": {
         "message": "搜索引擎",
@@ -255,6 +283,70 @@
         "message": "自动保存",
         "description": "Auto save"
     },
+    "gestureDesc_L": {
+        "message": "左",
+        "description": "Gesture description for ←"
+    },
+    "gestureDesc_R": {
+        "message": "右",
+        "description": "Gesture description for →"
+    },
+    "gestureDesc_U": {
+        "message": "向上",
+        "description": "Gesture description for ↑"
+    },
+    "gestureDesc_D": {
+        "message": "向下",
+        "description": "Gesture description for ↓"
+    },
+    "gestureDesc_DR": {
+        "message": "先向下再向右",
+        "description": "Gesture description for ↓→"
+    },
+    "gestureDesc_LU": {
+        "message": "先向左再向上",
+        "description": "Gesture description for ←↑"
+    },
+    "gestureDesc_RU": {
+        "message": "先向右再向上",
+        "description": "Gesture description for →↑"
+    },
+    "gestureDesc_RD": {
+        "message": "向右然后向下",
+        "description": "Gesture description for →↓"
+    },
+    "gestureDesc_UL": {
+        "message": "先向上再向左",
+        "description": "Gesture description for ↑←"
+    },
+    "gestureDesc_UR": {
+        "message": "先向上再向右",
+        "description": "Gesture description for ↑→"
+    },
+    "gestureDesc_DL": {
+        "message": "向下然后向左",
+        "description": "Gesture description for ↓←"
+    },
+    "gestureDesc_LD": {
+        "message": "向左然后向下",
+        "description": "Gesture description for ←↓"
+    },
+    "gestureDesc_UD": {
+        "message": "先向上再向下",
+        "description": "Gesture description for ↑↓"
+    },
+    "gestureDesc_DU": {
+        "message": "先向下再向上",
+        "description": "Gesture description for ↓↑"
+    },
+    "gestureDesc_LR": {
+        "message": "先向左再向右",
+        "description": "Gesture description for ←→"
+    },
+    "gestureDesc_RL": {
+        "message": "先向右再向左",
+        "description": "Gesture description for →←"
+    },
     "actionNone": {
         "message": "无操作",
         "description": "No action"
@@ -338,6 +430,134 @@
     "actionToggleFullscreen": {
         "message": "切换全屏",
         "description": "Toggle fullscreen"
+    },
+    "actionToggleMaximize": {
+        "message": "窗口最大化/还原",
+        "description": "Toggle window maximize"
+    },
+    "actionMinimize": {
+        "message": "窗口最小化",
+        "description": "Minimize window"
+    },
+    "actionOpenCustomUrl": {
+        "message": "打开自定义网址",
+        "description": "Open custom URL"
+    },
+    "actionCopyUrl": {
+        "message": "复制当前网址",
+        "description": "Copy current URL"
+    },
+    "actionCopyTitle": {
+        "message": "复制页面标题",
+        "description": "Copy page title"
+    },
+    "actionOpenDownloads": {
+        "message": "打开下载页面",
+        "description": "Open downloads page"
+    },
+    "actionOpenHistory": {
+        "message": "打开历史记录",
+        "description": "Open history page"
+    },
+    "actionOpenExtensions": {
+        "message": "打开扩展管理",
+        "description": "Open extensions page"
+    },
+    "actionPrintPage": {
+        "message": "打印页面",
+        "description": "Print page"
+    },
+    "actionDuplicateTab": {
+        "message": "复制当前标签页",
+        "description": "Duplicate current tab"
+    },
+    "showTrailOrigin": {
+        "message": "显示起始原点",
+        "description": "Show trail origin point"
+    },
+    "enableAdvancedSettings": {
+        "message": "高级设置",
+        "description": "Enable advanced settings"
+    },
+    "enableAdvancedSettingsDesc": {
+        "message": "开启后显示更多高级选项",
+        "description": "Show more advanced options when enabled"
+    },
+    "enableAdvancedSettingsToggle": {
+        "message": "启用高级设置模式",
+        "description": "Enable advanced settings toggle label"
+    },
+    "urlFormatError": {
+        "message": "请输入完整网址，需要以 http:// 或 https:// 开头",
+        "description": "URL format error message"
+    },
+    "resetToDefault": {
+        "message": "恢复默认",
+        "description": "Reset gesture to default action"
+    },
+    "addCustomGesture": {
+        "message": "添加自定义手势",
+        "description": "Add custom gesture section title"
+    },
+    "gesturePattern": {
+        "message": "手势序列",
+        "description": "Gesture pattern label"
+    },
+    "selectAction": {
+        "message": "选择动作",
+        "description": "Select action label"
+    },
+    "clear": {
+        "message": "清除",
+        "description": "Clear button"
+    },
+    "addGesture": {
+        "message": "添加手势",
+        "description": "Add gesture button"
+    },
+    "drawGestureHint": {
+        "message": "在左侧区域用鼠标绘制手势，系统会自动识别方向序列。开启高级设置后支持8方向（含斜向）。",
+        "description": "Hint for gesture drawing"
+    },
+    "pleaseDrawGesture": {
+        "message": "请先绘制手势",
+        "description": "Alert when no gesture drawn"
+    },
+    "gestureAdded": {
+        "message": "✓ 手势已添加",
+        "description": "Gesture added success message"
+    },
+    "gestureDrawInstructions": {
+        "message": "按住鼠标右键在下方区域绘制手势，松开后完成绘制。支持方向：↑ ↓ ← →",
+        "description": "Instructions for gesture drawing"
+    },
+    "gestureOverwriteConfirm": {
+        "message": "手势 %pattern% 已存在，是否覆盖？",
+        "description": "Confirmation message when adding a duplicate gesture"
+    },
+    "customGesture": {
+        "message": "自定义",
+        "description": "Label for custom gestures"
+    },
+    "deleteGesture": {
+        "message": "删除手势",
+        "description": "Delete gesture button tooltip"
+    },
+    "deleteGestureConfirm": {
+        "message": "确定删除手势 %pattern% 吗？",
+        "description": "Delete gesture confirmation"
+    },
+    "gestureDeleted": {
+        "message": "✓ 手势已删除",
+        "description": "Gesture deleted success message"
+    },
+    "enterCustomUrl": {
+        "message": "请输入网址（建议包含协议，如 https://、chrome:// 等）：",
+        "description": "Prompt for custom URL input"
+    },
+    "invalidUrl": {
+        "message": "请输入有效的网址（以 http:// 或 https:// 开头）",
+        "description": "Invalid URL error message"
     },
     "popupTrail": {
         "message": "手势轨迹",
@@ -423,6 +643,10 @@
         "message": "官网",
         "description": "Website"
     },
+    "aboutOpenSource": {
+        "message": "GitHub",
+        "description": "GitHub link"
+    },
     "aboutEmail": {
         "message": "邮箱",
         "description": "Email"
@@ -432,7 +656,7 @@
         "description": "Privacy statement"
     },
     "aboutPrivacyText": {
-        "message": "本扩展完全本地运行，无任何联网功能，不收集、不上传任何用户数据。您的设置通过Chrome账号同步功能存储，仅在您登录的设备间同步。",
+        "message": "本扩展为开源项目，代码已托管于 GitHub，欢迎审阅与贡献。所有功能均在设备本地运行，无任何联网功能，不收集、不上传任何用户数据。您的设置通过 Chrome 账号同步功能存储，仅在您登录的设备间同步。",
         "description": "Privacy statement text"
     },
     "aboutCredits": {
@@ -440,15 +664,23 @@
         "description": "Credits"
     },
     "aboutCreditsText": {
-        "message": "感谢 Microsoft Edge 浏览器和 crxMouse 扩展的设计灵感。",
+        "message": "感谢 Microsoft Edge 浏览器和 crxMouse 扩展的设计灵感。\n感谢吾爱破解论坛、论坛公众号等热心用户的反馈与建议！",
         "description": "Credits text"
+    },
+    "aboutNotes": {
+        "message": "注意事项",
+        "description": "Notes section title"
+    },
+    "aboutNotesText": {
+        "message": "• 安装或启用扩展后，已打开的页面需要刷新才能使用手势功能\n• 浏览器内置页面（新标签页、设置页、扩展管理页等）因安全限制无法使用\n• Chrome Web Store 等谷歌特殊页面同样受限制\n• 如果页面包含多个 iframe 窗口，手势功能和鼠标轨迹可能会受影响，目前暂无法解决",
+        "description": "Notes text"
     },
     "aboutFeatures": {
         "message": "特性",
         "description": "Features"
     },
     "aboutFeature1": {
-        "message": "🎯 16种手势支持",
+        "message": "🎯 16种默认手势 + 自定义手势",
         "description": "Feature 1"
     },
     "aboutFeature2": {
@@ -456,7 +688,7 @@
         "description": "Feature 2"
     },
     "aboutFeature3": {
-        "message": "🔍 文字/图片/链接拖拽",
+        "message": "🔍 文字/图片/链接超级拖拽",
         "description": "Feature 3"
     },
     "aboutFeature4": {
@@ -496,11 +728,127 @@
         "description": "Download config from sync"
     },
     "syncUploaded": {
-        "message": "配置已上传到云端",
+        "message": "已上传配置到云端",
         "description": "Config uploaded message"
     },
     "syncDownloaded": {
         "message": "已从云端下载配置",
         "description": "Config downloaded message"
+    },
+    "syncFailed": {
+        "message": "同步失败，请检查网络连接",
+        "description": "Sync failed message"
+    },
+    "syncNoData": {
+        "message": "云端无配置数据",
+        "description": "No cloud data message"
+    },
+    "newTabSettings": {
+        "message": "新标签打开设置",
+        "description": "New tab open settings"
+    },
+    "newTabPosition": {
+        "message": "打开位置",
+        "description": "New tab position"
+    },
+    "tabPositionRight": {
+        "message": "右侧",
+        "description": "Tab position right"
+    },
+    "tabPositionLeft": {
+        "message": "左侧",
+        "description": "Tab position left"
+    },
+    "tabPositionFirst": {
+        "message": "顶部",
+        "description": "Tab position first"
+    },
+    "tabPositionLast": {
+        "message": "尾部",
+        "description": "Tab position last"
+    },
+    "newTabActive": {
+        "message": "前台打开",
+        "description": "Open tab in foreground"
+    },
+    "textDragGestures": {
+        "message": "文字拖拽手势",
+        "description": "Text drag gestures"
+    },
+    "linkDragGestures": {
+        "message": "链接拖拽手势",
+        "description": "Link drag gestures"
+    },
+    "imageDragGestures": {
+        "message": "图片拖拽手势",
+        "description": "Image drag gestures"
+    },
+    "direction": {
+        "message": "方向",
+        "description": "Direction column header"
+    },
+    "action": {
+        "message": "动作",
+        "description": "Action column header"
+    },
+    "imageSearchUrl": {
+        "message": "图片搜索URL (%s为图片地址)",
+        "description": "Image search URL input"
+    },
+    "dragActionNone": {
+        "message": "无操作",
+        "description": "No action"
+    },
+    "dragActionSearch": {
+        "message": "🔍 搜索引擎",
+        "description": "Search action"
+    },
+    "dragActionCopy": {
+        "message": "📋 复制",
+        "description": "Copy action"
+    },
+    "dragActionOpenTab": {
+        "message": "📑 新标签打开",
+        "description": "Open in new tab"
+    },
+    "dragActionSearchText": {
+        "message": "搜索",
+        "description": "Search text without icon"
+    },
+    "dragActionOpenTabText": {
+        "message": "新标签打开",
+        "description": "Open in new tab text without icon"
+    },
+    "dragActionOpenTabLink": {
+        "message": "🔗 新标签打开",
+        "description": "Open link in new tab"
+    },
+    "dragActionOpenTabImage": {
+        "message": "🖼️ 新标签打开",
+        "description": "Open image in new tab"
+    },
+    "dragActionCopyLink": {
+        "message": "🔗 复制链接",
+        "description": "Copy link"
+    },
+    "dragActionSaveImage": {
+        "message": "💾 保存图片",
+        "description": "Save image"
+    },
+    "dragActionCopyImage": {
+        "message": "🖼️ 复制图片",
+        "description": "Copy image"
+    },
+    "dragActionCopyImageUrl": {
+        "message": "📋 复制图片地址",
+        "description": "Copy image URL"
+    },
+    "dragActionImageSearch": {
+        "message": "图片搜索",
+        "description": "Image search"
+    },
+    "dragActionCustomSearch": {
+        "message": "🔍 自定义搜索",
+        "description": "Custom search"
     }
 }

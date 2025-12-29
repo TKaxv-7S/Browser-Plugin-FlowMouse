@@ -1,44 +1,80 @@
 # FlowMouse
 
-A Chrome mouse gesture extension pursuing ultimate smoothness and privacy protection. Through natural mouse swipes, help you control the browser seamlessly and truly enter a focused and efficient "Flow" state.
+A Chrome mouse gesture extension pursuing ultimate smoothness and privacy protection. Through natural mouse swipes, help you control the browser seamlessly and truly enter a focused and efficient "Flow" state. The extension is **fully open-source**.
 
 ## ✨ Core Features
 - **Local First, Privacy First**: All operations are performed locally. **Zero network requests, zero data collection, zero information uploads**. Thoroughly guarding your browsing privacy.
-- **Silky Smooth Gestures**: Millisecond-level response, smooth and responsive trail rendering.
+- **Custom Gestures, Unlimited Freedom**: Besides 16 default gestures, supports defining custom gestures for more actions.
 - **Super Drag, Double Efficiency**:
-  - Select text and **drag right** → Quick Search
-  - **Drag link** → Open in new background tab
-  - **Drag image** → View in new tab
-- **Intuitive Settings, Customization**: Provides a clear visual settings page, supporting customization of gesture trail color, width, and operation hints.
-- **Multi-language Support**: Full interface support for Simplified Chinese and English.
+  - **Drag Text** → Google Search by default, supports foreground/background opening of custom search engines or copying text.
+  - **Drag Link** → Open in new tab, supports foreground/background opening or copying link.
+  - **Drag Image** → View in new tab, supports foreground/background viewing, saving image, copying image URL and custom search.
+- **Intuitive Settings, Customization at Will**: Provides clear visual settings page, supports customizing gesture trail color, width and operation hints.
+- **Multi-language Support**: Fully adapted for Simplified Chinese and English interfaces.
+
+## ⚠️ Notes
+- Existing pages **must be refreshed** after installing or enabling the extension to use gestures.
+- Browser built-in pages (New Tab, Settings, Extensions, Chrome Web Store, etc.) **do not support mouse gestures** due to security restrictions.
+- Gestures and trails might be affected on pages with multiple iframe windows (currently no solution).
 
 ## 🚀 Installation
-### Method 1: Install via Chrome Web Store (Recommended)
-(Store link to be published)
-
-### Method 2: Manually Load Unpacked Extension
+### Method 1: Load Unpacked Extension
 1. Download and unzip the installation package of this extension.
 2. Enter `chrome://extensions/` in the Chrome address bar and visit it.
 3. Turn on **"Developer mode"** in the upper right corner of the page.
 4. Click **"Load unpacked"** in the upper left corner.
 5. Select the unzipped `FlowMouse` folder to complete the installation.
 
+## 🔧 Basic Usage
+1. **Mouse Gestures**: Hold **Right Mouse Button** and drag to draw a trail, release to trigger action.
+2. **Super Drag**: Hold **Left Mouse Button** and drag text, link, or image to trigger search or open actions (default supports rightward).
+
 ## 📖 Default Gestures Guide
-All gestures can be freely modified or customized in the extension options page.
+All gestures can be modified or customized in Options page.
 
 | Gesture | Action | Gesture | Action |
 |:---:|:---|:---:|:---|
 | `←` | Back | `→` | Forward |
 | `↑` | Scroll Up | `↓` | Scroll Down |
-| `↓→` | Close Current Tab | `→←` | Restore Closed Tab |
-| `↑↓` | Close Right Tabs | `↓↑` | Close All Tabs |
-| `←↑` | Switch to Left Tab | `→↑` | Open New Tab |
-| `←→` | Switch to Right Tab | `→↓` | Reload Current Page |
-| `↑←` | Scroll to Top | `↑→` | Scroll to Bottom |
-| `←↓` | Open New Window | `↓←` | Close Other Tabs |
+| `↓→` | Close Current Tab | `←↑` | Reopen Closed Tab |
+| `→↑` | Open New Tab | `→↓` | Reload Page |
+| `↑←` | Switch to Left Tab | `↑→` | Switch to Right Tab |
+| `↓←` | Stop Loading | `←↓` | Close All Tabs |
+| `↑↓` | Scroll to Bottom | `↓↑` | Scroll to Top |
+| `←→` | Close Current Tab | `→←` | Reopen Closed Tab |
+
+## 📝 Changelog
+
+### v1.1 (2025-12-24)
+**Fixes & Improvements:**
+- **System Compatibility**: **Resolved right-click menu conflicts on Mac and Linux; context menu is now triggered by double-click to ensure mouse gestures work correctly**.
+    > Note: Due to macOS system characteristics, when dragging text, you need to select the text first, press and hold the left button for a short pause before dragging, otherwise the search may not be triggered.
+- **Default Experience Optimization**:
+    - **Re-mapped default gestures to align with Microsoft Edge to reduce the learning curve**.
+    - Changed default new tab opening position from "far right" to **"right of current tab"**.
+    - Removed smooth scrolling animation for "Scroll Up/Down" to significantly improve response speed.
+- **Bug Fixes**:
+    - Fixed issue where `localhost` domains could not be added to the blacklist.
+    - Fixed issue where dragging left triggered "Split View" and caused functionality failure.
+- **Recognition Optimization**: Optimized gesture matching rules to require exact trajectory matches, effectively preventing accidental triggers.
+- **Other**: Various detailed experience optimizations.
+
+**New Features:**
+- **Global Switch**: Added a global "Enable/Disable" switch for **Mouse Gestures** (Super Drag is unaffected).
+- **More Actions**: Support for "Maximize/Restore Window", "Minimize Window", "Open Custom URL", "Copy Current URL", and more.
+- **Advanced Settings** (Power User Features):
+    - **Custom Scroll**: Customize scroll distance for "Scroll Up/Down" gestures.
+    - **Visual Tweaks**: Toggle the display of the gesture trail origin point.
+    - **Custom Gestures**: Draw and add your own custom gesture patterns (supports ↑↓←→ 4-direction combinations).
+    - **Enhanced Super Drag**:
+        - Full 4-direction dragging support (↑↓←→) for Text, Images, and Links with foreground/background opening options.
+        - **Text Actions**: Added "Copy Text".
+        - **Image Actions**: Added "Save Image", "Copy Image URL", "Custom Image Search".
+        - **Link Actions**: Added "Copy Link".
 
 ## 🔒 Privacy Commitment
 **FlowMouse solemnly promises:**
+- **This extension is an open-source project with code hosted on GitHub. Contributions and code review are welcome.**
 - **No collection** of your browsing history, bookmarks, or usage habits.
 - **No uploading** of any local data to any server.
 - **No embedding** of any third-party analytics or advertising codes.
@@ -68,6 +104,7 @@ FlowMouse hopes to continue the convenience of gesture operations while placing 
 
 ### 👨‍💻 Author Info
 - **Author**: Hmily[LCG]
-- **Website**: [www.52pojie.cn](https://www.52pojie.cn)
+- **Website**: [https://www.52pojie.cn/thread-2080303-1-1.html](https://www.52pojie.cn/thread-2080303-1-1.html)
+- **GitHub**: [https://github.com/Hmily-LCG/FlowMouse](https://github.com/Hmily-LCG/FlowMouse)
 - **Email**: Service@52pojie.cn
 - Welcome to report issues and suggestions via email.

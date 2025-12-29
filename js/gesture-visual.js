@@ -9,9 +9,15 @@ class GestureVisualizer {
             hudBgOpacity: 70,
             hudTextColor: '#ffffff',
             trailColor: '#4285f4',
-            trailWidth: 5
+            trailWidth: 5,
+            showTrailOrigin: true
         };
+        this.svgMode = false;
+        this.svgContainer = null;
+        this.svgElement = null;
+        this.svgPolyline = null;
     }
+
     init() {
         this.canvas = document.createElement('canvas');
         this.canvas.style.cssText = `
@@ -25,10 +31,12 @@ class GestureVisualizer {
             opacity: 0;
             transition: opacity 0.1s;
         `;
+
         const updateSize = () => {
             const dpr = window.devicePixelRatio || 1;
             const width = document.documentElement.clientWidth;
             const height = document.documentElement.clientHeight;
+
             this.canvas.width = width * dpr;
             this.canvas.height = height * dpr;
             this.canvas.style.width = width + 'px';
@@ -36,12 +44,17 @@ class GestureVisualizer {
             this.ctx = this.canvas.getContext('2d');
             this.ctx.scale(dpr, dpr);
         };
+
         updateSize();
+
         if (document.body) {
             document.body.appendChild(this.canvas);
         } else {
             document.documentElement.appendChild(this.canvas);
         }
+
+        this.initSvg();
+
         this.hud = document.createElement('div');
         this.updateHudStyle();
         if (document.body) {
@@ -49,8 +62,48 @@ class GestureVisualizer {
         } else {
             document.documentElement.appendChild(this.hud);
         }
+
         window.addEventListener('resize', updateSize);
     }
+
+    initSvg() {
+        this.svgContainer = document.createElement('div');
+        this.svgContainer.style.cssText = `
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            pointer-events: none;
+            z-index: 2147483647;
+            display: none;
+        `;
+
+        const ns = "http://www.w3.org/2000/svg";
+        this.svgElement = document.createElementNS(ns, "svg");
+        this.svgElement.style.cssText = `
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            left: 0;
+            top: 0;
+        `;
+
+        this.svgPolyline = document.createElementNS(ns, "polyline");
+        this.svgPolyline.style.fill = "none";
+        this.svgPolyline.style.strokeLinecap = "round";
+        this.svgPolyline.style.strokeLinejoin = "round";
+
+        this.svgElement.appendChild(this.svgPolyline);
+        this.svgContainer.appendChild(this.svgElement);
+
+        if (document.body) {
+            document.body.appendChild(this.svgContainer);
+        } else {
+            document.documentElement.appendChild(this.svgContainer);
+        }
+    }
+
     updateHudStyle() {
         if (!this.hud) return;
         const bgOpacity = this.settings.hudBgOpacity / 100;
@@ -60,6 +113,7 @@ class GestureVisualizer {
             const b = parseInt(hex.slice(5, 7), 16);
             return `${r}, ${g}, ${b}`;
         };
+
         this.hud.style.cssText = `
             position: fixed;
             top: 50%;
@@ -81,30 +135,72 @@ class GestureVisualizer {
             backdrop-filter: blur(5px);
         `;
     }
+
+    updateSvgStyle() {
+        if (!this.svgPolyline) return;
+        this.svgPolyline.style.stroke = this.settings.trailColor;
+        this.svgPolyline.style.strokeWidth = this.settings.trailWidth;
+    }
+
     updateSettings(settings) {
         this.settings = { ...this.settings, ...settings };
         this.updateHudStyle();
+        this.updateSvgStyle();
     }
+
+    setSvgMode(enabled) {
+        this.svgMode = enabled;
+    }
+
     show() {
         if (!this.canvas) this.init();
-        this.canvas.style.opacity = '1';
         this.trail = [];
+
+        if (this.svgMode) {
+            this.canvas.style.opacity = '0';
+            this.svgContainer.style.display = 'block';
+            this.updateSvgStyle();
+            while (this.svgPolyline.points.numberOfItems > 0) {
+                this.svgPolyline.points.removeItem(0);
+            }
+        } else {
+            this.canvas.style.opacity = '1';
+            this.svgContainer.style.display = 'none';
+        }
     }
+
     hide() {
         if (this.canvas) {
             this.canvas.style.opacity = '0';
             this.ctx.clearRect(0, 0, this.canvas.width, this.canvas.height);
+        }
+        if (this.svgContainer) {
+            this.svgContainer.style.display = 'none';
+            while (this.svgPolyline.points.numberOfItems > 0) {
+                this.svgPolyline.points.removeItem(0);
+            }
         }
         if (this.hud) {
             this.hud.style.opacity = '0';
             this.hud.style.transform = 'translate(-50%, -40%)';
         }
         this.trail = [];
+        this.svgMode = false;
     }
+
     addPoint(x, y) {
-        this.trail.push({ x, y });
-        this.draw();
+        if (this.svgMode) {
+            if (!this.svgElement) this.init();
+            const point = this.svgElement.createSVGPoint();
+            point.x = x;
+            point.y = y;
+            this.svgPolyline.points.appendItem(point);
+        } else {
+            this.trail.push({ x, y });
+            this.draw();
+        }
     }
+
     updateAction(text) {
         if (!this.hud) this.init();
         if (text) {
@@ -115,43 +211,60 @@ class GestureVisualizer {
             this.hud.style.opacity = '0';
         }
     }
+
     draw() {
         if (!this.ctx) return;
+
         const ctx = this.ctx;
         ctx.clearRect(0, 0, this.canvas.width, this.canvas.height);
+
         if (this.trail.length < 1) return;
+
         const width = this.settings.trailWidth;
         const color = this.settings.trailColor;
+
         ctx.save();
         ctx.shadowBlur = 0;
         ctx.shadowOffsetX = 0;
         ctx.shadowOffsetY = 0;
+
         if (this.trail.length >= 2) {
             ctx.beginPath();
             ctx.strokeStyle = color;
             ctx.lineWidth = width;
             ctx.lineCap = 'round';
             ctx.lineJoin = 'round';
+
             ctx.moveTo(this.trail[0].x, this.trail[0].y);
             for (let i = 1; i < this.trail.length; i++) {
                 ctx.lineTo(this.trail[i].x, this.trail[i].y);
             }
             ctx.stroke();
         }
-        const originRadius = Math.max(width * 1.2, 4);
-        ctx.beginPath();
-        ctx.fillStyle = color;
-        ctx.arc(this.trail[0].x, this.trail[0].y, originRadius, 0, Math.PI * 2);
-        ctx.fill();
+
+        if (this.settings.showTrailOrigin) {
+            const originRadius = Math.max(width * 1.2, 4);
+            ctx.beginPath();
+            ctx.fillStyle = color;
+            ctx.arc(this.trail[0].x, this.trail[0].y, originRadius, 0, Math.PI * 2);
+            ctx.fill();
+        }
+
         ctx.restore();
     }
+
     cleanup() {
         if (this.canvas && this.canvas.parentNode) {
             this.canvas.parentNode.removeChild(this.canvas);
+        }
+        if (this.svgContainer && this.svgContainer.parentNode) {
+            this.svgContainer.parentNode.removeChild(this.svgContainer);
         }
         if (this.hud && this.hud.parentNode) {
             this.hud.parentNode.removeChild(this.hud);
         }
     }
 }
+
 window.GestureVisualizer = GestureVisualizer;
+

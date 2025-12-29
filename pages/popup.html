@@ -211,10 +211,10 @@
     <div class="header">
         <img src="../icons/icon16.png" class="logo-small" alt="Logo">
         <h1><span data-i18n="extNameShort">FlowMouse 心流鼠标</span></h1>
-        <span class="version">v1.0</span>
+        <span class="version version-from-manifest">v1.1</span>
     </div>
 
-    <div class="status-row">
+    <div class="status-row" id="trailRow">
         <span class="status-label" data-i18n="popupTrail">手势轨迹</span>
         <label class="toggle">
             <input type="checkbox" id="enableTrail" checked>
@@ -222,7 +222,7 @@
         </label>
     </div>
 
-    <div class="status-row">
+    <div class="status-row" id="hudRow">
         <span class="status-label" data-i18n="popupHint">操作提示</span>
         <label class="toggle">
             <input type="checkbox" id="enableHUD" checked>
@@ -230,7 +230,7 @@
         </label>
     </div>
 
-    <div class="gestures-info">
+    <div class="gestures-info" id="gesturesInfo">
         <h3 data-i18n="popupCommonGestures">常用手势</h3>
         <div class="gesture-list">
             <span class="gesture-pattern">←</span><span class="gesture-action" data-i18n="popupBack">返回</span>
@@ -249,7 +249,7 @@
 
     <div class="actions">
         <button class="btn btn-secondary" id="toggleBlacklist">加入黑名单</button>
-        <button class="btn btn-primary" id="openOptions" data-i18n="settings">设置</button>
+        <button class="btn btn-primary" id="openOptions" data-i18n="moreSettings">更多设置</button>
     </div>
 
     <script src="../js/i18n.js"></script>

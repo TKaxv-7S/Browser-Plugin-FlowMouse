@@ -87,6 +87,7 @@
             line-height: 1.7;
             color: var(--text-secondary);
             font-size: 14px;
+            white-space: pre-line;
         }
 
         .info-row {
@@ -101,6 +102,7 @@
 
         .info-label {
             width: 80px;
+            flex-shrink: 0;
             color: var(--text-secondary);
             font-size: 14px;
         }
@@ -205,6 +207,7 @@
             </h1>
         </div>
 
+        
         <div class="section">
             <div class="info-row">
                 <span class="info-label" data-i18n="aboutAuthor">作者</span>
@@ -212,7 +215,13 @@
             </div>
             <div class="info-row">
                 <span class="info-label" data-i18n="aboutWebsite">官网</span>
-                <span class="info-value"><a href="https://www.52pojie.cn" target="_blank">www.52pojie.cn</a></span>
+                <span class="info-value"><a href="https://www.52pojie.cn/thread-2080303-1-1.html"
+                        target="_blank">https://www.52pojie.cn/thread-2080303-1-1.html</a></span>
+            </div>
+            <div class="info-row">
+                <span class="info-label" data-i18n="aboutOpenSource">开源</span>
+                <span class="info-value"><a href="https://github.com/Hmily-LCG/FlowMouse"
+                        target="_blank">https://github.com/Hmily-LCG/FlowMouse</a></span>
             </div>
             <div class="info-row">
                 <span class="info-label" data-i18n="aboutEmail">邮箱</span>
@@ -220,22 +229,35 @@
             </div>
             <div class="info-row">
                 <span class="info-label" data-i18n="version">版本</span>
-                <span class="info-value">1.0</span>
+                <span class="info-value version-from-manifest">1.1</span>
             </div>
         </div>
 
+        
         <div class="section">
             <h2>✨ <span data-i18n="aboutFeatures">特性</span></h2>
             <div class="features">
-                <div class="feature" data-i18n="aboutFeature1">🎯 16种手势支持</div>
+                <div class="feature" data-i18n="aboutFeature1">🎯 16种默认手势 + 自定义手势</div>
                 <div class="feature" data-i18n="aboutFeature2">🎨 可视化轨迹反馈</div>
-                <div class="feature" data-i18n="aboutFeature3">🔍 文字/图片/链接拖拽</div>
+                <div class="feature" data-i18n="aboutFeature3">🔍 文字/图片/链接超级拖拽</div>
                 <div class="feature" data-i18n="aboutFeature4">🚫 网站黑名单</div>
                 <div class="feature" data-i18n="aboutFeature5">☁️ Chrome账号同步</div>
                 <div class="feature" data-i18n="aboutFeature6">🔒 完全本地运行，无联网</div>
             </div>
         </div>
 
+        
+        <div class="section">
+            <h2>⚠️ <span data-i18n="aboutNotes">注意事项</span></h2>
+            <p class="credits" data-i18n="aboutNotesText">
+                • 安装或启用扩展后，已打开的页面需要刷新才能使用手势功能<br>
+                • 浏览器内置页面（新标签页、设置页、扩展管理页等）因安全限制无法使用<br>
+                • Chrome Web Store 等谷歌特殊页面同样受限制<br>
+                • 如果页面包含多个 iframe 窗口，手势功能和鼠标轨迹可能会受影响，目前暂无法解决
+            </p>
+        </div>
+
+        
         <div class="section">
             <h2>🔒 <span data-i18n="aboutPrivacy">隐私声明</span></h2>
             <p data-i18n="aboutPrivacyText">
@@ -248,10 +270,12 @@
             </div>
         </div>
 
+        
         <div class="section">
             <h2><span class="heart">❤️</span> <span data-i18n="aboutCredits">致谢</span></h2>
             <p class="credits" data-i18n="aboutCreditsText">
-                感谢 Microsoft Edge 浏览器和 crxMouse 扩展的设计灵感。
+                感谢 Microsoft Edge 浏览器和 crxMouse 扩展的设计灵感。<br>
+                感谢吾爱破解论坛、论坛公众号等热心用户的反馈与建议！
             </p>
         </div>
 

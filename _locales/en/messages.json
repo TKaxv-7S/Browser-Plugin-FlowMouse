@@ -8,7 +8,7 @@
         "description": "Short extension name for popup"
     },
     "extDescription": {
-        "message": "A mouse gesture extension focused on privacy and smooth experience. Silky smooth gestures, super drag support, and all data is stored locally.",
+        "message": "An open-source mouse gesture extension focused on privacy and smooth experience. Silky smooth gestures, super drag support, and all data is stored locally.",
         "description": "Extension description"
     },
     "appearance": {
@@ -67,6 +67,10 @@
         "message": "Settings",
         "description": "Settings"
     },
+    "moreSettings": {
+        "message": "More Settings",
+        "description": "More settings button in popup"
+    },
     "version": {
         "message": "Version",
         "description": "Version"
@@ -74,6 +78,22 @@
     "basicSettings": {
         "message": "Basic Settings",
         "description": "Basic settings section"
+    },
+    "enableGesture": {
+        "message": "Enable Gestures",
+        "description": "Enable gesture feature"
+    },
+    "enableGestureDesc": {
+        "message": "Disable all mouse gesture operations when turned off",
+        "description": "Disable all mouse gesture operations when turned off"
+    },
+    "macLinuxContextMenuNotice": {
+        "message": "⚠️ Due to system limitations, double right-click is required to open the context menu on Mac/Linux",
+        "description": "Notice for Mac/Linux users about double right-click for context menu"
+    },
+    "macTextDragNotice": {
+        "message": "⚠️ Due to macOS behavior, when dragging text, first select the text, then press and hold the left button briefly before dragging. Otherwise, the search may not trigger.",
+        "description": "Notice for Mac users about text drag behavior"
     },
     "showTrail": {
         "message": "Show Gesture Trail",
@@ -111,6 +131,14 @@
         "message": "Text",
         "description": "Text"
     },
+    "scrollAmount": {
+        "message": "Scroll Distance",
+        "description": "Scroll amount"
+    },
+    "scrollAmountDesc": {
+        "message": "Scroll distance for up/down gestures (% of window height)",
+        "description": "Scroll distance for up/down gestures"
+    },
     "dragFeatures": {
         "message": "Drag Features",
         "description": "Drag features section"
@@ -120,8 +148,8 @@
         "description": "Text drag search"
     },
     "textDragSearchDesc": {
-        "message": "Drag selected text to the right to search",
-        "description": "Drag selected text to the right to search"
+        "message": "Drag selected text to search",
+        "description": "Drag selected text to search"
     },
     "searchEngine": {
         "message": "Search Engine",
@@ -255,6 +283,70 @@
         "message": "Auto Save",
         "description": "Auto save"
     },
+    "gestureDesc_L": {
+        "message": "Left",
+        "description": "Gesture description for ←"
+    },
+    "gestureDesc_R": {
+        "message": "Right",
+        "description": "Gesture description for →"
+    },
+    "gestureDesc_U": {
+        "message": "Up",
+        "description": "Gesture description for ↑"
+    },
+    "gestureDesc_D": {
+        "message": "Down",
+        "description": "Gesture description for ↓"
+    },
+    "gestureDesc_DR": {
+        "message": "Down then Right",
+        "description": "Gesture description for ↓→"
+    },
+    "gestureDesc_LU": {
+        "message": "Left then Up",
+        "description": "Gesture description for ←↑"
+    },
+    "gestureDesc_RU": {
+        "message": "Right then Up",
+        "description": "Gesture description for →↑"
+    },
+    "gestureDesc_RD": {
+        "message": "Right then Down",
+        "description": "Gesture description for →↓"
+    },
+    "gestureDesc_UL": {
+        "message": "Up then Left",
+        "description": "Gesture description for ↑←"
+    },
+    "gestureDesc_UR": {
+        "message": "Up then Right",
+        "description": "Gesture description for ↑→"
+    },
+    "gestureDesc_DL": {
+        "message": "Down then Left",
+        "description": "Gesture description for ↓←"
+    },
+    "gestureDesc_LD": {
+        "message": "Left then Down",
+        "description": "Gesture description for ←↓"
+    },
+    "gestureDesc_UD": {
+        "message": "Up then Down",
+        "description": "Gesture description for ↑↓"
+    },
+    "gestureDesc_DU": {
+        "message": "Down then Up",
+        "description": "Gesture description for ↓↑"
+    },
+    "gestureDesc_LR": {
+        "message": "Left then Right",
+        "description": "Gesture description for ←→"
+    },
+    "gestureDesc_RL": {
+        "message": "Right then Left",
+        "description": "Gesture description for →←"
+    },
     "actionNone": {
         "message": "None",
         "description": "No action"
@@ -338,6 +430,134 @@
     "actionToggleFullscreen": {
         "message": "Toggle Fullscreen",
         "description": "Toggle fullscreen"
+    },
+    "actionToggleMaximize": {
+        "message": "Toggle Maximize/Restore",
+        "description": "Toggle window maximize"
+    },
+    "actionMinimize": {
+        "message": "Minimize Window",
+        "description": "Minimize window"
+    },
+    "actionOpenCustomUrl": {
+        "message": "Open Custom URL",
+        "description": "Open custom URL"
+    },
+    "actionCopyUrl": {
+        "message": "Copy Current URL",
+        "description": "Copy current URL"
+    },
+    "actionCopyTitle": {
+        "message": "Copy Page Title",
+        "description": "Copy page title"
+    },
+    "actionOpenDownloads": {
+        "message": "Open Downloads",
+        "description": "Open downloads page"
+    },
+    "actionOpenHistory": {
+        "message": "Open History",
+        "description": "Open history page"
+    },
+    "actionOpenExtensions": {
+        "message": "Open Extensions",
+        "description": "Open extensions page"
+    },
+    "actionPrintPage": {
+        "message": "Print Page",
+        "description": "Print page"
+    },
+    "actionDuplicateTab": {
+        "message": "Duplicate Tab",
+        "description": "Duplicate current tab"
+    },
+    "showTrailOrigin": {
+        "message": "Show Origin Point",
+        "description": "Show trail origin point"
+    },
+    "enableAdvancedSettings": {
+        "message": "Advanced Settings",
+        "description": "Enable advanced settings"
+    },
+    "enableAdvancedSettingsDesc": {
+        "message": "Show more advanced options when enabled",
+        "description": "Show more advanced options when enabled"
+    },
+    "enableAdvancedSettingsToggle": {
+        "message": "Enable Advanced Settings Mode",
+        "description": "Enable advanced settings toggle label"
+    },
+    "urlFormatError": {
+        "message": "Please enter full URL starting with http:// or https://",
+        "description": "URL format error message"
+    },
+    "resetToDefault": {
+        "message": "Reset to default",
+        "description": "Reset gesture to default action"
+    },
+    "addCustomGesture": {
+        "message": "Add Custom Gesture",
+        "description": "Add custom gesture section title"
+    },
+    "gesturePattern": {
+        "message": "Pattern",
+        "description": "Gesture pattern label"
+    },
+    "selectAction": {
+        "message": "Select Action",
+        "description": "Select action label"
+    },
+    "clear": {
+        "message": "Clear",
+        "description": "Clear button"
+    },
+    "addGesture": {
+        "message": "Add Gesture",
+        "description": "Add gesture button"
+    },
+    "drawGestureHint": {
+        "message": "Draw a gesture in the area on the left. The system will recognize the direction sequence. Enable Advanced Settings for 8-direction support (including diagonals).",
+        "description": "Hint for gesture drawing"
+    },
+    "pleaseDrawGesture": {
+        "message": "Please draw a gesture first",
+        "description": "Alert when no gesture drawn"
+    },
+    "gestureAdded": {
+        "message": "✓ Gesture added",
+        "description": "Gesture added success message"
+    },
+    "gestureDrawInstructions": {
+        "message": "Hold the right mouse button and draw a gesture below, release to complete. Supported directions: ↑ ↓ ← →",
+        "description": "Instructions for gesture drawing"
+    },
+    "gestureOverwriteConfirm": {
+        "message": "Gesture %pattern% already exists. Overwrite?",
+        "description": "Confirmation message when adding a duplicate gesture"
+    },
+    "customGesture": {
+        "message": "Custom",
+        "description": "Label for custom gestures"
+    },
+    "deleteGesture": {
+        "message": "Delete Gesture",
+        "description": "Delete gesture button tooltip"
+    },
+    "deleteGestureConfirm": {
+        "message": "Delete gesture %pattern%?",
+        "description": "Delete gesture confirmation"
+    },
+    "gestureDeleted": {
+        "message": "✓ Gesture deleted",
+        "description": "Gesture deleted success message"
+    },
+    "enterCustomUrl": {
+        "message": "Enter URL (suggest including protocol like https://, chrome://, etc.):",
+        "description": "Prompt for custom URL input"
+    },
+    "invalidUrl": {
+        "message": "Please enter a valid URL (starting with http:// or https://)",
+        "description": "Invalid URL error message"
     },
     "popupTrail": {
         "message": "Gesture Trail",
@@ -423,6 +643,10 @@
         "message": "Website",
         "description": "Website"
     },
+    "aboutOpenSource": {
+        "message": "GitHub",
+        "description": "GitHub link"
+    },
     "aboutEmail": {
         "message": "Email",
         "description": "Email"
@@ -432,7 +656,7 @@
         "description": "Privacy statement"
     },
     "aboutPrivacyText": {
-        "message": "This extension runs entirely locally with no network access. It does not collect or upload any user data. Your settings are synced via your Chrome account and only between your logged-in devices.",
+        "message": "This extension is an open-source project with code hosted on GitHub. Contributions and code review are welcome. All features run locally on your device with no network access. It does not collect or upload any user data. Your settings are synced via your Chrome account and only between your logged-in devices.",
         "description": "Privacy statement text"
     },
     "aboutCredits": {
@@ -440,15 +664,23 @@
         "description": "Credits"
     },
     "aboutCreditsText": {
-        "message": "Thanks to Microsoft Edge browser and crxMouse extension for design inspiration.",
+        "message": "Thanks to Microsoft Edge browser and crxMouse extension for design inspiration.\nThanks to 52pojie.cn community and users for feedback and suggestions!",
         "description": "Credits text"
+    },
+    "aboutNotes": {
+        "message": "Notes",
+        "description": "Notes section title"
+    },
+    "aboutNotesText": {
+        "message": "• After installing or enabling the extension, existing pages need to be refreshed to use gestures\n• Browser built-in pages (new tab, settings, extensions, etc.) cannot be used due to security restrictions\n• Chrome Web Store and other Google special pages are also restricted\n• If a page contains multiple iframe windows, gestures and mouse trails may be affected, currently no solution",
+        "description": "Notes text"
     },
     "aboutFeatures": {
         "message": "Features",
         "description": "Features"
     },
     "aboutFeature1": {
-        "message": "🎯 16 Gesture Support",
+        "message": "🎯 16 Default Gestures + Custom Gestures",
         "description": "Feature 1"
     },
     "aboutFeature2": {
@@ -456,7 +688,7 @@
         "description": "Feature 2"
     },
     "aboutFeature3": {
-        "message": "🔍 Text/Image/Link Drag",
+        "message": "🔍 Text/Image/Link Super Drag",
         "description": "Feature 3"
     },
     "aboutFeature4": {
@@ -502,5 +734,121 @@
     "syncDownloaded": {
         "message": "Settings downloaded from cloud",
         "description": "Config downloaded message"
+    },
+    "syncFailed": {
+        "message": "Sync failed, please check network connection",
+        "description": "Sync failed message"
+    },
+    "syncNoData": {
+        "message": "No cloud data available",
+        "description": "No cloud data message"
+    },
+    "newTabSettings": {
+        "message": "New Tab Settings",
+        "description": "New tab open settings"
+    },
+    "newTabPosition": {
+        "message": "Position",
+        "description": "New tab position"
+    },
+    "tabPositionRight": {
+        "message": "Right of current tab",
+        "description": "Tab position right"
+    },
+    "tabPositionLeft": {
+        "message": "Left of current tab",
+        "description": "Tab position left"
+    },
+    "tabPositionFirst": {
+        "message": "First (leftmost)",
+        "description": "Tab position first"
+    },
+    "tabPositionLast": {
+        "message": "Last (rightmost)",
+        "description": "Tab position last"
+    },
+    "newTabActive": {
+        "message": "Open in foreground",
+        "description": "Open tab in foreground"
+    },
+    "textDragGestures": {
+        "message": "Text Drag Gestures",
+        "description": "Text drag gestures"
+    },
+    "linkDragGestures": {
+        "message": "Link Drag Gestures",
+        "description": "Link drag gestures"
+    },
+    "imageDragGestures": {
+        "message": "Image Drag Gestures",
+        "description": "Image drag gestures"
+    },
+    "direction": {
+        "message": "Direction",
+        "description": "Direction column header"
+    },
+    "action": {
+        "message": "Action",
+        "description": "Action column header"
+    },
+    "imageSearchUrl": {
+        "message": "Image Search URL (%s = image URL)",
+        "description": "Image search URL input"
+    },
+    "dragActionNone": {
+        "message": "None",
+        "description": "No action"
+    },
+    "dragActionSearch": {
+        "message": "🔍 Search Engine",
+        "description": "Search action"
+    },
+    "dragActionCopy": {
+        "message": "📋 Copy",
+        "description": "Copy action"
+    },
+    "dragActionOpenTab": {
+        "message": "📑 Open in New Tab",
+        "description": "Open in new tab"
+    },
+    "dragActionSearchText": {
+        "message": "Search",
+        "description": "Search text without icon"
+    },
+    "dragActionOpenTabText": {
+        "message": "New Tab",
+        "description": "Open in new tab text without icon"
+    },
+    "dragActionOpenTabLink": {
+        "message": "🔗 New Tab",
+        "description": "Open link in new tab"
+    },
+    "dragActionOpenTabImage": {
+        "message": "🖼️ New Tab",
+        "description": "Open image in new tab"
+    },
+    "dragActionCopyLink": {
+        "message": "🔗 Copy Link",
+        "description": "Copy link"
+    },
+    "dragActionSaveImage": {
+        "message": "💾 Save Image",
+        "description": "Save image"
+    },
+    "dragActionCopyImage": {
+        "message": "🖼️ Copy Image",
+        "description": "Copy image"
+    },
+    "dragActionCopyImageUrl": {
+        "message": "📋 Copy Image URL",
+        "description": "Copy image URL"
+    },
+    "dragActionImageSearch": {
+        "message": "Image Search",
+        "description": "Image search"
+    },
+    "dragActionCustomSearch": {
+        "message": "🔍 Custom Search",
+        "description": "Custom search"
     }
 }

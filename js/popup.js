@@ -1,22 +1,30 @@
 (function () {
     'use strict';
+
     let currentDomain = '';
     let blacklist = [];
     let isRestrictedPage = false;
+
     const elements = {};
+
     function msg(key) {
         if (window.i18n && window.i18n.getMessage) {
             return window.i18n.getMessage(key);
         }
         return chrome.i18n.getMessage(key) || key;
     }
+
     function init() {
         elements.enableTrail = document.getElementById('enableTrail');
         elements.enableHUD = document.getElementById('enableHUD');
+        elements.trailRow = document.getElementById('trailRow');
+        elements.hudRow = document.getElementById('hudRow');
+        elements.gesturesInfo = document.getElementById('gesturesInfo');
         elements.currentDomain = document.getElementById('currentDomain');
         elements.blacklistStatus = document.getElementById('blacklistStatus');
         elements.toggleBlacklist = document.getElementById('toggleBlacklist');
         elements.openOptions = document.getElementById('openOptions');
+
         elements.enableTrail.addEventListener('change', saveQuickSettings);
         elements.enableHUD.addEventListener('change', saveQuickSettings);
         elements.toggleBlacklist.addEventListener('click', toggleBlacklist);
@@ -24,10 +32,22 @@
             chrome.runtime.openOptionsPage();
             window.close();
         });
+
         waitForI18n().then(() => {
             loadAll();
         });
+
+        updateVersionFromManifest();
     }
+
+    function updateVersionFromManifest() {
+        const manifest = chrome.runtime.getManifest();
+        const version = manifest.version;
+        document.querySelectorAll('.version-from-manifest').forEach(el => {
+            el.textContent = `v${version}`;
+        });
+    }
+
     function waitForI18n() {
         return new Promise((resolve) => {
             if (window.i18n && window.i18n.getMessage) {
@@ -46,24 +66,33 @@
             }
         });
     }
+
     function loadAll() {
         chrome.storage.sync.get(null, (items) => {
+            const gestureEnabled = items.enableGesture !== false;
             elements.enableTrail.checked = items.enableTrail !== false;
             elements.enableHUD.checked = items.enableHUD !== false;
+
+            updateGestureUI(gestureEnabled);
+
             blacklist = Array.isArray(items.blacklist) ? items.blacklist : [];
+
             let theme = items.theme || 'auto';
             if (theme === 'auto') {
                 theme = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
             }
             document.body.setAttribute('data-theme', theme);
+
             loadCurrentSite();
         });
     }
+
     function loadCurrentSite() {
         chrome.tabs.query({ active: true, currentWindow: true }, (tabs) => {
             if (tabs[0] && tabs[0].url) {
                 try {
                     const url = new URL(tabs[0].url);
+
                     if (url.protocol === 'chrome:' || url.protocol === 'chrome-extension:' ||
                         url.protocol === 'edge:' || url.protocol === 'about:' ||
                         url.protocol === 'file:') {
@@ -74,8 +103,10 @@
                         elements.toggleBlacklist.textContent = msg('popupNotAvailable');
                         return;
                     }
+
                     currentDomain = url.hostname;
                     elements.currentDomain.textContent = currentDomain;
+
                     updateBlacklistUI();
                 } catch (e) {
                     elements.currentDomain.textContent = '-';
@@ -85,9 +116,12 @@
             }
         });
     }
+
     function updateBlacklistUI() {
         if (isRestrictedPage || !currentDomain) return;
+
         const isBlacklisted = blacklist.includes(currentDomain);
+
         if (isBlacklisted) {
             elements.blacklistStatus.textContent = ` (${msg('popupDisabled')})`;
             elements.blacklistStatus.className = 'blacklisted';
@@ -102,6 +136,24 @@
             elements.toggleBlacklist.classList.add('btn-secondary');
         }
     }
+
+    function updateGestureUI(enabled) {
+        const opacity = enabled ? '1' : '0.5';
+        const pointerEvents = enabled ? 'auto' : 'none';
+
+        if (elements.trailRow) {
+            elements.trailRow.style.opacity = opacity;
+            elements.trailRow.style.pointerEvents = pointerEvents;
+        }
+        if (elements.hudRow) {
+            elements.hudRow.style.opacity = opacity;
+            elements.hudRow.style.pointerEvents = pointerEvents;
+        }
+        if (elements.gesturesInfo) {
+            elements.gesturesInfo.style.opacity = opacity;
+        }
+    }
+
     function saveQuickSettings() {
         chrome.storage.sync.set({
             enableTrail: elements.enableTrail.checked,
@@ -109,16 +161,20 @@
             lastSyncTime: new Date().toISOString()
         });
     }
+
     function toggleBlacklist() {
         if (!currentDomain || isRestrictedPage) return;
+
         elements.toggleBlacklist.disabled = true;
         elements.toggleBlacklist.textContent = '...';
+
         const isBlacklisted = blacklist.includes(currentDomain);
         if (isBlacklisted) {
             blacklist = blacklist.filter(d => d !== currentDomain);
         } else {
             blacklist.push(currentDomain);
         }
+
         chrome.storage.sync.set({
             blacklist: blacklist,
             lastSyncTime: new Date().toISOString()
@@ -128,8 +184,10 @@
                 updateBlacklistUI();
                 return;
             }
+
             updateBlacklistUI();
             elements.toggleBlacklist.disabled = false;
+
             chrome.tabs.query({ active: true, currentWindow: true }, (tabs) => {
                 if (tabs[0]) {
                     setTimeout(() => {
@@ -140,5 +198,6 @@
             });
         });
     }
+
     document.addEventListener('DOMContentLoaded', init);
 })();
