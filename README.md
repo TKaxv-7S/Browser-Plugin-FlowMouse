@@ -45,7 +45,7 @@
 | `←→` | 关闭当前标签页 | `→←` | 恢复关闭的标签页 |
 
 ## 📝 更新日志
-详见Github：[https://github.com/Hmily-LCG/FlowMouse/blob/main/CHANGELOG.md](https://github.com/Hmily-LCG/FlowMouse/blob/main/CHANGELOG.md)
+详见Github：[https://github.com/Hmily-LCG/FlowMouse/blob/main/CHANGELOG.zh_CN.md](https://github.com/Hmily-LCG/FlowMouse/blob/main/CHANGELOG.zh_CN.md)
 
 ## 🔒 隐私承诺
 **FlowMouse 郑重承诺：**
