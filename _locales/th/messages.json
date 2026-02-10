@@ -1,0 +1,1238 @@
+{
+	"extName": {
+		"message": "FlowMouse - ท่าทางเมาส์",
+		"description": "Extension name"
+	},
+	"extNameShort": {
+		"message": "FlowMouse",
+		"description": "Short extension name for popup"
+	},
+	"extDescription": {
+		"message": "ส่วนขยายท่าทางเมาส์แบบโอเพนซอร์สที่เน้นความเป็นส่วนตัวและประสบการณ์ที่ลื่นไหล การทำงานของท่าทางที่ลื่นไหล รองรับการลากขั้นสูง (Super Drag) และข้อมูลทั้งหมดจะถูกจัดเก็บไว้ในเครื่อง",
+		"description": "Extension description"
+	},
+	"appearance": {
+		"message": "รูปลักษณ์",
+		"description": "Appearance section"
+	},
+	"theme": {
+		"message": "ธีม",
+		"description": "Theme"
+	},
+	"themeDesc": {
+		"message": "สลับระหว่างธีมสว่าง/มืด",
+		"description": "Theme description"
+	},
+	"themeDark": {
+		"message": "มืด",
+		"description": "Dark theme"
+	},
+	"themeLight": {
+		"message": "สว่าง",
+		"description": "Light theme"
+	},
+	"themeAuto": {
+		"message": "ตามระบบ",
+		"description": "Auto theme - follow system"
+	},
+	"languageDesc": {
+		"message": "เลือกภาษา",
+		"description": "Language description"
+	},
+	"syncStatus": {
+		"message": "สถานะการซิงค์",
+		"description": "Sync status"
+	},
+	"syncStatusDesc": {
+		"message": "การตั้งค่าซิงค์ผ่านบัญชี %browserName%",
+		"description": "Sync status description"
+	},
+	"synced": {
+		"message": "ซิงค์แล้ว",
+		"description": "Synced"
+	},
+	"author": {
+		"message": "ผู้เขียน",
+		"description": "Author"
+	},
+	"privacyNote": {
+		"message": "🔒 ทำงานในเครื่องเท่านั้น ไม่มีการเชื่อมต่อเครือข่ายยกเว้นการซิงค์ ไม่มีการรวบรวมข้อมูล",
+		"description": "Privacy note in footer"
+	},
+	"supportUsText": {
+		"message": "ชอบ FlowMouse หรือไม่? โปรดให้คะแนน 5 ดาวบน %appStoreInfo% เพื่อเป็นกำลังใจให้เรา!",
+		"description": "Rating text"
+	},
+	"storeNameChrome": {
+		"message": "Chrome Web Store",
+		"description": "Chrome Web Store name"
+	},
+	"storeNameEdge": {
+		"message": "ส่วนขยาย Edge",
+		"description": "Edge Add-ons name"
+	},
+	"storeNameFirefox": {
+		"message": "ส่วนขยาย Firefox",
+		"description": "Firefox Add-ons name"
+	},
+	"feedbackText": {
+		"message": "พบปัญหาหรือมีข้อเสนอแนะ? โปรดแจ้งเราผ่าน <a href='mailto:Service@52pojie.cn'>Email</a>, <a href='https://github.com/Hmily-LCG/FlowMouse/issues' target='_blank'>GitHub</a> หรือ <a href='https://www.52pojie.cn/thread-2080303-1-1.html' target='_blank'>Forum</a> เราจะปรับปรุงให้ดีขึ้นโดยเร็ว!",
+		"description": "Feedback text"
+	},
+	"supportAndFeedback": {
+		"message": "สนับสนุน & ข้อเสนอแนะ",
+		"description": "Support and Feedback section title"
+	},
+	"feedbackTitle": {
+		"message": "ข้อเสนอแนะ",
+		"description": "Feedback row title"
+	},
+	"supportUsTitle": {
+		"message": "สนับสนุนเรา",
+		"description": "Rating row title"
+	},
+	"backToSettings": {
+		"message": "กลับไปที่การตั้งค่า",
+		"description": "Back to settings link"
+	},
+	"settings": {
+		"message": "การตั้งค่า",
+		"description": "Settings"
+	},
+	"moreSettings": {
+		"message": "การตั้งค่าเพิ่มเติม",
+		"description": "More settings button in popup"
+	},
+	"version": {
+		"message": "เวอร์ชัน",
+		"description": "Version"
+	},
+	"basicSettings": {
+		"message": "การตั้งค่าท่าทาง",
+		"description": "Gesture settings section"
+	},
+	"enableGesture": {
+		"message": "เปิดใช้งานท่าทาง",
+		"description": "Enable gesture feature"
+	},
+	"enableGestureDesc": {
+		"message": "กดคลิกขวาค้างไว้แล้วเลื่อนเมาส์เพื่อใช้ท่าทาง",
+		"description": "Hold the right mouse button and move the mouse to easily perform gestures"
+	},
+	"macLinuxContextMenuNotice": {
+		"message": "⚠️ เนื่องจากข้อจำกัดของระบบ ใน macOS / Linux ต้องคลิกขวาสองครั้งเร็วๆ เพื่อเปิดเมนูบริบท",
+		"description": "Notice for macOS / Linux users about double right-click for context menu"
+	},
+	"macTextDragNotice": {
+		"message": "⚠️ เนื่องจากพฤติกรรมของ macOS เมื่อลากข้อความ ให้เลือกข้อความก่อน แล้วกดซ้ายค้างไว้สักครู่ก่อนลาก มิฉะนั้นการค้นหาอาจไม่ทำงาน",
+		"description": "Notice for macOS users about text drag behavior"
+	},
+	"showTrail": {
+		"message": "แสดงเส้นทางท่าทาง",
+		"description": "Show gesture trail"
+	},
+	"showTrailDesc": {
+		"message": "แสดงเส้นเมื่อทำท่าทาง",
+		"description": "Show trail line when performing gestures"
+	},
+	"showHint": {
+		"message": "แสดงคำแนะนำการใช้งาน",
+		"description": "Show action hint"
+	},
+	"showHintDesc": {
+		"message": "แสดงการกระทำของท่าทางปัจจุบันที่กลางหน้าจอ",
+		"description": "Show current gesture action in center of screen"
+	},
+	"color": {
+		"message": "สี",
+		"description": "Color"
+	},
+	"width": {
+		"message": "ความหนา",
+		"description": "Width/thickness"
+	},
+	"background": {
+		"message": "พื้นหลัง",
+		"description": "Background"
+	},
+	"opacity": {
+		"message": "ความทึบ",
+		"description": "Opacity"
+	},
+	"text": {
+		"message": "ข้อความ",
+		"description": "Text"
+	},
+	"scrollAmount": {
+		"message": "ระยะการเลื่อน",
+		"description": "Scroll amount"
+	},
+	"scrollAmountDesc": {
+		"message": "ระยะการเลื่อนสำหรับท่าทางขึ้น/ลง (% ของความสูงหน้าต่าง)",
+		"description": "Scroll distance for up/down gestures"
+	},
+	"scrollSmoothness": {
+		"message": "ความราบรื่นของการเลื่อน",
+		"description": "Scroll smoothness"
+	},
+	"scrollSmoothnessDesc": {
+		"message": "เอฟเฟกต์ภาพเคลื่อนไหวสำหรับการเลื่อนขึ้น/ลง",
+		"description": "Scroll smoothness description"
+	},
+	"smoothnessSystem": {
+		"message": "ระบบ (ประสิทธิภาพสูง)",
+		"description": "System scroll smoothness"
+	},
+	"smoothnessCustom": {
+		"message": "ราบรื่น",
+		"description": "Custom smooth scrolling"
+	},
+	"smoothnessNone": {
+		"message": "ไม่มีภาพเคลื่อนไหว",
+		"description": "No scroll animation"
+	},
+	"dragFeatures": {
+		"message": "ฟีเจอร์การลาก",
+		"description": "Drag features section"
+	},
+	"textDragSearch": {
+		"message": "ลากข้อความ",
+		"description": "Text drag"
+	},
+	"textDragSearchDesc": {
+		"message": "ลากข้อความที่เลือกเพื่อค้นหา",
+		"description": "Drag selected text to search"
+	},
+	"searchEngine": {
+		"message": "เครื่องมือค้นหา",
+		"description": "Search engine"
+	},
+	"custom": {
+		"message": "กำหนดเอง",
+		"description": "Custom"
+	},
+	"customUrlPlaceholder": {
+		"message": "URL กำหนดเอง ใช้ %s แทนคำค้นหา",
+		"description": "Custom URL placeholder"
+	},
+	"urlPlaceholderText": {
+		"message": "%s=คำค้นหา",
+		"description": "Placeholder for text drag custom URL"
+	},
+	"urlPlaceholderImage": {
+		"message": "%s=URL รูปภาพ",
+		"description": "Placeholder for image drag custom URL"
+	},
+	"searchEngine_baidu": {
+		"message": "Baidu",
+		"description": "Baidu search engine"
+	},
+	"searchEngine_360": {
+		"message": "360 Search",
+		"description": "360 search engine"
+	},
+	"searchEngine_yandex": {
+		"message": "Yandex",
+		"description": "Yandex search engine"
+	},
+	"searchEngine_system": {
+		"message": "ค่าเริ่มต้นเบราว์เซอร์",
+		"description": "System default search engine"
+	},
+	"imageDrag": {
+		"message": "ลากรูปภาพ",
+		"description": "Image drag"
+	},
+	"imageDragDesc": {
+		"message": "ลากรูปภาพเพื่อเปิดในแท็บใหม่",
+		"description": "Drag image to open in new tab"
+	},
+	"linkDrag": {
+		"message": "ลากลิงก์",
+		"description": "Link drag"
+	},
+	"linkDragDesc": {
+		"message": "ลากลิงก์เพื่อเปิดในแท็บใหม่",
+		"description": "Drag link to open in new tab"
+	},
+	"enableCustomGestures": {
+		"message": "ท่าทางที่กำหนดเอง",
+		"description": "Enable custom gestures"
+	},
+	"enableCustomGesturesDesc": {
+		"message": "ดูและปรับแต่งการกระทำของแต่ละท่าทาง",
+		"description": "View and customize each gesture action"
+	},
+	"gestureAutoSaveHint": {
+		"message": "คำแนะนำ: การเปลี่ยนแปลงจะถูกบันทึกอัตโนมัติ",
+		"description": "Hint about auto-save"
+	},
+	"blacklist": {
+		"message": "บัญชีดำเว็บไซต์",
+		"description": "Website blacklist"
+	},
+	"blacklistPlaceholder": {
+		"message": "ป้อนโดเมน เช่น example.com แล้วกด Enter เพื่อเพิ่ม",
+		"description": "Blacklist input placeholder"
+	},
+	"add": {
+		"message": "เพิ่ม",
+		"description": "Add button"
+	},
+	"emptyBlacklist": {
+		"message": "ไม่มีบัญชีดำ ป้อนโดเมนด้านบนเพื่อเพิ่ม",
+		"description": "Empty blacklist message"
+	},
+	"dataManagement": {
+		"message": "การจัดการข้อมูล",
+		"description": "Data management section"
+	},
+	"export": {
+		"message": "ส่งออก",
+		"description": "Export settings"
+	},
+	"import": {
+		"message": "นำเข้า",
+		"description": "Import settings"
+	},
+	"reset": {
+		"message": "รีเซ็ต",
+		"description": "Reset to default"
+	},
+	"autoSaved": {
+		"message": "✓ บันทึกอัตโนมัติแล้ว",
+		"description": "Auto-saved message"
+	},
+	"saveFailure": {
+		"message": "การบันทึกล้มเหลว",
+		"description": "Save failure message"
+	},
+	"resetConfirm": {
+		"message": "คุณแน่ใจหรือไม่ว่าต้องการคืนค่าการตั้งค่าทั้งหมดเป็นค่าเริ่มต้น?",
+		"description": "Reset confirmation"
+	},
+	"resetDone": {
+		"message": "คืนค่าการตั้งค่าเริ่มต้นแล้ว",
+		"description": "Reset done message"
+	},
+	"exportDone": {
+		"message": "ส่งออกการตั้งค่าแล้ว",
+		"description": "Export done message"
+	},
+	"importDone": {
+		"message": "นำเข้าการตั้งค่าแล้ว",
+		"description": "Import done message"
+	},
+	"importFailed": {
+		"message": "นำเข้าล้มเหลว: ไฟล์การกำหนดค่าไม่ถูกต้อง",
+		"description": "Import failed message"
+	},
+	"importFailedSyncError": {
+		"message": "การนำเข้าล้มเหลว: ข้อผิดพลาดในการซิงค์ โปรดตรวจสอบสถานะเบราว์เซอร์",
+		"description": "Import failed sync error message"
+	},
+	"invalidDomain": {
+		"message": "โปรดป้อนโดเมนที่ถูกต้อง",
+		"description": "Invalid domain message"
+	},
+	"domainExists": {
+		"message": "โดเมนนี้อยู่ในบัญชีดำแล้ว",
+		"description": "Domain already in blacklist"
+	},
+	"about": {
+		"message": "เกี่ยวกับ",
+		"description": "About section"
+	},
+	"language": {
+		"message": "ภาษา",
+		"description": "Language"
+	},
+	"languageAuto": {
+		"message": "ตามระบบ",
+		"description": "Follow system language"
+	},
+	"privacyFriendly": {
+		"message": "เป็นมิตรกับความเป็นส่วนตัว",
+		"description": "Privacy friendly"
+	},
+	"localOnly": {
+		"message": "ทำงานในเครื่องเท่านั้น",
+		"description": "Local only"
+	},
+	"autoSave": {
+		"message": "บันทึกอัตโนมัติ",
+		"description": "Auto save"
+	},
+	"gestureDesc_L": {
+		"message": "ซ้าย",
+		"description": "Gesture description for ←"
+	},
+	"gestureDesc_R": {
+		"message": "ขวา",
+		"description": "Gesture description for →"
+	},
+	"gestureDesc_U": {
+		"message": "ขึ้น",
+		"description": "Gesture description for ↑"
+	},
+	"gestureDesc_D": {
+		"message": "ลง",
+		"description": "Gesture description for ↓"
+	},
+	"gestureDesc_DR": {
+		"message": "ลงแล้วขวา",
+		"description": "Gesture description for ↓→"
+	},
+	"gestureDesc_LU": {
+		"message": "ซ้ายแล้วขึ้น",
+		"description": "Gesture description for ←↑"
+	},
+	"gestureDesc_RU": {
+		"message": "ขวาแล้วขึ้น",
+		"description": "Gesture description for →↑"
+	},
+	"gestureDesc_RD": {
+		"message": "ขวาแล้วลง",
+		"description": "Gesture description for →↓"
+	},
+	"gestureDesc_UL": {
+		"message": "ขึ้นแล้วซ้าย",
+		"description": "Gesture description for ↑←"
+	},
+	"gestureDesc_UR": {
+		"message": "ขึ้นแล้วขวา",
+		"description": "Gesture description for ↑→"
+	},
+	"gestureDesc_DL": {
+		"message": "ลงแล้วซ้าย",
+		"description": "Gesture description for ↓←"
+	},
+	"gestureDesc_LD": {
+		"message": "ซ้ายแล้วลง",
+		"description": "Gesture description for ←↓"
+	},
+	"gestureDesc_UD": {
+		"message": "ขึ้นแล้วลง",
+		"description": "Gesture description for ↑↓"
+	},
+	"gestureDesc_DU": {
+		"message": "ลงแล้วขึ้น",
+		"description": "Gesture description for ↓↑"
+	},
+	"gestureDesc_LR": {
+		"message": "ซ้ายแล้วขวา",
+		"description": "Gesture description for ←→"
+	},
+	"gestureDesc_RL": {
+		"message": "ขวาแล้วซ้าย",
+		"description": "Gesture description for →←"
+	},
+	"actionNone": {
+		"message": "ไม่มีการกระทำ",
+		"description": "No action"
+	},
+	"actionBack": {
+		"message": "ย้อนกลับ",
+		"description": "Go back"
+	},
+	"actionForward": {
+		"message": "ไปข้างหน้า",
+		"description": "Go forward"
+	},
+	"actionScrollUp": {
+		"message": "เลื่อนขึ้น",
+		"description": "Scroll up"
+	},
+	"actionScrollDown": {
+		"message": "เลื่อนลง",
+		"description": "Scroll down"
+	},
+	"actionScrollToTop": {
+		"message": "เลื่อนไปบนสุด",
+		"description": "Scroll to top"
+	},
+	"actionScrollToBottom": {
+		"message": "เลื่อนไปล่างสุด",
+		"description": "Scroll to bottom"
+	},
+	"actionCloseTab": {
+		"message": "ปิดแท็บ",
+		"description": "Close tab"
+	},
+	"actionCloseTabKeepWindow": {
+		"message": "ปิดแท็บ (คงหน้าต่างไว้)",
+		"description": "Close tab but keep window open"
+	},
+	"actionCloseBrowser": {
+		"message": "ปิดเบราว์เซอร์",
+		"description": "Close browser"
+	},
+	"actionRestoreTab": {
+		"message": "กู้คืนแท็บที่ปิดไป",
+		"description": "Restore closed tab"
+	},
+	"actionNewTab": {
+		"message": "แท็บใหม่",
+		"description": "New tab"
+	},
+	"actionCloseOtherTabs": {
+		"message": "ปิดแท็บอื่น",
+		"description": "Close other tabs"
+	},
+	"actionCloseLeftTabs": {
+		"message": "ปิดแท็บทางซ้าย",
+		"description": "Close tabs to the left"
+	},
+	"actionCloseRightTabs": {
+		"message": "ปิดแท็บทางขวา",
+		"description": "Close tabs to the right"
+	},
+	"actionCloseAllTabs": {
+		"message": "ปิดแท็บทั้งหมด",
+		"description": "Close all tabs"
+	},
+	"actionSwitchLeftTab": {
+		"message": "สลับไปแท็บซ้าย",
+		"description": "Switch to left tab"
+	},
+	"actionSwitchRightTab": {
+		"message": "สลับไปแท็บขวา",
+		"description": "Switch to right tab"
+	},
+	"actionRefresh": {
+		"message": "รีเฟรชแท็บปัจจุบัน",
+		"description": "Refresh current tab"
+	},
+	"actionRefreshAllTabs": {
+		"message": "รีเฟรชทุกแท็บ",
+		"description": "Refresh all tabs"
+	},
+	"actionStopLoading": {
+		"message": "หยุดโหลด",
+		"description": "Stop loading"
+	},
+	"actionNewWindow": {
+		"message": "หน้าต่างใหม่",
+		"description": "New window"
+	},
+	"actionNewIncognito": {
+		"message": "หน้าต่างไม่ระบุตัวตนใหม่",
+		"description": "New incognito window"
+	},
+	"actionAddToBookmarks": {
+		"message": "เพิ่มในบุ๊กมาร์ก",
+		"description": "Add to bookmarks"
+	},
+	"actionToggleFullscreen": {
+		"message": "สลับโหมดเต็มหน้าจอ",
+		"description": "Toggle fullscreen"
+	},
+	"actionToggleMaximize": {
+		"message": "สลับขยายเต็มหน้าต่าง/คืนค่า",
+		"description": "Toggle window maximize"
+	},
+	"actionMinimize": {
+		"message": "ย่อหน้าต่าง",
+		"description": "Minimize window"
+	},
+	"actionOpenCustomUrl": {
+		"message": "เปิด URL ที่กำหนดเอง",
+		"description": "Open custom URL"
+	},
+	"actionCopyUrl": {
+		"message": "คัดลอก URL ปัจจุบัน",
+		"description": "Copy current URL"
+	},
+	"actionCopyTitle": {
+		"message": "คัดลอกชื่อหน้า",
+		"description": "Copy page title"
+	},
+	"actionOpenDownloads": {
+		"message": "เปิดหน้าดาวน์โหลด",
+		"description": "Open downloads page"
+	},
+	"actionOpenHistory": {
+		"message": "เปิดประวัติการเข้าชม",
+		"description": "Open history page"
+	},
+	"actionOpenExtensions": {
+		"message": "เปิดส่วนขยาย",
+		"description": "Open extensions page"
+	},
+	"actionPrintPage": {
+		"message": "พิมพ์หน้านี้",
+		"description": "Print page"
+	},
+	"actionDuplicateTab": {
+		"message": "ทำซ้ำแท็บ",
+		"description": "Duplicate current tab"
+	},
+	"actionToggleMuteTab": {
+		"message": "ปิดเสียง/เลิกปิดเสียงแท็บปัจจุบัน",
+		"description": "Toggle mute current tab"
+	},
+	"actionToggleMuteAllTabs": {
+		"message": "ปิดเสียง/เลิกปิดเสียงทุกแท็บ",
+		"description": "Toggle mute all tabs"
+	},
+	"showTrailOrigin": {
+		"message": "แสดงจุดเริ่มต้น",
+		"description": "Show trail origin point"
+	},
+	"enableTrailSmooth": {
+		"message": "เส้นทางเรียบเนียน",
+		"description": "Enable trail smoothing for gesture visualization"
+	},
+	"distanceThreshold": {
+		"message": "ระยะห่างการจดจำท่าทาง",
+		"description": "Gesture recognition distance"
+	},
+	"distanceThresholdDesc": {
+		"message": "ระยะการเคลื่อนที่ขั้นต่ำเพื่อจดจำท่าทาง",
+		"description": "Description for gesture recognition distance"
+	},
+	"distanceThresholdNotice": {
+		"message": "คำแนะนำ: แนะนำให้ตั้งค่าระหว่าง 15-30 เพื่อประสิทธิภาพในการจดจำท่าทางที่ดีที่สุด",
+		"description": "Warning when distance threshold is too small or too large"
+	},
+	"enableAdvancedSettings": {
+		"message": "การตั้งค่าขั้นสูง",
+		"description": "Enable advanced settings"
+	},
+	"enableAdvancedSettingsDesc": {
+		"message": "แสดงตัวเลือกขั้นสูงเพิ่มเติมเมื่อเปิดใช้งาน",
+		"description": "Show more advanced options when enabled"
+	},
+	"enableAdvancedSettingsToggle": {
+		"message": "โหมดการตั้งค่าขั้นสูง",
+		"description": "Enable advanced settings toggle label"
+	},
+	"urlFormatError": {
+		"message": "โปรดป้อน URL แบบเต็มที่ขึ้นต้นด้วย http:// หรือ https://",
+		"description": "URL format error message"
+	},
+	"resetToDefault": {
+		"message": "คืนค่าเริ่มต้น",
+		"description": "Reset gesture to default action"
+	},
+	"addCustomGesture": {
+		"message": "เพิ่มท่าทางที่กำหนดเอง",
+		"description": "Add custom gesture section title"
+	},
+	"gesturePattern": {
+		"message": "รูปแบบท่าทาง",
+		"description": "Gesture pattern label"
+	},
+	"selectAction": {
+		"message": "เลือกการกระทำ",
+		"description": "Select action label"
+	},
+	"clear": {
+		"message": "ล้าง",
+		"description": "Clear button"
+	},
+	"addGesture": {
+		"message": "เพิ่มท่าทาง",
+		"description": "Add gesture button"
+	},
+	"pleaseDrawGesture": {
+		"message": "โปรดวาดท่าทางก่อน",
+		"description": "Alert when no gesture drawn"
+	},
+	"gestureAdded": {
+		"message": "✓ เพิ่มท่าทางแล้ว",
+		"description": "Gesture added success message"
+	},
+	"gestureDrawInstructions": {
+		"message": "กดคลิกขวาค้างไว้แล้ววาดท่าทางด้านล่าง ปล่อยเพื่อเสร็จสิ้น ทิศทางที่รองรับ:",
+		"description": "Instructions for gesture drawing"
+	},
+	"gestureOverwriteConfirm": {
+		"message": "ท่าทาง %pattern% มีอยู่แล้ว ต้องการเขียนทับหรือไม่?",
+		"description": "Confirmation message when adding a duplicate gesture"
+	},
+	"customGesture": {
+		"message": "กำหนดเอง",
+		"description": "Label for custom gestures"
+	},
+	"deleteGesture": {
+		"message": "ลบท่าทาง",
+		"description": "Delete gesture button tooltip"
+	},
+	"deleteGestureConfirm": {
+		"message": "ต้องการลบท่าทาง %pattern% หรือไม่?",
+		"description": "Delete gesture confirmation"
+	},
+	"gestureDeleted": {
+		"message": "✓ ลบท่าทางแล้ว",
+		"description": "Gesture deleted success message"
+	},
+	"enterCustomUrl": {
+		"message": "ป้อน URL (แนะนำให้ระบุโปรโตคอล เช่น https://, chrome:// ฯลฯ):",
+		"description": "Prompt for custom URL input"
+	},
+	"invalidUrl": {
+		"message": "โปรดป้อน URL ที่ถูกต้อง (ขึ้นต้นด้วย http:// หรือ https://)",
+		"description": "Invalid URL error message"
+	},
+	"popupTrail": {
+		"message": "เส้นทางท่าทาง",
+		"description": "Gesture trail in popup"
+	},
+	"popupHint": {
+		"message": "คำแนะนำการกระทำ",
+		"description": "Action hint in popup"
+	},
+	"popupCommonGestures": {
+		"message": "ท่าทางทั่วไป",
+		"description": "Common gestures"
+	},
+	"popupCurrentSite": {
+		"message": "ไซต์ปัจจุบัน",
+		"description": "Current site"
+	},
+	"popupRestricted": {
+		"message": "หน้าเว็บที่ถูกจำกัด",
+		"description": "Restricted page"
+	},
+	"popupDisabled": {
+		"message": "ถูกปิดการใช้งาน",
+		"description": "Disabled"
+	},
+	"popupAddBlacklist": {
+		"message": "เพิ่มลงในบัญชีดำ",
+		"description": "Add to blacklist"
+	},
+	"popupRemoveBlacklist": {
+		"message": "ลบออกจากบัญชีดำ",
+		"description": "Remove from blacklist"
+	},
+	"popupNotAvailable": {
+		"message": "ไม่สามารถใช้งานได้",
+		"description": "Not available"
+	},
+	"popupBack": {
+		"message": "กลับ",
+		"description": "Back - short"
+	},
+	"popupForward": {
+		"message": "ไปหน้า",
+		"description": "Forward - short"
+	},
+	"popupScrollUp": {
+		"message": "ขึ้น",
+		"description": "Scroll up - short"
+	},
+	"popupScrollDown": {
+		"message": "ลง",
+		"description": "Scroll down - short"
+	},
+	"popupClose": {
+		"message": "ปิด",
+		"description": "Close Tab - short"
+	},
+	"popupRestore": {
+		"message": "กู้คืน",
+		"description": "Restore Tab - short"
+	},
+	"dragSearchText": {
+		"message": "🔍 ค้นหาด้วยการลาก",
+		"description": "Drag search hint"
+	},
+	"dragOpenImage": {
+		"message": "🖼️ เปิดรูปภาพ",
+		"description": "Drag open image hint"
+	},
+	"dragOpenLink": {
+		"message": "🔗 เปิดลิงก์",
+		"description": "Drag open link hint"
+	},
+	"aboutTitle": {
+		"message": "เกี่ยวกับ FlowMouse",
+		"description": "About title"
+	},
+	"aboutAuthor": {
+		"message": "ผู้เขียน",
+		"description": "Author"
+	},
+	"aboutWebsite": {
+		"message": "เว็บไซต์",
+		"description": "Website"
+	},
+	"aboutOpenSource": {
+		"message": "GitHub",
+		"description": "GitHub link"
+	},
+	"aboutEmail": {
+		"message": "อีเมล",
+		"description": "Email"
+	},
+	"aboutPrivacy": {
+		"message": "คำชี้แจงความเป็นส่วนตัว",
+		"description": "Privacy statement"
+	},
+	"aboutPrivacyText": {
+		"message": "ส่วนขยายนี้เป็นโครงการโอเพ่นซอร์สที่มีรหัสโฮสต์บน GitHub ยินดีต้อนรับการตรวจสอบและการมีส่วนร่วม การประมวลผลข้อมูลทั้งหมดทำในเครื่องของคุณ ส่วนขยายนี้ไม่มีการเชื่อมต่อเครือข่ายและไม่มีเซิร์ฟเวอร์แบ็คเอนด์ จึงไม่รวบรวมหรืออัปโหลดข้อมูลผู้ใช้ใดๆ ไปยังเซิร์ฟเวอร์ภายนอก การตั้งค่าที่คุณบันทึกไว้จะถูกเข้ารหัสและซิงค์ระหว่างอุปกรณ์ที่คุณลงชื่อเข้าใช้ผ่านบริการซิงค์ของเบราว์เซอร์ %browserName% กระบวนการนี้ถูกควบคุมโดยเบราว์เซอร์ทั้งหมดและเป็นไปตามการตั้งค่าความเป็นส่วนตัวและการซิงค์ของเบราว์เซอร์ของคุณ",
+		"description": "Privacy statement text"
+	},
+	"aboutCredits": {
+		"message": "เครดิต",
+		"description": "Credits"
+	},
+	"aboutCreditsText": {
+		"message": "ขอขอบคุณ Microsoft Edge browser และส่วนขยาย crxMouse สำหรับแรงบันดาลใจในการออกแบบ\nขอขอบคุณชุมชน 52pojie.cn และผู้ใช้ทุกท่านสำหรับข้อเสนอแนะ!",
+		"description": "Credits text"
+	},
+	"aboutFeatures": {
+		"message": "ฟีเจอร์",
+		"description": "Features"
+	},
+	"aboutFeature1": {
+		"message": "🎯 16 ท่าทางเริ่มต้น + ท่าทางกำหนดเอง",
+		"description": "Feature 1"
+	},
+	"aboutFeature2": {
+		"message": "🎨 การแสดงเส้นทางท่าทาง",
+		"description": "Feature 2"
+	},
+	"aboutFeature3": {
+		"message": "🔍 Super Drag ข้อความ/รูปภาพ/ลิงก์",
+		"description": "Feature 3"
+	},
+	"aboutFeature4": {
+		"message": "🚫 บัญชีดำเว็บไซต์",
+		"description": "Feature 4"
+	},
+	"aboutFeature5": {
+		"message": "☁️ ซิงค์ผ่านบัญชี %browserName%",
+		"description": "Feature 5"
+	},
+	"aboutFeature6": {
+		"message": "🔒 ทำงานในเครื่อง ไม่มีการเชื่อมต่อเครือข่ายยกเว้นการซิงค์",
+		"description": "Feature 6"
+	},
+	"tutorial": {
+		"message": "บทช่วยสอน",
+		"description": "Tutorial link"
+	},
+	"learnMore": {
+		"message": "เรียนรู้เพิ่มเติม",
+		"description": "Learn more link"
+	},
+	"badgeNoNetwork": {
+		"message": "🔒 ไม่มีการเชื่อมต่อเครือข่ายยกเว้นซิงค์",
+		"description": "No network privacy badge"
+	},
+	"badgeNoData": {
+		"message": "🚫 ไม่มีการรวบรวมข้อมูล",
+		"description": "No data collection badge"
+	},
+	"badgeLocalRun": {
+		"message": "✅ ทำงานในเครื่อง",
+		"description": "Local run badge"
+	},
+	"newTabSettings": {
+		"message": "การตั้งค่าเปิดแท็บใหม่",
+		"description": "New tab open settings"
+	},
+	"newTabPosition": {
+		"message": "ตำแหน่ง",
+		"description": "New tab position"
+	},
+	"tabPositionRight": {
+		"message": "ขวาของแท็บปัจจุบัน",
+		"description": "Right of current tab"
+	},
+	"tabPositionLeft": {
+		"message": "ซ้ายของแท็บปัจจุบัน",
+		"description": "Left of current tab"
+	},
+	"tabPositionFirst": {
+		"message": "แท็บแรก (ซ้ายสุด)",
+		"description": "First tab (leftmost)"
+	},
+	"tabPositionLast": {
+		"message": "แท็บสุดท้าย (ขวาสุด)",
+		"description": "Last tab (rightmost)"
+	},
+	"tabPositionCurrent": {
+		"message": "แท็บปัจจุบัน",
+		"description": "Open in current tab"
+	},
+	"newTabActive": {
+		"message": "เปิดในเบื้องหน้า",
+		"description": "Open tab in foreground"
+	},
+	"textDragGestures": {
+		"message": "ท่าทางลากข้อความ",
+		"description": "Text drag gestures"
+	},
+	"linkDragGestures": {
+		"message": "ท่าทางลากลิงก์",
+		"description": "Link drag gestures"
+	},
+	"imageDragGestures": {
+		"message": "ท่าทางลากรูปภาพ",
+		"description": "Image drag gestures"
+	},
+	"direction": {
+		"message": "ทิศทาง",
+		"description": "Direction column header"
+	},
+	"action": {
+		"message": "การกระทำ",
+		"description": "Action column header"
+	},
+	"imageSearchUrl": {
+		"message": "URL ค้นหารูปภาพ (%s = URL รูปภาพ)",
+		"description": "Image search URL input"
+	},
+	"dragActionNone": {
+		"message": "ไม่มี",
+		"description": "No action"
+	},
+	"dragActionSearch": {
+		"message": "🔍 เครื่องมือค้นหา",
+		"description": "Search action"
+	},
+	"dragActionCopy": {
+		"message": "📋 คัดลอก",
+		"description": "Copy action"
+	},
+	"dragActionOpenTab": {
+		"message": "📑 เปิดในแท็บใหม่",
+		"description": "Open in new tab"
+	},
+	"dragActionOpenTabLink": {
+		"message": "🔗 เปิดลิงก์",
+		"description": "Open link in new tab"
+	},
+	"dragActionOpenTabImage": {
+		"message": "🖼️ เปิดรูปภาพ",
+		"description": "Open image in new tab"
+	},
+	"dragActionCopyLink": {
+		"message": "📋 คัดลอกลิงก์",
+		"description": "Copy link"
+	},
+	"dragActionSaveImage": {
+		"message": "💾 บันทึกรูปภาพ",
+		"description": "Save image"
+	},
+	"dragActionCopyImage": {
+		"message": "🖼️ คัดลอกรูปภาพ",
+		"description": "Copy image"
+	},
+	"dragActionCopyImageUrl": {
+		"message": "📋 คัดลอก URL รูปภาพ",
+		"description": "Copy image URL"
+	},
+	"dragActionImageSearch": {
+		"message": "🔍 ค้นหารูปภาพ",
+		"description": "Image search"
+	},
+	"dragActionCustomSearch": {
+		"message": "🔍 ค้นหาแบบกำหนดเอง",
+		"description": "Custom search"
+	},
+	"reducedMotionWarning": {
+		"message": "⚠️ ภาพเคลื่อนไหวของระบบ %OS% ถูกปิดใช้งาน การเลื่อนแบบมีภาพเคลื่อนไหวอาจทำงานไม่ถูกต้อง คุณสามารถเปิดใช้งานภาพเคลื่อนไหวในการตั้งค่าระบบ %OS%",
+		"description": "Warning message when system reduced motion is enabled"
+	},
+	"autoDetectUrl": {
+		"message": "ตรวจจับ URL อัตโนมัติ",
+		"description": "Auto detect URL checkbox label"
+	},
+	"preferLink": {
+		"message": "เลือกลิงก์ก่อน",
+		"description": "Prefer link checkbox label"
+	},
+	"menuNeedRefresh": {
+		"message": "FlowMouse ยังไม่โหลด คลิกเพื่อรีเฟรช",
+		"description": "Context menu title for pages needing refresh"
+	},
+	"menuRestricted": {
+		"message": "FlowMouse ไม่สามารถใช้งานได้ เรียนรู้เพิ่มเติม",
+		"description": "Context menu title for restricted pages"
+	},
+	"showRestrictedNotice": {
+		"message": "แจ้งเตือนหน้าเว็บที่ถูกจำกัด",
+		"description": "Setting title for restricted page notice"
+	},
+	"showRestrictedNoticeDesc": {
+		"message": "แสดงแจ้งเตือนเมนูบริบทในหน้าเว็บที่ไม่สามารถใช้ท่าทางได้",
+		"description": "Setting description for restricted page notice"
+	},
+	"restrictedPagesDetailsTitle": {
+		"message": "⚠️ เนื่องจากนโยบายความปลอดภัยของเบราว์เซอร์ ส่วนขยายไม่สามารถทำงานในหน้าเว็บเฉพาะบางประเภทได้",
+		"description": "Collapsible details title"
+	},
+	"showMoreHint": {
+		"message": " (แสดงรายละเอียด)",
+		"description": "Hint to show more details"
+	},
+	"restrictedNewTab": {
+		"message": "หน้าแท็บใหม่ (chrome://newtab)",
+		"description": "New tab page title"
+	},
+	"restrictedNewTabDesc": {
+		"message": "หน้าแท็บใหม่เริ่มต้นของเบราว์เซอร์เป็นหน้าเว็บระบบที่ได้รับความคุ้มครอง ส่วนขยายไม่สามารถแทรกสคริปต์หรือแก้ไขเนื้อหาได้",
+		"description": "New tab page description"
+	},
+	"restrictedStore": {
+		"message": "ร้านค้าส่วนขยายอย่างเป็นทางการ",
+		"description": "Store page title"
+	},
+	"restrictedStoreDesc": {
+		"message": "ตัวอย่างเช่น %storeInfo% ฯลฯ เบราว์เซอร์ป้องกันไม่ให้ส่วนขยายทำงานบนหน้าเหล่านี้เพื่อปกป้องการทำงานปกติของร้านค้า",
+		"description": "Store page description"
+	},
+	"restrictedInternal": {
+		"message": "หน้าภายในของเบราว์เซอร์",
+		"description": "Internal page title"
+	},
+	"restrictedInternalDesc": {
+		"message": "หน้าทั้งหมดที่ขึ้นต้นด้วย chrome:// (Chrome) หรือ edge:// (Edge) รวมถึงการตั้งค่า ประวัติการเข้าชม การดาวน์โหลด ฯลฯ หน้าเหล่านี้เกี่ยวข้องกับฟังก์ชันหลักของเบราว์เซอร์และข้อมูลความเป็นส่วนตัวของผู้ใช้ จึงได้รับการป้องกันอย่างเข้มงวด",
+		"description": "Internal page description"
+	},
+	"restrictedFile": {
+		"message": "หน้าไฟล์ในเครื่อง (file://)",
+		"description": "File page title"
+	},
+	"restrictedFileDesc": {
+		"message": "ไฟล์ HTML ในเครื่องที่เปิดผ่านโปรโตคอล file:// เนื่องจากข้อจำกัดด้านความปลอดภัย (ป้องกันส่วนขยายที่เป็นอันตรายจากการเข้าถึงระบบไฟล์ในเครื่อง) ส่วนขยายจึงไม่สามารถทำงานบนหน้าเหล่านี้ได้",
+		"description": "File page description"
+	},
+	"restrictedViewSource": {
+		"message": "หน้าดูซอร์สโค้ด (view-source:)",
+		"description": "View source page title"
+	},
+	"restrictedViewSourceDesc": {
+		"message": "ตัวดูซอร์สโค้ดของเบราว์เซอร์ก็เป็นหน้าเว็บระบบที่ได้รับความคุ้มครองเช่นกัน ส่วนขยายไม่สามารถทำงานที่นี่ได้",
+		"description": "View source page description"
+	},
+	"restrictedOther": {
+		"message": "หน้า Web ที่ได้รับผลกระทบอื่นๆ ที่พบน้อยกว่าจะไม่ถูกแยกรายการ",
+		"description": "Other restricted pages note"
+	},
+	"popupNeedRefresh": {
+		"message": "ส่วนขยายยังไม่โหลด",
+		"description": "Popup title when content script not loaded"
+	},
+	"popupNeedRefreshDesc": {
+		"message": "หน้านี้ถูกเปิดก่อนติดตั้ง/อัปเดตส่วนขยาย รีเฟรชเพื่อเปิดใช้งานท่าทาง",
+		"description": "Popup description when content script not loaded"
+	},
+	"popupRefreshBtn": {
+		"message": "🔄 รีเฟรชหน้า",
+		"description": "Popup refresh button text"
+	},
+	"popupRestrictedTitle": {
+		"message": "ไม่สามารถใช้ท่าทางได้",
+		"description": "Popup title for restricted pages"
+	},
+	"popupRestrictedDesc": {
+		"message": "หน้านี้ไม่สามารถใช้ท่าทางได้เนื่องจากข้อจำกัดความปลอดภัยของเบราว์เซอร์",
+		"description": "Popup description for restricted pages"
+	},
+	"popupLearnMore": {
+		"message": "📖 เรียนรู้เพิ่มเติม",
+		"description": "Popup learn more button text"
+	},
+	"tutorialPending": {
+		"message": "ลองเลย",
+		"description": "Tutorial pending status"
+	},
+	"tutorialCompleted": {
+		"message": "เสร็จสิ้น",
+		"description": "Tutorial completed status"
+	},
+	"tutorialClickToStart": {
+		"message": "คลิก <span class=\"text-highlight\">ปุ่มเมาส์ขวา</span> เพื่อเริ่ม",
+		"description": "Tutorial Step 0 instruction"
+	},
+	"tutorialWelcomeTitle": {
+		"message": "ยินดีต้อนรับสู่ FlowMouse",
+		"description": "Tutorial welcome title"
+	},
+	"tutorialWelcomeSubtitle": {
+		"message": "เรียนรู้พื้นฐานใน 30 วินาทีเพื่อการท่องเว็บที่ลื่นไหลและเข้าใจง่าย",
+		"description": "Tutorial welcome subtitle"
+	},
+	"tutorialStep1Title": {
+		"message": "พื้นฐาน",
+		"description": "Tutorial Step 1 title"
+	},
+	"tutorialStep1Subtitle": {
+		"message": "เรียนรู้กลไกท่าทางหลัก",
+		"description": "Tutorial Step 1 subtitle"
+	},
+	"tutorialStep1InstructionIdle": {
+		"message": "กด <span class=\"text-highlight\">ปุ่มเมาส์ขวา</span> ค้างไว้",
+		"description": "Tutorial Step 1 instruction idle"
+	},
+	"tutorialStep1InstructionPressing": {
+		"message": "<strong>ยอดเยี่ยม!</strong> ตอนนี้ลากไปทาง <strong>%arrow% ขวา</strong>",
+		"description": "Tutorial Step 1 instruction pressing"
+	},
+	"tutorialStep1InstructionDragging": {
+		"message": "ลากต่อไป...",
+		"description": "Tutorial Step 1 instruction dragging"
+	},
+	"tutorialStep1InstructionReleasing": {
+		"message": "<strong>เยี่ยมมาก!</strong> ตอนนี้ปล่อย!",
+		"description": "Tutorial Step 1 instruction releasing"
+	},
+	"tutorialStep2Title": {
+		"message": "ท่าทาง FlowMouse",
+		"description": "Tutorial Step 2 title"
+	},
+	"tutorialStep2Subtitle": {
+		"message": "กด <span class=\"text-highlight\">ปุ่มเมาส์ขวา</span> ค้างไว้เพื่อทำท่าทาง",
+		"description": "Tutorial Step 2 subtitle"
+	},
+	"tutorialStep2Footer": {
+		"message": "<strong>ท่าทางเพิ่มเติม</strong> และ <strong>การปรับแต่งเต็มรูปแบบ</strong> มีให้ในการตั้งค่า",
+		"description": "Footer note for step 2 discovery banner"
+	},
+	"tutorialStep2DiscoveryHeader": {
+		"message": "ท่าทางเพิ่มเติม",
+		"description": "Header for step 2 discovery banner"
+	},
+	"tutorialStep3DiscoveryHeader": {
+		"message": "ฟีเจอร์ Super Drag เพิ่มเติม",
+		"description": "Header for step 3 discovery banner"
+	},
+	"tutorialStep3TextSearch": {
+		"message": "ข้อความ <span class=\"svg-arrow\">→</span> ค้นหา",
+		"description": "Text drag search discovery item"
+	},
+	"tutorialStep3LinkOpen": {
+		"message": "ลิงก์ <span class=\"svg-arrow\">→</span> เปิดในแท็บใหม่",
+		"description": "Link drag open discovery item"
+	},
+	"tutorialStep3ImageOpen": {
+		"message": "รูปภาพ <span class=\"svg-arrow\">→</span> เปิดในแท็บใหม่",
+		"description": "Image drag open discovery item"
+	},
+	"tutorialStep3Footer": {
+		"message": "<strong>การลากเพิ่มเติม</strong> และ <strong>การปรับแต่งเต็มรูปแบบ</strong> มีให้ในโหมดการตั้งค่าขั้นสูง",
+		"description": "Footer for step 3 discovery banner"
+	},
+	"tutorialContinue": {
+		"message": "ดำเนินการต่อ",
+		"description": "Tutorial continue button"
+	},
+	"tutorialStep3Title": {
+		"message": "Super Drag",
+		"description": "Tutorial Step 3 title"
+	},
+	"tutorialStep3Subtitle": {
+		"message": "กด <span class=\"text-highlight\">ปุ่มเมาส์ซ้าย</span> ค้างไว้แล้วลาก <span class=\"svg-arrow\">→</span> เพื่อดำเนินการอย่างรวดเร็ว",
+		"description": "Tutorial Step 3 subtitle"
+	},
+	"tutorialStep3HintTitle": {
+		"message": "การค้นหาด้วยการเลือกข้อความ",
+		"description": "Tutorial Step 3 hint title"
+	},
+	"tutorialStep3HintDesc": {
+		"message": "เลือกข้อความ จากนั้นใช้ <span class=\"text-highlight\">ปุ่มเมาส์ซ้าย</span> ลาก <span class=\"svg-arrow\">→</span> เพื่อค้นหา",
+		"description": "Tutorial Step 3 hint description. Note: Must drag to right. Use SVG arrow instead of text for direction."
+	},
+	"tutorialStep3TextBoxLabel": {
+		"message": "ลองกับข้อความด้านล่าง!",
+		"description": "Tutorial Step 3 text box label"
+	},
+	"tutorialStep3SelectableText": {
+		"message": "FlowMouse Super Drag",
+		"description": "Tutorial Step 3 selectable text"
+	},
+	"tutorialStep4Title": {
+		"message": "ยินดีด้วย!",
+		"description": "Tutorial Step 4 title"
+	},
+	"tutorialStep4Subtitle": {
+		"message": "คุณเคลื่อนไหวไปตาม Flow แล้ว",
+		"description": "Tutorial Step 4 subtitle"
+	},
+	"tutorialStep4Instruction": {
+		"message": "ใช้ <span class=\"text-highlight\">Super Drag <span class=\"svg-arrow\">→</span></span> บนลิงก์นี้เพื่อเปิดใน <span class=\"text-highlight\">แท็บใหม่</span>",
+		"description": "Tutorial Step 4 instruction. Note: Must drag to right. Use SVG arrow instead of text for direction."
+	},
+	"tutorialSettingsLink": {
+		"message": "การตั้งค่า FlowMouse",
+		"description": "Tutorial settings link"
+	},
+	"tutorialSettingsHint": {
+		"message": "ยังมีฟีเจอร์ทรงพลังอีกมากมายรอให้คุณสำรวจ!",
+		"description": "Tutorial settings hint"
+	},
+	"tutorialWrongDirection": {
+		"message": "ผิดทิศทาง! ลากไปทาง %arrow% ขวา",
+		"description": "Tutorial wrong direction error"
+	},
+	"tutorialEarlyRelease": {
+		"message": "ปล่อยเร็วเกินไป! ลองอีกครั้ง",
+		"description": "Tutorial early release error"
+	},
+	"tutorialDragWrongButton": {
+		"message": "ใช้ <span class=\"text-highlight\">ปุ่มเมาส์ซ้าย</span> เพื่อลาก",
+		"description": "Tutorial drag wrong button error"
+	},
+	"tutorialRefreshTip": {
+		"message": "เคล็ดลับ: แท็บที่เปิดก่อนติดตั้งจำเป็นต้อง <span class=\"text-highlight\">รีเฟรช</span> เพื่อใช้ FlowMouse",
+		"description": "Tip about refreshing tabs"
+	},
+	"permissionBookmarksTitle": {
+		"message": "จัดการบุ๊กมาร์ก",
+		"description": "Permission popup title for bookmarks"
+	},
+	"permissionBookmarksDesc": {
+		"message": "เพื่อเพิ่มหน้าลงในบุ๊กมาร์ก FlowMouse ต้องการสิทธิ์เข้าถึงบุ๊กมาร์กของคุณ",
+		"description": "Permission popup description for bookmarks"
+	},
+	"permissionDownloadsTitle": {
+		"message": "จัดการการดาวน์โหลด",
+		"description": "Permission popup title for downloads"
+	},
+	"permissionDownloadsDesc": {
+		"message": "เพื่อบันทึกรูปภาพ FlowMouse ต้องการสิทธิ์เข้าถึงการดาวน์โหลดของคุณ",
+		"description": "Permission popup description for downloads"
+	},
+	"permissionDownloadsPageCaptureTitle": {
+		"message": "บันทึกรูปภาพ",
+		"description": "Permission popup title for downloads and page capture"
+	},
+	"permissionDownloadsPageCaptureDesc": {
+		"message": "เพื่อบันทึกรูปภาพ FlowMouse ต้องการสิทธิ์เข้าถึงหน้าเว็บและการดาวน์โหลด",
+		"description": "Permission popup description for downloads and page capture"
+	},
+	"grantPermission": {
+		"message": "ให้สิทธิ์",
+		"description": "Grant permission button"
+	},
+	"grantPermissionCancel": {
+		"message": "ยกเลิก",
+		"description": "Cancel button"
+	},
+	"permissionTitle": {
+		"message": "สิทธิ์ของ FlowMouse",
+		"description": "Generic permission window title"
+	},
+	"tutorialPinHint": {
+		"message": "คลิก<span class='icon-ext'></span><b>ส่วนขยาย</b> แล้ว<span class='icon-pin'></span><b>ปักหมุด</b> FlowMouse เพื่อให้เข้าถึงได้ง่าย!",
+		"description": "Hint to pin the extension in tutorial step 4. Do not add space around icon."
+	},
+	"downloadErrorHotlink": {
+		"message": "บันทึกรูปภาพล้มเหลว เว็บไซต์อาจมีการป้องกัน Hotlink โปรดคลิกขวาที่รูปภาพและเลือก \"บันทึกรูปภาพเป็น...\"",
+		"description": "Toast message when image download fails due to hotlink protection"
+	},
+	"saveImageLoadError": {
+		"message": "บันทึกรูปภาพไม่สำเร็จ: โหลดรูปภาพไม่สำเร็จ",
+		"description": "Toast message when image fails to load before saving"
+	},
+	"saveImageTimeout": {
+		"message": "บันทึกรูปภาพไม่สำเร็จ: หมดเวลาโหลด",
+		"description": "Toast message when image loading times out"
+	}
+}

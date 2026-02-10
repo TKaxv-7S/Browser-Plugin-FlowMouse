@@ -1,0 +1,1238 @@
+{
+	"extName": {
+		"message": "FlowMouse - Гестови мишем",
+		"description": "Extension name"
+	},
+	"extNameShort": {
+		"message": "FlowMouse",
+		"description": "Short extension name for popup"
+	},
+	"extDescription": {
+		"message": "Екстензија за гестове мишем отвореног кода фокусирана на приватност и глатко искуство. Глатки гестови, подршка за супер превлачење, а сви подаци се чувају локално.",
+		"description": "Extension description"
+	},
+	"appearance": {
+		"message": "Изглед",
+		"description": "Appearance section"
+	},
+	"theme": {
+		"message": "Тема",
+		"description": "Theme"
+	},
+	"themeDesc": {
+		"message": "Пребаците између светле и тамне теме",
+		"description": "Theme description"
+	},
+	"themeDark": {
+		"message": "Тамна",
+		"description": "Dark theme"
+	},
+	"themeLight": {
+		"message": "Светла",
+		"description": "Light theme"
+	},
+	"themeAuto": {
+		"message": "Прати систем",
+		"description": "Auto theme - follow system"
+	},
+	"languageDesc": {
+		"message": "Изаберите језик интерфејса",
+		"description": "Language description"
+	},
+	"syncStatus": {
+		"message": "Статус синхронизације",
+		"description": "Sync status"
+	},
+	"syncStatusDesc": {
+		"message": "Синхронизација подешавања путем %browserName% налога",
+		"description": "Sync status description"
+	},
+	"synced": {
+		"message": "Синхронизовано",
+		"description": "Synced"
+	},
+	"author": {
+		"message": "Аутор",
+		"description": "Author"
+	},
+	"privacyNote": {
+		"message": "🔒 Ради локално, без приступа мрежи осим синхронизације, без прикупљања података",
+		"description": "Privacy note in footer"
+	},
+	"supportUsText": {
+		"message": "Свиђа вам се FlowMouse? Молимо вас да нам дате оцену од 5 звездица на %appStoreInfo% да бисте нас подржали!",
+		"description": "Rating text"
+	},
+	"storeNameChrome": {
+		"message": "Chrome веб продавница",
+		"description": "Chrome Web Store name"
+	},
+	"storeNameEdge": {
+		"message": "Edge додаци",
+		"description": "Edge Add-ons name"
+	},
+	"storeNameFirefox": {
+		"message": "Firefox додаци",
+		"description": "Firefox Add-ons name"
+	},
+	"feedbackText": {
+		"message": "Проблеми или предлози? Молимо пријавите путем <a href='mailto:Service@52pojie.cn'>е-поште</a>, <a href='https://github.com/Hmily-LCG/FlowMouse/issues' target='_blank'>GitHub-а</a> или <a href='https://www.52pojie.cn/thread-2080303-1-1.html' target='_blank'>форума</a>. Побољшаћемо то што је пре могуће!",
+		"description": "Feedback text"
+	},
+	"supportAndFeedback": {
+		"message": "Подршка и повратне информације",
+		"description": "Support and Feedback section title"
+	},
+	"feedbackTitle": {
+		"message": "Повратне информације и предлози",
+		"description": "Feedback row title"
+	},
+	"supportUsTitle": {
+		"message": "Подржите нас",
+		"description": "Rating row title"
+	},
+	"backToSettings": {
+		"message": "Назад на подешавања",
+		"description": "Back to settings link"
+	},
+	"settings": {
+		"message": "Подешавања",
+		"description": "Settings"
+	},
+	"moreSettings": {
+		"message": "Више подешавања",
+		"description": "More settings button in popup"
+	},
+	"version": {
+		"message": "Верзија",
+		"description": "Version"
+	},
+	"basicSettings": {
+		"message": "Подешавања гестова",
+		"description": "Gesture settings section"
+	},
+	"enableGesture": {
+		"message": "Омогући гестове",
+		"description": "Enable gesture feature"
+	},
+	"enableGestureDesc": {
+		"message": "Држите десни тастер миша и померите миша да бисте лако извршили гестове",
+		"description": "Hold the right mouse button and move the mouse to easily perform gestures"
+	},
+	"macLinuxContextMenuNotice": {
+		"message": "⚠️ Због системских ограничења, двоструки десни клик је потребан за отварање контекстног менија на macOS / Linux.",
+		"description": "Notice for macOS / Linux users about double right-click for context menu"
+	},
+	"macTextDragNotice": {
+		"message": "⚠️ Због понашања macOS-а, приликом превлачења текста, прво изаберите текст, затим притисните и држите леви тастер кратко пре превлачења. Иначе, претрага се можда неће покренути.",
+		"description": "Notice for macOS users about text drag behavior"
+	},
+	"showTrail": {
+		"message": "Прикажи траг геста",
+		"description": "Show gesture trail"
+	},
+	"showTrailDesc": {
+		"message": "Прикажи линију трага приликом извршавања гестова",
+		"description": "Show trail line when performing gestures"
+	},
+	"showHint": {
+		"message": "Прикажи савет за акцију",
+		"description": "Show action hint"
+	},
+	"showHintDesc": {
+		"message": "Прикажи тренутну акцију геста у центру екрана",
+		"description": "Show current gesture action in center of screen"
+	},
+	"color": {
+		"message": "Боја",
+		"description": "Color"
+	},
+	"width": {
+		"message": "Ширина",
+		"description": "Width/thickness"
+	},
+	"background": {
+		"message": "Позадина",
+		"description": "Background"
+	},
+	"opacity": {
+		"message": "Непровидност",
+		"description": "Opacity"
+	},
+	"text": {
+		"message": "Текст",
+		"description": "Text"
+	},
+	"scrollAmount": {
+		"message": "Удаљеност скроловања",
+		"description": "Scroll amount"
+	},
+	"scrollAmountDesc": {
+		"message": "Удаљеност скроловања за гестове горе/доле (% висине прозора)",
+		"description": "Scroll distance for up/down gestures"
+	},
+	"scrollSmoothness": {
+		"message": "Глаткоћа скроловања",
+		"description": "Scroll smoothness"
+	},
+	"scrollSmoothnessDesc": {
+		"message": "Ефекат анимације скроловања за гестове горе/доле",
+		"description": "Scroll smoothness description"
+	},
+	"smoothnessSystem": {
+		"message": "Систем (Високе перформансе)",
+		"description": "System scroll smoothness"
+	},
+	"smoothnessCustom": {
+		"message": "Глатко",
+		"description": "Custom smooth scrolling"
+	},
+	"smoothnessNone": {
+		"message": "Без анимације",
+		"description": "No scroll animation"
+	},
+	"dragFeatures": {
+		"message": "Функције превлачења",
+		"description": "Drag features section"
+	},
+	"textDragSearch": {
+		"message": "Превлачење текста",
+		"description": "Text drag"
+	},
+	"textDragSearchDesc": {
+		"message": "Превуците изабрани текст за претрагу",
+		"description": "Drag selected text to search"
+	},
+	"searchEngine": {
+		"message": "Претраживач",
+		"description": "Search engine"
+	},
+	"custom": {
+		"message": "Прилагођено",
+		"description": "Custom"
+	},
+	"customUrlPlaceholder": {
+		"message": "Прилагођени URL, користите %s за термин претраге",
+		"description": "Custom URL placeholder"
+	},
+	"urlPlaceholderText": {
+		"message": "%s=Кључна реч",
+		"description": "Placeholder for text drag custom URL"
+	},
+	"urlPlaceholderImage": {
+		"message": "%s=URL слике",
+		"description": "Placeholder for image drag custom URL"
+	},
+	"searchEngine_baidu": {
+		"message": "Baidu",
+		"description": "Baidu search engine"
+	},
+	"searchEngine_360": {
+		"message": "360 Search",
+		"description": "360 search engine"
+	},
+	"searchEngine_yandex": {
+		"message": "Yandex",
+		"description": "Yandex search engine"
+	},
+	"searchEngine_system": {
+		"message": "Подразумевани претраживач",
+		"description": "System default search engine"
+	},
+	"imageDrag": {
+		"message": "Превлачење слике",
+		"description": "Image drag"
+	},
+	"imageDragDesc": {
+		"message": "Превуците слику да је отворите у новој картици",
+		"description": "Drag image to open in new tab"
+	},
+	"linkDrag": {
+		"message": "Превлачење линка",
+		"description": "Link drag"
+	},
+	"linkDragDesc": {
+		"message": "Превуците линк да га отворите у новој картици",
+		"description": "Drag link to open in new tab"
+	},
+	"enableCustomGestures": {
+		"message": "Прилагођени гестови",
+		"description": "Enable custom gestures"
+	},
+	"enableCustomGesturesDesc": {
+		"message": "Прегледајте и прилагодите сваку акцију геста",
+		"description": "View and customize each gesture action"
+	},
+	"gestureAutoSaveHint": {
+		"message": "Савет: Измене се чувају аутоматски.",
+		"description": "Hint about auto-save"
+	},
+	"blacklist": {
+		"message": "Црна листа веб сајтова",
+		"description": "Website blacklist"
+	},
+	"blacklistPlaceholder": {
+		"message": "Унесите домен, нпр. example.com, притисните Enter за додавање",
+		"description": "Blacklist input placeholder"
+	},
+	"add": {
+		"message": "Додај",
+		"description": "Add button"
+	},
+	"emptyBlacklist": {
+		"message": "Нема сајтова на црној листи. Унесите домен изнад за додавање.",
+		"description": "Empty blacklist message"
+	},
+	"dataManagement": {
+		"message": "Управљање подацима",
+		"description": "Data management section"
+	},
+	"export": {
+		"message": "Извоз",
+		"description": "Export settings"
+	},
+	"import": {
+		"message": "Увоз",
+		"description": "Import settings"
+	},
+	"reset": {
+		"message": "Ресетовање",
+		"description": "Reset to default"
+	},
+	"autoSaved": {
+		"message": "✓ Аутоматски сачувано",
+		"description": "Auto-saved message"
+	},
+	"saveFailure": {
+		"message": "Čuvanje nije uspelo",
+		"description": "Save failure message"
+	},
+	"resetConfirm": {
+		"message": "Да ли сте сигурни да желите да ресетујете сва подешавања на подразумеване вредности?",
+		"description": "Reset confirmation"
+	},
+	"resetDone": {
+		"message": "Подешавања ресетована на подразумевана",
+		"description": "Reset done message"
+	},
+	"exportDone": {
+		"message": "Подешавања извезена",
+		"description": "Export done message"
+	},
+	"importDone": {
+		"message": "Подешавања увезена",
+		"description": "Import done message"
+	},
+	"importFailed": {
+		"message": "Увоз није успео: Неважећа датотека конфигурације",
+		"description": "Import failed message"
+	},
+	"importFailedSyncError": {
+		"message": "Увоз није успео: Грешка синхронизације, проверите статус прегледача",
+		"description": "Import failed sync error message"
+	},
+	"invalidDomain": {
+		"message": "Молимо унесите важећи домен",
+		"description": "Invalid domain message"
+	},
+	"domainExists": {
+		"message": "Домен је већ на црној листи",
+		"description": "Domain already in blacklist"
+	},
+	"about": {
+		"message": "О програму",
+		"description": "About section"
+	},
+	"language": {
+		"message": "Језик",
+		"description": "Language"
+	},
+	"languageAuto": {
+		"message": "Прати систем",
+		"description": "Follow system language"
+	},
+	"privacyFriendly": {
+		"message": "Пријатељски према приватности",
+		"description": "Privacy friendly"
+	},
+	"localOnly": {
+		"message": "Само локално",
+		"description": "Local only"
+	},
+	"autoSave": {
+		"message": "Аутоматско чување",
+		"description": "Auto save"
+	},
+	"gestureDesc_L": {
+		"message": "Лево",
+		"description": "Gesture description for ←"
+	},
+	"gestureDesc_R": {
+		"message": "Десно",
+		"description": "Gesture description for →"
+	},
+	"gestureDesc_U": {
+		"message": "Горе",
+		"description": "Gesture description for ↑"
+	},
+	"gestureDesc_D": {
+		"message": "Доле",
+		"description": "Gesture description for ↓"
+	},
+	"gestureDesc_DR": {
+		"message": "Доле па Десно",
+		"description": "Gesture description for ↓→"
+	},
+	"gestureDesc_LU": {
+		"message": "Лево па Горе",
+		"description": "Gesture description for ←↑"
+	},
+	"gestureDesc_RU": {
+		"message": "Десно па Горе",
+		"description": "Gesture description for →↑"
+	},
+	"gestureDesc_RD": {
+		"message": "Десно па Доле",
+		"description": "Gesture description for →↓"
+	},
+	"gestureDesc_UL": {
+		"message": "Горе па Лево",
+		"description": "Gesture description for ↑←"
+	},
+	"gestureDesc_UR": {
+		"message": "Горе па Десно",
+		"description": "Gesture description for ↑→"
+	},
+	"gestureDesc_DL": {
+		"message": "Доле па Лево",
+		"description": "Gesture description for ↓←"
+	},
+	"gestureDesc_LD": {
+		"message": "Лево па Доле",
+		"description": "Gesture description for ←↓"
+	},
+	"gestureDesc_UD": {
+		"message": "Горе па Доле",
+		"description": "Gesture description for ↑↓"
+	},
+	"gestureDesc_DU": {
+		"message": "Доле па Горе",
+		"description": "Gesture description for ↓↑"
+	},
+	"gestureDesc_LR": {
+		"message": "Лево па Десно",
+		"description": "Gesture description for ←→"
+	},
+	"gestureDesc_RL": {
+		"message": "Десно па Лево",
+		"description": "Gesture description for →←"
+	},
+	"actionNone": {
+		"message": "Ништа",
+		"description": "No action"
+	},
+	"actionBack": {
+		"message": "Назад",
+		"description": "Go back"
+	},
+	"actionForward": {
+		"message": "Напред",
+		"description": "Go forward"
+	},
+	"actionScrollUp": {
+		"message": "Скролуј горе",
+		"description": "Scroll up"
+	},
+	"actionScrollDown": {
+		"message": "Скролуј доле",
+		"description": "Scroll down"
+	},
+	"actionScrollToTop": {
+		"message": "Скролуј на врх",
+		"description": "Scroll to top"
+	},
+	"actionScrollToBottom": {
+		"message": "Скролуј на дно",
+		"description": "Scroll to bottom"
+	},
+	"actionCloseTab": {
+		"message": "Затвори картицу",
+		"description": "Close tab"
+	},
+	"actionCloseTabKeepWindow": {
+		"message": "Затвори картицу (Задржи прозор)",
+		"description": "Close tab but keep window open"
+	},
+	"actionCloseBrowser": {
+		"message": "Затвори прегледач",
+		"description": "Close browser"
+	},
+	"actionRestoreTab": {
+		"message": "Поврати затворену картицу",
+		"description": "Restore closed tab"
+	},
+	"actionNewTab": {
+		"message": "Нова картица",
+		"description": "New tab"
+	},
+	"actionCloseOtherTabs": {
+		"message": "Затвори остале картице",
+		"description": "Close other tabs"
+	},
+	"actionCloseLeftTabs": {
+		"message": "Затвори картице са леве стране",
+		"description": "Close tabs to the left"
+	},
+	"actionCloseRightTabs": {
+		"message": "Затвори картице са десне стране",
+		"description": "Close tabs to the right"
+	},
+	"actionCloseAllTabs": {
+		"message": "Затвори све картице",
+		"description": "Close all tabs"
+	},
+	"actionSwitchLeftTab": {
+		"message": "Пребаци на леву картицу",
+		"description": "Switch to left tab"
+	},
+	"actionSwitchRightTab": {
+		"message": "Пребаци на десну картицу",
+		"description": "Switch to right tab"
+	},
+	"actionRefresh": {
+		"message": "Освежи тренутну картицу",
+		"description": "Refresh current tab"
+	},
+	"actionRefreshAllTabs": {
+		"message": "Освежи све картице",
+		"description": "Refresh all tabs"
+	},
+	"actionStopLoading": {
+		"message": "Заустави учитавање",
+		"description": "Stop loading"
+	},
+	"actionNewWindow": {
+		"message": "Нови прозор",
+		"description": "New window"
+	},
+	"actionNewIncognito": {
+		"message": "Нови инкогнито прозор",
+		"description": "New incognito window"
+	},
+	"actionAddToBookmarks": {
+		"message": "Додај у обележиваче",
+		"description": "Add to bookmarks"
+	},
+	"actionToggleFullscreen": {
+		"message": "Укључи/Искључи цео екран",
+		"description": "Toggle fullscreen"
+	},
+	"actionToggleMaximize": {
+		"message": "Укључи/Искључи максимизирање",
+		"description": "Toggle window maximize"
+	},
+	"actionMinimize": {
+		"message": "Минимизирај прозор",
+		"description": "Minimize window"
+	},
+	"actionOpenCustomUrl": {
+		"message": "Отвори прилагођени URL",
+		"description": "Open custom URL"
+	},
+	"actionCopyUrl": {
+		"message": "Копирај тренутни URL",
+		"description": "Copy current URL"
+	},
+	"actionCopyTitle": {
+		"message": "Копирај наслов странице",
+		"description": "Copy page title"
+	},
+	"actionOpenDownloads": {
+		"message": "Отвори преузимања",
+		"description": "Open downloads page"
+	},
+	"actionOpenHistory": {
+		"message": "Отвори историју",
+		"description": "Open history page"
+	},
+	"actionOpenExtensions": {
+		"message": "Отвори екстензије",
+		"description": "Open extensions page"
+	},
+	"actionPrintPage": {
+		"message": "Одштампај страницу",
+		"description": "Print page"
+	},
+	"actionDuplicateTab": {
+		"message": "Дуплирај картицу",
+		"description": "Duplicate current tab"
+	},
+	"actionToggleMuteTab": {
+		"message": "Утишај/Укључи звук тренутне картице",
+		"description": "Toggle mute current tab"
+	},
+	"actionToggleMuteAllTabs": {
+		"message": "Утишај/Укључи звук свих картица",
+		"description": "Toggle mute all tabs"
+	},
+	"showTrailOrigin": {
+		"message": "Прикажи тачку почетка",
+		"description": "Show trail origin point"
+	},
+	"enableTrailSmooth": {
+		"message": "Глачање трага",
+		"description": "Enable trail smoothing for gesture visualization"
+	},
+	"distanceThreshold": {
+		"message": "Удаљеност препознавања гестова",
+		"description": "Gesture recognition distance"
+	},
+	"distanceThresholdDesc": {
+		"message": "Минимална удаљеност покрета за препознавање геста",
+		"description": "Description for gesture recognition distance"
+	},
+	"distanceThresholdNotice": {
+		"message": "Савет: Препоручује се вредност између 15-30 за најбоље препознавање.",
+		"description": "Warning when distance threshold is too small or too large"
+	},
+	"enableAdvancedSettings": {
+		"message": "Напредна подешавања",
+		"description": "Enable advanced settings"
+	},
+	"enableAdvancedSettingsDesc": {
+		"message": "Прикажи више напредних опција када је омогућено",
+		"description": "Show more advanced options when enabled"
+	},
+	"enableAdvancedSettingsToggle": {
+		"message": "Режим напредних подешавања",
+		"description": "Enable advanced settings toggle label"
+	},
+	"urlFormatError": {
+		"message": "Молимо унесите пун URL који почиње са http:// или https://",
+		"description": "URL format error message"
+	},
+	"resetToDefault": {
+		"message": "Врати на подразумевано",
+		"description": "Reset gesture to default action"
+	},
+	"addCustomGesture": {
+		"message": "Додај прилагођени гест",
+		"description": "Add custom gesture section title"
+	},
+	"gesturePattern": {
+		"message": "Образац",
+		"description": "Gesture pattern label"
+	},
+	"selectAction": {
+		"message": "Изабери акцију",
+		"description": "Select action label"
+	},
+	"clear": {
+		"message": "Очисти",
+		"description": "Clear button"
+	},
+	"addGesture": {
+		"message": "Додај гест",
+		"description": "Add gesture button"
+	},
+	"pleaseDrawGesture": {
+		"message": "Прво нацртајте гест",
+		"description": "Alert when no gesture drawn"
+	},
+	"gestureAdded": {
+		"message": "✓ Гест додат",
+		"description": "Gesture added success message"
+	},
+	"gestureDrawInstructions": {
+		"message": "Држите десни тастер миша и нацртајте гест испод, пустите да завршите. Подржани правци:",
+		"description": "Instructions for gesture drawing"
+	},
+	"gestureOverwriteConfirm": {
+		"message": "Гест %pattern% већ постоји. Заменити?",
+		"description": "Confirmation message when adding a duplicate gesture"
+	},
+	"customGesture": {
+		"message": "Прилагођено",
+		"description": "Label for custom gestures"
+	},
+	"deleteGesture": {
+		"message": "Обриши гест",
+		"description": "Delete gesture button tooltip"
+	},
+	"deleteGestureConfirm": {
+		"message": "Обриши гест %pattern%?",
+		"description": "Delete gesture confirmation"
+	},
+	"gestureDeleted": {
+		"message": "✓ Гест обрисан",
+		"description": "Gesture deleted success message"
+	},
+	"enterCustomUrl": {
+		"message": "Унесите URL (предлажемо укључивање протокола као што су https://, chrome://, итд.):",
+		"description": "Prompt for custom URL input"
+	},
+	"invalidUrl": {
+		"message": "Молимо унесите важећи URL (који почиње са http:// или https://)",
+		"description": "Invalid URL error message"
+	},
+	"popupTrail": {
+		"message": "Траг геста",
+		"description": "Gesture trail in popup"
+	},
+	"popupHint": {
+		"message": "Савет за акцију",
+		"description": "Action hint in popup"
+	},
+	"popupCommonGestures": {
+		"message": "Чести гестови",
+		"description": "Common gestures"
+	},
+	"popupCurrentSite": {
+		"message": "Тренутни сајт",
+		"description": "Current site"
+	},
+	"popupRestricted": {
+		"message": "Ограничена страница",
+		"description": "Restricted page"
+	},
+	"popupDisabled": {
+		"message": "Онемогућено",
+		"description": "Disabled"
+	},
+	"popupAddBlacklist": {
+		"message": "Додај на црну листу",
+		"description": "Add to blacklist"
+	},
+	"popupRemoveBlacklist": {
+		"message": "Уклони са црне листе",
+		"description": "Remove from blacklist"
+	},
+	"popupNotAvailable": {
+		"message": "Није доступно",
+		"description": "Not available"
+	},
+	"popupBack": {
+		"message": "Назад",
+		"description": "Back - short"
+	},
+	"popupForward": {
+		"message": "Напред",
+		"description": "Forward - short"
+	},
+	"popupScrollUp": {
+		"message": "Горе",
+		"description": "Scroll up - short"
+	},
+	"popupScrollDown": {
+		"message": "Доле",
+		"description": "Scroll down - short"
+	},
+	"popupClose": {
+		"message": "Затвори",
+		"description": "Close Tab - short"
+	},
+	"popupRestore": {
+		"message": "Врати",
+		"description": "Restore Tab - short"
+	},
+	"dragSearchText": {
+		"message": "🔍 Превлачење претраге",
+		"description": "Drag search hint"
+	},
+	"dragOpenImage": {
+		"message": "🖼️ Отвори слику",
+		"description": "Drag open image hint"
+	},
+	"dragOpenLink": {
+		"message": "🔗 Отвори линк",
+		"description": "Drag open link hint"
+	},
+	"aboutTitle": {
+		"message": "О FlowMouse-у",
+		"description": "About title"
+	},
+	"aboutAuthor": {
+		"message": "Аутор",
+		"description": "Author"
+	},
+	"aboutWebsite": {
+		"message": "Веб сајт",
+		"description": "Website"
+	},
+	"aboutOpenSource": {
+		"message": "GitHub",
+		"description": "GitHub link"
+	},
+	"aboutEmail": {
+		"message": "Е-пошта",
+		"description": "Email"
+	},
+	"aboutPrivacy": {
+		"message": "Изјава о приватности",
+		"description": "Privacy statement"
+	},
+	"aboutPrivacyText": {
+		"message": "Ова екстензија је пројекат отвореног кода са кодом хостованим на GitHub-у. Доприноси и преглед кода су добродошли. Сва обрада података врши се локално на вашем уређају. Екстензија сама не успоставља никакве мрежне везе и нема позадинске сервере, тако да не прикупља нити отпрема било какве податке корисника на спољне сервере. Ваша сачувана подешавања су шифрована и синхронизована између ваших пријављених уређаја путем уграђеног сервиса за синхронизацију %browserName% прегледача. Овај процес је у потпуности контролисан од стране прегледача и прати подешавања приватности и синхронизације вашег прегледача.",
+		"description": "Privacy statement text"
+	},
+	"aboutCredits": {
+		"message": "Заслуге",
+		"description": "Credits"
+	},
+	"aboutCreditsText": {
+		"message": "Хвала Microsoft Edge прегледачу и crxMouse екстензији на инспирацији за дизајн.\nХвала 52pojie.cn заједници и корисницима на повратним информацијама и предлозима!",
+		"description": "Credits text"
+	},
+	"aboutFeatures": {
+		"message": "Карактеристике",
+		"description": "Features"
+	},
+	"aboutFeature1": {
+		"message": "🎯 16 подразумеваних гестова + прилагођени гестови",
+		"description": "Feature 1"
+	},
+	"aboutFeature2": {
+		"message": "🎨 Визуелни приказ трага",
+		"description": "Feature 2"
+	},
+	"aboutFeature3": {
+		"message": "🔍 Супер превлачење текста/слике/линка",
+		"description": "Feature 3"
+	},
+	"aboutFeature4": {
+		"message": "🚫 Црна листа веб сајтова",
+		"description": "Feature 4"
+	},
+	"aboutFeature5": {
+		"message": "☁️ Синхронизација %browserName% налога",
+		"description": "Feature 5"
+	},
+	"aboutFeature6": {
+		"message": "🔒 Ради локално, без мреже осим синхронизације",
+		"description": "Feature 6"
+	},
+	"tutorial": {
+		"message": "Туторијал",
+		"description": "Tutorial link"
+	},
+	"learnMore": {
+		"message": "Сазнајте више",
+		"description": "Learn more link"
+	},
+	"badgeNoNetwork": {
+		"message": "🔒 Без мреже осим синх.",
+		"description": "No network privacy badge"
+	},
+	"badgeNoData": {
+		"message": "🚫 Без прикупљања података",
+		"description": "No data collection badge"
+	},
+	"badgeLocalRun": {
+		"message": "✅ Ради локално",
+		"description": "Local run badge"
+	},
+	"newTabSettings": {
+		"message": "Подешавања нове картице",
+		"description": "New tab open settings"
+	},
+	"newTabPosition": {
+		"message": "Позиција",
+		"description": "New tab position"
+	},
+	"tabPositionRight": {
+		"message": "Десно од тренутне картице",
+		"description": "Right of current tab"
+	},
+	"tabPositionLeft": {
+		"message": "Лево од тренутне картице",
+		"description": "Left of current tab"
+	},
+	"tabPositionFirst": {
+		"message": "Прва картица (скроз лево)",
+		"description": "First tab (leftmost)"
+	},
+	"tabPositionLast": {
+		"message": "Последња картица (скроз десно)",
+		"description": "Last tab (rightmost)"
+	},
+	"tabPositionCurrent": {
+		"message": "Тренутна картица",
+		"description": "Open in current tab"
+	},
+	"newTabActive": {
+		"message": "Отвори у првом плану",
+		"description": "Open tab in foreground"
+	},
+	"textDragGestures": {
+		"message": "Гестови превлачења текста",
+		"description": "Text drag gestures"
+	},
+	"linkDragGestures": {
+		"message": "Гестови превлачења линка",
+		"description": "Link drag gestures"
+	},
+	"imageDragGestures": {
+		"message": "Гестови превлачења слике",
+		"description": "Image drag gestures"
+	},
+	"direction": {
+		"message": "Правац",
+		"description": "Direction column header"
+	},
+	"action": {
+		"message": "Акција",
+		"description": "Action column header"
+	},
+	"imageSearchUrl": {
+		"message": "URL претраге слика (%s = URL слике)",
+		"description": "Image search URL input"
+	},
+	"dragActionNone": {
+		"message": "Ништа",
+		"description": "No action"
+	},
+	"dragActionSearch": {
+		"message": "🔍 Претраживач",
+		"description": "Search action"
+	},
+	"dragActionCopy": {
+		"message": "📋 Копирај",
+		"description": "Copy action"
+	},
+	"dragActionOpenTab": {
+		"message": "📑 Отвори у новој картици",
+		"description": "Open in new tab"
+	},
+	"dragActionOpenTabLink": {
+		"message": "🔗 Отвори линк",
+		"description": "Open link in new tab"
+	},
+	"dragActionOpenTabImage": {
+		"message": "🖼️ Отвори слику",
+		"description": "Open image in new tab"
+	},
+	"dragActionCopyLink": {
+		"message": "📋 Копирај линк",
+		"description": "Copy link"
+	},
+	"dragActionSaveImage": {
+		"message": "💾 Сачувај слику",
+		"description": "Save image"
+	},
+	"dragActionCopyImage": {
+		"message": "🖼️ Копирај слику",
+		"description": "Copy image"
+	},
+	"dragActionCopyImageUrl": {
+		"message": "📋 Копирај URL слике",
+		"description": "Copy image URL"
+	},
+	"dragActionImageSearch": {
+		"message": "🔍 Претрага слика",
+		"description": "Image search"
+	},
+	"dragActionCustomSearch": {
+		"message": "🔍 Прилагођена претрага",
+		"description": "Custom search"
+	},
+	"reducedMotionWarning": {
+		"message": "⚠️ %OS% системска анимација је онемогућена, анимација скроловања можда неће радити исправно. Можете омогућити анимацију у подешавањима %OS% система.",
+		"description": "Warning message when system reduced motion is enabled"
+	},
+	"autoDetectUrl": {
+		"message": "Аутоматски детектуј URL",
+		"description": "Auto detect URL checkbox label"
+	},
+	"preferLink": {
+		"message": "Преферирај линк",
+		"description": "Prefer link checkbox label"
+	},
+	"menuNeedRefresh": {
+		"message": "FlowMouse није учитан, кликните за освежавање",
+		"description": "Context menu title for pages needing refresh"
+	},
+	"menuRestricted": {
+		"message": "FlowMouse није доступан, сазнајте зашто",
+		"description": "Context menu title for restricted pages"
+	},
+	"showRestrictedNotice": {
+		"message": "Обавештење о ограниченој страници",
+		"description": "Setting title for restricted page notice"
+	},
+	"showRestrictedNoticeDesc": {
+		"message": "Прикажи обавештење контекстног менија на страницама где гестови нису доступни",
+		"description": "Setting description for restricted page notice"
+	},
+	"restrictedPagesDetailsTitle": {
+		"message": "⚠️ Због безбедносних политика прегледача, екстензије не могу да раде на одређеним типовима страница.",
+		"description": "Collapsible details title"
+	},
+	"showMoreHint": {
+		"message": " (Прикажи детаље)",
+		"description": "Hint to show more details"
+	},
+	"restrictedNewTab": {
+		"message": "Страница нове картице (chrome://newtab)",
+		"description": "New tab page title"
+	},
+	"restrictedNewTabDesc": {
+		"message": "Подразумевана страница нове картице прегледача је заштићена системска страница. Екстензије не могу убризгавати скрипте или мењати садржај овде.",
+		"description": "New tab page description"
+	},
+	"restrictedStore": {
+		"message": "Званичне продавнице екстензија",
+		"description": "Store page title"
+	},
+	"restrictedStoreDesc": {
+		"message": "На пример %storeInfo%, итд. Прегледачи спречавају екстензије да раде на овим страницама ради заштите нормалног рада продавнице.",
+		"description": "Store page description"
+	},
+	"restrictedInternal": {
+		"message": "Интерне странице прегледача",
+		"description": "Internal page title"
+	},
+	"restrictedInternalDesc": {
+		"message": "Све странице које почињу са chrome:// (Chrome) или edge:// (Edge), укључујући подешавања, историју, преузимања, итд. Ове странице укључују основне функције прегледача и податке о приватности корисника, стога су строго заштићене.",
+		"description": "Internal page description"
+	},
+	"restrictedFile": {
+		"message": "Локалне датотеке (file://)",
+		"description": "File page title"
+	},
+	"restrictedFileDesc": {
+		"message": "Локалне HTML датотеке отворене путем file:// протокола. Због безбедносних ограничења (спречавање злонамерних екстензија да приступају локалном систему датотека), екстензије не могу радити на овим страницама.",
+		"description": "File page description"
+	},
+	"restrictedViewSource": {
+		"message": "Странице изворног кода (view-source:)",
+		"description": "View source page title"
+	},
+	"restrictedViewSourceDesc": {
+		"message": "Прегледач изворног кода је такође заштићена системска страница. Екстензије не могу радити овде.",
+		"description": "View source page description"
+	},
+	"restrictedOther": {
+		"message": "Остале мање уобичајене погођене странице нису посебно наведене.",
+		"description": "Other restricted pages note"
+	},
+	"popupNeedRefresh": {
+		"message": "Екстензија није учитана",
+		"description": "Popup title when content script not loaded"
+	},
+	"popupNeedRefreshDesc": {
+		"message": "Ова страница је отворена пре инсталације/ажурирања екстензије. Освежите да бисте омогућили гестове.",
+		"description": "Popup description when content script not loaded"
+	},
+	"popupRefreshBtn": {
+		"message": "🔄 Освежи страницу",
+		"description": "Popup refresh button text"
+	},
+	"popupRestrictedTitle": {
+		"message": "Гестови недоступни",
+		"description": "Popup title for restricted pages"
+	},
+	"popupRestrictedDesc": {
+		"message": "Ова страница не може користити гестове због безбедносних ограничења прегледача.",
+		"description": "Popup description for restricted pages"
+	},
+	"popupLearnMore": {
+		"message": "📖 Сазнајте више",
+		"description": "Popup learn more button text"
+	},
+	"tutorialPending": {
+		"message": "Пробајте сада",
+		"description": "Tutorial pending status"
+	},
+	"tutorialCompleted": {
+		"message": "Завршено",
+		"description": "Tutorial completed status"
+	},
+	"tutorialClickToStart": {
+		"message": "Кликните <span class=\"text-highlight\">десним тастером миша</span> за почетак",
+		"description": "Tutorial Step 0 instruction"
+	},
+	"tutorialWelcomeTitle": {
+		"message": "Добродошли у FlowMouse",
+		"description": "Tutorial welcome title"
+	},
+	"tutorialWelcomeSubtitle": {
+		"message": "Савладајте основе за 30 секунди за глаткије, интуитивно претраживање",
+		"description": "Tutorial welcome subtitle"
+	},
+	"tutorialStep1Title": {
+		"message": "Основе",
+		"description": "Tutorial Step 1 title"
+	},
+	"tutorialStep1Subtitle": {
+		"message": "Научите основни механизам гестова",
+		"description": "Tutorial Step 1 subtitle"
+	},
+	"tutorialStep1InstructionIdle": {
+		"message": "Притисните и <strong>држите</strong> <span class=\"text-highlight\">десни тастер миша</span>",
+		"description": "Tutorial Step 1 instruction idle"
+	},
+	"tutorialStep1InstructionPressing": {
+		"message": "<strong>Одлично!</strong> Сада превуците <strong>%arrow% десно</strong>",
+		"description": "Tutorial Step 1 instruction pressing"
+	},
+	"tutorialStep1InstructionDragging": {
+		"message": "Наставите да превлачите...",
+		"description": "Tutorial Step 1 instruction dragging"
+	},
+	"tutorialStep1InstructionReleasing": {
+		"message": "<strong>Сјајно!</strong> Сада пустите!",
+		"description": "Tutorial Step 1 instruction releasing"
+	},
+	"tutorialStep2Title": {
+		"message": "FlowMouse Гестови",
+		"description": "Tutorial Step 2 title"
+	},
+	"tutorialStep2Subtitle": {
+		"message": "Држите <span class=\"text-highlight\">десни тастер миша</span> да бисте извршили гестове",
+		"description": "Tutorial Step 2 subtitle"
+	},
+	"tutorialStep2Footer": {
+		"message": "<strong>Више гестова</strong> и <strong>потпуна прилагођавања</strong> доступни у подешавањима.",
+		"description": "Footer note for step 2 discovery banner"
+	},
+	"tutorialStep2DiscoveryHeader": {
+		"message": "Више гестова",
+		"description": "Header for step 2 discovery banner"
+	},
+	"tutorialStep3DiscoveryHeader": {
+		"message": "Више функција супер превлачења",
+		"description": "Header for step 3 discovery banner"
+	},
+	"tutorialStep3TextSearch": {
+		"message": "Текст <span class=\"svg-arrow\">→</span> Претрага",
+		"description": "Text drag search discovery item"
+	},
+	"tutorialStep3LinkOpen": {
+		"message": "Линк <span class=\"svg-arrow\">→</span> Отвори у новој картици",
+		"description": "Link drag open discovery item"
+	},
+	"tutorialStep3ImageOpen": {
+		"message": "Слика <span class=\"svg-arrow\">→</span> Отвори у новој картици",
+		"description": "Image drag open discovery item"
+	},
+	"tutorialStep3Footer": {
+		"message": "<strong>Више акција превлачења</strong> и <strong>потпуна прилагођавања</strong> доступни у режиму напредних подешавања",
+		"description": "Footer for step 3 discovery banner"
+	},
+	"tutorialContinue": {
+		"message": "Настави",
+		"description": "Tutorial continue button"
+	},
+	"tutorialStep3Title": {
+		"message": "Супер превлачење",
+		"description": "Tutorial Step 3 title"
+	},
+	"tutorialStep3Subtitle": {
+		"message": "Држите <span class=\"text-highlight\">леви тастер миша</span> и превуците <span class=\"svg-arrow\">→</span> за брзо извршавање акција",
+		"description": "Tutorial Step 3 subtitle"
+	},
+	"tutorialStep3HintTitle": {
+		"message": "Претрага избора текста",
+		"description": "Tutorial Step 3 hint title"
+	},
+	"tutorialStep3HintDesc": {
+		"message": "Изаберите текст, затим користите <span class=\"text-highlight\">леви тастер миша</span> да превучете <span class=\"svg-arrow\">→</span> за претрагу",
+		"description": "Tutorial Step 3 hint description. Note: Must drag to right. Use SVG arrow instead of text for direction."
+	},
+	"tutorialStep3TextBoxLabel": {
+		"message": "Пробајте са текстом испод!",
+		"description": "Tutorial Step 3 text box label"
+	},
+	"tutorialStep3SelectableText": {
+		"message": "FlowMouse Супер превлачење",
+		"description": "Tutorial Step 3 selectable text"
+	},
+	"tutorialStep4Title": {
+		"message": "Честитамо!",
+		"description": "Tutorial Step 4 title"
+	},
+	"tutorialStep4Subtitle": {
+		"message": "Сада се крећете у току.",
+		"description": "Tutorial Step 4 subtitle"
+	},
+	"tutorialStep4Instruction": {
+		"message": "Користите <span class=\"text-highlight\">Супер превлачење <span class=\"svg-arrow\">→</span></span> на овом линку да га отворите у <span class=\"text-highlight\">новој картици</span>",
+		"description": "Tutorial Step 4 instruction. Note: Must drag to right. Use SVG arrow instead of text for direction."
+	},
+	"tutorialSettingsLink": {
+		"message": "FlowMouse Подешавања",
+		"description": "Tutorial settings link"
+	},
+	"tutorialSettingsHint": {
+		"message": "Много моћних функција чека да их истражите!",
+		"description": "Tutorial settings hint"
+	},
+	"tutorialWrongDirection": {
+		"message": "Погрешан правац! Превуците %arrow% десно",
+		"description": "Tutorial wrong direction error"
+	},
+	"tutorialEarlyRelease": {
+		"message": "Пустили сте прерано! Наставите да превлачите.",
+		"description": "Tutorial early release error"
+	},
+	"tutorialDragWrongButton": {
+		"message": "Користите <span class=\"text-highlight\">леви тастер миша</span> за превлачење",
+		"description": "Tutorial drag wrong button error"
+	},
+	"tutorialRefreshTip": {
+		"message": "Савет: Картице отворене пре инсталације морају бити <span class=\"text-highlight\">освежене</span> да би користиле FlowMouse",
+		"description": "Tip about refreshing tabs"
+	},
+	"permissionBookmarksTitle": {
+		"message": "Управљање обележивачима",
+		"description": "Permission popup title for bookmarks"
+	},
+	"permissionBookmarksDesc": {
+		"message": "Да би додао странице у ваше обележиваче, FlowMouse захтева приступ вашим обележивачима.",
+		"description": "Permission popup description for bookmarks"
+	},
+	"permissionDownloadsTitle": {
+		"message": "Управљање преузимањима",
+		"description": "Permission popup title for downloads"
+	},
+	"permissionDownloadsDesc": {
+		"message": "Да би сачувао слике, FlowMouse захтева приступ вашим преузимањима.",
+		"description": "Permission popup description for downloads"
+	},
+	"permissionDownloadsPageCaptureTitle": {
+		"message": "Сачувај слику",
+		"description": "Permission popup title for downloads and page capture"
+	},
+	"permissionDownloadsPageCaptureDesc": {
+		"message": "Да би сачувао слике, FlowMouse захтева приступ страницама и преузимањима.",
+		"description": "Permission popup description for downloads and page capture"
+	},
+	"grantPermission": {
+		"message": "Дај дозволу",
+		"description": "Grant permission button"
+	},
+	"grantPermissionCancel": {
+		"message": "Откажи",
+		"description": "Cancel button"
+	},
+	"permissionTitle": {
+		"message": "FlowMouse Дозвола",
+		"description": "Generic permission window title"
+	},
+	"tutorialPinHint": {
+		"message": "Кликните<span class='icon-ext'></span><b>Екстензије</b> и<span class='icon-pin'></span><b>закачите</b> FlowMouse за лакши приступ!",
+		"description": "Hint to pin the extension in tutorial step 4. Do not add space around icon."
+	},
+	"downloadErrorHotlink": {
+		"message": "Чување слике није успело. Веб локација можда има заштиту од хотлинка. Десним тастером миша кликните на слику и изаберите „Сачувај слику као...“",
+		"description": "Toast message when image download fails due to hotlink protection"
+	},
+	"saveImageLoadError": {
+		"message": "Čuvanje slike nije uspelo: Učitavanje slike nije uspelo",
+		"description": "Toast message when image fails to load before saving"
+	},
+	"saveImageTimeout": {
+		"message": "Čuvanje slike nije uspelo: Isteklo je vreme učitavanja",
+		"description": "Toast message when image loading times out"
+	}
+}

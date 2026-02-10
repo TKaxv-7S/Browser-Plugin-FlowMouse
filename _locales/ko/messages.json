@@ -1,0 +1,1238 @@
+{
+	"extName": {
+		"message": "FlowMouse - 마우스 제스처",
+		"description": "Extension name"
+	},
+	"extNameShort": {
+		"message": "FlowMouse",
+		"description": "Short extension name for popup"
+	},
+	"extDescription": {
+		"message": "프라이버시와 매끄러운 경험에 집중한 오픈 소스 마우스 제스처 확장 프로그램입니다. 부드러운 제스처 조작과 슈퍼 드래그를 지원하며, 모든 데이터는 기기에 로컬로 저장됩니다.",
+		"description": "Extension description"
+	},
+	"appearance": {
+		"message": "외관 설정",
+		"description": "Appearance section"
+	},
+	"theme": {
+		"message": "테마",
+		"description": "Theme"
+	},
+	"themeDesc": {
+		"message": "라이트/다크 테마 전환",
+		"description": "Theme description"
+	},
+	"themeDark": {
+		"message": "다크",
+		"description": "Dark theme"
+	},
+	"themeLight": {
+		"message": "라이트",
+		"description": "Light theme"
+	},
+	"themeAuto": {
+		"message": "시스템 설정 따름",
+		"description": "Auto theme - follow system"
+	},
+	"languageDesc": {
+		"message": "인터페이스 언어 선택",
+		"description": "Language description"
+	},
+	"syncStatus": {
+		"message": "동기화 상태",
+		"description": "Sync status"
+	},
+	"syncStatusDesc": {
+		"message": "%browserName% 계정을 통한 설정 동기화",
+		"description": "Sync status description"
+	},
+	"synced": {
+		"message": "동기화됨",
+		"description": "Synced"
+	},
+	"author": {
+		"message": "제작자",
+		"description": "Author"
+	},
+	"privacyNote": {
+		"message": "🔒 로컬에서만 실행되며, 동기화 외에는 네트워크에 연결되지 않고 사용자 데이터를 수집하지 않습니다.",
+		"description": "Privacy note in footer"
+	},
+	"supportUsText": {
+		"message": "FlowMouse가 마음에 드시나요? %appStoreInfo%에서 별점 5개로 응원해 주세요. 업데이트의 큰 힘이 됩니다!",
+		"description": "Rating text"
+	},
+	"storeNameChrome": {
+		"message": "Chrome 웹 스토어",
+		"description": "Chrome Web Store name"
+	},
+	"storeNameEdge": {
+		"message": "Edge 추가 기능",
+		"description": "Edge Add-ons name"
+	},
+	"storeNameFirefox": {
+		"message": "Firefox 부가 기능",
+		"description": "Firefox Add-ons name"
+	},
+	"feedbackText": {
+		"message": "문제나 제안 사항이 있으신가요? <a href='mailto:Service@52pojie.cn'>이메일</a>, <a href='https://github.com/Hmily-LCG/FlowMouse/issues' target='_blank'>GitHub</a> 또는 <a href='https://www.52pojie.cn/thread-2080303-1-1.html' target='_blank'>포럼</a>을 통해 알려주시면 최대한 빨리 개선하겠습니다!",
+		"description": "Feedback text"
+	},
+	"supportAndFeedback": {
+		"message": "지원 및 피드백",
+		"description": "Support and Feedback section title"
+	},
+	"feedbackTitle": {
+		"message": "피드백 및 제안",
+		"description": "Feedback row title"
+	},
+	"supportUsTitle": {
+		"message": "응원하기",
+		"description": "Rating row title"
+	},
+	"backToSettings": {
+		"message": "설정으로 돌아가기",
+		"description": "Back to settings link"
+	},
+	"settings": {
+		"message": "설정",
+		"description": "Settings"
+	},
+	"moreSettings": {
+		"message": "추가 설정",
+		"description": "More settings button in popup"
+	},
+	"version": {
+		"message": "버전",
+		"description": "Version"
+	},
+	"basicSettings": {
+		"message": "제스처 설정",
+		"description": "Gesture settings section"
+	},
+	"enableGesture": {
+		"message": "제스처 기능 활성화",
+		"description": "Enable gesture feature"
+	},
+	"enableGestureDesc": {
+		"message": "마우스 오른쪽 버튼을 누른 채 드래그하여 제스처 실행",
+		"description": "Hold the right mouse button and move the mouse to easily perform gestures"
+	},
+	"macLinuxContextMenuNotice": {
+		"message": "⚠️ 시스템 제한으로 인해 macOS / Linux에서는 오른쪽 버튼을 빠르게 두 번 클릭해야 기본 메뉴가 열립니다.",
+		"description": "Notice for macOS / Linux users about double right-click for context menu"
+	},
+	"macTextDragNotice": {
+		"message": "⚠️ macOS 특성상 텍스트 드래그 시 먼저 텍스트를 선택하고, 왼쪽 버튼을 누른 채 잠시 멈춘 후 드래그해야 검색이 작동할 수 있습니다.",
+		"description": "Notice for macOS users about text drag behavior"
+	},
+	"showTrail": {
+		"message": "제스처 궤적 표시",
+		"description": "Show gesture trail"
+	},
+	"showTrailDesc": {
+		"message": "제스처 실행 시 궤적 선 표시",
+		"description": "Show trail line when performing gestures"
+	},
+	"showHint": {
+		"message": "조작 힌트 표시",
+		"description": "Show action hint"
+	},
+	"showHintDesc": {
+		"message": "화면 중앙에 현재 제스처에 해당하는 동작 표시",
+		"description": "Show current gesture action in center of screen"
+	},
+	"color": {
+		"message": "색상",
+		"description": "Color"
+	},
+	"width": {
+		"message": "굵기",
+		"description": "Width/thickness"
+	},
+	"background": {
+		"message": "배경",
+		"description": "Background"
+	},
+	"opacity": {
+		"message": "투명도",
+		"description": "Opacity"
+	},
+	"text": {
+		"message": "텍스트",
+		"description": "Text"
+	},
+	"scrollAmount": {
+		"message": "스크롤 거리",
+		"description": "Scroll amount"
+	},
+	"scrollAmountDesc": {
+		"message": "위/아래 스크롤 제스처의 스크롤 거리 (창 높이 백분율)",
+		"description": "Scroll distance for up/down gestures"
+	},
+	"scrollSmoothness": {
+		"message": "스크롤 애니메이션",
+		"description": "Scroll smoothness"
+	},
+	"scrollSmoothnessDesc": {
+		"message": "위/아래 스크롤 제스처의 애니메이션 효과",
+		"description": "Scroll smoothness description"
+	},
+	"smoothnessSystem": {
+		"message": "시스템 (고성능)",
+		"description": "System scroll smoothness"
+	},
+	"smoothnessCustom": {
+		"message": "부드러움",
+		"description": "Custom smooth scrolling"
+	},
+	"smoothnessNone": {
+		"message": "애니메이션 끄기",
+		"description": "No scroll animation"
+	},
+	"dragFeatures": {
+		"message": "드래그 기능",
+		"description": "Drag features section"
+	},
+	"textDragSearch": {
+		"message": "텍스트 드래그",
+		"description": "Text drag"
+	},
+	"textDragSearchDesc": {
+		"message": "선택한 텍스트를 드래그하여 검색",
+		"description": "Drag selected text to search"
+	},
+	"searchEngine": {
+		"message": "검색 엔진",
+		"description": "Search engine"
+	},
+	"custom": {
+		"message": "사용자 정의",
+		"description": "Custom"
+	},
+	"customUrlPlaceholder": {
+		"message": "사용자 정의 URL, 검색어를 %s로 대체",
+		"description": "Custom URL placeholder"
+	},
+	"urlPlaceholderText": {
+		"message": "%s=검색어",
+		"description": "Placeholder for text drag custom URL"
+	},
+	"urlPlaceholderImage": {
+		"message": "%s=이미지 URL",
+		"description": "Placeholder for image drag custom URL"
+	},
+	"searchEngine_baidu": {
+		"message": "Baidu",
+		"description": "Baidu search engine"
+	},
+	"searchEngine_360": {
+		"message": "360 Search",
+		"description": "360 search engine"
+	},
+	"searchEngine_yandex": {
+		"message": "Yandex",
+		"description": "Yandex search engine"
+	},
+	"searchEngine_system": {
+		"message": "브라우저 기본값",
+		"description": "System default search engine"
+	},
+	"imageDrag": {
+		"message": "이미지 드래그",
+		"description": "Image drag"
+	},
+	"imageDragDesc": {
+		"message": "이미지를 드래그하여 새 탭에서 열기",
+		"description": "Drag image to open in new tab"
+	},
+	"linkDrag": {
+		"message": "링크 드래그",
+		"description": "Link drag"
+	},
+	"linkDragDesc": {
+		"message": "링크를 드래그하여 새 탭에서 열기",
+		"description": "Drag link to open in new tab"
+	},
+	"enableCustomGestures": {
+		"message": "사용자 정의 제스처",
+		"description": "Enable custom gestures"
+	},
+	"enableCustomGesturesDesc": {
+		"message": "각 제스처의 동작 확인 및 사용자 정의",
+		"description": "View and customize each gesture action"
+	},
+	"gestureAutoSaveHint": {
+		"message": "팁: 변경 사항은 자동으로 저장됩니다.",
+		"description": "Hint about auto-save"
+	},
+	"blacklist": {
+		"message": "웹사이트 블랙리스트",
+		"description": "Website blacklist"
+	},
+	"blacklistPlaceholder": {
+		"message": "도메인 입력 (예: example.com), 엔터 키로 추가",
+		"description": "Blacklist input placeholder"
+	},
+	"add": {
+		"message": "추가",
+		"description": "Add button"
+	},
+	"emptyBlacklist": {
+		"message": "블랙리스트가 비어 있습니다. 위에 도메인을 입력하여 추가하세요.",
+		"description": "Empty blacklist message"
+	},
+	"dataManagement": {
+		"message": "데이터 관리",
+		"description": "Data management section"
+	},
+	"export": {
+		"message": "설정 내보내기",
+		"description": "Export settings"
+	},
+	"import": {
+		"message": "설정 가져오기",
+		"description": "Import settings"
+	},
+	"reset": {
+		"message": "기본값으로 복원",
+		"description": "Reset to default"
+	},
+	"autoSaved": {
+		"message": "✓ 자동 저장됨",
+		"description": "Auto-saved message"
+	},
+	"saveFailure": {
+		"message": "저장 실패",
+		"description": "Save failure message"
+	},
+	"resetConfirm": {
+		"message": "모든 설정을 기본값으로 복원하시겠습니까?",
+		"description": "Reset confirmation"
+	},
+	"resetDone": {
+		"message": "설정이 기본값으로 복원되었습니다.",
+		"description": "Reset done message"
+	},
+	"exportDone": {
+		"message": "설정이 내보내졌습니다.",
+		"description": "Export done message"
+	},
+	"importDone": {
+		"message": "설정이 가져와졌습니다.",
+		"description": "Import done message"
+	},
+	"importFailed": {
+		"message": "가져오기 실패: 유효하지 않은 구성 파일",
+		"description": "Import failed message"
+	},
+	"importFailedSyncError": {
+		"message": "가져오기 실패: 동기화 오류, 브라우저 상태를 확인하세요",
+		"description": "Import failed sync error message"
+	},
+	"invalidDomain": {
+		"message": "유효한 도메인을 입력하세요.",
+		"description": "Invalid domain message"
+	},
+	"domainExists": {
+		"message": "이미 블랙리스트에 있는 도메인입니다.",
+		"description": "Domain already in blacklist"
+	},
+	"about": {
+		"message": "정보",
+		"description": "About section"
+	},
+	"language": {
+		"message": "언어",
+		"description": "Language"
+	},
+	"languageAuto": {
+		"message": "시스템 설정 따름",
+		"description": "Follow system language"
+	},
+	"privacyFriendly": {
+		"message": "개인 정보 보호 친화적",
+		"description": "Privacy friendly"
+	},
+	"localOnly": {
+		"message": "로컬 실행",
+		"description": "Local only"
+	},
+	"autoSave": {
+		"message": "자동 저장",
+		"description": "Auto save"
+	},
+	"gestureDesc_L": {
+		"message": "왼쪽",
+		"description": "Gesture description for ←"
+	},
+	"gestureDesc_R": {
+		"message": "오른쪽",
+		"description": "Gesture description for →"
+	},
+	"gestureDesc_U": {
+		"message": "위",
+		"description": "Gesture description for ↑"
+	},
+	"gestureDesc_D": {
+		"message": "아래",
+		"description": "Gesture description for ↓"
+	},
+	"gestureDesc_DR": {
+		"message": "아래 이동 후 오른쪽",
+		"description": "Gesture description for ↓→"
+	},
+	"gestureDesc_LU": {
+		"message": "왼쪽 이동 후 위쪽",
+		"description": "Gesture description for ←↑"
+	},
+	"gestureDesc_RU": {
+		"message": "오른쪽 이동 후 위쪽",
+		"description": "Gesture description for →↑"
+	},
+	"gestureDesc_RD": {
+		"message": "오른쪽 이동 후 아래쪽",
+		"description": "Gesture description for →↓"
+	},
+	"gestureDesc_UL": {
+		"message": "위 이동 후 왼쪽",
+		"description": "Gesture description for ↑←"
+	},
+	"gestureDesc_UR": {
+		"message": "위 이동 후 오른쪽",
+		"description": "Gesture description for ↑→"
+	},
+	"gestureDesc_DL": {
+		"message": "아래 이동 후 왼쪽",
+		"description": "Gesture description for ↓←"
+	},
+	"gestureDesc_LD": {
+		"message": "왼쪽 이동 후 아래쪽",
+		"description": "Gesture description for ←↓"
+	},
+	"gestureDesc_UD": {
+		"message": "위 이동 후 아래쪽",
+		"description": "Gesture description for ↑↓"
+	},
+	"gestureDesc_DU": {
+		"message": "아래 이동 후 위쪽",
+		"description": "Gesture description for ↓↑"
+	},
+	"gestureDesc_LR": {
+		"message": "왼쪽 이동 후 오른쪽",
+		"description": "Gesture description for ←→"
+	},
+	"gestureDesc_RL": {
+		"message": "오른쪽 이동 후 왼쪽",
+		"description": "Gesture description for →←"
+	},
+	"actionNone": {
+		"message": "동작 없음",
+		"description": "No action"
+	},
+	"actionBack": {
+		"message": "뒤로 가기",
+		"description": "Go back"
+	},
+	"actionForward": {
+		"message": "앞으로 가기",
+		"description": "Go forward"
+	},
+	"actionScrollUp": {
+		"message": "위로 스크롤",
+		"description": "Scroll up"
+	},
+	"actionScrollDown": {
+		"message": "아래로 스크롤",
+		"description": "Scroll down"
+	},
+	"actionScrollToTop": {
+		"message": "맨 위로 스크롤",
+		"description": "Scroll to top"
+	},
+	"actionScrollToBottom": {
+		"message": "맨 아래로 스크롤",
+		"description": "Scroll to bottom"
+	},
+	"actionCloseTab": {
+		"message": "탭 닫기",
+		"description": "Close tab"
+	},
+	"actionCloseTabKeepWindow": {
+		"message": "탭 닫기 (창 유지)",
+		"description": "Close tab but keep window open"
+	},
+	"actionCloseBrowser": {
+		"message": "브라우저 닫기",
+		"description": "Close browser"
+	},
+	"actionRestoreTab": {
+		"message": "닫은 탭 다시 열기",
+		"description": "Restore closed tab"
+	},
+	"actionNewTab": {
+		"message": "새 탭 열기",
+		"description": "New tab"
+	},
+	"actionCloseOtherTabs": {
+		"message": "다른 탭 닫기",
+		"description": "Close other tabs"
+	},
+	"actionCloseLeftTabs": {
+		"message": "왼쪽 탭 닫기",
+		"description": "Close tabs to the left"
+	},
+	"actionCloseRightTabs": {
+		"message": "오른쪽 탭 닫기",
+		"description": "Close tabs to the right"
+	},
+	"actionCloseAllTabs": {
+		"message": "모든 탭 닫기",
+		"description": "Close all tabs"
+	},
+	"actionSwitchLeftTab": {
+		"message": "왼쪽 탭으로 전환",
+		"description": "Switch to left tab"
+	},
+	"actionSwitchRightTab": {
+		"message": "오른쪽 탭으로 전환",
+		"description": "Switch to right tab"
+	},
+	"actionRefresh": {
+		"message": "현재 탭 새로 고침",
+		"description": "Refresh current tab"
+	},
+	"actionRefreshAllTabs": {
+		"message": "모든 탭 새로 고침",
+		"description": "Refresh all tabs"
+	},
+	"actionStopLoading": {
+		"message": "로딩 중지",
+		"description": "Stop loading"
+	},
+	"actionNewWindow": {
+		"message": "새 창 열기",
+		"description": "New window"
+	},
+	"actionNewIncognito": {
+		"message": "시크릿 창 열기",
+		"description": "New incognito window"
+	},
+	"actionAddToBookmarks": {
+		"message": "즐겨찾기에 추가",
+		"description": "Add to bookmarks"
+	},
+	"actionToggleFullscreen": {
+		"message": "전체 화면 전환",
+		"description": "Toggle fullscreen"
+	},
+	"actionToggleMaximize": {
+		"message": "창 최대화/복원",
+		"description": "Toggle window maximize"
+	},
+	"actionMinimize": {
+		"message": "창 최소화",
+		"description": "Minimize window"
+	},
+	"actionOpenCustomUrl": {
+		"message": "사용자 정의 URL 열기",
+		"description": "Open custom URL"
+	},
+	"actionCopyUrl": {
+		"message": "현재 URL 복사",
+		"description": "Copy current URL"
+	},
+	"actionCopyTitle": {
+		"message": "페이지 제목 복사",
+		"description": "Copy page title"
+	},
+	"actionOpenDownloads": {
+		"message": "다운로드 페이지 열기",
+		"description": "Open downloads page"
+	},
+	"actionOpenHistory": {
+		"message": "방문 기록 열기",
+		"description": "Open history page"
+	},
+	"actionOpenExtensions": {
+		"message": "확장 프로그램 관리 열기",
+		"description": "Open extensions page"
+	},
+	"actionPrintPage": {
+		"message": "페이지 인쇄",
+		"description": "Print page"
+	},
+	"actionDuplicateTab": {
+		"message": "현재 탭 복제",
+		"description": "Duplicate current tab"
+	},
+	"actionToggleMuteTab": {
+		"message": "현재 탭 음소거/해제",
+		"description": "Toggle mute current tab"
+	},
+	"actionToggleMuteAllTabs": {
+		"message": "모든 탭 음소거/해제",
+		"description": "Toggle mute all tabs"
+	},
+	"showTrailOrigin": {
+		"message": "시작점 표시",
+		"description": "Show trail origin point"
+	},
+	"enableTrailSmooth": {
+		"message": "트레일 평활화",
+		"description": "Enable trail smoothing for gesture visualization"
+	},
+	"distanceThreshold": {
+		"message": "제스처 판정 거리",
+		"description": "Gesture recognition distance"
+	},
+	"distanceThresholdDesc": {
+		"message": "제스처를 인식하기 위한 최소 이동 거리",
+		"description": "Description for gesture recognition distance"
+	},
+	"distanceThresholdNotice": {
+		"message": "팁: 최적의 인식을 위해 15-30 사이의 값을 권장합니다.",
+		"description": "Warning when distance threshold is too small or too large"
+	},
+	"enableAdvancedSettings": {
+		"message": "고급 설정",
+		"description": "Enable advanced settings"
+	},
+	"enableAdvancedSettingsDesc": {
+		"message": "활성화 시 더 많은 고급 옵션 표시",
+		"description": "Show more advanced options when enabled"
+	},
+	"enableAdvancedSettingsToggle": {
+		"message": "고급 설정 모드",
+		"description": "Enable advanced settings toggle label"
+	},
+	"urlFormatError": {
+		"message": "http:// 또는 https://로 시작하는 전체 URL을 입력하세요.",
+		"description": "URL format error message"
+	},
+	"resetToDefault": {
+		"message": "기본값으로 복원",
+		"description": "Reset gesture to default action"
+	},
+	"addCustomGesture": {
+		"message": "사용자 정의 제스처 추가",
+		"description": "Add custom gesture section title"
+	},
+	"gesturePattern": {
+		"message": "제스처 패턴",
+		"description": "Gesture pattern label"
+	},
+	"selectAction": {
+		"message": "동작 선택",
+		"description": "Select action label"
+	},
+	"clear": {
+		"message": "지우기",
+		"description": "Clear button"
+	},
+	"addGesture": {
+		"message": "제스처 추가",
+		"description": "Add gesture button"
+	},
+	"pleaseDrawGesture": {
+		"message": "먼저 제스처를 그려주세요.",
+		"description": "Alert when no gesture drawn"
+	},
+	"gestureAdded": {
+		"message": "✓ 제스처가 추가되었습니다.",
+		"description": "Gesture added success message"
+	},
+	"gestureDrawInstructions": {
+		"message": "마우스 오른쪽 버튼을 누른 채 아래 영역에 제스처를 그리고, 완료되면 놓으세요. 지원 방향:",
+		"description": "Instructions for gesture drawing"
+	},
+	"gestureOverwriteConfirm": {
+		"message": "제스처 %pattern%이(가) 이미 존재합니다. 덮어쓰시겠습니까?",
+		"description": "Confirmation message when adding a duplicate gesture"
+	},
+	"customGesture": {
+		"message": "사용자 정의",
+		"description": "Label for custom gestures"
+	},
+	"deleteGesture": {
+		"message": "제스처 삭제",
+		"description": "Delete gesture button tooltip"
+	},
+	"deleteGestureConfirm": {
+		"message": "제스처 %pattern%을(를) 삭제하시겠습니까?",
+		"description": "Delete gesture confirmation"
+	},
+	"gestureDeleted": {
+		"message": "✓ 제스처가 삭제되었습니다.",
+		"description": "Gesture deleted success message"
+	},
+	"enterCustomUrl": {
+		"message": "URL을 입력하세요 (https://, chrome:// 등 프로토콜 포함 권장):",
+		"description": "Prompt for custom URL input"
+	},
+	"invalidUrl": {
+		"message": "유효한 URL을 입력하세요 (http:// 또는 https://로 시작)",
+		"description": "Invalid URL error message"
+	},
+	"popupTrail": {
+		"message": "제스처 궤적",
+		"description": "Gesture trail in popup"
+	},
+	"popupHint": {
+		"message": "조작 힌트",
+		"description": "Action hint in popup"
+	},
+	"popupCommonGestures": {
+		"message": "자주 쓰는 제스처",
+		"description": "Common gestures"
+	},
+	"popupCurrentSite": {
+		"message": "현재 사이트",
+		"description": "Current site"
+	},
+	"popupRestricted": {
+		"message": "제한된 페이지",
+		"description": "Restricted page"
+	},
+	"popupDisabled": {
+		"message": "비활성화됨",
+		"description": "Disabled"
+	},
+	"popupAddBlacklist": {
+		"message": "블랙리스트에 추가",
+		"description": "Add to blacklist"
+	},
+	"popupRemoveBlacklist": {
+		"message": "블랙리스트에서 제거",
+		"description": "Remove from blacklist"
+	},
+	"popupNotAvailable": {
+		"message": "사용 불가",
+		"description": "Not available"
+	},
+	"popupBack": {
+		"message": "뒤로",
+		"description": "Back - short"
+	},
+	"popupForward": {
+		"message": "앞으로",
+		"description": "Forward - short"
+	},
+	"popupScrollUp": {
+		"message": "위로",
+		"description": "Scroll up - short"
+	},
+	"popupScrollDown": {
+		"message": "아래로",
+		"description": "Scroll down - short"
+	},
+	"popupClose": {
+		"message": "닫기",
+		"description": "Close Tab - short"
+	},
+	"popupRestore": {
+		"message": "복구",
+		"description": "Restore Tab - short"
+	},
+	"dragSearchText": {
+		"message": "🔍 드래그 검색",
+		"description": "Drag search hint"
+	},
+	"dragOpenImage": {
+		"message": "🖼️ 이미지 열기",
+		"description": "Drag open image hint"
+	},
+	"dragOpenLink": {
+		"message": "🔗 링크 열기",
+		"description": "Drag open link hint"
+	},
+	"aboutTitle": {
+		"message": "FlowMouse 정보",
+		"description": "About title"
+	},
+	"aboutAuthor": {
+		"message": "제작자",
+		"description": "Author"
+	},
+	"aboutWebsite": {
+		"message": "웹사이트",
+		"description": "Website"
+	},
+	"aboutOpenSource": {
+		"message": "GitHub",
+		"description": "GitHub link"
+	},
+	"aboutEmail": {
+		"message": "이메일",
+		"description": "Email"
+	},
+	"aboutPrivacy": {
+		"message": "개인 정보 보호 정책",
+		"description": "Privacy statement"
+	},
+	"aboutPrivacyText": {
+		"message": "이 확장 프로그램은 코드가 GitHub에 호스팅된 오픈 소스 프로젝트입니다. 검토 및 기여를 환영합니다. 확장 프로그램의 모든 데이터 처리는 기기 로컬에서 완료되며, 자체적으로 네트워크 연결을 수립하거나 백엔드 서버가 없으므로 사용자 데이터를 외부 서버로 수집하거나 업로드하지 않습니다. 저장된 설정은 로그인된 기기 간에 %browserName% 브라우저의 내장 동기화 서비스를 통해 암호화되어 동기화됩니다. 이 과정은 전적으로 브라우저에 의해 제어되며 브라우저의 개인 정보 보호 및 동기화 설정을 따릅니다.",
+		"description": "Privacy statement text"
+	},
+	"aboutCredits": {
+		"message": "감사의 말",
+		"description": "Credits"
+	},
+	"aboutCreditsText": {
+		"message": "Microsoft Edge 브라우저와 crxMouse 확장 프로그램의 디자인 영감에 감사드립니다.\n피드백과 제안을 주신 52pojie 포럼 및 사용자분들께 감사드립니다!",
+		"description": "Credits text"
+	},
+	"aboutFeatures": {
+		"message": "특징",
+		"description": "Features"
+	},
+	"aboutFeature1": {
+		"message": "🎯 16가지 기본 제스처 + 사용자 정의 제스처",
+		"description": "Feature 1"
+	},
+	"aboutFeature2": {
+		"message": "🎨 시각적 궤적 피드백",
+		"description": "Feature 2"
+	},
+	"aboutFeature3": {
+		"message": "🔍 텍스트/이미지/링크 슈퍼 드래그",
+		"description": "Feature 3"
+	},
+	"aboutFeature4": {
+		"message": "🚫 웹사이트 블랙리스트",
+		"description": "Feature 4"
+	},
+	"aboutFeature5": {
+		"message": "☁️ %browserName% 계정 동기화",
+		"description": "Feature 5"
+	},
+	"aboutFeature6": {
+		"message": "🔒 로컬 완전 실행, 동기화 외 네트워크 없음",
+		"description": "Feature 6"
+	},
+	"tutorial": {
+		"message": "사용 튜토리얼",
+		"description": "Tutorial link"
+	},
+	"learnMore": {
+		"message": "더 알아보기",
+		"description": "Learn more link"
+	},
+	"badgeNoNetwork": {
+		"message": "🔒 동기화 외 네트워크 없음",
+		"description": "No network privacy badge"
+	},
+	"badgeNoData": {
+		"message": "🚫 데이터 수집 없음",
+		"description": "No data collection badge"
+	},
+	"badgeLocalRun": {
+		"message": "✅ 로컬 실행",
+		"description": "Local run badge"
+	},
+	"newTabSettings": {
+		"message": "새 탭 열기 설정",
+		"description": "New tab open settings"
+	},
+	"newTabPosition": {
+		"message": "열기 위치",
+		"description": "New tab position"
+	},
+	"tabPositionRight": {
+		"message": "현재 탭 오른쪽",
+		"description": "Right of current tab"
+	},
+	"tabPositionLeft": {
+		"message": "현재 탭 왼쪽",
+		"description": "Left of current tab"
+	},
+	"tabPositionFirst": {
+		"message": "첫 번째 탭",
+		"description": "First tab (leftmost)"
+	},
+	"tabPositionLast": {
+		"message": "마지막 탭",
+		"description": "Last tab (rightmost)"
+	},
+	"tabPositionCurrent": {
+		"message": "현재 탭",
+		"description": "Open in current tab"
+	},
+	"newTabActive": {
+		"message": "전경에서 열기",
+		"description": "Open tab in foreground"
+	},
+	"textDragGestures": {
+		"message": "텍스트 드래그 제스처",
+		"description": "Text drag gestures"
+	},
+	"linkDragGestures": {
+		"message": "링크 드래그 제스처",
+		"description": "Link drag gestures"
+	},
+	"imageDragGestures": {
+		"message": "이미지 드래그 제스처",
+		"description": "Image drag gestures"
+	},
+	"direction": {
+		"message": "방향",
+		"description": "Direction column header"
+	},
+	"action": {
+		"message": "동작",
+		"description": "Action column header"
+	},
+	"imageSearchUrl": {
+		"message": "이미지 검색 URL (%s는 이미지 주소)",
+		"description": "Image search URL input"
+	},
+	"dragActionNone": {
+		"message": "동작 없음",
+		"description": "No action"
+	},
+	"dragActionSearch": {
+		"message": "🔍 검색 엔진",
+		"description": "Search action"
+	},
+	"dragActionCopy": {
+		"message": "📋 복사",
+		"description": "Copy action"
+	},
+	"dragActionOpenTab": {
+		"message": "📑 새 탭에서 열기",
+		"description": "Open in new tab"
+	},
+	"dragActionOpenTabLink": {
+		"message": "🔗 링크 열기",
+		"description": "Open link in new tab"
+	},
+	"dragActionOpenTabImage": {
+		"message": "🖼️ 이미지 열기",
+		"description": "Open image in new tab"
+	},
+	"dragActionCopyLink": {
+		"message": "📋 링크 복사",
+		"description": "Copy link"
+	},
+	"dragActionSaveImage": {
+		"message": "💾 이미지 저장",
+		"description": "Save image"
+	},
+	"dragActionCopyImage": {
+		"message": "🖼️ 이미지 복사",
+		"description": "Copy image"
+	},
+	"dragActionCopyImageUrl": {
+		"message": "📋 이미지 주소 복사",
+		"description": "Copy image URL"
+	},
+	"dragActionImageSearch": {
+		"message": "🔍 이미지 검색",
+		"description": "Image search"
+	},
+	"dragActionCustomSearch": {
+		"message": "🔍 사용자 정의 검색",
+		"description": "Custom search"
+	},
+	"reducedMotionWarning": {
+		"message": "⚠️ %OS% 시스템 애니메이션이 활성화되지 않아 스크롤 애니메이션이 정상적으로 표시되지 않을 수 있습니다. %OS% 시스템 설정에서 애니메이션을 켤 수 있습니다.",
+		"description": "Warning message when system reduced motion is enabled"
+	},
+	"autoDetectUrl": {
+		"message": "링크 자동 인식",
+		"description": "Auto detect URL checkbox label"
+	},
+	"preferLink": {
+		"message": "링크 우선 열기",
+		"description": "Prefer link checkbox label"
+	},
+	"menuNeedRefresh": {
+		"message": "FlowMouse 미로드, 클릭하여 새로고침",
+		"description": "Context menu title for pages needing refresh"
+	},
+	"menuRestricted": {
+		"message": "FlowMouse 사용 불가, 원인 보기",
+		"description": "Context menu title for restricted pages"
+	},
+	"showRestrictedNotice": {
+		"message": "제한된 페이지 알림",
+		"description": "Setting title for restricted page notice"
+	},
+	"showRestrictedNoticeDesc": {
+		"message": "제스처를 사용할 수 없는 페이지에서 우클릭 메뉴 알림 표시",
+		"description": "Setting description for restricted page notice"
+	},
+	"restrictedPagesDetailsTitle": {
+		"message": "⚠️ 브라우저 보안 정책 제한으로 인해 특정 유형의 페이지에서는 확장 프로그램이 실행될 수 없습니다.",
+		"description": "Collapsible details title"
+	},
+	"showMoreHint": {
+		"message": "(상세 보기)",
+		"description": "Hint to show more details"
+	},
+	"restrictedNewTab": {
+		"message": "새 탭 페이지 (chrome://newtab)",
+		"description": "New tab page title"
+	},
+	"restrictedNewTabDesc": {
+		"message": "브라우저 기본 새 탭 페이지는 보호된 시스템 페이지로, 확장 프로그램이 여기서 실행될 수 없습니다.",
+		"description": "New tab page description"
+	},
+	"restrictedStore": {
+		"message": "공식 웹 스토어 페이지",
+		"description": "Store page title"
+	},
+	"restrictedStoreDesc": {
+		"message": "예를 들어 %storeInfo% 등. 브라우저는 악성 확장이 스토어의 정상적인 액세스 및 설치 절차를 방해하는 것을 방지하기 위해 이러한 페이지에서 확장 프로그램의 실행을 금지합니다.",
+		"description": "Store page description"
+	},
+	"restrictedInternal": {
+		"message": "브라우저 내부 관리 페이지",
+		"description": "Internal page title"
+	},
+	"restrictedInternalDesc": {
+		"message": "chrome:// (Chrome) 또는 edge:// (Edge)로 시작하는 모든 내부 설정, 방문 기록, 다운로드 관리 등 페이지. 이 페이지들은 브라우저 핵심 기능과 사용자 개인 정보를 포함하므로 엄격하게 보호됩니다.",
+		"description": "Internal page description"
+	},
+	"restrictedFile": {
+		"message": "로컬 파일 페이지 (file://)",
+		"description": "File page title"
+	},
+	"restrictedFileDesc": {
+		"message": "file:// 프로토콜을 통해 열린 로컬 HTML 파일은 보안 제한(악성 확장이 로컬 파일 시스템에 액세스하는 것을 방지)으로 인해 확장 프로그램이 실행될 수 없습니다.",
+		"description": "File page description"
+	},
+	"restrictedViewSource": {
+		"message": "소스 코드 보기 페이지 (view-source:)",
+		"description": "View source page title"
+	},
+	"restrictedViewSourceDesc": {
+		"message": "브라우저에서 제공하는 소스 코드 보기 인터페이스 또한 보호된 시스템 페이지로, 확장 프로그램이 여기서 실행될 수 없습니다.",
+		"description": "View source page description"
+	},
+	"restrictedOther": {
+		"message": "기타 영향을 받는 덜 일반적인 페이지는 따로 나열하지 않습니다.",
+		"description": "Other restricted pages note"
+	},
+	"popupNeedRefresh": {
+		"message": "확장 프로그램 미로드",
+		"description": "Popup title when content script not loaded"
+	},
+	"popupNeedRefreshDesc": {
+		"message": "이 페이지는 확장 프로그램 설치/업데이트 전에 열렸으므로, 제스처를 사용하려면 새로고침이 필요합니다.",
+		"description": "Popup description when content script not loaded"
+	},
+	"popupRefreshBtn": {
+		"message": "🔄 페이지 새로고침",
+		"description": "Popup refresh button text"
+	},
+	"popupRestrictedTitle": {
+		"message": "제스처 사용 불가",
+		"description": "Popup title for restricted pages"
+	},
+	"popupRestrictedDesc": {
+		"message": "브라우저 보안 제한으로 인해 이 페이지에서는 확장 프로그램을 로드할 수 없습니다.",
+		"description": "Popup description for restricted pages"
+	},
+	"popupLearnMore": {
+		"message": "📖 자세히 알아보기",
+		"description": "Popup learn more button text"
+	},
+	"tutorialPending": {
+		"message": "시도해 보기",
+		"description": "Tutorial pending status"
+	},
+	"tutorialCompleted": {
+		"message": "완료",
+		"description": "Tutorial completed status"
+	},
+	"tutorialClickToStart": {
+		"message": "<span class=\"text-highlight\">마우스 오른쪽 버튼</span>을 클릭하여 시작하세요",
+		"description": "Tutorial Step 0 instruction"
+	},
+	"tutorialWelcomeTitle": {
+		"message": "FlowMouse에 오신 것을 환영합니다",
+		"description": "Tutorial welcome title"
+	},
+	"tutorialWelcomeSubtitle": {
+		"message": "30초 만에 기본 조작을 익혀 더 부드럽고 자유로운 브라우징을 경험하세요.",
+		"description": "Tutorial welcome subtitle"
+	},
+	"tutorialStep1Title": {
+		"message": "기본 조작",
+		"description": "Tutorial Step 1 title"
+	},
+	"tutorialStep1Subtitle": {
+		"message": "핵심 제스처 메커니즘 익히기",
+		"description": "Tutorial Step 1 subtitle"
+	},
+	"tutorialStep1InstructionIdle": {
+		"message": "<span class=\"text-highlight\">마우스 오른쪽 버튼</span>을 누르고 계세요",
+		"description": "Tutorial Step 1 instruction idle"
+	},
+	"tutorialStep1InstructionPressing": {
+		"message": "<strong>좋습니다!</strong> 누른 채로 <strong>%arrow% 오른쪽</strong>으로 드래그하세요",
+		"description": "Tutorial Step 1 instruction pressing"
+	},
+	"tutorialStep1InstructionDragging": {
+		"message": "계속 드래그하세요...",
+		"description": "Tutorial Step 1 instruction dragging"
+	},
+	"tutorialStep1InstructionReleasing": {
+		"message": "<strong>아주 좋아요!</strong> 오른쪽 버튼을 놓으세요!",
+		"description": "Tutorial Step 1 instruction releasing"
+	},
+	"tutorialStep2Title": {
+		"message": "자주 쓰는 제스처",
+		"description": "Tutorial Step 2 title"
+	},
+	"tutorialStep2Subtitle": {
+		"message": "<span class=\"text-highlight\">마우스 오른쪽 버튼</span>을 누른 채 제스처 그리기",
+		"description": "Tutorial Step 2 subtitle"
+	},
+	"tutorialStep2Footer": {
+		"message": "<strong>더 많은 제스처</strong> 및 <strong>제스처 사용자 정의</strong>는 설정에서 탐색할 수 있습니다.",
+		"description": "Footer note for step 2 discovery banner"
+	},
+	"tutorialStep2DiscoveryHeader": {
+		"message": "더 많은 제스처 기능",
+		"description": "Header for step 2 discovery banner"
+	},
+	"tutorialStep3DiscoveryHeader": {
+		"message": "더 많은 슈퍼 드래그 기능",
+		"description": "Header for step 3 discovery banner"
+	},
+	"tutorialStep3TextSearch": {
+		"message": "텍스트 <span class=\"svg-arrow\">→</span> 검색",
+		"description": "Text drag search discovery item"
+	},
+	"tutorialStep3LinkOpen": {
+		"message": "링크 <span class=\"svg-arrow\">→</span> 새 탭에서 열기",
+		"description": "Link drag open discovery item"
+	},
+	"tutorialStep3ImageOpen": {
+		"message": "이미지 <span class=\"svg-arrow\">→</span> 새 탭에서 열기",
+		"description": "Image drag open discovery item"
+	},
+	"tutorialStep3Footer": {
+		"message": "<strong>더 많은 드래그 기능</strong> 및 <strong>드래그 사용자 정의</strong>는 고급 설정 모드에서 탐색할 수 있습니다.",
+		"description": "Footer for step 3 discovery banner"
+	},
+	"tutorialContinue": {
+		"message": "계속",
+		"description": "Tutorial continue button"
+	},
+	"tutorialStep3Title": {
+		"message": "슈퍼 드래그",
+		"description": "Tutorial Step 3 title"
+	},
+	"tutorialStep3Subtitle": {
+		"message": "<span class=\"text-highlight\">마우스 왼쪽 버튼</span>을 누른 채 <span class=\"svg-arrow\">→</span> 방향으로 드래그하여 빠르게 작업 실행",
+		"description": "Tutorial Step 3 subtitle"
+	},
+	"tutorialStep3HintTitle": {
+		"message": "텍스트 드래그 검색",
+		"description": "Tutorial Step 3 hint title"
+	},
+	"tutorialStep3HintDesc": {
+		"message": "텍스트를 선택하고 <span class=\"text-highlight\">마우스 왼쪽 버튼</span>으로 <span class=\"svg-arrow\">→</span> 방향으로 드래그하여 검색하세요",
+		"description": "Tutorial Step 3 hint description. Note: Must drag to right. Use SVG arrow instead of text for direction."
+	},
+	"tutorialStep3TextBoxLabel": {
+		"message": "아래 텍스트로 시도해 보세요!",
+		"description": "Tutorial Step 3 text box label"
+	},
+	"tutorialStep3SelectableText": {
+		"message": "FlowMouse 슈퍼 드래그",
+		"description": "Tutorial Step 3 selectable text"
+	},
+	"tutorialStep4Title": {
+		"message": "축하합니다!",
+		"description": "Tutorial Step 4 title"
+	},
+	"tutorialStep4Subtitle": {
+		"message": "손끝으로 흐르는 몰입감을 즐기세요.",
+		"description": "Tutorial Step 4 subtitle"
+	},
+	"tutorialStep4Instruction": {
+		"message": "링크 위에서 <span class=\"text-highlight\">슈퍼 드래그 <span class=\"svg-arrow\">→</span></span>하여 <span class=\"text-highlight\">새 탭</span>에서 열어보세요",
+		"description": "Tutorial Step 4 instruction. Note: Must drag to right. Use SVG arrow instead of text for direction."
+	},
+	"tutorialSettingsLink": {
+		"message": "FlowMouse 설정",
+		"description": "Tutorial settings link"
+	},
+	"tutorialSettingsHint": {
+		"message": "더 많은 강력한 기능이 여러분을 기다립니다!",
+		"description": "Tutorial settings hint"
+	},
+	"tutorialWrongDirection": {
+		"message": "방향이 틀렸습니다! %arrow% 오른쪽으로 드래그하세요",
+		"description": "Tutorial wrong direction error"
+	},
+	"tutorialEarlyRelease": {
+		"message": "너무 빨리 놓았습니다! 다시 시도해 주세요.",
+		"description": "Tutorial early release error"
+	},
+	"tutorialDragWrongButton": {
+		"message": "<span class=\"text-highlight\">마우스 왼쪽 버튼</span>을 사용하여 드래그하세요",
+		"description": "Tutorial drag wrong button error"
+	},
+	"tutorialRefreshTip": {
+		"message": "팁: FlowMouse 설치 전에 열린 탭은 <span class=\"text-highlight\">새로고침</span>해야 제스처를 사용할 수 있습니다",
+		"description": "Tip about refreshing tabs"
+	},
+	"permissionBookmarksTitle": {
+		"message": "북마크 관리",
+		"description": "Permission popup title for bookmarks"
+	},
+	"permissionBookmarksDesc": {
+		"message": "페이지를 북마크에 추가하려면 FlowMouse에 북마크 권한이 필요합니다.",
+		"description": "Permission popup description for bookmarks"
+	},
+	"permissionDownloadsTitle": {
+		"message": "다운로드 관리",
+		"description": "Permission popup title for downloads"
+	},
+	"permissionDownloadsDesc": {
+		"message": "이미지를 저장하려면 FlowMouse에 다운로드 권한이 필요합니다.",
+		"description": "Permission popup description for downloads"
+	},
+	"permissionDownloadsPageCaptureTitle": {
+		"message": "이미지 저장",
+		"description": "Permission popup title for downloads and page capture"
+	},
+	"permissionDownloadsPageCaptureDesc": {
+		"message": "이미지를 저장하려면 FlowMouse에 페이지 및 다운로드 액세스 권한이 필요합니다.",
+		"description": "Permission popup description for downloads and page capture"
+	},
+	"grantPermission": {
+		"message": "권한 부여",
+		"description": "Grant permission button"
+	},
+	"grantPermissionCancel": {
+		"message": "취소",
+		"description": "Cancel button"
+	},
+	"permissionTitle": {
+		"message": "FlowMouse 권한 요청",
+		"description": "Generic permission window title"
+	},
+	"tutorialPinHint": {
+		"message": "<span class='icon-ext'></span><b>확장 프로그램</b>을 클릭하고, FlowMouse를<span class='icon-pin'></span><b>고정</b>하여 설정을 더 편리하게 이용하세요!",
+		"description": "Hint to pin the extension in tutorial step 4. Do not add space around icon."
+	},
+	"downloadErrorHotlink": {
+		"message": "이미지 저장 실패. 웹사이트에 핫링크 보호 기능이 있을 수 있습니다. 이미지를 마우스 오른쪽 버튼으로 클릭하고 \"이미지를 다른 이름으로 저장...\"을 선택하세요.",
+		"description": "Toast message when image download fails due to hotlink protection"
+	},
+	"saveImageLoadError": {
+		"message": "이미지 저장 실패: 이미지 로드 실패",
+		"description": "Toast message when image fails to load before saving"
+	},
+	"saveImageTimeout": {
+		"message": "이미지 저장 실패: 로드 시간 초과",
+		"description": "Toast message when image loading times out"
+	}
+}

@@ -1,0 +1,1238 @@
+{
+	"extName": {
+		"message": "FlowMouse - Gesta myší",
+		"description": "Extension name"
+	},
+	"extNameShort": {
+		"message": "FlowMouse",
+		"description": "Short extension name for popup"
+	},
+	"extDescription": {
+		"message": "Open-source rozšíření pro gesta myší zaměřené na soukromí a plynulý zážitek. Plynulá a pohotová gesta, podpora super přetahování a všechna data jsou uložena lokálně.",
+		"description": "Extension description"
+	},
+	"appearance": {
+		"message": "Vzhled",
+		"description": "Appearance section"
+	},
+	"theme": {
+		"message": "Téma",
+		"description": "Theme"
+	},
+	"themeDesc": {
+		"message": "Přepnout mezi světlým a tmavým tématem",
+		"description": "Theme description"
+	},
+	"themeDark": {
+		"message": "Tmavé",
+		"description": "Dark theme"
+	},
+	"themeLight": {
+		"message": "Světlé",
+		"description": "Light theme"
+	},
+	"themeAuto": {
+		"message": "Podle systému",
+		"description": "Auto theme - follow system"
+	},
+	"languageDesc": {
+		"message": "Vybrat jazyk rozhraní",
+		"description": "Language description"
+	},
+	"syncStatus": {
+		"message": "Stav synchronizace",
+		"description": "Sync status"
+	},
+	"syncStatusDesc": {
+		"message": "Synchronizace nastavení přes účet %browserName%",
+		"description": "Sync status description"
+	},
+	"synced": {
+		"message": "Synchronizováno",
+		"description": "Synced"
+	},
+	"author": {
+		"message": "Autor",
+		"description": "Author"
+	},
+	"privacyNote": {
+		"message": "🔒 Běží lokálně, žádný přístup k síti kromě synchronizace, žádný sběr dat",
+		"description": "Privacy note in footer"
+	},
+	"supportUsText": {
+		"message": "Líbí se vám FlowMouse? Dejte nám prosím 5 hvězdiček na %appStoreInfo% a podpořte nás!",
+		"description": "Rating text"
+	},
+	"storeNameChrome": {
+		"message": "Internetový obchod Chrome",
+		"description": "Chrome Web Store name"
+	},
+	"storeNameEdge": {
+		"message": "Doplňky aplikace Edge",
+		"description": "Edge Add-ons name"
+	},
+	"storeNameFirefox": {
+		"message": "Doplňky aplikace Firefox",
+		"description": "Firefox Add-ons name"
+	},
+	"feedbackText": {
+		"message": "Máte problémy nebo návrhy? Nahlaste je prosím prostřednictvím <a href='mailto:Service@52pojie.cn'>E-mailu</a>, <a href='https://github.com/Hmily-LCG/FlowMouse/issues' target='_blank'>GitHubu</a> nebo <a href='https://www.52pojie.cn/thread-2080303-1-1.html' target='_blank'>Fóra</a>. Budeme se snažit o zlepšení co nejdříve!",
+		"description": "Feedback text"
+	},
+	"supportAndFeedback": {
+		"message": "Podpora a zpětná vazba",
+		"description": "Support and Feedback section title"
+	},
+	"feedbackTitle": {
+		"message": "Zpětná vazba a návrhy",
+		"description": "Feedback row title"
+	},
+	"supportUsTitle": {
+		"message": "Podpořte nás",
+		"description": "Rating row title"
+	},
+	"backToSettings": {
+		"message": "Zpět do nastavení",
+		"description": "Back to settings link"
+	},
+	"settings": {
+		"message": "Nastavení",
+		"description": "Settings"
+	},
+	"moreSettings": {
+		"message": "Další nastavení",
+		"description": "More settings button in popup"
+	},
+	"version": {
+		"message": "Verze",
+		"description": "Version"
+	},
+	"basicSettings": {
+		"message": "Nastavení gest",
+		"description": "Gesture settings section"
+	},
+	"enableGesture": {
+		"message": "Povolit gesta",
+		"description": "Enable gesture feature"
+	},
+	"enableGestureDesc": {
+		"message": "Podržte pravé tlačítko myši a pohybujte myší pro snadné provádění gest",
+		"description": "Hold the right mouse button and move the mouse to easily perform gestures"
+	},
+	"macLinuxContextMenuNotice": {
+		"message": "⚠️ Kvůli systémovým omezením je pro otevření kontextové nabídky na macOS / Linux vyžadován dvojitý klik pravým tlačítkem.",
+		"description": "Notice for macOS / Linux users about double right-click for context menu"
+	},
+	"macTextDragNotice": {
+		"message": "⚠️ Kvůli chování macOS musíte při přetahování textu nejprve text vybrat, poté krátce podržet levé tlačítko a teprve pak táhnout. Jinak se vyhledávání nemusí spustit.",
+		"description": "Notice for macOS users about text drag behavior"
+	},
+	"showTrail": {
+		"message": "Zobrazit stopu gesta",
+		"description": "Show gesture trail"
+	},
+	"showTrailDesc": {
+		"message": "Zobrazovat stopu při provádění gest",
+		"description": "Show trail line when performing gestures"
+	},
+	"showHint": {
+		"message": "Zobrazit nápovědu akce",
+		"description": "Show action hint"
+	},
+	"showHintDesc": {
+		"message": "Zobrazit aktuální akci gesta uprostřed obrazovky",
+		"description": "Show current gesture action in center of screen"
+	},
+	"color": {
+		"message": "Barva",
+		"description": "Color"
+	},
+	"width": {
+		"message": "Šířka",
+		"description": "Width/thickness"
+	},
+	"background": {
+		"message": "Pozadí",
+		"description": "Background"
+	},
+	"opacity": {
+		"message": "Průhlednost",
+		"description": "Opacity"
+	},
+	"text": {
+		"message": "Text",
+		"description": "Text"
+	},
+	"scrollAmount": {
+		"message": "Vzdálenost posunutí",
+		"description": "Scroll amount"
+	},
+	"scrollAmountDesc": {
+		"message": "Vzdálenost posunutí pro gesta nahoru/dolů (% výšky okna)",
+		"description": "Scroll distance for up/down gestures"
+	},
+	"scrollSmoothness": {
+		"message": "Plynulost posouvání",
+		"description": "Scroll smoothness"
+	},
+	"scrollSmoothnessDesc": {
+		"message": "Efekt animace posouvání pro gesta nahoru/dolů",
+		"description": "Scroll smoothness description"
+	},
+	"smoothnessSystem": {
+		"message": "Systém (Vysoký výkon)",
+		"description": "System scroll smoothness"
+	},
+	"smoothnessCustom": {
+		"message": "Plynulé",
+		"description": "Custom smooth scrolling"
+	},
+	"smoothnessNone": {
+		"message": "Bez animace",
+		"description": "No scroll animation"
+	},
+	"dragFeatures": {
+		"message": "Funkce přetahování",
+		"description": "Drag features section"
+	},
+	"textDragSearch": {
+		"message": "Přetahování textu",
+		"description": "Text drag"
+	},
+	"textDragSearchDesc": {
+		"message": "Přetáhněte vybraný text pro vyhledávání",
+		"description": "Drag selected text to search"
+	},
+	"searchEngine": {
+		"message": "Vyhledávač",
+		"description": "Search engine"
+	},
+	"custom": {
+		"message": "Vlastní",
+		"description": "Custom"
+	},
+	"customUrlPlaceholder": {
+		"message": "Vlastní URL, použijte %s pro hledaný výraz",
+		"description": "Custom URL placeholder"
+	},
+	"urlPlaceholderText": {
+		"message": "%s=Klíčové slovo",
+		"description": "Placeholder for text drag custom URL"
+	},
+	"urlPlaceholderImage": {
+		"message": "%s=URL obrázku",
+		"description": "Placeholder for image drag custom URL"
+	},
+	"searchEngine_baidu": {
+		"message": "Baidu",
+		"description": "Baidu search engine"
+	},
+	"searchEngine_360": {
+		"message": "360 Search",
+		"description": "360 search engine"
+	},
+	"searchEngine_yandex": {
+		"message": "Yandex",
+		"description": "Yandex search engine"
+	},
+	"searchEngine_system": {
+		"message": "Výchozí nastavení",
+		"description": "System default search engine"
+	},
+	"imageDrag": {
+		"message": "Přetahování obrázků",
+		"description": "Image drag"
+	},
+	"imageDragDesc": {
+		"message": "Přetáhněte obrázek pro otevření na nové kartě",
+		"description": "Drag image to open in new tab"
+	},
+	"linkDrag": {
+		"message": "Přetahování odkazů",
+		"description": "Link drag"
+	},
+	"linkDragDesc": {
+		"message": "Přetáhněte odkaz pro otevření na nové kartě",
+		"description": "Drag link to open in new tab"
+	},
+	"enableCustomGestures": {
+		"message": "Vlastní gesta",
+		"description": "Enable custom gestures"
+	},
+	"enableCustomGesturesDesc": {
+		"message": "Zobrazit a přizpůsobit akce jednotlivých gest",
+		"description": "View and customize each gesture action"
+	},
+	"gestureAutoSaveHint": {
+		"message": "Tip: Změny se ukládají automaticky.",
+		"description": "Hint about auto-save"
+	},
+	"blacklist": {
+		"message": "Černá listina webů",
+		"description": "Website blacklist"
+	},
+	"blacklistPlaceholder": {
+		"message": "Zadejte doménu, např. example.com, stiskněte Enter pro přidání",
+		"description": "Blacklist input placeholder"
+	},
+	"add": {
+		"message": "Přidat",
+		"description": "Add button"
+	},
+	"emptyBlacklist": {
+		"message": "Žádné blokované weby. Zadejte doménu výše pro přidání.",
+		"description": "Empty blacklist message"
+	},
+	"dataManagement": {
+		"message": "Správa dat",
+		"description": "Data management section"
+	},
+	"export": {
+		"message": "Exportovat",
+		"description": "Export settings"
+	},
+	"import": {
+		"message": "Importovat",
+		"description": "Import settings"
+	},
+	"reset": {
+		"message": "Resetovat",
+		"description": "Reset to default"
+	},
+	"autoSaved": {
+		"message": "✓ Automaticky uloženo",
+		"description": "Auto-saved message"
+	},
+	"saveFailure": {
+		"message": "Uložení selhalo",
+		"description": "Save failure message"
+	},
+	"resetConfirm": {
+		"message": "Opravdu chcete resetovat všechna nastavení na výchozí?",
+		"description": "Reset confirmation"
+	},
+	"resetDone": {
+		"message": "Nastavení obnoveno na výchozí",
+		"description": "Reset done message"
+	},
+	"exportDone": {
+		"message": "Nastavení exportováno",
+		"description": "Export done message"
+	},
+	"importDone": {
+		"message": "Nastavení importováno",
+		"description": "Import done message"
+	},
+	"importFailed": {
+		"message": "Import selhal: Neplatný konfigurační soubor",
+		"description": "Import failed message"
+	},
+	"importFailedSyncError": {
+		"message": "Import se nezdařil: Chyba synchronizace, zkontrolujte stav prohlížeče",
+		"description": "Import failed sync error message"
+	},
+	"invalidDomain": {
+		"message": "Zadejte prosím platnou doménu",
+		"description": "Invalid domain message"
+	},
+	"domainExists": {
+		"message": "Doména je již na černé listině",
+		"description": "Domain already in blacklist"
+	},
+	"about": {
+		"message": "O aplikaci",
+		"description": "About section"
+	},
+	"language": {
+		"message": "Jazyk",
+		"description": "Language"
+	},
+	"languageAuto": {
+		"message": "Podle systému",
+		"description": "Follow system language"
+	},
+	"privacyFriendly": {
+		"message": "Šetrné k soukromí",
+		"description": "Privacy friendly"
+	},
+	"localOnly": {
+		"message": "Pouze lokálně",
+		"description": "Local only"
+	},
+	"autoSave": {
+		"message": "Automatické ukládání",
+		"description": "Auto save"
+	},
+	"gestureDesc_L": {
+		"message": "Vlevo",
+		"description": "Gesture description for ←"
+	},
+	"gestureDesc_R": {
+		"message": "Vpravo",
+		"description": "Gesture description for →"
+	},
+	"gestureDesc_U": {
+		"message": "Nahoru",
+		"description": "Gesture description for ↑"
+	},
+	"gestureDesc_D": {
+		"message": "Dolů",
+		"description": "Gesture description for ↓"
+	},
+	"gestureDesc_DR": {
+		"message": "Dolů a vpravo",
+		"description": "Gesture description for ↓→"
+	},
+	"gestureDesc_LU": {
+		"message": "Vlevo a nahoru",
+		"description": "Gesture description for ←↑"
+	},
+	"gestureDesc_RU": {
+		"message": "Vpravo a nahoru",
+		"description": "Gesture description for →↑"
+	},
+	"gestureDesc_RD": {
+		"message": "Vpravo a dolů",
+		"description": "Gesture description for →↓"
+	},
+	"gestureDesc_UL": {
+		"message": "Nahoru a vlevo",
+		"description": "Gesture description for ↑←"
+	},
+	"gestureDesc_UR": {
+		"message": "Nahoru a vpravo",
+		"description": "Gesture description for ↑→"
+	},
+	"gestureDesc_DL": {
+		"message": "Dolů a vlevo",
+		"description": "Gesture description for ↓←"
+	},
+	"gestureDesc_LD": {
+		"message": "Vlevo a dolů",
+		"description": "Gesture description for ←↓"
+	},
+	"gestureDesc_UD": {
+		"message": "Nahoru a dolů",
+		"description": "Gesture description for ↑↓"
+	},
+	"gestureDesc_DU": {
+		"message": "Dolů a nahoru",
+		"description": "Gesture description for ↓↑"
+	},
+	"gestureDesc_LR": {
+		"message": "Vlevo a vpravo",
+		"description": "Gesture description for ←→"
+	},
+	"gestureDesc_RL": {
+		"message": "Vpravo a vlevo",
+		"description": "Gesture description for →←"
+	},
+	"actionNone": {
+		"message": "Žádná akce",
+		"description": "No action"
+	},
+	"actionBack": {
+		"message": "Zpět",
+		"description": "Go back"
+	},
+	"actionForward": {
+		"message": "Vpřed",
+		"description": "Go forward"
+	},
+	"actionScrollUp": {
+		"message": "Posunout nahoru",
+		"description": "Scroll up"
+	},
+	"actionScrollDown": {
+		"message": "Posunout dolů",
+		"description": "Scroll down"
+	},
+	"actionScrollToTop": {
+		"message": "Posunout na začátek",
+		"description": "Scroll to top"
+	},
+	"actionScrollToBottom": {
+		"message": "Posunout na konec",
+		"description": "Scroll to bottom"
+	},
+	"actionCloseTab": {
+		"message": "Zavřít kartu",
+		"description": "Close tab"
+	},
+	"actionCloseTabKeepWindow": {
+		"message": "Zavřít kartu (zachovat okno)",
+		"description": "Close tab but keep window open"
+	},
+	"actionCloseBrowser": {
+		"message": "Zavřít prohlížeč",
+		"description": "Close browser"
+	},
+	"actionRestoreTab": {
+		"message": "Obnovit zavřenou kartu",
+		"description": "Restore closed tab"
+	},
+	"actionNewTab": {
+		"message": "Nová karta",
+		"description": "New tab"
+	},
+	"actionCloseOtherTabs": {
+		"message": "Zavřít ostatní karty",
+		"description": "Close other tabs"
+	},
+	"actionCloseLeftTabs": {
+		"message": "Zavřít karty vlevo",
+		"description": "Close tabs to the left"
+	},
+	"actionCloseRightTabs": {
+		"message": "Zavřít karty vpravo",
+		"description": "Close tabs to the right"
+	},
+	"actionCloseAllTabs": {
+		"message": "Zavřít všechny karty",
+		"description": "Close all tabs"
+	},
+	"actionSwitchLeftTab": {
+		"message": "Přepnout na kartu vlevo",
+		"description": "Switch to left tab"
+	},
+	"actionSwitchRightTab": {
+		"message": "Přepnout na kartu vpravo",
+		"description": "Switch to right tab"
+	},
+	"actionRefresh": {
+		"message": "Obnovit aktuální kartu",
+		"description": "Refresh current tab"
+	},
+	"actionRefreshAllTabs": {
+		"message": "Obnovit všechny karty",
+		"description": "Refresh all tabs"
+	},
+	"actionStopLoading": {
+		"message": "Zastavit načítání",
+		"description": "Stop loading"
+	},
+	"actionNewWindow": {
+		"message": "Nové okno",
+		"description": "New window"
+	},
+	"actionNewIncognito": {
+		"message": "Nové anonymní okno",
+		"description": "New incognito window"
+	},
+	"actionAddToBookmarks": {
+		"message": "Přidat do záložek",
+		"description": "Add to bookmarks"
+	},
+	"actionToggleFullscreen": {
+		"message": "Přepnout celou obrazovku",
+		"description": "Toggle fullscreen"
+	},
+	"actionToggleMaximize": {
+		"message": "Přepnout maximalizaci/obnovení",
+		"description": "Toggle window maximize"
+	},
+	"actionMinimize": {
+		"message": "Minimalizovat okno",
+		"description": "Minimize window"
+	},
+	"actionOpenCustomUrl": {
+		"message": "Otevřít vlastní URL",
+		"description": "Open custom URL"
+	},
+	"actionCopyUrl": {
+		"message": "Kopírovat aktuální URL",
+		"description": "Copy current URL"
+	},
+	"actionCopyTitle": {
+		"message": "Kopírovat titulek stránky",
+		"description": "Copy page title"
+	},
+	"actionOpenDownloads": {
+		"message": "Otevřít stahování",
+		"description": "Open downloads page"
+	},
+	"actionOpenHistory": {
+		"message": "Otevřít historii",
+		"description": "Open history page"
+	},
+	"actionOpenExtensions": {
+		"message": "Otevřít rozšíření",
+		"description": "Open extensions page"
+	},
+	"actionPrintPage": {
+		"message": "Tisk stránky",
+		"description": "Print page"
+	},
+	"actionDuplicateTab": {
+		"message": "Duplikovat kartu",
+		"description": "Duplicate current tab"
+	},
+	"actionToggleMuteTab": {
+		"message": "Ztlumit/Zrušit ztlumení karty",
+		"description": "Toggle mute current tab"
+	},
+	"actionToggleMuteAllTabs": {
+		"message": "Ztlumit/Zrušit ztlumení všech karet",
+		"description": "Toggle mute all tabs"
+	},
+	"showTrailOrigin": {
+		"message": "Zobrazit počáteční bod",
+		"description": "Show trail origin point"
+	},
+	"enableTrailSmooth": {
+		"message": "Vyhlazování stopy",
+		"description": "Enable trail smoothing for gesture visualization"
+	},
+	"distanceThreshold": {
+		"message": "Vzdálenost pro rozpoznání gesta",
+		"description": "Gesture recognition distance"
+	},
+	"distanceThresholdDesc": {
+		"message": "Minimální vzdálenost pohybu pro rozpoznání gesta",
+		"description": "Description for gesture recognition distance"
+	},
+	"distanceThresholdNotice": {
+		"message": "Tip: Pro nejlepší rozpoznávání se doporučuje hodnota mezi 15-30.",
+		"description": "Warning when distance threshold is too small or too large"
+	},
+	"enableAdvancedSettings": {
+		"message": "Pokročilá nastavení",
+		"description": "Enable advanced settings"
+	},
+	"enableAdvancedSettingsDesc": {
+		"message": "Zobrazit více pokročilých možností",
+		"description": "Show more advanced options when enabled"
+	},
+	"enableAdvancedSettingsToggle": {
+		"message": "Režim pokročilého nastavení",
+		"description": "Enable advanced settings toggle label"
+	},
+	"urlFormatError": {
+		"message": "Zadejte prosím celou URL začínající na http:// nebo https://",
+		"description": "URL format error message"
+	},
+	"resetToDefault": {
+		"message": "Obnovit výchozí",
+		"description": "Reset gesture to default action"
+	},
+	"addCustomGesture": {
+		"message": "Přidat vlastní gesto",
+		"description": "Add custom gesture section title"
+	},
+	"gesturePattern": {
+		"message": "Vzor",
+		"description": "Gesture pattern label"
+	},
+	"selectAction": {
+		"message": "Vybrat akci",
+		"description": "Select action label"
+	},
+	"clear": {
+		"message": "Vymazat",
+		"description": "Clear button"
+	},
+	"addGesture": {
+		"message": "Přidat gesto",
+		"description": "Add gesture button"
+	},
+	"pleaseDrawGesture": {
+		"message": "Prosím nejprve nakreslete gesto",
+		"description": "Alert when no gesture drawn"
+	},
+	"gestureAdded": {
+		"message": "✓ Gesto přidáno",
+		"description": "Gesture added success message"
+	},
+	"gestureDrawInstructions": {
+		"message": "Podržte pravé tlačítko myši a nakreslete gesto níže, uvolněním dokončíte. Podporované směry:",
+		"description": "Instructions for gesture drawing"
+	},
+	"gestureOverwriteConfirm": {
+		"message": "Gesto %pattern% již existuje. Přepsat?",
+		"description": "Confirmation message when adding a duplicate gesture"
+	},
+	"customGesture": {
+		"message": "Vlastní",
+		"description": "Label for custom gestures"
+	},
+	"deleteGesture": {
+		"message": "Smazat gesto",
+		"description": "Delete gesture button tooltip"
+	},
+	"deleteGestureConfirm": {
+		"message": "Smazat gesto %pattern%?",
+		"description": "Delete gesture confirmation"
+	},
+	"gestureDeleted": {
+		"message": "✓ Gesto smazáno",
+		"description": "Gesture deleted success message"
+	},
+	"enterCustomUrl": {
+		"message": "Zadejte URL (doporučujeme včetně protokolu jako https://, chrome://, atd.):",
+		"description": "Prompt for custom URL input"
+	},
+	"invalidUrl": {
+		"message": "Zadejte prosím platnou URL (začínající na http:// nebo https://)",
+		"description": "Invalid URL error message"
+	},
+	"popupTrail": {
+		"message": "Stopa gesta",
+		"description": "Gesture trail in popup"
+	},
+	"popupHint": {
+		"message": "Nápověda akce",
+		"description": "Action hint in popup"
+	},
+	"popupCommonGestures": {
+		"message": "Běžná gesta",
+		"description": "Common gestures"
+	},
+	"popupCurrentSite": {
+		"message": "Aktuální web",
+		"description": "Current site"
+	},
+	"popupRestricted": {
+		"message": "Omezená stránka",
+		"description": "Restricted page"
+	},
+	"popupDisabled": {
+		"message": "Zakázáno",
+		"description": "Disabled"
+	},
+	"popupAddBlacklist": {
+		"message": "Přidat na černou listinu",
+		"description": "Add to blacklist"
+	},
+	"popupRemoveBlacklist": {
+		"message": "Odstranit z černé listiny",
+		"description": "Remove from blacklist"
+	},
+	"popupNotAvailable": {
+		"message": "Nedostupné",
+		"description": "Not available"
+	},
+	"popupBack": {
+		"message": "Zpět",
+		"description": "Back - short"
+	},
+	"popupForward": {
+		"message": "Vpřed",
+		"description": "Forward - short"
+	},
+	"popupScrollUp": {
+		"message": "Nahoru",
+		"description": "Scroll up - short"
+	},
+	"popupScrollDown": {
+		"message": "Dolů",
+		"description": "Scroll down - short"
+	},
+	"popupClose": {
+		"message": "Zavřít",
+		"description": "Close Tab - short"
+	},
+	"popupRestore": {
+		"message": "Obnovit",
+		"description": "Restore Tab - short"
+	},
+	"dragSearchText": {
+		"message": "🔍 Hledat",
+		"description": "Drag search hint"
+	},
+	"dragOpenImage": {
+		"message": "🖼️ Otevřít obrázek",
+		"description": "Drag open image hint"
+	},
+	"dragOpenLink": {
+		"message": "🔗 Otevřít odkaz",
+		"description": "Drag open link hint"
+	},
+	"aboutTitle": {
+		"message": "O FlowMouse",
+		"description": "About title"
+	},
+	"aboutAuthor": {
+		"message": "Autor",
+		"description": "Author"
+	},
+	"aboutWebsite": {
+		"message": "Web",
+		"description": "Website"
+	},
+	"aboutOpenSource": {
+		"message": "GitHub",
+		"description": "GitHub link"
+	},
+	"aboutEmail": {
+		"message": "E-mail",
+		"description": "Email"
+	},
+	"aboutPrivacy": {
+		"message": "Prohlášení o soukromí",
+		"description": "Privacy statement"
+	},
+	"aboutPrivacyText": {
+		"message": "Toto rozšíření je open-source projekt s kódem na GitHubu. Příspěvky a revize kódu jsou vítány. Veškeré zpracování dat probíhá lokálně na vašem zařízení. Rozšíření samo o sobě nenavazuje žádná síťová spojení a nemá žádné backendové servery, takže neshromažďuje ani neodesílá žádná uživatelská data na externí servery. Vaše uložená nastavení jsou šifrována a synchronizována mezi vašimi přihlášenými zařízeními prostřednictvím vestavěné synchronizační služby prohlížeče %browserName%. Tento proces je zcela řízen prohlížečem a řídí se jeho nastavením soukromí a synchronizace.",
+		"description": "Privacy statement text"
+	},
+	"aboutCredits": {
+		"message": "Poděkování",
+		"description": "Credits"
+	},
+	"aboutCreditsText": {
+		"message": "Děkujeme prohlížeči Microsoft Edge a rozšíření crxMouse za designovou inspiraci.\nDěkujeme komunitě 52pojie.cn a uživatelům za zpětnou vazbu a návrhy!",
+		"description": "Credits text"
+	},
+	"aboutFeatures": {
+		"message": "Funkce",
+		"description": "Features"
+	},
+	"aboutFeature1": {
+		"message": "🎯 16 výchozích gest + vlastní gesta",
+		"description": "Feature 1"
+	},
+	"aboutFeature2": {
+		"message": "🎨 Vizuální stopa gesta",
+		"description": "Feature 2"
+	},
+	"aboutFeature3": {
+		"message": "🔍 Super přetahování textu/obrázků/odkazů",
+		"description": "Feature 3"
+	},
+	"aboutFeature4": {
+		"message": "🚫 Černá listina webů",
+		"description": "Feature 4"
+	},
+	"aboutFeature5": {
+		"message": "☁️ Synchronizace účtu %browserName%",
+		"description": "Feature 5"
+	},
+	"aboutFeature6": {
+		"message": "🔒 Běží lokálně, bez sítě kromě synchronizace",
+		"description": "Feature 6"
+	},
+	"tutorial": {
+		"message": "Tutoriál",
+		"description": "Tutorial link"
+	},
+	"learnMore": {
+		"message": "Zjistit více",
+		"description": "Learn more link"
+	},
+	"badgeNoNetwork": {
+		"message": "🔒 Bez sítě kromě sync",
+		"description": "No network privacy badge"
+	},
+	"badgeNoData": {
+		"message": "🚫 Žádný sběr dat",
+		"description": "No data collection badge"
+	},
+	"badgeLocalRun": {
+		"message": "✅ Běží lokálně",
+		"description": "Local run badge"
+	},
+	"newTabSettings": {
+		"message": "Nastavení nové karty",
+		"description": "New tab open settings"
+	},
+	"newTabPosition": {
+		"message": "Pozice",
+		"description": "New tab position"
+	},
+	"tabPositionRight": {
+		"message": "Vpravo od aktuální",
+		"description": "Right of current tab"
+	},
+	"tabPositionLeft": {
+		"message": "Vlevo od aktuální",
+		"description": "Left of current tab"
+	},
+	"tabPositionFirst": {
+		"message": "První karta",
+		"description": "First tab (leftmost)"
+	},
+	"tabPositionLast": {
+		"message": "Poslední karta",
+		"description": "Last tab (rightmost)"
+	},
+	"tabPositionCurrent": {
+		"message": "Aktuální karta",
+		"description": "Open in current tab"
+	},
+	"newTabActive": {
+		"message": "Otevřít v popředí",
+		"description": "Open tab in foreground"
+	},
+	"textDragGestures": {
+		"message": "Gesta přetahování textu",
+		"description": "Text drag gestures"
+	},
+	"linkDragGestures": {
+		"message": "Gesta přetahování odkazů",
+		"description": "Link drag gestures"
+	},
+	"imageDragGestures": {
+		"message": "Gesta přetahování obrázků",
+		"description": "Image drag gestures"
+	},
+	"direction": {
+		"message": "Směr",
+		"description": "Direction column header"
+	},
+	"action": {
+		"message": "Akce",
+		"description": "Action column header"
+	},
+	"imageSearchUrl": {
+		"message": "URL pro vyhledávání obrázků (%s = URL obrázku)",
+		"description": "Image search URL input"
+	},
+	"dragActionNone": {
+		"message": "Žádná akce",
+		"description": "No action"
+	},
+	"dragActionSearch": {
+		"message": "🔍 Vyhledávač",
+		"description": "Search action"
+	},
+	"dragActionCopy": {
+		"message": "📋 Kopírovat",
+		"description": "Copy action"
+	},
+	"dragActionOpenTab": {
+		"message": "📑 Otevřít na nové kartě",
+		"description": "Open in new tab"
+	},
+	"dragActionOpenTabLink": {
+		"message": "🔗 Otevřít odkaz",
+		"description": "Open link in new tab"
+	},
+	"dragActionOpenTabImage": {
+		"message": "🖼️ Otevřít obrázek",
+		"description": "Open image in new tab"
+	},
+	"dragActionCopyLink": {
+		"message": "📋 Kopírovat odkaz",
+		"description": "Copy link"
+	},
+	"dragActionSaveImage": {
+		"message": "💾 Uložit obrázek",
+		"description": "Save image"
+	},
+	"dragActionCopyImage": {
+		"message": "🖼️ Kopírovat obrázek",
+		"description": "Copy image"
+	},
+	"dragActionCopyImageUrl": {
+		"message": "📋 Kopírovat URL obrázku",
+		"description": "Copy image URL"
+	},
+	"dragActionImageSearch": {
+		"message": "🔍 Obrázkové vyhledávání",
+		"description": "Image search"
+	},
+	"dragActionCustomSearch": {
+		"message": "🔍 Vlastní hledání",
+		"description": "Custom search"
+	},
+	"reducedMotionWarning": {
+		"message": "⚠️ Systémové animace v %OS% jsou vypnuty, animace posouvání nemusí fungovat správně. Animace můžete povolit v nastavení systému %OS%.",
+		"description": "Warning message when system reduced motion is enabled"
+	},
+	"autoDetectUrl": {
+		"message": "Automaticky rozpoznat URL",
+		"description": "Auto detect URL checkbox label"
+	},
+	"preferLink": {
+		"message": "Upřednostnit odkaz",
+		"description": "Prefer link checkbox label"
+	},
+	"menuNeedRefresh": {
+		"message": "FlowMouse není načten, klikněte pro obnovení",
+		"description": "Context menu title for pages needing refresh"
+	},
+	"menuRestricted": {
+		"message": "FlowMouse nedostupné, zjistit proč",
+		"description": "Context menu title for restricted pages"
+	},
+	"showRestrictedNotice": {
+		"message": "Upozornění na omezených stránkách",
+		"description": "Setting title for restricted page notice"
+	},
+	"showRestrictedNoticeDesc": {
+		"message": "Zobrazit upozornění v kontextovém menu na stránkách, kde gesta nefungují",
+		"description": "Setting description for restricted page notice"
+	},
+	"restrictedPagesDetailsTitle": {
+		"message": "⚠️ Kvůli bezpečnostním zásadám prohlížeče nemohou rozšíření běžet na určitých typech stránek.",
+		"description": "Collapsible details title"
+	},
+	"showMoreHint": {
+		"message": " (Zobrazit podrobnosti)",
+		"description": "Hint to show more details"
+	},
+	"restrictedNewTab": {
+		"message": "Nová karta (chrome://newtab)",
+		"description": "New tab page title"
+	},
+	"restrictedNewTabDesc": {
+		"message": "Výchozí stránka nové karty prohlížeče je chráněná systémová stránka. Rozšíření zde nemohou vkládat skripty ani upravovat obsah.",
+		"description": "New tab page description"
+	},
+	"restrictedStore": {
+		"message": "Oficiální obchody rozšíření",
+		"description": "Store page title"
+	},
+	"restrictedStoreDesc": {
+		"message": "Například %storeInfo% atd. Prohlížeče brání rozšířením v běhu na těchto stránkách, aby chránily normální provoz obchodu.",
+		"description": "Store page description"
+	},
+	"restrictedInternal": {
+		"message": "Interní stránky prohlížeče",
+		"description": "Internal page title"
+	},
+	"restrictedInternalDesc": {
+		"message": "Všechny stránky začínající na chrome:// (Chrome) nebo edge:// (Edge), včetně nastavení, historie, stahování atd. Tyto stránky zahrnují klíčové funkce prohlížeče a soukromá data uživatelů, proto jsou přísně chráněny.",
+		"description": "Internal page description"
+	},
+	"restrictedFile": {
+		"message": "Lokální soubory (file://)",
+		"description": "File page title"
+	},
+	"restrictedFileDesc": {
+		"message": "Lokální HTML soubory otevřené přes protokol file://. Kvůli bezpečnostním omezením (bránícím škodlivým rozšířením v přístupu k lokálnímu souborovému systému) nemohou rozšíření na těchto stránkách fungovat.",
+		"description": "File page description"
+	},
+	"restrictedViewSource": {
+		"message": "Zobrazit zdrojový kód (view-source:)",
+		"description": "View source page title"
+	},
+	"restrictedViewSourceDesc": {
+		"message": "Prohlížeč zdrojového kódu je také chráněná systémová stránka. Rozšíření zde nemohou běžet.",
+		"description": "View source page description"
+	},
+	"restrictedOther": {
+		"message": "Další méně časté stránky nejsou uvedeny samostatně.",
+		"description": "Other restricted pages note"
+	},
+	"popupNeedRefresh": {
+		"message": "Rozšíření není načteno",
+		"description": "Popup title when content script not loaded"
+	},
+	"popupNeedRefreshDesc": {
+		"message": "Tato stránka byla otevřena před instalací/aktualizací rozšíření. Obnovte ji pro povolení gest.",
+		"description": "Popup description when content script not loaded"
+	},
+	"popupRefreshBtn": {
+		"message": "🔄 Obnovit stránku",
+		"description": "Popup refresh button text"
+	},
+	"popupRestrictedTitle": {
+		"message": "Gesta nedostupná",
+		"description": "Popup title for restricted pages"
+	},
+	"popupRestrictedDesc": {
+		"message": "Tato stránka nemůže používat gesta kvůli bezpečnostním omezením prohlížeče.",
+		"description": "Popup description for restricted pages"
+	},
+	"popupLearnMore": {
+		"message": "📖 Další informace",
+		"description": "Popup learn more button text"
+	},
+	"tutorialPending": {
+		"message": "Zkusit nyní",
+		"description": "Tutorial pending status"
+	},
+	"tutorialCompleted": {
+		"message": "Hotovo",
+		"description": "Tutorial completed status"
+	},
+	"tutorialClickToStart": {
+		"message": "Klikněte <span class=\"text-highlight\">pravým tlačítkem</span> pro start",
+		"description": "Tutorial Step 0 instruction"
+	},
+	"tutorialWelcomeTitle": {
+		"message": "Vítejte ve FlowMouse",
+		"description": "Tutorial welcome title"
+	},
+	"tutorialWelcomeSubtitle": {
+		"message": "Ovládněte základy za 30 sekund pro plynulejší a intuitivnější prohlížení",
+		"description": "Tutorial welcome subtitle"
+	},
+	"tutorialStep1Title": {
+		"message": "Základy",
+		"description": "Tutorial Step 1 title"
+	},
+	"tutorialStep1Subtitle": {
+		"message": "Naučte se základní mechaniku gest",
+		"description": "Tutorial Step 1 subtitle"
+	},
+	"tutorialStep1InstructionIdle": {
+		"message": "Stiskněte a <strong>držte</strong> <span class=\"text-highlight\">pravé tlačítko</span>",
+		"description": "Tutorial Step 1 instruction idle"
+	},
+	"tutorialStep1InstructionPressing": {
+		"message": "<strong>Výborně!</strong> Nyní táhněte <strong>%arrow% Vpravo</strong>",
+		"description": "Tutorial Step 1 instruction pressing"
+	},
+	"tutorialStep1InstructionDragging": {
+		"message": "Táhněte dál...",
+		"description": "Tutorial Step 1 instruction dragging"
+	},
+	"tutorialStep1InstructionReleasing": {
+		"message": "<strong>Skvěle!</strong> Nyní pusťte!",
+		"description": "Tutorial Step 1 instruction releasing"
+	},
+	"tutorialStep2Title": {
+		"message": "Gesta FlowMouse",
+		"description": "Tutorial Step 2 title"
+	},
+	"tutorialStep2Subtitle": {
+		"message": "Podržte <span class=\"text-highlight\">pravé tlačítko</span> pro provádění gest",
+		"description": "Tutorial Step 2 subtitle"
+	},
+	"tutorialStep2Footer": {
+		"message": "<strong>Více gest</strong> a <strong>plné přizpůsobení</strong> v nastavení.",
+		"description": "Footer note for step 2 discovery banner"
+	},
+	"tutorialStep2DiscoveryHeader": {
+		"message": "Další gesta",
+		"description": "Header for step 2 discovery banner"
+	},
+	"tutorialStep3DiscoveryHeader": {
+		"message": "Další funkce super přetahování",
+		"description": "Header for step 3 discovery banner"
+	},
+	"tutorialStep3TextSearch": {
+		"message": "Text <span class=\"svg-arrow\">→</span> Hledat",
+		"description": "Text drag search discovery item"
+	},
+	"tutorialStep3LinkOpen": {
+		"message": "Odkaz <span class=\"svg-arrow\">→</span> Otevřít na nové kartě",
+		"description": "Link drag open discovery item"
+	},
+	"tutorialStep3ImageOpen": {
+		"message": "Obrázek <span class=\"svg-arrow\">→</span> Otevřít na nové kartě",
+		"description": "Image drag open discovery item"
+	},
+	"tutorialStep3Footer": {
+		"message": "<strong>Více akcí přetahování</strong> a <strong>plné přizpůsobení</strong> v pokročilém nastavení",
+		"description": "Footer for step 3 discovery banner"
+	},
+	"tutorialContinue": {
+		"message": "Pokračovat",
+		"description": "Tutorial continue button"
+	},
+	"tutorialStep3Title": {
+		"message": "Super přetahování",
+		"description": "Tutorial Step 3 title"
+	},
+	"tutorialStep3Subtitle": {
+		"message": "Podržte <span class=\"text-highlight\">levé tlačítko</span> a táhněte <span class=\"svg-arrow\">→</span> pro provádění rychlých akcí",
+		"description": "Tutorial Step 3 subtitle"
+	},
+	"tutorialStep3HintTitle": {
+		"message": "Vyhledávání textu",
+		"description": "Tutorial Step 3 hint title"
+	},
+	"tutorialStep3HintDesc": {
+		"message": "Vyberte text, poté <span class=\"text-highlight\">levým tlačítkem</span> táhněte <span class=\"svg-arrow\">→</span> pro hledání",
+		"description": "Tutorial Step 3 hint description. Note: Must drag to right. Use SVG arrow instead of text for direction."
+	},
+	"tutorialStep3TextBoxLabel": {
+		"message": "Zkuste to s textem níže!",
+		"description": "Tutorial Step 3 text box label"
+	},
+	"tutorialStep3SelectableText": {
+		"message": "FlowMouse Super Drag",
+		"description": "Tutorial Step 3 selectable text"
+	},
+	"tutorialStep4Title": {
+		"message": "Gratulujeme!",
+		"description": "Tutorial Step 4 title"
+	},
+	"tutorialStep4Subtitle": {
+		"message": "Nyní se pohybujete s proudem.",
+		"description": "Tutorial Step 4 subtitle"
+	},
+	"tutorialStep4Instruction": {
+		"message": "Použijte <span class=\"text-highlight\">Super přetahování <span class=\"svg-arrow\">→</span></span> na tento odkaz pro otevření na <span class=\"text-highlight\">nové kartě</span>",
+		"description": "Tutorial Step 4 instruction. Note: Must drag to right. Use SVG arrow instead of text for direction."
+	},
+	"tutorialSettingsLink": {
+		"message": "Nastavení FlowMouse",
+		"description": "Tutorial settings link"
+	},
+	"tutorialSettingsHint": {
+		"message": "Mnoho dalších funkcí čeká na objevení!",
+		"description": "Tutorial settings hint"
+	},
+	"tutorialWrongDirection": {
+		"message": "Špatný směr! Táhněte %arrow% Vpravo",
+		"description": "Tutorial wrong direction error"
+	},
+	"tutorialEarlyRelease": {
+		"message": "Pustili jste příliš brzy! Zkuste znovu.",
+		"description": "Tutorial early release error"
+	},
+	"tutorialDragWrongButton": {
+		"message": "Použijte <span class=\"text-highlight\">levé tlačítko</span> pro přetahování",
+		"description": "Tutorial drag wrong button error"
+	},
+	"tutorialRefreshTip": {
+		"message": "Tip: Karty otevřené před instalací je třeba <span class=\"text-highlight\">obnovit</span>, aby FlowMouse fungoval",
+		"description": "Tip about refreshing tabs"
+	},
+	"permissionBookmarksTitle": {
+		"message": "Správa záložek",
+		"description": "Permission popup title for bookmarks"
+	},
+	"permissionBookmarksDesc": {
+		"message": "Pro přidávání stránek do záložek potřebuje FlowMouse oprávnění k záložkám.",
+		"description": "Permission popup description for bookmarks"
+	},
+	"permissionDownloadsTitle": {
+		"message": "Správa stahování",
+		"description": "Permission popup title for downloads"
+	},
+	"permissionDownloadsDesc": {
+		"message": "Pro ukládání obrázků potřebuje FlowMouse oprávnění ke stahování.",
+		"description": "Permission popup description for downloads"
+	},
+	"permissionDownloadsPageCaptureTitle": {
+		"message": "Uložit obrázek",
+		"description": "Permission popup title for downloads and page capture"
+	},
+	"permissionDownloadsPageCaptureDesc": {
+		"message": "Pro ukládání obrázků potřebuje FlowMouse přístup ke stránkám a stahování.",
+		"description": "Permission popup description for downloads and page capture"
+	},
+	"grantPermission": {
+		"message": "Udělit oprávnění",
+		"description": "Grant permission button"
+	},
+	"grantPermissionCancel": {
+		"message": "Zrušit",
+		"description": "Cancel button"
+	},
+	"permissionTitle": {
+		"message": "Oprávnění FlowMouse",
+		"description": "Generic permission window title"
+	},
+	"tutorialPinHint": {
+		"message": "Klikněte na<span class='icon-ext'></span><b>Rozšíření</b> a<span class='icon-pin'></span><b>Připněte</b> FlowMouse pro snadný přístup!",
+		"description": "Hint to pin the extension in tutorial step 4. Do not add space around icon."
+	},
+	"downloadErrorHotlink": {
+		"message": "Uložení obrázku se nezdařilo. Web může mít ochranu proti hotlinkování. Klikněte na obrázek pravým tlačítkem a vyberte „Uložit obrázek jako...“",
+		"description": "Toast message when image download fails due to hotlink protection"
+	},
+	"saveImageLoadError": {
+		"message": "Uložení obrázku selhalo: Obrázek se nepodařilo načíst",
+		"description": "Toast message when image fails to load before saving"
+	},
+	"saveImageTimeout": {
+		"message": "Uložení obrázku selhalo: Časový limit načítání vypršel",
+		"description": "Toast message when image loading times out"
+	}
+}

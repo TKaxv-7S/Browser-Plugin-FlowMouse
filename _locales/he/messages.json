@@ -1,0 +1,1238 @@
+{
+	"extName": {
+		"message": "FlowMouse - מחוות עכבר",
+		"description": "Extension name"
+	},
+	"extNameShort": {
+		"message": "FlowMouse",
+		"description": "Short extension name for popup"
+	},
+	"extDescription": {
+		"message": "תוסף מחוות עכבר בקוד פתוח המתמקד בפרטיות וחוויה חלקה. מחוות חלקות, תמיכה בגרירת-על, וכל הנתונים נשמרים מקומית.",
+		"description": "Extension description"
+	},
+	"appearance": {
+		"message": "מראה",
+		"description": "Appearance section"
+	},
+	"theme": {
+		"message": "ערכת נושא",
+		"description": "Theme"
+	},
+	"themeDesc": {
+		"message": "החלף בין ערכת נושא בהירה לכהה",
+		"description": "Theme description"
+	},
+	"themeDark": {
+		"message": "כהה",
+		"description": "Dark theme"
+	},
+	"themeLight": {
+		"message": "בהירה",
+		"description": "Light theme"
+	},
+	"themeAuto": {
+		"message": "לפי המערכת",
+		"description": "Auto theme - follow system"
+	},
+	"languageDesc": {
+		"message": "בחר שפת ממשק",
+		"description": "Language description"
+	},
+	"syncStatus": {
+		"message": "סטטוס סנכרון",
+		"description": "Sync status"
+	},
+	"syncStatusDesc": {
+		"message": "סנכרון הגדרות דרך חשבון %browserName%",
+		"description": "Sync status description"
+	},
+	"synced": {
+		"message": "מסונכרן",
+		"description": "Synced"
+	},
+	"author": {
+		"message": "מחבר",
+		"description": "Author"
+	},
+	"privacyNote": {
+		"message": "🔒 רץ מקומית, ללא גישה לרשת למעט סנכרון, ללא איסוף נתונים",
+		"description": "Privacy note in footer"
+	},
+	"supportUsText": {
+		"message": "נהנים מ-FlowMouse? אנא דרגו אותנו 5 כוכבים ב-%appStoreInfo% כדי לתמוך בנו!",
+		"description": "Rating text"
+	},
+	"storeNameChrome": {
+		"message": "חנות האינטרנט של Chrome",
+		"description": "Chrome Web Store name"
+	},
+	"storeNameEdge": {
+		"message": "הרחבות Edge",
+		"description": "Edge Add-ons name"
+	},
+	"storeNameFirefox": {
+		"message": "תוספות Firefox",
+		"description": "Firefox Add-ons name"
+	},
+	"feedbackText": {
+		"message": "בעיות או הצעות? אנא דווחו דרך <a href='mailto:Service@52pojie.cn'>אימייל</a>, <a href='https://github.com/Hmily-LCG/FlowMouse/issues' target='_blank'>GitHub</a> או <a href='https://www.52pojie.cn/thread-2080303-1-1.html' target='_blank'>הפורום</a>. אנו נשפר זאת בהקדם!",
+		"description": "Feedback text"
+	},
+	"supportAndFeedback": {
+		"message": "תמיכה ומשוב",
+		"description": "Support and Feedback section title"
+	},
+	"feedbackTitle": {
+		"message": "משוב והצעות",
+		"description": "Feedback row title"
+	},
+	"supportUsTitle": {
+		"message": "תמכו בנו",
+		"description": "Rating row title"
+	},
+	"backToSettings": {
+		"message": "חזרה להגדרות",
+		"description": "Back to settings link"
+	},
+	"settings": {
+		"message": "הגדרות",
+		"description": "Settings"
+	},
+	"moreSettings": {
+		"message": "הגדרות נוספות",
+		"description": "More settings button in popup"
+	},
+	"version": {
+		"message": "גרסה",
+		"description": "Version"
+	},
+	"basicSettings": {
+		"message": "הגדרות מחווה",
+		"description": "Gesture settings section"
+	},
+	"enableGesture": {
+		"message": "הפעל מחוות",
+		"description": "Enable gesture feature"
+	},
+	"enableGestureDesc": {
+		"message": "החזק את הלחצן הימני והזז את העכבר לביצוע מחוות בקלות",
+		"description": "Hold the right mouse button and move the mouse to easily perform gestures"
+	},
+	"macLinuxContextMenuNotice": {
+		"message": "⚠️ עקב מגבלות מערכת, לחיצה כפולה ימנית נדרשת לפתיחת התפריט ב-macOS / Linux.",
+		"description": "Notice for macOS / Linux users about double right-click for context menu"
+	},
+	"macTextDragNotice": {
+		"message": "⚠️ עקב התנהגות macOS, בעת גרירת טקסט, יש לבחור את הטקסט, ללחוץ ולהחזיק לרגע לפני הגרירה. אחרת, החיפוש עלול לא לפעול.",
+		"description": "Notice for macOS users about text drag behavior"
+	},
+	"showTrail": {
+		"message": "הצג שובל מחווה",
+		"description": "Show gesture trail"
+	},
+	"showTrailDesc": {
+		"message": "הצג קו שובל בעת ביצוע מחוות",
+		"description": "Show trail line when performing gestures"
+	},
+	"showHint": {
+		"message": "הצג רמז פעולה",
+		"description": "Show action hint"
+	},
+	"showHintDesc": {
+		"message": "הצג את פעולת המחווה הנוכחית במרכז המסך",
+		"description": "Show current gesture action in center of screen"
+	},
+	"color": {
+		"message": "צבע",
+		"description": "Color"
+	},
+	"width": {
+		"message": "רוחב",
+		"description": "Width/thickness"
+	},
+	"background": {
+		"message": "רקע",
+		"description": "Background"
+	},
+	"opacity": {
+		"message": "אטימות",
+		"description": "Opacity"
+	},
+	"text": {
+		"message": "טקסט",
+		"description": "Text"
+	},
+	"scrollAmount": {
+		"message": "מרחק גלילה",
+		"description": "Scroll amount"
+	},
+	"scrollAmountDesc": {
+		"message": "מרחק גלילה למחוות מעלה/מטה (% מגובה החלון)",
+		"description": "Scroll distance for up/down gestures"
+	},
+	"scrollSmoothness": {
+		"message": "חלקות גלילה",
+		"description": "Scroll smoothness"
+	},
+	"scrollSmoothnessDesc": {
+		"message": "אפקט אנימציית גלילה למחוות מעלה/מטה",
+		"description": "Scroll smoothness description"
+	},
+	"smoothnessSystem": {
+		"message": "מערכת (ביצועים גבוהים)",
+		"description": "System scroll smoothness"
+	},
+	"smoothnessCustom": {
+		"message": "חלק",
+		"description": "Custom smooth scrolling"
+	},
+	"smoothnessNone": {
+		"message": "ללא אנימציה",
+		"description": "No scroll animation"
+	},
+	"dragFeatures": {
+		"message": "תכונות גרירה",
+		"description": "Drag features section"
+	},
+	"textDragSearch": {
+		"message": "גרירת טקסט",
+		"description": "Text drag"
+	},
+	"textDragSearchDesc": {
+		"message": "גרור טקסט מסומן לחיפוש",
+		"description": "Drag selected text to search"
+	},
+	"searchEngine": {
+		"message": "מנוע חיפוש",
+		"description": "Search engine"
+	},
+	"custom": {
+		"message": "מותאם אישית",
+		"description": "Custom"
+	},
+	"customUrlPlaceholder": {
+		"message": "כתובת מותאמת אישית, השתמש ב-%s עבור מונח החיפוש",
+		"description": "Custom URL placeholder"
+	},
+	"urlPlaceholderText": {
+		"message": "%s=מילת חיפוש",
+		"description": "Placeholder for text drag custom URL"
+	},
+	"urlPlaceholderImage": {
+		"message": "%s=כתובת התמונה",
+		"description": "Placeholder for image drag custom URL"
+	},
+	"searchEngine_baidu": {
+		"message": "Baidu",
+		"description": "Baidu search engine"
+	},
+	"searchEngine_360": {
+		"message": "360 Search",
+		"description": "360 search engine"
+	},
+	"searchEngine_yandex": {
+		"message": "Yandex",
+		"description": "Yandex search engine"
+	},
+	"searchEngine_system": {
+		"message": "ברירת מחדל של הדפדפן",
+		"description": "System default search engine"
+	},
+	"imageDrag": {
+		"message": "גרירת תמונה",
+		"description": "Image drag"
+	},
+	"imageDragDesc": {
+		"message": "גרור תמונה לפתיחה בכרטיסייה חדשה",
+		"description": "Drag image to open in new tab"
+	},
+	"linkDrag": {
+		"message": "גרירת קישור",
+		"description": "Link drag"
+	},
+	"linkDragDesc": {
+		"message": "גרור קישור לפתיחה בכרטיסייה חדשה",
+		"description": "Drag link to open in new tab"
+	},
+	"enableCustomGestures": {
+		"message": "מחוות מותאמות אישית",
+		"description": "Enable custom gestures"
+	},
+	"enableCustomGesturesDesc": {
+		"message": "הצג והתאם אישית כל פעולת מחווה",
+		"description": "View and customize each gesture action"
+	},
+	"gestureAutoSaveHint": {
+		"message": "טיפ: שינויים נשמרים אוטומטית.",
+		"description": "Hint about auto-save"
+	},
+	"blacklist": {
+		"message": "רשימה שחורה של אתרים",
+		"description": "Website blacklist"
+	},
+	"blacklistPlaceholder": {
+		"message": "הזן דומיין, למשל example.com, לחץ Enter להוספה",
+		"description": "Blacklist input placeholder"
+	},
+	"add": {
+		"message": "הוסף",
+		"description": "Add button"
+	},
+	"emptyBlacklist": {
+		"message": "אין אתרים ברשימה השחורה. הזן דומיין למעלה להוספה.",
+		"description": "Empty blacklist message"
+	},
+	"dataManagement": {
+		"message": "ניהול נתונים",
+		"description": "Data management section"
+	},
+	"export": {
+		"message": "ייצוא",
+		"description": "Export settings"
+	},
+	"import": {
+		"message": "ייבוא",
+		"description": "Import settings"
+	},
+	"reset": {
+		"message": "איפוס",
+		"description": "Reset to default"
+	},
+	"autoSaved": {
+		"message": "✓ נשמר אוטומטית",
+		"description": "Auto-saved message"
+	},
+	"saveFailure": {
+		"message": "השמירה נכשלה",
+		"description": "Save failure message"
+	},
+	"resetConfirm": {
+		"message": "האם אתה בטוח שברצונך לאפס את כל ההגדרות לברירת מחדל?",
+		"description": "Reset confirmation"
+	},
+	"resetDone": {
+		"message": "ההגדרות אופסו לברירת מחדל",
+		"description": "Reset done message"
+	},
+	"exportDone": {
+		"message": "ההגדרות יוצאו",
+		"description": "Export done message"
+	},
+	"importDone": {
+		"message": "ההגדרות יובאו",
+		"description": "Import done message"
+	},
+	"importFailed": {
+		"message": "ייבוא נכשל: קובץ תצורה לא תקין",
+		"description": "Import failed message"
+	},
+	"importFailedSyncError": {
+		"message": "הייבוא נכשל: שגיאת סנכרון, נא לבדוק את סטטוס הדפדפן",
+		"description": "Import failed sync error message"
+	},
+	"invalidDomain": {
+		"message": "אנא הזן דומיין חוקי",
+		"description": "Invalid domain message"
+	},
+	"domainExists": {
+		"message": "הדומיין כבר קיים ברשימה השחורה",
+		"description": "Domain already in blacklist"
+	},
+	"about": {
+		"message": "אודות",
+		"description": "About section"
+	},
+	"language": {
+		"message": "שפה",
+		"description": "Language"
+	},
+	"languageAuto": {
+		"message": "לפי המערכת",
+		"description": "Follow system language"
+	},
+	"privacyFriendly": {
+		"message": "ידידותי לפרטיות",
+		"description": "Privacy friendly"
+	},
+	"localOnly": {
+		"message": "מקומי בלבד",
+		"description": "Local only"
+	},
+	"autoSave": {
+		"message": "שמירה אוטומטית",
+		"description": "Auto save"
+	},
+	"gestureDesc_L": {
+		"message": "שמאלה",
+		"description": "Gesture description for ←"
+	},
+	"gestureDesc_R": {
+		"message": "ימינה",
+		"description": "Gesture description for →"
+	},
+	"gestureDesc_U": {
+		"message": "למעלה",
+		"description": "Gesture description for ↑"
+	},
+	"gestureDesc_D": {
+		"message": "למטה",
+		"description": "Gesture description for ↓"
+	},
+	"gestureDesc_DR": {
+		"message": "למטה ואז ימינה",
+		"description": "Gesture description for ↓→"
+	},
+	"gestureDesc_LU": {
+		"message": "שמאלה ואז למעלה",
+		"description": "Gesture description for ←↑"
+	},
+	"gestureDesc_RU": {
+		"message": "ימינה ואז למעלה",
+		"description": "Gesture description for →↑"
+	},
+	"gestureDesc_RD": {
+		"message": "ימינה ואז למטה",
+		"description": "Gesture description for →↓"
+	},
+	"gestureDesc_UL": {
+		"message": "למעלה ואז שמאלה",
+		"description": "Gesture description for ↑←"
+	},
+	"gestureDesc_UR": {
+		"message": "למעלה ואז ימינה",
+		"description": "Gesture description for ↑→"
+	},
+	"gestureDesc_DL": {
+		"message": "למטה ואז שמאלה",
+		"description": "Gesture description for ↓←"
+	},
+	"gestureDesc_LD": {
+		"message": "שמאלה ואז למטה",
+		"description": "Gesture description for ←↓"
+	},
+	"gestureDesc_UD": {
+		"message": "למעלה ואז למטה",
+		"description": "Gesture description for ↑↓"
+	},
+	"gestureDesc_DU": {
+		"message": "למטה ואז למעלה",
+		"description": "Gesture description for ↓↑"
+	},
+	"gestureDesc_LR": {
+		"message": "שמאלה ואז ימינה",
+		"description": "Gesture description for ←→"
+	},
+	"gestureDesc_RL": {
+		"message": "ימינה ואז שמאלה",
+		"description": "Gesture description for →←"
+	},
+	"actionNone": {
+		"message": "ללא",
+		"description": "No action"
+	},
+	"actionBack": {
+		"message": "חזור",
+		"description": "Go back"
+	},
+	"actionForward": {
+		"message": "התקדם",
+		"description": "Go forward"
+	},
+	"actionScrollUp": {
+		"message": "גלול למעלה",
+		"description": "Scroll up"
+	},
+	"actionScrollDown": {
+		"message": "גלול למטה",
+		"description": "Scroll down"
+	},
+	"actionScrollToTop": {
+		"message": "גלול לראש הדף",
+		"description": "Scroll to top"
+	},
+	"actionScrollToBottom": {
+		"message": "גלול לתחתית",
+		"description": "Scroll to bottom"
+	},
+	"actionCloseTab": {
+		"message": "סגור כרטיסייה",
+		"description": "Close tab"
+	},
+	"actionCloseTabKeepWindow": {
+		"message": "סגור כרטיסייה (השאר חלון)",
+		"description": "Close tab but keep window open"
+	},
+	"actionCloseBrowser": {
+		"message": "סגור דפדפן",
+		"description": "Close browser"
+	},
+	"actionRestoreTab": {
+		"message": "שחזר כרטיסייה סגורה",
+		"description": "Restore closed tab"
+	},
+	"actionNewTab": {
+		"message": "כרטיסייה חדשה",
+		"description": "New tab"
+	},
+	"actionCloseOtherTabs": {
+		"message": "סגור כרטיסיות אחרות",
+		"description": "Close other tabs"
+	},
+	"actionCloseLeftTabs": {
+		"message": "סגור כרטיסיות משמאל",
+		"description": "Close tabs to the left"
+	},
+	"actionCloseRightTabs": {
+		"message": "סגור כרטיסיות מימין",
+		"description": "Close tabs to the right"
+	},
+	"actionCloseAllTabs": {
+		"message": "סגור את כל הכרטיסיות",
+		"description": "Close all tabs"
+	},
+	"actionSwitchLeftTab": {
+		"message": "עבור לכרטיסייה משמאל",
+		"description": "Switch to left tab"
+	},
+	"actionSwitchRightTab": {
+		"message": "עבור לכרטיסייה מימין",
+		"description": "Switch to right tab"
+	},
+	"actionRefresh": {
+		"message": "רענן כרטיסייה נוכחית",
+		"description": "Refresh current tab"
+	},
+	"actionRefreshAllTabs": {
+		"message": "רענן את כל הכרטיסיות",
+		"description": "Refresh all tabs"
+	},
+	"actionStopLoading": {
+		"message": "עצור טעינה",
+		"description": "Stop loading"
+	},
+	"actionNewWindow": {
+		"message": "חלון חדש",
+		"description": "New window"
+	},
+	"actionNewIncognito": {
+		"message": "חלון גלישה בסתר חדש",
+		"description": "New incognito window"
+	},
+	"actionAddToBookmarks": {
+		"message": "הוסף לסימניות",
+		"description": "Add to bookmarks"
+	},
+	"actionToggleFullscreen": {
+		"message": "החלף מצב מסך מלא",
+		"description": "Toggle fullscreen"
+	},
+	"actionToggleMaximize": {
+		"message": "הגדל/שחזר חלון",
+		"description": "Toggle window maximize"
+	},
+	"actionMinimize": {
+		"message": "מזער חלון",
+		"description": "Minimize window"
+	},
+	"actionOpenCustomUrl": {
+		"message": "פתח כתובת מותאמת אישית",
+		"description": "Open custom URL"
+	},
+	"actionCopyUrl": {
+		"message": "העתק כתובת נוכחית",
+		"description": "Copy current URL"
+	},
+	"actionCopyTitle": {
+		"message": "העתק כותרת דף",
+		"description": "Copy page title"
+	},
+	"actionOpenDownloads": {
+		"message": "פתח הורדות",
+		"description": "Open downloads page"
+	},
+	"actionOpenHistory": {
+		"message": "פתח היסטוריה",
+		"description": "Open history page"
+	},
+	"actionOpenExtensions": {
+		"message": "פתח תוספים",
+		"description": "Open extensions page"
+	},
+	"actionPrintPage": {
+		"message": "הדפס דף",
+		"description": "Print page"
+	},
+	"actionDuplicateTab": {
+		"message": "שכפל כרטיסייה",
+		"description": "Duplicate current tab"
+	},
+	"actionToggleMuteTab": {
+		"message": "השתק/בטל השתקה לכרטיסייה נוכחית",
+		"description": "Toggle mute current tab"
+	},
+	"actionToggleMuteAllTabs": {
+		"message": "השתק/בטל השתקה לכל הכרטיסיות",
+		"description": "Toggle mute all tabs"
+	},
+	"showTrailOrigin": {
+		"message": "הצג נקודת התחלה",
+		"description": "Show trail origin point"
+	},
+	"enableTrailSmooth": {
+		"message": "החלקת שובל",
+		"description": "Enable trail smoothing for gesture visualization"
+	},
+	"distanceThreshold": {
+		"message": "מרחק זיהוי מחוות",
+		"description": "Gesture recognition distance"
+	},
+	"distanceThresholdDesc": {
+		"message": "מרחק תנועה מינימלי לזיהוי מחווה",
+		"description": "Description for gesture recognition distance"
+	},
+	"distanceThresholdNotice": {
+		"message": "טיפ: מומלץ להגדיר ערך בין 15-30 לזיהוי אופטימלי.",
+		"description": "Warning when distance threshold is too small or too large"
+	},
+	"enableAdvancedSettings": {
+		"message": "הגדרות מתקדמות",
+		"description": "Enable advanced settings"
+	},
+	"enableAdvancedSettingsDesc": {
+		"message": "הצג אפשרויות מתקדמות נוספות בעת הפעלה",
+		"description": "Show more advanced options when enabled"
+	},
+	"enableAdvancedSettingsToggle": {
+		"message": "מצב הגדרות מתקדמות",
+		"description": "Enable advanced settings toggle label"
+	},
+	"urlFormatError": {
+		"message": "אנא הזן כתובת מלאה המתחילה ב-http:// או https://",
+		"description": "URL format error message"
+	},
+	"resetToDefault": {
+		"message": "אפס לברירת מחדל",
+		"description": "Reset gesture to default action"
+	},
+	"addCustomGesture": {
+		"message": "הוסף מחווה מותאמת אישית",
+		"description": "Add custom gesture section title"
+	},
+	"gesturePattern": {
+		"message": "תבנית",
+		"description": "Gesture pattern label"
+	},
+	"selectAction": {
+		"message": "בחר פעולה",
+		"description": "Select action label"
+	},
+	"clear": {
+		"message": "נקה",
+		"description": "Clear button"
+	},
+	"addGesture": {
+		"message": "הוסף מחווה",
+		"description": "Add gesture button"
+	},
+	"pleaseDrawGesture": {
+		"message": "אנא צייר מחווה תחילה",
+		"description": "Alert when no gesture drawn"
+	},
+	"gestureAdded": {
+		"message": "✓ המחווה נוספה",
+		"description": "Gesture added success message"
+	},
+	"gestureDrawInstructions": {
+		"message": "החזק את הלחצן הימני וצייר מחווה למטה, שחרר לסיום. כיוונים נתמכים:",
+		"description": "Instructions for gesture drawing"
+	},
+	"gestureOverwriteConfirm": {
+		"message": "המחווה %pattern% כבר קיימת. להחליף?",
+		"description": "Confirmation message when adding a duplicate gesture"
+	},
+	"customGesture": {
+		"message": "מותאם אישית",
+		"description": "Label for custom gestures"
+	},
+	"deleteGesture": {
+		"message": "מחק מחווה",
+		"description": "Delete gesture button tooltip"
+	},
+	"deleteGestureConfirm": {
+		"message": "למחוק את המחווה %pattern%?",
+		"description": "Delete gesture confirmation"
+	},
+	"gestureDeleted": {
+		"message": "✓ המחווה נמחקה",
+		"description": "Gesture deleted success message"
+	},
+	"enterCustomUrl": {
+		"message": "הזן כתובת (מומלץ לכלול פרוטוקול כגון https://, chrome:// וכו'):",
+		"description": "Prompt for custom URL input"
+	},
+	"invalidUrl": {
+		"message": "אנא הזן כתובת חוקית (מתחילה ב-http:// או https://)",
+		"description": "Invalid URL error message"
+	},
+	"popupTrail": {
+		"message": "שובל מחווה",
+		"description": "Gesture trail in popup"
+	},
+	"popupHint": {
+		"message": "רמז פעולה",
+		"description": "Action hint in popup"
+	},
+	"popupCommonGestures": {
+		"message": "מחוות נפוצות",
+		"description": "Common gestures"
+	},
+	"popupCurrentSite": {
+		"message": "אתר נוכחי",
+		"description": "Current site"
+	},
+	"popupRestricted": {
+		"message": "דף מוגבל",
+		"description": "Restricted page"
+	},
+	"popupDisabled": {
+		"message": "מושבת",
+		"description": "Disabled"
+	},
+	"popupAddBlacklist": {
+		"message": "הוסף לרשימה שחורה",
+		"description": "Add to blacklist"
+	},
+	"popupRemoveBlacklist": {
+		"message": "הסר מרשימה שחורה",
+		"description": "Remove from blacklist"
+	},
+	"popupNotAvailable": {
+		"message": "לא זמין",
+		"description": "Not available"
+	},
+	"popupBack": {
+		"message": "חזור",
+		"description": "Back - short"
+	},
+	"popupForward": {
+		"message": "התקדם",
+		"description": "Forward - short"
+	},
+	"popupScrollUp": {
+		"message": "מעלה",
+		"description": "Scroll up - short"
+	},
+	"popupScrollDown": {
+		"message": "מטה",
+		"description": "Scroll down - short"
+	},
+	"popupClose": {
+		"message": "סגור",
+		"description": "Close Tab - short"
+	},
+	"popupRestore": {
+		"message": "שחזר",
+		"description": "Restore Tab - short"
+	},
+	"dragSearchText": {
+		"message": "🔍 גרירה לחיפוש",
+		"description": "Drag search hint"
+	},
+	"dragOpenImage": {
+		"message": "🖼️ פתח תמונה",
+		"description": "Drag open image hint"
+	},
+	"dragOpenLink": {
+		"message": "🔗 פתח קישור",
+		"description": "Drag open link hint"
+	},
+	"aboutTitle": {
+		"message": "אודות FlowMouse",
+		"description": "About title"
+	},
+	"aboutAuthor": {
+		"message": "מחבר",
+		"description": "Author"
+	},
+	"aboutWebsite": {
+		"message": "אתר",
+		"description": "Website"
+	},
+	"aboutOpenSource": {
+		"message": "GitHub",
+		"description": "GitHub link"
+	},
+	"aboutEmail": {
+		"message": "אימייל",
+		"description": "Email"
+	},
+	"aboutPrivacy": {
+		"message": "הצהרת פרטיות",
+		"description": "Privacy statement"
+	},
+	"aboutPrivacyText": {
+		"message": "תוסף זה הוא פרויקט קוד פתוח עם קוד המאוחסן ב-GitHub. תרומות וסקירת קוד מתקבלות בברכה. כל עיבוד הנתונים נעשה באופן מקומי במכשיר שלך. התוסף עצמו אינו יוצר חיבורי רשת ואין לו שרתים אחוריים, כך שהוא אינו אוסף או מעלה נתוני משתמש לשרתים חיצוניים. ההגדרות השמורות שלך מוצפנות ומסונכרנות בין המכשירים המחוברים שלך באמצעות שירות הסנכרון המובנה של דפדפן %browserName%. תהליך זה נשלט לחלוטין על ידי הדפדפן ופועל בהתאם להגדרות הפרטיות והסנכרון של הדפדפן שלך.",
+		"description": "Privacy statement text"
+	},
+	"aboutCredits": {
+		"message": "תודות",
+		"description": "Credits"
+	},
+	"aboutCreditsText": {
+		"message": "תודה לדפדפן Microsoft Edge ולתוסף crxMouse על ההשראה לעיצוב.\nתודה לקהילת 52pojie.cn ולמשתמשים על המשוב וההצעות!",
+		"description": "Credits text"
+	},
+	"aboutFeatures": {
+		"message": "תכונות",
+		"description": "Features"
+	},
+	"aboutFeature1": {
+		"message": "🎯 16 מחוות ברירת מחדל + מחוות מותאמות אישית",
+		"description": "Feature 1"
+	},
+	"aboutFeature2": {
+		"message": "🎨 משוב שובל חזותי",
+		"description": "Feature 2"
+	},
+	"aboutFeature3": {
+		"message": "🔍 גרירת-על של טקסט/תמונה/קישור",
+		"description": "Feature 3"
+	},
+	"aboutFeature4": {
+		"message": "🚫 רשימה שחורה של אתרים",
+		"description": "Feature 4"
+	},
+	"aboutFeature5": {
+		"message": "☁️ סנכרון חשבון %browserName%",
+		"description": "Feature 5"
+	},
+	"aboutFeature6": {
+		"message": "🔒 רץ מקומית, ללא רשת למעט סנכרון",
+		"description": "Feature 6"
+	},
+	"tutorial": {
+		"message": "מדריך",
+		"description": "Tutorial link"
+	},
+	"learnMore": {
+		"message": "למידע נוסף",
+		"description": "Learn more link"
+	},
+	"badgeNoNetwork": {
+		"message": "🔒 ללא רשת למעט סנכרון",
+		"description": "No network privacy badge"
+	},
+	"badgeNoData": {
+		"message": "🚫 ללא איסוף נתונים",
+		"description": "No data collection badge"
+	},
+	"badgeLocalRun": {
+		"message": "✅ רץ מקומית",
+		"description": "Local run badge"
+	},
+	"newTabSettings": {
+		"message": "הגדרות כרטיסייה חדשה",
+		"description": "New tab open settings"
+	},
+	"newTabPosition": {
+		"message": "מיקום פתיחה",
+		"description": "New tab position"
+	},
+	"tabPositionRight": {
+		"message": "מימין לכרטיסייה הנוכחית",
+		"description": "Right of current tab"
+	},
+	"tabPositionLeft": {
+		"message": "משמאל לכרטיסייה הנוכחית",
+		"description": "Left of current tab"
+	},
+	"tabPositionFirst": {
+		"message": "כרטיסייה ראשונה",
+		"description": "First tab (leftmost)"
+	},
+	"tabPositionLast": {
+		"message": "כרטיסייה אחרונה",
+		"description": "Last tab (rightmost)"
+	},
+	"tabPositionCurrent": {
+		"message": "כרטיסייה נוכחית",
+		"description": "Open in current tab"
+	},
+	"newTabActive": {
+		"message": "פתח בחזית",
+		"description": "Open tab in foreground"
+	},
+	"textDragGestures": {
+		"message": "מחוות גרירת טקסט",
+		"description": "Text drag gestures"
+	},
+	"linkDragGestures": {
+		"message": "מחוות גרירת קישור",
+		"description": "Link drag gestures"
+	},
+	"imageDragGestures": {
+		"message": "מחוות גרירת תמונה",
+		"description": "Image drag gestures"
+	},
+	"direction": {
+		"message": "כיוון",
+		"description": "Direction column header"
+	},
+	"action": {
+		"message": "פעולה",
+		"description": "Action column header"
+	},
+	"imageSearchUrl": {
+		"message": "כתובת חיפוש תמונה (%s = כתובת התמונה)",
+		"description": "Image search URL input"
+	},
+	"dragActionNone": {
+		"message": "ללא",
+		"description": "No action"
+	},
+	"dragActionSearch": {
+		"message": "🔍 מנוע חיפוש",
+		"description": "Search action"
+	},
+	"dragActionCopy": {
+		"message": "📋 העתק",
+		"description": "Copy action"
+	},
+	"dragActionOpenTab": {
+		"message": "📑 פתח בכרטיסייה חדשה",
+		"description": "Open in new tab"
+	},
+	"dragActionOpenTabLink": {
+		"message": "🔗 פתח קישור",
+		"description": "Open link in new tab"
+	},
+	"dragActionOpenTabImage": {
+		"message": "🖼️ פתח תמונה",
+		"description": "Open image in new tab"
+	},
+	"dragActionCopyLink": {
+		"message": "📋 העתק קישור",
+		"description": "Copy link"
+	},
+	"dragActionSaveImage": {
+		"message": "💾 שמור תמונה",
+		"description": "Save image"
+	},
+	"dragActionCopyImage": {
+		"message": "🖼️ העתק תמונה",
+		"description": "Copy image"
+	},
+	"dragActionCopyImageUrl": {
+		"message": "📋 העתק כתובת תמונה",
+		"description": "Copy image URL"
+	},
+	"dragActionImageSearch": {
+		"message": "🔍 חיפוש תמונה",
+		"description": "Image search"
+	},
+	"dragActionCustomSearch": {
+		"message": "🔍 חיפוש מותאם אישית",
+		"description": "Custom search"
+	},
+	"reducedMotionWarning": {
+		"message": "⚠️ אנימציות מערכת %OS% מושבתות, אנימציית גלילה עלולה לא לפעול כראוי. ניתן להפעיל אנימציות בהגדרות מערכת %OS%.",
+		"description": "Warning message when system reduced motion is enabled"
+	},
+	"autoDetectUrl": {
+		"message": "זיהוי אוטומטי של קישורים",
+		"description": "Auto detect URL checkbox label"
+	},
+	"preferLink": {
+		"message": "העדף קישורים",
+		"description": "Prefer link checkbox label"
+	},
+	"menuNeedRefresh": {
+		"message": "FlowMouse לא נטען, לחץ לרענון",
+		"description": "Context menu title for pages needing refresh"
+	},
+	"menuRestricted": {
+		"message": "FlowMouse לא זמין, למד מדוע",
+		"description": "Context menu title for restricted pages"
+	},
+	"showRestrictedNotice": {
+		"message": "התראת דף מוגבל",
+		"description": "Setting title for restricted page notice"
+	},
+	"showRestrictedNoticeDesc": {
+		"message": "הצג התראה בתפריט לחצן ימני בדפים בהם מחוות אינן זמינות",
+		"description": "Setting description for restricted page notice"
+	},
+	"restrictedPagesDetailsTitle": {
+		"message": "⚠️ עקב מדיניות אבטחה של הדפדפן, תוספים אינם יכולים לפעול בסוגי דפים מסוימים.",
+		"description": "Collapsible details title"
+	},
+	"showMoreHint": {
+		"message": " (הצג פרטים)",
+		"description": "Hint to show more details"
+	},
+	"restrictedNewTab": {
+		"message": "דף כרטיסייה חדשה (chrome://newtab)",
+		"description": "New tab page title"
+	},
+	"restrictedNewTabDesc": {
+		"message": "דף כרטיסייה חדשה של הדפדפן הוא דף מערכת מוגן. תוספים אינם יכולים להזריק סקריפטים או לשנות תוכן כאן.",
+		"description": "New tab page description"
+	},
+	"restrictedStore": {
+		"message": "חנויות תוספים רשמיות",
+		"description": "Store page title"
+	},
+	"restrictedStoreDesc": {
+		"message": "לדוגמה %storeInfo% וכו'. דפדפנים מונעים מתוספים לפעול בדפים אלו להגנה על פעילות החנות.",
+		"description": "Store page description"
+	},
+	"restrictedInternal": {
+		"message": "דפים פנימיים של הדפדפן",
+		"description": "Internal page title"
+	},
+	"restrictedInternalDesc": {
+		"message": "כל הדפים המתחילים ב-chrome:// (Chrome) או edge:// (Edge), כולל הגדרות, היסטוריה, הורדות וכו'. דפים אלו מערבים ליבת דפדפן ומידע פרטי, ולכן מוגנים בקפידה.",
+		"description": "Internal page description"
+	},
+	"restrictedFile": {
+		"message": "דפי קבצים מקומיים (file://)",
+		"description": "File page title"
+	},
+	"restrictedFileDesc": {
+		"message": "קבצי HTML מקומיים שנפתחו דרך פרוטוקול file://. עקב מגבלות אבטחה (מניעת גישה של תוספים זדוניים למערכת הקבצים), תוספים אינם יכולים לפעול בדפים אלו.",
+		"description": "File page description"
+	},
+	"restrictedViewSource": {
+		"message": "דפי צפייה במקור (view-source:)",
+		"description": "View source page title"
+	},
+	"restrictedViewSourceDesc": {
+		"message": "מציג קוד המקור של הדפדפן הוא גם דף מערכת מוגן. תוספים אינם יכולים לפעול כאן.",
+		"description": "View source page description"
+	},
+	"restrictedOther": {
+		"message": "דפים מושפעים פחות נפוצים אחרים אינם רשומים בנפרד.",
+		"description": "Other restricted pages note"
+	},
+	"popupNeedRefresh": {
+		"message": "תוסף לא נטען",
+		"description": "Popup title when content script not loaded"
+	},
+	"popupNeedRefreshDesc": {
+		"message": "דף זה נפתח לפני שהתוסף הותקן/עודכן. רענן כדי להפעיל מחוות.",
+		"description": "Popup description when content script not loaded"
+	},
+	"popupRefreshBtn": {
+		"message": "🔄 רענן דף",
+		"description": "Popup refresh button text"
+	},
+	"popupRestrictedTitle": {
+		"message": "מחוות אינן זמינות",
+		"description": "Popup title for restricted pages"
+	},
+	"popupRestrictedDesc": {
+		"message": "דף זה אינו יכול להשתמש במחוות עקב מגבלות אבטחה של הדפדפן.",
+		"description": "Popup description for restricted pages"
+	},
+	"popupLearnMore": {
+		"message": "📖 למידע נוסף",
+		"description": "Popup learn more button text"
+	},
+	"tutorialPending": {
+		"message": "נסה כעת",
+		"description": "Tutorial pending status"
+	},
+	"tutorialCompleted": {
+		"message": "בוצע",
+		"description": "Tutorial completed status"
+	},
+	"tutorialClickToStart": {
+		"message": "לחץ על <span class=\"text-highlight\">לחצן ימני</span> כדי להתחיל",
+		"description": "Tutorial Step 0 instruction"
+	},
+	"tutorialWelcomeTitle": {
+		"message": "ברוכים הבאים ל-FlowMouse",
+		"description": "Tutorial welcome title"
+	},
+	"tutorialWelcomeSubtitle": {
+		"message": "שלטו ביסודות תוך 30 שניות לגלישה חלקה ואינטואיטיבית",
+		"description": "Tutorial welcome subtitle"
+	},
+	"tutorialStep1Title": {
+		"message": "היסודות",
+		"description": "Tutorial Step 1 title"
+	},
+	"tutorialStep1Subtitle": {
+		"message": "למדו את מנגנון המחווה הבסיסי",
+		"description": "Tutorial Step 1 subtitle"
+	},
+	"tutorialStep1InstructionIdle": {
+		"message": "לחץ ו<strong>החזק</strong> <span class=\"text-highlight\">לחצן ימני</span>",
+		"description": "Tutorial Step 1 instruction idle"
+	},
+	"tutorialStep1InstructionPressing": {
+		"message": "<strong>מצוין!</strong> כעת גרור <strong>%arrow% ימינה</strong>",
+		"description": "Tutorial Step 1 instruction pressing"
+	},
+	"tutorialStep1InstructionDragging": {
+		"message": "המשך לגרור...",
+		"description": "Tutorial Step 1 instruction dragging"
+	},
+	"tutorialStep1InstructionReleasing": {
+		"message": "<strong>נהדר!</strong> כעת שחרר!",
+		"description": "Tutorial Step 1 instruction releasing"
+	},
+	"tutorialStep2Title": {
+		"message": "מחוות FlowMouse",
+		"description": "Tutorial Step 2 title"
+	},
+	"tutorialStep2Subtitle": {
+		"message": "החזק <span class=\"text-highlight\">לחצן ימני</span> לביצוע מחוות",
+		"description": "Tutorial Step 2 subtitle"
+	},
+	"tutorialStep2Footer": {
+		"message": "<strong>מחוות נוספות</strong> ו<strong>התאמה אישית מלאה</strong> זמינות בהגדרות.",
+		"description": "Footer note for step 2 discovery banner"
+	},
+	"tutorialStep2DiscoveryHeader": {
+		"message": "מחוות נוספות",
+		"description": "Header for step 2 discovery banner"
+	},
+	"tutorialStep3DiscoveryHeader": {
+		"message": "תכונות גרירת-על נוספות",
+		"description": "Header for step 3 discovery banner"
+	},
+	"tutorialStep3TextSearch": {
+		"message": "טקסט <span class=\"svg-arrow\">→</span> חיפוש",
+		"description": "Text drag search discovery item"
+	},
+	"tutorialStep3LinkOpen": {
+		"message": "קישור <span class=\"svg-arrow\">→</span> פתח בכרטיסייה חדשה",
+		"description": "Link drag open discovery item"
+	},
+	"tutorialStep3ImageOpen": {
+		"message": "תמונה <span class=\"svg-arrow\">→</span> פתח בכרטיסייה חדשה",
+		"description": "Image drag open discovery item"
+	},
+	"tutorialStep3Footer": {
+		"message": "<strong>פעולות גרירה נוספות</strong> ו<strong>התאמה אישית מלאה</strong> זמינות במצב הגדרות מתקדמות",
+		"description": "Footer for step 3 discovery banner"
+	},
+	"tutorialContinue": {
+		"message": "המשך",
+		"description": "Tutorial continue button"
+	},
+	"tutorialStep3Title": {
+		"message": "גרירת-על",
+		"description": "Tutorial Step 3 title"
+	},
+	"tutorialStep3Subtitle": {
+		"message": "החזק <span class=\"text-highlight\">לחצן שמאלי</span> וגרור <span class=\"svg-arrow\">→</span> לביצוע פעולות במהירות",
+		"description": "Tutorial Step 3 subtitle"
+	},
+	"tutorialStep3HintTitle": {
+		"message": "חיפוש טקסט מסומן",
+		"description": "Tutorial Step 3 hint title"
+	},
+	"tutorialStep3HintDesc": {
+		"message": "בחר טקסט, ואז השתמש ב<span class=\"text-highlight\">לחצן שמאלי</span> וגרור <span class=\"svg-arrow\">→</span> לחיפוש",
+		"description": "Tutorial Step 3 hint description. Note: Must drag to right. Use SVG arrow instead of text for direction."
+	},
+	"tutorialStep3TextBoxLabel": {
+		"message": "נסה זאת עם הטקסט למטה!",
+		"description": "Tutorial Step 3 text box label"
+	},
+	"tutorialStep3SelectableText": {
+		"message": "FlowMouse גרירת-על",
+		"description": "Tutorial Step 3 selectable text"
+	},
+	"tutorialStep4Title": {
+		"message": "ברכות!",
+		"description": "Tutorial Step 4 title"
+	},
+	"tutorialStep4Subtitle": {
+		"message": "אתם זורמים עם הזרם כעת.",
+		"description": "Tutorial Step 4 subtitle"
+	},
+	"tutorialStep4Instruction": {
+		"message": "השתמש ב<span class=\"text-highlight\">גרירת-על <span class=\"svg-arrow\">→</span></span> על קישור זה לפתיחה ב<span class=\"text-highlight\">כרטיסייה חדשה</span>",
+		"description": "Tutorial Step 4 instruction. Note: Must drag to right. Use SVG arrow instead of text for direction."
+	},
+	"tutorialSettingsLink": {
+		"message": "הגדרות FlowMouse",
+		"description": "Tutorial settings link"
+	},
+	"tutorialSettingsHint": {
+		"message": "המון תכונות חזקות מחכות לכם!",
+		"description": "Tutorial settings hint"
+	},
+	"tutorialWrongDirection": {
+		"message": "כיוון שגוי! גרור %arrow% ימינה",
+		"description": "Tutorial wrong direction error"
+	},
+	"tutorialEarlyRelease": {
+		"message": "שוחרר מוקדם מדי! המשך לגרור.",
+		"description": "Tutorial early release error"
+	},
+	"tutorialDragWrongButton": {
+		"message": "השתמש ב<span class=\"text-highlight\">לחצן שמאלי</span> לגרירה",
+		"description": "Tutorial drag wrong button error"
+	},
+	"tutorialRefreshTip": {
+		"message": "טיפ: כרטיסיות שנפתחו לפני ההתקנה דורשות <span class=\"text-highlight\">רענון</span> כדי להשתמש ב-FlowMouse",
+		"description": "Tip about refreshing tabs"
+	},
+	"permissionBookmarksTitle": {
+		"message": "ניהול סימניות",
+		"description": "Permission popup title for bookmarks"
+	},
+	"permissionBookmarksDesc": {
+		"message": "להוספת דפים לסימניות, FlowMouse צריך גישה לסימניות שלך.",
+		"description": "Permission popup description for bookmarks"
+	},
+	"permissionDownloadsTitle": {
+		"message": "ניהול הורדות",
+		"description": "Permission popup title for downloads"
+	},
+	"permissionDownloadsDesc": {
+		"message": "לשמירת תמונות, FlowMouse צריך גישה להורדות שלך.",
+		"description": "Permission popup description for downloads"
+	},
+	"permissionDownloadsPageCaptureTitle": {
+		"message": "שמור תמונה",
+		"description": "Permission popup title for downloads and page capture"
+	},
+	"permissionDownloadsPageCaptureDesc": {
+		"message": "לשמירת תמונות, FlowMouse צריך גישה לדפים ולהורדות.",
+		"description": "Permission popup description for downloads and page capture"
+	},
+	"grantPermission": {
+		"message": "אשר גישה",
+		"description": "Grant permission button"
+	},
+	"grantPermissionCancel": {
+		"message": "ביטול",
+		"description": "Cancel button"
+	},
+	"permissionTitle": {
+		"message": "הרשאת FlowMouse",
+		"description": "Generic permission window title"
+	},
+	"tutorialPinHint": {
+		"message": "לחץ על<span class='icon-ext'></span><b>תוספים</b>, ו<span class='icon-pin'></span><b>הצמד</b> את FlowMouse לגישה קלה!",
+		"description": "Hint to pin the extension in tutorial step 4. Do not add space around icon."
+	},
+	"downloadErrorHotlink": {
+		"message": "שמירת התמונה נכשלה. ייתכן שבאתר יש הגנת קישור חם (hotlink). אנא לחץ לחיצה ימנית על התמונה ובחר \"שמור תמונה בשם...\"",
+		"description": "Toast message when image download fails due to hotlink protection"
+	},
+	"saveImageLoadError": {
+		"message": "שמירת תמונה נכשלה: טעינת התמונה נכשלה",
+		"description": "Toast message when image fails to load before saving"
+	},
+	"saveImageTimeout": {
+		"message": "שמירת תמונה נכשלה: תם הזמן הקצוב לטעינה",
+		"description": "Toast message when image loading times out"
+	}
+}

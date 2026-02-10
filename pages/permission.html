@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta charset="UTF-8">
+	<title data-i18n="permissionTitle">FlowMouse Permission</title>
+	<link rel="stylesheet" href="../css/common.css">
+	<link rel="stylesheet" href="../css/permission.css">
+</head>
+<body>
+	<div class="container">
+		<svg id="icon-bookmarks" class="icon" style="display: none;" viewBox="0 0 24 24" fill="currentColor">
+			<path d="M17 3H7c-1.1 0-2 .9-2 2v16l7-3 7 3V5c0-1.1-.9-2-2-2z"/>
+		</svg>
+		<svg id="icon-downloads" class="icon" style="display: none;" viewBox="0 0 24 24" fill="currentColor">
+			<path d="M19 9h-4V3H9v6H5l7 7 7-7zM5 18v2h14v-2H5z"/>
+		</svg>
+
+		<h2 id="title">Permission Required</h2>
+		<p id="description">This feature requires additional permission to function.</p>
+
+		<div class="buttons">
+			<button id="grantBtn" class="primary-btn" data-i18n="grantPermission">Grant Permission</button>
+			<button id="cancelBtn" class="secondary-btn" data-i18n="grantPermissionCancel">Cancel</button>
+		</div>
+	</div>
+	<script src="../js/i18n.js"></script>
+	<script src="../js/permission.js"></script>
+</body>
+</html>

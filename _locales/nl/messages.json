@@ -1,0 +1,1238 @@
+{
+	"extName": {
+		"message": "FlowMouse - Muisgebaren",
+		"description": "Extension name"
+	},
+	"extNameShort": {
+		"message": "FlowMouse",
+		"description": "Short extension name for popup"
+	},
+	"extDescription": {
+		"message": "Een open-source muisgebaren extensie gericht op privacy en een soepele ervaring. Vloeiende gebaren, super drag ondersteuning, en alle gegevens worden lokaal opgeslagen.",
+		"description": "Extension description"
+	},
+	"appearance": {
+		"message": "Uiterlijk",
+		"description": "Appearance section"
+	},
+	"theme": {
+		"message": "Thema",
+		"description": "Theme"
+	},
+	"themeDesc": {
+		"message": "Wissel tussen licht en donker thema",
+		"description": "Theme description"
+	},
+	"themeDark": {
+		"message": "Donker",
+		"description": "Dark theme"
+	},
+	"themeLight": {
+		"message": "Licht",
+		"description": "Light theme"
+	},
+	"themeAuto": {
+		"message": "Systeem volgen",
+		"description": "Auto theme - follow system"
+	},
+	"languageDesc": {
+		"message": "Selecteer interfacetaal",
+		"description": "Language description"
+	},
+	"syncStatus": {
+		"message": "Synchronisatiestatus",
+		"description": "Sync status"
+	},
+	"syncStatusDesc": {
+		"message": "Instellingensynchronisatie via %browserName%-account",
+		"description": "Sync status description"
+	},
+	"synced": {
+		"message": "Gesynchroniseerd",
+		"description": "Synced"
+	},
+	"author": {
+		"message": "Auteur",
+		"description": "Author"
+	},
+	"privacyNote": {
+		"message": "🔒 Draait lokaal, geen netwerktoegang behalve sync, geen gegevensverzameling",
+		"description": "Privacy note in footer"
+	},
+	"supportUsText": {
+		"message": "Blij met FlowMouse? Geef ons een 5-sterrenbeoordeling in de %appStoreInfo% om ons te steunen!",
+		"description": "Rating text"
+	},
+	"storeNameChrome": {
+		"message": "Chrome Web Store",
+		"description": "Chrome Web Store name"
+	},
+	"storeNameEdge": {
+		"message": "Edge-invoegtoepassingen",
+		"description": "Edge Add-ons name"
+	},
+	"storeNameFirefox": {
+		"message": "Firefox-add-ons",
+		"description": "Firefox Add-ons name"
+	},
+	"feedbackText": {
+		"message": "Problemen of suggesties? Meld ze via <a href='mailto:Service@52pojie.cn'>E-mail</a>, <a href='https://github.com/Hmily-LCG/FlowMouse/issues' target='_blank'>GitHub</a> of het <a href='https://www.52pojie.cn/thread-2080303-1-1.html' target='_blank'>Forum</a>. We zullen het zo snel mogelijk verbeteren!",
+		"description": "Feedback text"
+	},
+	"supportAndFeedback": {
+		"message": "Ondersteuning en Feedback",
+		"description": "Support and Feedback section title"
+	},
+	"feedbackTitle": {
+		"message": "Feedback en Suggesties",
+		"description": "Feedback row title"
+	},
+	"supportUsTitle": {
+		"message": "Steun Ons",
+		"description": "Rating row title"
+	},
+	"backToSettings": {
+		"message": "Terug naar Instellingen",
+		"description": "Back to settings link"
+	},
+	"settings": {
+		"message": "Instellingen",
+		"description": "Settings"
+	},
+	"moreSettings": {
+		"message": "Meer Instellingen",
+		"description": "More settings button in popup"
+	},
+	"version": {
+		"message": "Versie",
+		"description": "Version"
+	},
+	"basicSettings": {
+		"message": "Gebaarinstellingen",
+		"description": "Gesture settings section"
+	},
+	"enableGesture": {
+		"message": "Gebaren inschakelen",
+		"description": "Enable gesture feature"
+	},
+	"enableGestureDesc": {
+		"message": "Houd de rechtermuisknop ingedrukt en beweeg de muis om eenvoudig gebaren uit te voeren",
+		"description": "Hold the right mouse button and move the mouse to easily perform gestures"
+	},
+	"macLinuxContextMenuNotice": {
+		"message": "⚠️ Vanwege systeembeperkingen is een dubbele rechtsklik vereist om het contextmenu te openen op macOS / Linux.",
+		"description": "Notice for macOS / Linux users about double right-click for context menu"
+	},
+	"macTextDragNotice": {
+		"message": "⚠️ Vanwege macOS-gedrag moet u bij het slepen van tekst eerst de tekst selecteren en vervolgens de linkermuisknop kort ingedrukt houden voordat u sleept. Anders wordt de zoekopdracht mogelijk niet geactiveerd.",
+		"description": "Notice for macOS users about text drag behavior"
+	},
+	"showTrail": {
+		"message": "Toon Gebarenspoor",
+		"description": "Show gesture trail"
+	},
+	"showTrailDesc": {
+		"message": "Toon spoorlijn bij het uitvoeren van gebaren",
+		"description": "Show trail line when performing gestures"
+	},
+	"showHint": {
+		"message": "Toon Actiehint",
+		"description": "Show action hint"
+	},
+	"showHintDesc": {
+		"message": "Toon huidige gebaaractie in het midden van het scherm",
+		"description": "Show current gesture action in center of screen"
+	},
+	"color": {
+		"message": "Kleur",
+		"description": "Color"
+	},
+	"width": {
+		"message": "Dikte",
+		"description": "Width/thickness"
+	},
+	"background": {
+		"message": "Achtergrond",
+		"description": "Background"
+	},
+	"opacity": {
+		"message": "Ondoorzichtigheid",
+		"description": "Opacity"
+	},
+	"text": {
+		"message": "Tekst",
+		"description": "Text"
+	},
+	"scrollAmount": {
+		"message": "Scrolafstand",
+		"description": "Scroll amount"
+	},
+	"scrollAmountDesc": {
+		"message": "Scrolafstand voor omhoog/omlaag gebaren (% van vensterhoogte)",
+		"description": "Scroll distance for up/down gestures"
+	},
+	"scrollSmoothness": {
+		"message": "Vloeiend scrollen",
+		"description": "Scroll smoothness"
+	},
+	"scrollSmoothnessDesc": {
+		"message": "Scroll-animatie-effect voor omhoog/omlaag gebaren",
+		"description": "Scroll smoothness description"
+	},
+	"smoothnessSystem": {
+		"message": "Systeem (Hoge Prestaties)",
+		"description": "System scroll smoothness"
+	},
+	"smoothnessCustom": {
+		"message": "Vloeiend",
+		"description": "Custom smooth scrolling"
+	},
+	"smoothnessNone": {
+		"message": "Geen animatie",
+		"description": "No scroll animation"
+	},
+	"dragFeatures": {
+		"message": "Sleepfuncties",
+		"description": "Drag features section"
+	},
+	"textDragSearch": {
+		"message": "Tekst Slepen",
+		"description": "Text drag"
+	},
+	"textDragSearchDesc": {
+		"message": "Sleep geselecteerde tekst om te zoeken",
+		"description": "Drag selected text to search"
+	},
+	"searchEngine": {
+		"message": "Zoekmachine",
+		"description": "Search engine"
+	},
+	"custom": {
+		"message": "Aangepast",
+		"description": "Custom"
+	},
+	"customUrlPlaceholder": {
+		"message": "Aangepaste URL, gebruik %s voor zoekterm",
+		"description": "Custom URL placeholder"
+	},
+	"urlPlaceholderText": {
+		"message": "%s=Zoekterm",
+		"description": "Placeholder for text drag custom URL"
+	},
+	"urlPlaceholderImage": {
+		"message": "%s=Afbeelding-URL",
+		"description": "Placeholder for image drag custom URL"
+	},
+	"searchEngine_baidu": {
+		"message": "Baidu",
+		"description": "Baidu search engine"
+	},
+	"searchEngine_360": {
+		"message": "360 Search",
+		"description": "360 search engine"
+	},
+	"searchEngine_yandex": {
+		"message": "Yandex",
+		"description": "Yandex search engine"
+	},
+	"searchEngine_system": {
+		"message": "Browser standaard",
+		"description": "System default search engine"
+	},
+	"imageDrag": {
+		"message": "Afbeelding Slepen",
+		"description": "Image drag"
+	},
+	"imageDragDesc": {
+		"message": "Sleep afbeelding om in nieuw tabblad te openen",
+		"description": "Drag image to open in new tab"
+	},
+	"linkDrag": {
+		"message": "Link Slepen",
+		"description": "Link drag"
+	},
+	"linkDragDesc": {
+		"message": "Sleep link om in nieuw tabblad te openen",
+		"description": "Drag link to open in new tab"
+	},
+	"enableCustomGestures": {
+		"message": "Aangepaste Gebaren",
+		"description": "Enable custom gestures"
+	},
+	"enableCustomGesturesDesc": {
+		"message": "Bekijk en pas elke gebaaractie aan",
+		"description": "View and customize each gesture action"
+	},
+	"gestureAutoSaveHint": {
+		"message": "Tip: Wijzigingen worden automatisch opgeslagen.",
+		"description": "Hint about auto-save"
+	},
+	"blacklist": {
+		"message": "Website Zwarte Lijst",
+		"description": "Website blacklist"
+	},
+	"blacklistPlaceholder": {
+		"message": "Voer domein in, bijv. example.com, druk op Enter om toe te voegen",
+		"description": "Blacklist input placeholder"
+	},
+	"add": {
+		"message": "Toevoegen",
+		"description": "Add button"
+	},
+	"emptyBlacklist": {
+		"message": "Geen geblokkeerde sites. Voer hierboven een domein in om toe te voegen.",
+		"description": "Empty blacklist message"
+	},
+	"dataManagement": {
+		"message": "Gegevensbeheer",
+		"description": "Data management section"
+	},
+	"export": {
+		"message": "Exporteren",
+		"description": "Export settings"
+	},
+	"import": {
+		"message": "Importeren",
+		"description": "Import settings"
+	},
+	"reset": {
+		"message": "Herstellen",
+		"description": "Reset to default"
+	},
+	"autoSaved": {
+		"message": "✓ Automatisch opgeslagen",
+		"description": "Auto-saved message"
+	},
+	"saveFailure": {
+		"message": "Opslaan mislukt",
+		"description": "Save failure message"
+	},
+	"resetConfirm": {
+		"message": "Weet u zeker dat u alle instellingen naar de standaardwaarden wilt herstellen?",
+		"description": "Reset confirmation"
+	},
+	"resetDone": {
+		"message": "Instellingen hersteld naar standaard",
+		"description": "Reset done message"
+	},
+	"exportDone": {
+		"message": "Instellingen geëxporteerd",
+		"description": "Export done message"
+	},
+	"importDone": {
+		"message": "Instellingen geïmporteerd",
+		"description": "Import done message"
+	},
+	"importFailed": {
+		"message": "Importeren mislukt: Ongeldig configuratiebestand",
+		"description": "Import failed message"
+	},
+	"importFailedSyncError": {
+		"message": "Import mislukt: Synchronisatiefout, controleer de browserstatus",
+		"description": "Import failed sync error message"
+	},
+	"invalidDomain": {
+		"message": "Voer een geldig domein in",
+		"description": "Invalid domain message"
+	},
+	"domainExists": {
+		"message": "Domein staat al op de zwarte lijst",
+		"description": "Domain already in blacklist"
+	},
+	"about": {
+		"message": "Over",
+		"description": "About section"
+	},
+	"language": {
+		"message": "Taal",
+		"description": "Language"
+	},
+	"languageAuto": {
+		"message": "Systeem volgen",
+		"description": "Follow system language"
+	},
+	"privacyFriendly": {
+		"message": "Privacyvriendelijk",
+		"description": "Privacy friendly"
+	},
+	"localOnly": {
+		"message": "Alleen Lokaal",
+		"description": "Local only"
+	},
+	"autoSave": {
+		"message": "Automatisch Opslaan",
+		"description": "Auto save"
+	},
+	"gestureDesc_L": {
+		"message": "Links",
+		"description": "Gesture description for ←"
+	},
+	"gestureDesc_R": {
+		"message": "Rechts",
+		"description": "Gesture description for →"
+	},
+	"gestureDesc_U": {
+		"message": "Omhoog",
+		"description": "Gesture description for ↑"
+	},
+	"gestureDesc_D": {
+		"message": "Omlaag",
+		"description": "Gesture description for ↓"
+	},
+	"gestureDesc_DR": {
+		"message": "Omlaag dan Rechts",
+		"description": "Gesture description for ↓→"
+	},
+	"gestureDesc_LU": {
+		"message": "Links dan Omhoog",
+		"description": "Gesture description for ←↑"
+	},
+	"gestureDesc_RU": {
+		"message": "Rechts dan Omhoog",
+		"description": "Gesture description for →↑"
+	},
+	"gestureDesc_RD": {
+		"message": "Rechts dan Omlaag",
+		"description": "Gesture description for →↓"
+	},
+	"gestureDesc_UL": {
+		"message": "Omhoog dan Links",
+		"description": "Gesture description for ↑←"
+	},
+	"gestureDesc_UR": {
+		"message": "Omhoog dan Rechts",
+		"description": "Gesture description for ↑→"
+	},
+	"gestureDesc_DL": {
+		"message": "Omlaag dan Links",
+		"description": "Gesture description for ↓←"
+	},
+	"gestureDesc_LD": {
+		"message": "Links dan Omlaag",
+		"description": "Gesture description for ←↓"
+	},
+	"gestureDesc_UD": {
+		"message": "Omhoog dan Omlaag",
+		"description": "Gesture description for ↑↓"
+	},
+	"gestureDesc_DU": {
+		"message": "Omlaag dan Omhoog",
+		"description": "Gesture description for ↓↑"
+	},
+	"gestureDesc_LR": {
+		"message": "Links dan Rechts",
+		"description": "Gesture description for ←→"
+	},
+	"gestureDesc_RL": {
+		"message": "Rechts dan Links",
+		"description": "Gesture description for →←"
+	},
+	"actionNone": {
+		"message": "Geen",
+		"description": "No action"
+	},
+	"actionBack": {
+		"message": "Ga Terug",
+		"description": "Go back"
+	},
+	"actionForward": {
+		"message": "Ga Verder",
+		"description": "Go forward"
+	},
+	"actionScrollUp": {
+		"message": "Omhoog Scrollen",
+		"description": "Scroll up"
+	},
+	"actionScrollDown": {
+		"message": "Omlaag Scrollen",
+		"description": "Scroll down"
+	},
+	"actionScrollToTop": {
+		"message": "Scroll naar Boven",
+		"description": "Scroll to top"
+	},
+	"actionScrollToBottom": {
+		"message": "Scroll naar Beneden",
+		"description": "Scroll to bottom"
+	},
+	"actionCloseTab": {
+		"message": "Tabblad Sluiten",
+		"description": "Close tab"
+	},
+	"actionCloseTabKeepWindow": {
+		"message": "Tabblad Sluiten (Venster Behouden)",
+		"description": "Close tab but keep window open"
+	},
+	"actionCloseBrowser": {
+		"message": "Browser Sluiten",
+		"description": "Close browser"
+	},
+	"actionRestoreTab": {
+		"message": "Gesloten Tabblad Herstellen",
+		"description": "Restore closed tab"
+	},
+	"actionNewTab": {
+		"message": "Nieuw Tabblad",
+		"description": "New tab"
+	},
+	"actionCloseOtherTabs": {
+		"message": "Andere Tabbladen Sluiten",
+		"description": "Close other tabs"
+	},
+	"actionCloseLeftTabs": {
+		"message": "Tabbladen Links Sluiten",
+		"description": "Close tabs to the left"
+	},
+	"actionCloseRightTabs": {
+		"message": "Tabbladen Rechts Sluiten",
+		"description": "Close tabs to the right"
+	},
+	"actionCloseAllTabs": {
+		"message": "Alle Tabbladen Sluiten",
+		"description": "Close all tabs"
+	},
+	"actionSwitchLeftTab": {
+		"message": "Wissel naar Linker Tabblad",
+		"description": "Switch to left tab"
+	},
+	"actionSwitchRightTab": {
+		"message": "Wissel naar Rechter Tabblad",
+		"description": "Switch to right tab"
+	},
+	"actionRefresh": {
+		"message": "Huidig Tabblad Vernieuwen",
+		"description": "Refresh current tab"
+	},
+	"actionRefreshAllTabs": {
+		"message": "Alle Tabbladen Vernieuwen",
+		"description": "Refresh all tabs"
+	},
+	"actionStopLoading": {
+		"message": "Laden Stoppen",
+		"description": "Stop loading"
+	},
+	"actionNewWindow": {
+		"message": "Nieuw Venster",
+		"description": "New window"
+	},
+	"actionNewIncognito": {
+		"message": "Nieuw Incognito Venster",
+		"description": "New incognito window"
+	},
+	"actionAddToBookmarks": {
+		"message": "Aan Bladwijzers Toevoegen",
+		"description": "Add to bookmarks"
+	},
+	"actionToggleFullscreen": {
+		"message": "Volledig Scherm Wisselen",
+		"description": "Toggle fullscreen"
+	},
+	"actionToggleMaximize": {
+		"message": "Maximaliseren/Herstellen Wisselen",
+		"description": "Toggle window maximize"
+	},
+	"actionMinimize": {
+		"message": "Venster Minimaliseren",
+		"description": "Minimize window"
+	},
+	"actionOpenCustomUrl": {
+		"message": "Aangepaste URL Openen",
+		"description": "Open custom URL"
+	},
+	"actionCopyUrl": {
+		"message": "Huidige URL Kopiëren",
+		"description": "Copy current URL"
+	},
+	"actionCopyTitle": {
+		"message": "Paginatitel Kopiëren",
+		"description": "Copy page title"
+	},
+	"actionOpenDownloads": {
+		"message": "Downloads Openen",
+		"description": "Open downloads page"
+	},
+	"actionOpenHistory": {
+		"message": "Geschiedenis Openen",
+		"description": "Open history page"
+	},
+	"actionOpenExtensions": {
+		"message": "Extensies Openen",
+		"description": "Open extensions page"
+	},
+	"actionPrintPage": {
+		"message": "Pagina Afdrukken",
+		"description": "Print page"
+	},
+	"actionDuplicateTab": {
+		"message": "Tabblad Dupliceren",
+		"description": "Duplicate current tab"
+	},
+	"actionToggleMuteTab": {
+		"message": "Geluid Huidig Tabblad Aan/Uit",
+		"description": "Toggle mute current tab"
+	},
+	"actionToggleMuteAllTabs": {
+		"message": "Geluid Alle Tabbladen Aan/Uit",
+		"description": "Toggle mute all tabs"
+	},
+	"showTrailOrigin": {
+		"message": "Toon Startpunt",
+		"description": "Show trail origin point"
+	},
+	"enableTrailSmooth": {
+		"message": "Spoor vloeiender maken",
+		"description": "Enable trail smoothing for gesture visualization"
+	},
+	"distanceThreshold": {
+		"message": "Afstand gebaarherkenning",
+		"description": "Gesture recognition distance"
+	},
+	"distanceThresholdDesc": {
+		"message": "Minimale bewegingsafstand om een gebaar te herkennen",
+		"description": "Description for gesture recognition distance"
+	},
+	"distanceThresholdNotice": {
+		"message": "Tip: Een waarde tussen 15-30 wordt aanbevolen voor de beste herkenning.",
+		"description": "Warning when distance threshold is too small or too large"
+	},
+	"enableAdvancedSettings": {
+		"message": "Geavanceerde Instellingen",
+		"description": "Enable advanced settings"
+	},
+	"enableAdvancedSettingsDesc": {
+		"message": "Toon meer geavanceerde opties wanneer ingeschakeld",
+		"description": "Show more advanced options when enabled"
+	},
+	"enableAdvancedSettingsToggle": {
+		"message": "Geavanceerde Instellingen Modus",
+		"description": "Enable advanced settings toggle label"
+	},
+	"urlFormatError": {
+		"message": "Voer volledige URL in beginnend met http:// of https://",
+		"description": "URL format error message"
+	},
+	"resetToDefault": {
+		"message": "Herstel naar standaard",
+		"description": "Reset gesture to default action"
+	},
+	"addCustomGesture": {
+		"message": "Aangepast Gebaar Toevoegen",
+		"description": "Add custom gesture section title"
+	},
+	"gesturePattern": {
+		"message": "Patroon",
+		"description": "Gesture pattern label"
+	},
+	"selectAction": {
+		"message": "Selecteer Actie",
+		"description": "Select action label"
+	},
+	"clear": {
+		"message": "Wissen",
+		"description": "Clear button"
+	},
+	"addGesture": {
+		"message": "Gebaar Toevoegen",
+		"description": "Add gesture button"
+	},
+	"pleaseDrawGesture": {
+		"message": "Teken eerst een gebaar",
+		"description": "Alert when no gesture drawn"
+	},
+	"gestureAdded": {
+		"message": "✓ Gebaar toegevoegd",
+		"description": "Gesture added success message"
+	},
+	"gestureDrawInstructions": {
+		"message": "Houd de rechtermuisknop ingedrukt en teken hieronder een gebaar, laat los om te voltooien. Ondersteunde richtingen:",
+		"description": "Instructions for gesture drawing"
+	},
+	"gestureOverwriteConfirm": {
+		"message": "Gebaar %pattern% bestaat al. Overschrijven?",
+		"description": "Confirmation message when adding a duplicate gesture"
+	},
+	"customGesture": {
+		"message": "Aangepast",
+		"description": "Label for custom gestures"
+	},
+	"deleteGesture": {
+		"message": "Gebaar Verwijderen",
+		"description": "Delete gesture button tooltip"
+	},
+	"deleteGestureConfirm": {
+		"message": "Gebaar %pattern% verwijderen?",
+		"description": "Delete gesture confirmation"
+	},
+	"gestureDeleted": {
+		"message": "✓ Gebaar verwijderd",
+		"description": "Gesture deleted success message"
+	},
+	"enterCustomUrl": {
+		"message": "Voer URL in (bij voorkeur inclusief protocol zoals https://, chrome://, etc.):",
+		"description": "Prompt for custom URL input"
+	},
+	"invalidUrl": {
+		"message": "Voer een geldige URL in (beginnend met http:// of https://)",
+		"description": "Invalid URL error message"
+	},
+	"popupTrail": {
+		"message": "Gebarenspoor",
+		"description": "Gesture trail in popup"
+	},
+	"popupHint": {
+		"message": "Actiehint",
+		"description": "Action hint in popup"
+	},
+	"popupCommonGestures": {
+		"message": "Veelgebruikte Gebaren",
+		"description": "Common gestures"
+	},
+	"popupCurrentSite": {
+		"message": "Huidige Site",
+		"description": "Current site"
+	},
+	"popupRestricted": {
+		"message": "Beperkte Pagina",
+		"description": "Restricted page"
+	},
+	"popupDisabled": {
+		"message": "Uitgeschakeld",
+		"description": "Disabled"
+	},
+	"popupAddBlacklist": {
+		"message": "Aan Zwarte Lijst Toevoegen",
+		"description": "Add to blacklist"
+	},
+	"popupRemoveBlacklist": {
+		"message": "Verwijder van Zwarte Lijst",
+		"description": "Remove from blacklist"
+	},
+	"popupNotAvailable": {
+		"message": "Niet beschikbaar",
+		"description": "Not available"
+	},
+	"popupBack": {
+		"message": "Terug",
+		"description": "Back - short"
+	},
+	"popupForward": {
+		"message": "Verder",
+		"description": "Forward - short"
+	},
+	"popupScrollUp": {
+		"message": "Omhoog",
+		"description": "Scroll up - short"
+	},
+	"popupScrollDown": {
+		"message": "Omlaag",
+		"description": "Scroll down - short"
+	},
+	"popupClose": {
+		"message": "Sluiten",
+		"description": "Close Tab - short"
+	},
+	"popupRestore": {
+		"message": "Herstel",
+		"description": "Restore Tab - short"
+	},
+	"dragSearchText": {
+		"message": "🔍 Sleep Zoeken",
+		"description": "Drag search hint"
+	},
+	"dragOpenImage": {
+		"message": "🖼️ Open Afbeelding",
+		"description": "Drag open image hint"
+	},
+	"dragOpenLink": {
+		"message": "🔗 Open Link",
+		"description": "Drag open link hint"
+	},
+	"aboutTitle": {
+		"message": "Over FlowMouse",
+		"description": "About title"
+	},
+	"aboutAuthor": {
+		"message": "Auteur",
+		"description": "Author"
+	},
+	"aboutWebsite": {
+		"message": "Website",
+		"description": "Website"
+	},
+	"aboutOpenSource": {
+		"message": "GitHub",
+		"description": "GitHub link"
+	},
+	"aboutEmail": {
+		"message": "E-mail",
+		"description": "Email"
+	},
+	"aboutPrivacy": {
+		"message": "Privacyverklaring",
+		"description": "Privacy statement"
+	},
+	"aboutPrivacyText": {
+		"message": "Deze extensie is een open-source project met code gehost op GitHub. Bijdragen en code reviews zijn welkom. Alle gegevensverwerking vindt lokaal op uw apparaat plaats. De extensie zelf maakt geen netwerkverbindingen en heeft geen backend servers, dus verzamelt of uploadt geen gebruikersgegevens naar externe servers. Uw opgeslagen instellingen worden versleuteld en gesynchroniseerd tussen uw ingelogde apparaten via de ingebouwde synchronisatieservice van de %browserName% browser. Dit proces wordt volledig beheerd door de browser en volgt de privacy- en synchronisatie-instellingen van uw browser.",
+		"description": "Privacy statement text"
+	},
+	"aboutCredits": {
+		"message": "Credits",
+		"description": "Credits"
+	},
+	"aboutCreditsText": {
+		"message": "Dank aan Microsoft Edge browser en crxMouse extensie voor ontwerpinspiratie.\nDank aan 52pojie.cn community en gebruikers voor feedback en suggesties!",
+		"description": "Credits text"
+	},
+	"aboutFeatures": {
+		"message": "Functies",
+		"description": "Features"
+	},
+	"aboutFeature1": {
+		"message": "🎯 16 Standaard Gebaren + Aangepaste Gebaren",
+		"description": "Feature 1"
+	},
+	"aboutFeature2": {
+		"message": "🎨 Visuele Spoor Feedback",
+		"description": "Feature 2"
+	},
+	"aboutFeature3": {
+		"message": "🔍 Tekst/Afbeelding/Link Super Drag",
+		"description": "Feature 3"
+	},
+	"aboutFeature4": {
+		"message": "🚫 Website Zwarte Lijst",
+		"description": "Feature 4"
+	},
+	"aboutFeature5": {
+		"message": "☁️ %browserName%-account Synchronisatie",
+		"description": "Feature 5"
+	},
+	"aboutFeature6": {
+		"message": "🔒 Draait Lokaal, Geen Netwerk Behalve Sync",
+		"description": "Feature 6"
+	},
+	"tutorial": {
+		"message": "Handleiding",
+		"description": "Tutorial link"
+	},
+	"learnMore": {
+		"message": "Meer weten",
+		"description": "Learn more link"
+	},
+	"badgeNoNetwork": {
+		"message": "🔒 Geen Netwerk Behalve Sync",
+		"description": "No network privacy badge"
+	},
+	"badgeNoData": {
+		"message": "🚫 Geen Gegevensverzameling",
+		"description": "No data collection badge"
+	},
+	"badgeLocalRun": {
+		"message": "✅ Draait Lokaal",
+		"description": "Local run badge"
+	},
+	"newTabSettings": {
+		"message": "Nieuw Tabblad Instellingen",
+		"description": "New tab open settings"
+	},
+	"newTabPosition": {
+		"message": "Positie",
+		"description": "New tab position"
+	},
+	"tabPositionRight": {
+		"message": "Rechts van huidig tabblad",
+		"description": "Right of current tab"
+	},
+	"tabPositionLeft": {
+		"message": "Links van huidig tabblad",
+		"description": "Left of current tab"
+	},
+	"tabPositionFirst": {
+		"message": "Eerste tabblad (meest links)",
+		"description": "First tab (leftmost)"
+	},
+	"tabPositionLast": {
+		"message": "Laatste tabblad (meest rechts)",
+		"description": "Last tab (rightmost)"
+	},
+	"tabPositionCurrent": {
+		"message": "Huidig tabblad",
+		"description": "Open in current tab"
+	},
+	"newTabActive": {
+		"message": "Open op voorgrond",
+		"description": "Open tab in foreground"
+	},
+	"textDragGestures": {
+		"message": "Tekstsleepgebaren",
+		"description": "Text drag gestures"
+	},
+	"linkDragGestures": {
+		"message": "Linksleepgebaren",
+		"description": "Link drag gestures"
+	},
+	"imageDragGestures": {
+		"message": "Afbeeldingsleepgebaren",
+		"description": "Image drag gestures"
+	},
+	"direction": {
+		"message": "Richting",
+		"description": "Direction column header"
+	},
+	"action": {
+		"message": "Actie",
+		"description": "Action column header"
+	},
+	"imageSearchUrl": {
+		"message": "Afbeelding Zoek URL (%s = afbeelding URL)",
+		"description": "Image search URL input"
+	},
+	"dragActionNone": {
+		"message": "Geen",
+		"description": "No action"
+	},
+	"dragActionSearch": {
+		"message": "🔍 Zoekmachine",
+		"description": "Search action"
+	},
+	"dragActionCopy": {
+		"message": "📋 Kopiëren",
+		"description": "Copy action"
+	},
+	"dragActionOpenTab": {
+		"message": "📑 Open in Nieuw Tabblad",
+		"description": "Open in new tab"
+	},
+	"dragActionOpenTabLink": {
+		"message": "🔗 Open Link",
+		"description": "Open link in new tab"
+	},
+	"dragActionOpenTabImage": {
+		"message": "🖼️ Open Afbeelding",
+		"description": "Open image in new tab"
+	},
+	"dragActionCopyLink": {
+		"message": "📋 Link Kopiëren",
+		"description": "Copy link"
+	},
+	"dragActionSaveImage": {
+		"message": "💾 Afbeelding Opslaan",
+		"description": "Save image"
+	},
+	"dragActionCopyImage": {
+		"message": "🖼️ Afbeelding Kopiëren",
+		"description": "Copy image"
+	},
+	"dragActionCopyImageUrl": {
+		"message": "📋 Afbeelding-URL Kopiëren",
+		"description": "Copy image URL"
+	},
+	"dragActionImageSearch": {
+		"message": "🔍 Afbeelding Zoeken",
+		"description": "Image search"
+	},
+	"dragActionCustomSearch": {
+		"message": "🔍 Aangepast Zoeken",
+		"description": "Custom search"
+	},
+	"reducedMotionWarning": {
+		"message": "⚠️ %OS% systeem animatie is uitgeschakeld, scroll-animatie werkt mogelijk niet goed. U kunt animatie inschakelen in %OS% systeeminstellingen.",
+		"description": "Warning message when system reduced motion is enabled"
+	},
+	"autoDetectUrl": {
+		"message": "Automatisch URL detecteren",
+		"description": "Auto detect URL checkbox label"
+	},
+	"preferLink": {
+		"message": "Voorkeur voor Link",
+		"description": "Prefer link checkbox label"
+	},
+	"menuNeedRefresh": {
+		"message": "FlowMouse niet geladen, klik om te vernieuwen",
+		"description": "Context menu title for pages needing refresh"
+	},
+	"menuRestricted": {
+		"message": "FlowMouse niet beschikbaar, lees waarom",
+		"description": "Context menu title for restricted pages"
+	},
+	"showRestrictedNotice": {
+		"message": "Melding Beperkte Pagina",
+		"description": "Setting title for restricted page notice"
+	},
+	"showRestrictedNoticeDesc": {
+		"message": "Toon contextmenu-melding op pagina's waar gebaren niet beschikbaar zijn",
+		"description": "Setting description for restricted page notice"
+	},
+	"restrictedPagesDetailsTitle": {
+		"message": "⚠️ Vanwege beveiligingsbeleid van de browser kunnen extensies niet werken op bepaalde typen pagina's.",
+		"description": "Collapsible details title"
+	},
+	"showMoreHint": {
+		"message": " (Toon details)",
+		"description": "Hint to show more details"
+	},
+	"restrictedNewTab": {
+		"message": "Nieuw Tabblad Pagina (chrome://newtab)",
+		"description": "New tab page title"
+	},
+	"restrictedNewTabDesc": {
+		"message": "De standaard nieuwe tabbladpagina van de browser is een beschermde systeempagina. Extensies kunnen hier geen scripts injecteren of inhoud wijzigen.",
+		"description": "New tab page description"
+	},
+	"restrictedStore": {
+		"message": "Officiële Extensie Winkels",
+		"description": "Store page title"
+	},
+	"restrictedStoreDesc": {
+		"message": "Bijvoorbeeld %storeInfo%, enz. Browsers voorkomen dat extensies op deze pagina's draaien om de normale werking van de winkel te beschermen.",
+		"description": "Store page description"
+	},
+	"restrictedInternal": {
+		"message": "Browser Interne Pagina's",
+		"description": "Internal page title"
+	},
+	"restrictedInternalDesc": {
+		"message": "Alle pagina's die beginnen met chrome:// (Chrome) of edge:// (Edge), inclusief instellingen, geschiedenis, downloads, etc. Deze pagina's bevatten kernfuncties van de browser en privacygegevens van gebruikers, dus worden ze strikt beschermd.",
+		"description": "Internal page description"
+	},
+	"restrictedFile": {
+		"message": "Lokale Bestandspagina's (file://)",
+		"description": "File page title"
+	},
+	"restrictedFileDesc": {
+		"message": "Lokale HTML-bestanden geopend via het file:// protocol. Vanwege veiligheidsbeperkingen (om te voorkomen dat schadelijke extensies toegang krijgen tot het lokale bestandssysteem), kunnen extensies niet werken op deze pagina's.",
+		"description": "File page description"
+	},
+	"restrictedViewSource": {
+		"message": "Broncode Bekijken Pagina's (view-source:)",
+		"description": "View source page title"
+	},
+	"restrictedViewSourceDesc": {
+		"message": "De broncodeviewer van de browser is ook een beschermde systeempagina. Extensies kunnen hier niet draaien.",
+		"description": "View source page description"
+	},
+	"restrictedOther": {
+		"message": "Andere minder vaak voorkomende pagina's worden niet apart vermeld.",
+		"description": "Other restricted pages note"
+	},
+	"popupNeedRefresh": {
+		"message": "Extensie niet geladen",
+		"description": "Popup title when content script not loaded"
+	},
+	"popupNeedRefreshDesc": {
+		"message": "Deze pagina was al geopend voordat de extensie werd geïnstalleerd/geüpdatet. Vernieuw om gebaren in te schakelen.",
+		"description": "Popup description when content script not loaded"
+	},
+	"popupRefreshBtn": {
+		"message": "🔄 Pagina Vernieuwen",
+		"description": "Popup refresh button text"
+	},
+	"popupRestrictedTitle": {
+		"message": "Gebaren niet beschikbaar",
+		"description": "Popup title for restricted pages"
+	},
+	"popupRestrictedDesc": {
+		"message": "Op deze pagina kunnen geen gebaren worden gebruikt vanwege browserbeveiligingsbeperkingen.",
+		"description": "Popup description for restricted pages"
+	},
+	"popupLearnMore": {
+		"message": "📖 Meer Informatie",
+		"description": "Popup learn more button text"
+	},
+	"tutorialPending": {
+		"message": "Nu proberen",
+		"description": "Tutorial pending status"
+	},
+	"tutorialCompleted": {
+		"message": "Gereed",
+		"description": "Tutorial completed status"
+	},
+	"tutorialClickToStart": {
+		"message": "Klik op de <span class=\"text-highlight\">Rechtermuisknop</span> om te Beginnen",
+		"description": "Tutorial Step 0 instruction"
+	},
+	"tutorialWelcomeTitle": {
+		"message": "Welkom bij FlowMouse",
+		"description": "Tutorial welcome title"
+	},
+	"tutorialWelcomeSubtitle": {
+		"message": "Beheers de basis in 30 seconden voor soepeler, intuïtiever browsen",
+		"description": "Tutorial welcome subtitle"
+	},
+	"tutorialStep1Title": {
+		"message": "De Basis",
+		"description": "Tutorial Step 1 title"
+	},
+	"tutorialStep1Subtitle": {
+		"message": "Leer het kernmechanisme van gebaren",
+		"description": "Tutorial Step 1 subtitle"
+	},
+	"tutorialStep1InstructionIdle": {
+		"message": "Houd de <span class=\"text-highlight\">Rechtermuisknop</span> <strong>ingedrukt</strong>",
+		"description": "Tutorial Step 1 instruction idle"
+	},
+	"tutorialStep1InstructionPressing": {
+		"message": "<strong>Uitstekend!</strong> Sleep nu <strong>%arrow% naar Rechts</strong>",
+		"description": "Tutorial Step 1 instruction pressing"
+	},
+	"tutorialStep1InstructionDragging": {
+		"message": "Blijf slepen...",
+		"description": "Tutorial Step 1 instruction dragging"
+	},
+	"tutorialStep1InstructionReleasing": {
+		"message": "<strong>Geweldig!</strong> Laat nu los!",
+		"description": "Tutorial Step 1 instruction releasing"
+	},
+	"tutorialStep2Title": {
+		"message": "FlowMouse Gebaren",
+		"description": "Tutorial Step 2 title"
+	},
+	"tutorialStep2Subtitle": {
+		"message": "Houd de <span class=\"text-highlight\">Rechtermuisknop</span> ingedrukt om gebaren uit te voeren",
+		"description": "Tutorial Step 2 subtitle"
+	},
+	"tutorialStep2Footer": {
+		"message": "<strong>Meer gebaren</strong> en <strong>volledige aanpassing</strong> beschikbaar in instellingen.",
+		"description": "Footer note for step 2 discovery banner"
+	},
+	"tutorialStep2DiscoveryHeader": {
+		"message": "Meer Gebaren",
+		"description": "Header for step 2 discovery banner"
+	},
+	"tutorialStep3DiscoveryHeader": {
+		"message": "Meer Super Drag Functies",
+		"description": "Header for step 3 discovery banner"
+	},
+	"tutorialStep3TextSearch": {
+		"message": "Tekst <span class=\"svg-arrow\">→</span> Zoeken",
+		"description": "Text drag search discovery item"
+	},
+	"tutorialStep3LinkOpen": {
+		"message": "Link <span class=\"svg-arrow\">→</span> Open in Nieuw Tabblad",
+		"description": "Link drag open discovery item"
+	},
+	"tutorialStep3ImageOpen": {
+		"message": "Afbeelding <span class=\"svg-arrow\">→</span> Open in Nieuw Tabblad",
+		"description": "Image drag open discovery item"
+	},
+	"tutorialStep3Footer": {
+		"message": "<strong>Meer sleepacties</strong> en <strong>volledige aanpassing</strong> beschikbaar in geavanceerde instellingenmodus",
+		"description": "Footer for step 3 discovery banner"
+	},
+	"tutorialContinue": {
+		"message": "Doorgaan",
+		"description": "Tutorial continue button"
+	},
+	"tutorialStep3Title": {
+		"message": "Super Drag",
+		"description": "Tutorial Step 3 title"
+	},
+	"tutorialStep3Subtitle": {
+		"message": "Houd de <span class=\"text-highlight\">Linkermuisknop</span> ingedrukt en sleep <span class=\"svg-arrow\">→</span> om acties snel uit te voeren",
+		"description": "Tutorial Step 3 subtitle"
+	},
+	"tutorialStep3HintTitle": {
+		"message": "Tekstselectie Zoeken",
+		"description": "Tutorial Step 3 hint title"
+	},
+	"tutorialStep3HintDesc": {
+		"message": "Selecteer tekst, gebruik dan de <span class=\"text-highlight\">Linkermuisknop</span> om <span class=\"svg-arrow\">→</span> te slepen om te zoeken",
+		"description": "Tutorial Step 3 hint description. Note: Must drag to right. Use SVG arrow instead of text for direction."
+	},
+	"tutorialStep3TextBoxLabel": {
+		"message": "Probeer het met de tekst hieronder!",
+		"description": "Tutorial Step 3 text box label"
+	},
+	"tutorialStep3SelectableText": {
+		"message": "FlowMouse Super Drag",
+		"description": "Tutorial Step 3 selectable text"
+	},
+	"tutorialStep4Title": {
+		"message": "Gefeliciteerd!",
+		"description": "Tutorial Step 4 title"
+	},
+	"tutorialStep4Subtitle": {
+		"message": "Swipe met je vingertoppen, ga mee in de Flow.",
+		"description": "Tutorial Step 4 subtitle"
+	},
+	"tutorialStep4Instruction": {
+		"message": "Gebruik <span class=\"text-highlight\">Super Drag <span class=\"svg-arrow\">→</span></span> op deze link om in een <span class=\"text-highlight\">Nieuw Tabblad</span> te openen",
+		"description": "Tutorial Step 4 instruction. Note: Must drag to right. Use SVG arrow instead of text for direction."
+	},
+	"tutorialSettingsLink": {
+		"message": "FlowMouse Instellingen",
+		"description": "Tutorial settings link"
+	},
+	"tutorialSettingsHint": {
+		"message": "Er wachten veel krachtige functies op je om te ontdekken!",
+		"description": "Tutorial settings hint"
+	},
+	"tutorialWrongDirection": {
+		"message": "Verkeerde richting! Sleep %arrow% naar Rechts",
+		"description": "Tutorial wrong direction error"
+	},
+	"tutorialEarlyRelease": {
+		"message": "Te vroeg losgelaten! Blijf slepen.",
+		"description": "Tutorial early release error"
+	},
+	"tutorialDragWrongButton": {
+		"message": "Gebruik de <span class=\"text-highlight\">Linkermuisknop</span> om te slepen",
+		"description": "Tutorial drag wrong button error"
+	},
+	"tutorialRefreshTip": {
+		"message": "Tip: Tabbladen geopend vóór installatie moeten worden <span class=\"text-highlight\">vernieuwd</span> om FlowMouse te gebruiken",
+		"description": "Tip about refreshing tabs"
+	},
+	"permissionBookmarksTitle": {
+		"message": "Bladwijzers Beheren",
+		"description": "Permission popup title for bookmarks"
+	},
+	"permissionBookmarksDesc": {
+		"message": "Om pagina's aan uw bladwijzers toe te voegen, heeft FlowMouse toegang tot uw bladwijzers nodig.",
+		"description": "Permission popup description for bookmarks"
+	},
+	"permissionDownloadsTitle": {
+		"message": "Downloads Beheren",
+		"description": "Permission popup title for downloads"
+	},
+	"permissionDownloadsDesc": {
+		"message": "Om afbeeldingen op te slaan, heeft FlowMouse toegang tot uw downloads nodig.",
+		"description": "Permission popup description for downloads"
+	},
+	"permissionDownloadsPageCaptureTitle": {
+		"message": "Afbeelding opslaan",
+		"description": "Permission popup title for downloads and page capture"
+	},
+	"permissionDownloadsPageCaptureDesc": {
+		"message": "Om afbeeldingen op te slaan, heeft FlowMouse toegang tot pagina's en downloads nodig.",
+		"description": "Permission popup description for downloads and page capture"
+	},
+	"grantPermission": {
+		"message": "Toestemming Geven",
+		"description": "Grant permission button"
+	},
+	"grantPermissionCancel": {
+		"message": "Annuleren",
+		"description": "Cancel button"
+	},
+	"permissionTitle": {
+		"message": "FlowMouse Toestemming",
+		"description": "Generic permission window title"
+	},
+	"tutorialPinHint": {
+		"message": "Klik op<span class='icon-ext'></span><b>Extensies</b> en<span class='icon-pin'></span><b>Pin</b> FlowMouse voor snelle toegang!",
+		"description": "Hint to pin the extension in tutorial step 4. Do not add space around icon."
+	},
+	"downloadErrorHotlink": {
+		"message": "Afbeelding opslaan mislukt. De website heeft mogelijk hotlink-beveiliging. Klik met de rechtermuisknop op de afbeelding en kies \"Afbeelding opslaan als...\"",
+		"description": "Toast message when image download fails due to hotlink protection"
+	},
+	"saveImageLoadError": {
+		"message": "Afbeelding opslaan mislukt: Afbeelding kon niet worden geladen",
+		"description": "Toast message when image fails to load before saving"
+	},
+	"saveImageTimeout": {
+		"message": "Afbeelding opslaan mislukt: Time-out bij laden",
+		"description": "Toast message when image loading times out"
+	}
+}

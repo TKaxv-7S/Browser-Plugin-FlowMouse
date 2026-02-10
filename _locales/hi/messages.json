@@ -1,0 +1,1238 @@
+{
+	"extName": {
+		"message": "FlowMouse - माउस जेस्चर",
+		"description": "Extension name"
+	},
+	"extNameShort": {
+		"message": "FlowMouse",
+		"description": "Short extension name for popup"
+	},
+	"extDescription": {
+		"message": "गोपनीयता और सहज अनुभव पर केंद्रित एक ओपन-सोर्स माउस जेस्चर एक्सटेंशन। सहज और सटीक जेस्चर, सुपर ड्रैग सपोर्ट, और सारा डेटा स्थानीय रूप से संग्रहीत किया जाता है।",
+		"description": "Extension description"
+	},
+	"appearance": {
+		"message": "दिखावट",
+		"description": "Appearance section"
+	},
+	"theme": {
+		"message": "थीम",
+		"description": "Theme"
+	},
+	"themeDesc": {
+		"message": "लाइट और डार्क थीम के बीच स्विच करें",
+		"description": "Theme description"
+	},
+	"themeDark": {
+		"message": "डार्क",
+		"description": "Dark theme"
+	},
+	"themeLight": {
+		"message": "लाइट",
+		"description": "Light theme"
+	},
+	"themeAuto": {
+		"message": "सिस्टम के अनुसार",
+		"description": "Auto theme - follow system"
+	},
+	"languageDesc": {
+		"message": "इंटरफ़ेस भाषा चुनें",
+		"description": "Language description"
+	},
+	"syncStatus": {
+		"message": "सिंक स्थिति",
+		"description": "Sync status"
+	},
+	"syncStatusDesc": {
+		"message": "%browserName% खाते के माध्यम से सेटिंग्स सिंक",
+		"description": "Sync status description"
+	},
+	"synced": {
+		"message": "सिंक किया गया",
+		"description": "Synced"
+	},
+	"author": {
+		"message": "लेखक",
+		"description": "Author"
+	},
+	"privacyNote": {
+		"message": "🔒 स्थानीय रूप से चलता है, सिंक के अलावा कोई नेटवर्क एक्सेस नहीं, कोई डेटा संग्रह नहीं",
+		"description": "Privacy note in footer"
+	},
+	"supportUsText": {
+		"message": "FlowMouse पसंद आ रहा है? हमारा समर्थन करने के लिए कृपया %appStoreInfo% पर हमें 5-स्टार रेटिंग दें!",
+		"description": "Rating text"
+	},
+	"storeNameChrome": {
+		"message": "Chrome वेब स्टोर",
+		"description": "Chrome Web Store name"
+	},
+	"storeNameEdge": {
+		"message": "Edge ऐड-ऑन",
+		"description": "Edge Add-ons name"
+	},
+	"storeNameFirefox": {
+		"message": "Firefox ऐड-ऑन",
+		"description": "Firefox Add-ons name"
+	},
+	"feedbackText": {
+		"message": "कोई समस्या या सुझाव? कृपया <a href='mailto:Service@52pojie.cn'>ईमेल</a>, <a href='https://github.com/Hmily-LCG/FlowMouse/issues' target='_blank'>GitHub</a>, या <a href='https://www.52pojie.cn/thread-2080303-1-1.html' target='_blank'>फोरम</a> के माध्यम से रिपोर्ट करें। हम जल्द से जल्द सुधार करेंगे!",
+		"description": "Feedback text"
+	},
+	"supportAndFeedback": {
+		"message": "सहायता और प्रतिक्रिया",
+		"description": "Support and Feedback section title"
+	},
+	"feedbackTitle": {
+		"message": "प्रतिक्रिया और सुझाव",
+		"description": "Feedback row title"
+	},
+	"supportUsTitle": {
+		"message": "हमारा समर्थन करें",
+		"description": "Rating row title"
+	},
+	"backToSettings": {
+		"message": "सेटिंग्स पर वापस जाएं",
+		"description": "Back to settings link"
+	},
+	"settings": {
+		"message": "सेटिंग्स",
+		"description": "Settings"
+	},
+	"moreSettings": {
+		"message": "अधिक सेटिंग्स",
+		"description": "More settings button in popup"
+	},
+	"version": {
+		"message": "संस्करण",
+		"description": "Version"
+	},
+	"basicSettings": {
+		"message": "जेस्चर सेटिंग्स",
+		"description": "Gesture settings section"
+	},
+	"enableGesture": {
+		"message": "जेस्चर सक्षम करें",
+		"description": "Enable gesture feature"
+	},
+	"enableGestureDesc": {
+		"message": "आसानी से जेस्चर करने के लिए दायां माउस बटन दबाए रखें और माउस को घुमाएं",
+		"description": "Hold the right mouse button and move the mouse to easily perform gestures"
+	},
+	"macLinuxContextMenuNotice": {
+		"message": "⚠️ सिस्टम सीमाओं के कारण, macOS / Linux पर संदर्भ मेनू खोलने के लिए डबल राइट-क्लिक की आवश्यकता होती है।",
+		"description": "Notice for macOS / Linux users about double right-click for context menu"
+	},
+	"macTextDragNotice": {
+		"message": "⚠️ macOS व्यवहार के कारण, टेक्स्ट ड्रैग करते समय, पहले टेक्स्ट चुनें, फिर ड्रैग करने से पहले बाएं बटन को थोड़ी देर दबाए रखें। अन्यथा, खोज ट्रिगर नहीं हो सकती है।",
+		"description": "Notice for macOS users about text drag behavior"
+	},
+	"showTrail": {
+		"message": "जेस्चर ट्रेल दिखाएं",
+		"description": "Show gesture trail"
+	},
+	"showTrailDesc": {
+		"message": "जेस्चर करते समय ट्रेल लाइन प्रदर्शित करें",
+		"description": "Show trail line when performing gestures"
+	},
+	"showHint": {
+		"message": "एक्शन संकेत दिखाएं",
+		"description": "Show action hint"
+	},
+	"showHintDesc": {
+		"message": "स्क्रीन के केंद्र में वर्तमान जेस्चर एक्शन प्रदर्शित करें",
+		"description": "Show current gesture action in center of screen"
+	},
+	"color": {
+		"message": "रंग",
+		"description": "Color"
+	},
+	"width": {
+		"message": "चौड़ाई",
+		"description": "Width/thickness"
+	},
+	"background": {
+		"message": "पृष्ठभूमि",
+		"description": "Background"
+	},
+	"opacity": {
+		"message": "अपारदर्शिता",
+		"description": "Opacity"
+	},
+	"text": {
+		"message": "टेक्स्ट",
+		"description": "Text"
+	},
+	"scrollAmount": {
+		"message": "स्क्रॉल दूरी",
+		"description": "Scroll amount"
+	},
+	"scrollAmountDesc": {
+		"message": "ऊपर/नीचे जेस्चर के लिए स्क्रॉल दूरी (विंडो ऊंचाई का %)",
+		"description": "Scroll distance for up/down gestures"
+	},
+	"scrollSmoothness": {
+		"message": "स्क्रॉल सहजता",
+		"description": "Scroll smoothness"
+	},
+	"scrollSmoothnessDesc": {
+		"message": "ऊपर/नीचे जेस्चर के लिए स्क्रॉल एनीमेशन प्रभाव",
+		"description": "Scroll smoothness description"
+	},
+	"smoothnessSystem": {
+		"message": "सिस्टम (उच्च प्रदर्शन)",
+		"description": "System scroll smoothness"
+	},
+	"smoothnessCustom": {
+		"message": "सहज",
+		"description": "Custom smooth scrolling"
+	},
+	"smoothnessNone": {
+		"message": "कोई एनीमेशन नहीं",
+		"description": "No scroll animation"
+	},
+	"dragFeatures": {
+		"message": "ड्रैग सुविधाएँ",
+		"description": "Drag features section"
+	},
+	"textDragSearch": {
+		"message": "टेक्स्ट ड्रैग",
+		"description": "Text drag"
+	},
+	"textDragSearchDesc": {
+		"message": "खोजने के लिए चयनित टेक्स्ट को ड्रैग करें",
+		"description": "Drag selected text to search"
+	},
+	"searchEngine": {
+		"message": "खोज इंजन",
+		"description": "Search engine"
+	},
+	"custom": {
+		"message": "कस्टम",
+		"description": "Custom"
+	},
+	"customUrlPlaceholder": {
+		"message": "कस्टम URL, खोज शब्द के लिए %s का उपयोग करें",
+		"description": "Custom URL placeholder"
+	},
+	"urlPlaceholderText": {
+		"message": "%s=कीवर्ड",
+		"description": "Placeholder for text drag custom URL"
+	},
+	"urlPlaceholderImage": {
+		"message": "%s=छवि URL",
+		"description": "Placeholder for image drag custom URL"
+	},
+	"searchEngine_baidu": {
+		"message": "Baidu",
+		"description": "Baidu search engine"
+	},
+	"searchEngine_360": {
+		"message": "360 Search",
+		"description": "360 search engine"
+	},
+	"searchEngine_yandex": {
+		"message": "Yandex",
+		"description": "Yandex search engine"
+	},
+	"searchEngine_system": {
+		"message": "ब्राउज़र डिफ़ॉल्ट",
+		"description": "System default search engine"
+	},
+	"imageDrag": {
+		"message": "इमेज ड्रैग",
+		"description": "Image drag"
+	},
+	"imageDragDesc": {
+		"message": "इमेज को नए टैब में खोलने के लिए ड्रैग करें",
+		"description": "Drag image to open in new tab"
+	},
+	"linkDrag": {
+		"message": "लिंक ड्रैग",
+		"description": "Link drag"
+	},
+	"linkDragDesc": {
+		"message": "लिंक को नए टैब में खोलने के लिए ड्रैग करें",
+		"description": "Drag link to open in new tab"
+	},
+	"enableCustomGestures": {
+		"message": "कस्टम जेस्चर",
+		"description": "Enable custom gestures"
+	},
+	"enableCustomGesturesDesc": {
+		"message": "प्रत्येक जेस्चर एक्शन देखें और कस्टमाइज़ करें",
+		"description": "View and customize each gesture action"
+	},
+	"gestureAutoSaveHint": {
+		"message": "सुझाव: परिवर्तन स्वचालित रूप से सहेजे जाते हैं।",
+		"description": "Hint about auto-save"
+	},
+	"blacklist": {
+		"message": "वेबसाइट ब्लैकलिस्ट",
+		"description": "Website blacklist"
+	},
+	"blacklistPlaceholder": {
+		"message": "डोमेन दर्ज करें, जैसे example.com, जोड़ने के लिए Enter दबाएं",
+		"description": "Blacklist input placeholder"
+	},
+	"add": {
+		"message": "जोड़ें",
+		"description": "Add button"
+	},
+	"emptyBlacklist": {
+		"message": "कोई ब्लैकलिस्ट साइट नहीं। जोड़ने के लिए ऊपर डोमेन दर्ज करें।",
+		"description": "Empty blacklist message"
+	},
+	"dataManagement": {
+		"message": "डेटा प्रबंधन",
+		"description": "Data management section"
+	},
+	"export": {
+		"message": "निर्यात",
+		"description": "Export settings"
+	},
+	"import": {
+		"message": "आयात",
+		"description": "Import settings"
+	},
+	"reset": {
+		"message": "रीसेट",
+		"description": "Reset to default"
+	},
+	"autoSaved": {
+		"message": "✓ स्वतः सहेजा गया",
+		"description": "Auto-saved message"
+	},
+	"saveFailure": {
+		"message": "सहेजना विफल",
+		"description": "Save failure message"
+	},
+	"resetConfirm": {
+		"message": "क्या आप वाकई सभी सेटिंग्स को डिफ़ॉल्ट पर रीसेट करना चाहते हैं?",
+		"description": "Reset confirmation"
+	},
+	"resetDone": {
+		"message": "सेटिंग्स डिफ़ॉल्ट पर रीसेट हो गईं",
+		"description": "Reset done message"
+	},
+	"exportDone": {
+		"message": "सेटिंग्स निर्यात की गईं",
+		"description": "Export done message"
+	},
+	"importDone": {
+		"message": "सेटिंग्स आयात की गईं",
+		"description": "Import done message"
+	},
+	"importFailed": {
+		"message": "आयात विफल: अमान्य कॉन्फ़िगरेशन फ़ाइल",
+		"description": "Import failed message"
+	},
+	"importFailedSyncError": {
+		"message": "आयात विफल: सिंक त्रुटि, कृपया ब्राउज़र स्थिति की जाँच करें",
+		"description": "Import failed sync error message"
+	},
+	"invalidDomain": {
+		"message": "कृपया एक मान्य डोमेन दर्ज करें",
+		"description": "Invalid domain message"
+	},
+	"domainExists": {
+		"message": "डोमेन पहले से ही ब्लैकलिस्ट में है",
+		"description": "Domain already in blacklist"
+	},
+	"about": {
+		"message": "बारे में",
+		"description": "About section"
+	},
+	"language": {
+		"message": "भाषा",
+		"description": "Language"
+	},
+	"languageAuto": {
+		"message": "सिस्टम के अनुसार",
+		"description": "Follow system language"
+	},
+	"privacyFriendly": {
+		"message": "गोपनीयता के अनुकूल",
+		"description": "Privacy friendly"
+	},
+	"localOnly": {
+		"message": "केवल स्थानीय",
+		"description": "Local only"
+	},
+	"autoSave": {
+		"message": "स्वतः सहेजें",
+		"description": "Auto save"
+	},
+	"gestureDesc_L": {
+		"message": "बाएं",
+		"description": "Gesture description for ←"
+	},
+	"gestureDesc_R": {
+		"message": "दाएं",
+		"description": "Gesture description for →"
+	},
+	"gestureDesc_U": {
+		"message": "ऊपर",
+		"description": "Gesture description for ↑"
+	},
+	"gestureDesc_D": {
+		"message": "नीचे",
+		"description": "Gesture description for ↓"
+	},
+	"gestureDesc_DR": {
+		"message": "नीचे फिर दाएं",
+		"description": "Gesture description for ↓→"
+	},
+	"gestureDesc_LU": {
+		"message": "बाएं फिर ऊपर",
+		"description": "Gesture description for ←↑"
+	},
+	"gestureDesc_RU": {
+		"message": "दाएं फिर ऊपर",
+		"description": "Gesture description for →↑"
+	},
+	"gestureDesc_RD": {
+		"message": "दाएं फिर नीचे",
+		"description": "Gesture description for →↓"
+	},
+	"gestureDesc_UL": {
+		"message": "ऊपर फिर बाएं",
+		"description": "Gesture description for ↑←"
+	},
+	"gestureDesc_UR": {
+		"message": "ऊपर फिर दाएं",
+		"description": "Gesture description for ↑→"
+	},
+	"gestureDesc_DL": {
+		"message": "नीचे फिर बाएं",
+		"description": "Gesture description for ↓←"
+	},
+	"gestureDesc_LD": {
+		"message": "बाएं फिर नीचे",
+		"description": "Gesture description for ←↓"
+	},
+	"gestureDesc_UD": {
+		"message": "ऊपर फिर नीचे",
+		"description": "Gesture description for ↑↓"
+	},
+	"gestureDesc_DU": {
+		"message": "नीचे फिर ऊपर",
+		"description": "Gesture description for ↓↑"
+	},
+	"gestureDesc_LR": {
+		"message": "बाएं फिर दाएं",
+		"description": "Gesture description for ←→"
+	},
+	"gestureDesc_RL": {
+		"message": "दाएं फिर बाएं",
+		"description": "Gesture description for →←"
+	},
+	"actionNone": {
+		"message": "कोई नहीं",
+		"description": "No action"
+	},
+	"actionBack": {
+		"message": "पीछे जाएं",
+		"description": "Go back"
+	},
+	"actionForward": {
+		"message": "आगे जाएं",
+		"description": "Go forward"
+	},
+	"actionScrollUp": {
+		"message": "ऊपर स्क्रॉल करें",
+		"description": "Scroll up"
+	},
+	"actionScrollDown": {
+		"message": "नीचे स्क्रॉल करें",
+		"description": "Scroll down"
+	},
+	"actionScrollToTop": {
+		"message": "शीर्ष पर स्क्रॉल करें",
+		"description": "Scroll to top"
+	},
+	"actionScrollToBottom": {
+		"message": "नीचे तक स्क्रॉल करें",
+		"description": "Scroll to bottom"
+	},
+	"actionCloseTab": {
+		"message": "टैब बंद करें",
+		"description": "Close tab"
+	},
+	"actionCloseTabKeepWindow": {
+		"message": "टैब बंद करें (विंडो रखें)",
+		"description": "Close tab but keep window open"
+	},
+	"actionCloseBrowser": {
+		"message": "ब्राउज़र बंद करें",
+		"description": "Close browser"
+	},
+	"actionRestoreTab": {
+		"message": "बंद टैब को पुनर्स्थापित करें",
+		"description": "Restore closed tab"
+	},
+	"actionNewTab": {
+		"message": "नया टैब",
+		"description": "New tab"
+	},
+	"actionCloseOtherTabs": {
+		"message": "अन्य टैब बंद करें",
+		"description": "Close other tabs"
+	},
+	"actionCloseLeftTabs": {
+		"message": "बाईं ओर के टैब बंद करें",
+		"description": "Close tabs to the left"
+	},
+	"actionCloseRightTabs": {
+		"message": "दाईं ओर के टैब बंद करें",
+		"description": "Close tabs to the right"
+	},
+	"actionCloseAllTabs": {
+		"message": "सभी टैब बंद करें",
+		"description": "Close all tabs"
+	},
+	"actionSwitchLeftTab": {
+		"message": "बाएं टैब पर जाएं",
+		"description": "Switch to left tab"
+	},
+	"actionSwitchRightTab": {
+		"message": "दाएं टैब पर जाएं",
+		"description": "Switch to right tab"
+	},
+	"actionRefresh": {
+		"message": "वर्तमान टैब रीफ्रेश करें",
+		"description": "Refresh current tab"
+	},
+	"actionRefreshAllTabs": {
+		"message": "सभी टैब रीफ्रेश करें",
+		"description": "Refresh all tabs"
+	},
+	"actionStopLoading": {
+		"message": "लोड करना बंद करें",
+		"description": "Stop loading"
+	},
+	"actionNewWindow": {
+		"message": "नई विंडो",
+		"description": "New window"
+	},
+	"actionNewIncognito": {
+		"message": "नई गुप्त विंडो",
+		"description": "New incognito window"
+	},
+	"actionAddToBookmarks": {
+		"message": "बुकमार्क में जोड़ें",
+		"description": "Add to bookmarks"
+	},
+	"actionToggleFullscreen": {
+		"message": "फुलस्क्रीन टॉगल करें",
+		"description": "Toggle fullscreen"
+	},
+	"actionToggleMaximize": {
+		"message": "मैक्सिमाइज/रीस्टोर टॉगल करें",
+		"description": "Toggle window maximize"
+	},
+	"actionMinimize": {
+		"message": "विंडो मिनिमाइज करें",
+		"description": "Minimize window"
+	},
+	"actionOpenCustomUrl": {
+		"message": "कस्टम URL खोलें",
+		"description": "Open custom URL"
+	},
+	"actionCopyUrl": {
+		"message": "वर्तमान URL कॉपी करें",
+		"description": "Copy current URL"
+	},
+	"actionCopyTitle": {
+		"message": "पेज शीर्षक कॉपी करें",
+		"description": "Copy page title"
+	},
+	"actionOpenDownloads": {
+		"message": "डाउनलोड खोलें",
+		"description": "Open downloads page"
+	},
+	"actionOpenHistory": {
+		"message": "इतिहास खोलें",
+		"description": "Open history page"
+	},
+	"actionOpenExtensions": {
+		"message": "एक्सटेंशन खोलें",
+		"description": "Open extensions page"
+	},
+	"actionPrintPage": {
+		"message": "पेज प्रिंट करें",
+		"description": "Print page"
+	},
+	"actionDuplicateTab": {
+		"message": "टैब डुप्लिकेट करें",
+		"description": "Duplicate current tab"
+	},
+	"actionToggleMuteTab": {
+		"message": "वर्तमान टैब को म्यूट/अनम्यूट करें",
+		"description": "Toggle mute current tab"
+	},
+	"actionToggleMuteAllTabs": {
+		"message": "सभी टैब को म्यूट/अनम्यूट करें",
+		"description": "Toggle mute all tabs"
+	},
+	"showTrailOrigin": {
+		"message": "मूल बिंदु दिखाएं",
+		"description": "Show trail origin point"
+	},
+	"enableTrailSmooth": {
+		"message": "ट्रेल स्मूथिंग",
+		"description": "Enable trail smoothing for gesture visualization"
+	},
+	"distanceThreshold": {
+		"message": "इशारा पहचान दूरी",
+		"description": "Gesture recognition distance"
+	},
+	"distanceThresholdDesc": {
+		"message": "इशारे को पहचानने के लिए न्यूनतम गति दूरी",
+		"description": "Description for gesture recognition distance"
+	},
+	"distanceThresholdNotice": {
+		"message": "सुझाव: सर्वोत्तम पहचान के लिए 15-30 के बीच का मान अनुशंसित है।",
+		"description": "Warning when distance threshold is too small or too large"
+	},
+	"enableAdvancedSettings": {
+		"message": "उन्नत सेटिंग्स",
+		"description": "Enable advanced settings"
+	},
+	"enableAdvancedSettingsDesc": {
+		"message": "सक्षम होने पर अधिक उन्नत विकल्प दिखाएं",
+		"description": "Show more advanced options when enabled"
+	},
+	"enableAdvancedSettingsToggle": {
+		"message": "उन्नत सेटिंग्स मोड",
+		"description": "Enable advanced settings toggle label"
+	},
+	"urlFormatError": {
+		"message": "कृपया http:// या https:// से शुरू होने वाला पूरा URL दर्ज करें",
+		"description": "URL format error message"
+	},
+	"resetToDefault": {
+		"message": "डिफ़ॉल्ट पर रीसेट करें",
+		"description": "Reset gesture to default action"
+	},
+	"addCustomGesture": {
+		"message": "कस्टम जेस्चर जोड़ें",
+		"description": "Add custom gesture section title"
+	},
+	"gesturePattern": {
+		"message": "पैटर्न",
+		"description": "Gesture pattern label"
+	},
+	"selectAction": {
+		"message": "एक्शन चुनें",
+		"description": "Select action label"
+	},
+	"clear": {
+		"message": "साफ़ करें",
+		"description": "Clear button"
+	},
+	"addGesture": {
+		"message": "जेस्चर जोड़ें",
+		"description": "Add gesture button"
+	},
+	"pleaseDrawGesture": {
+		"message": "कृपया पहले एक जेस्चर बनाएं",
+		"description": "Alert when no gesture drawn"
+	},
+	"gestureAdded": {
+		"message": "✓ जेस्चर जोड़ा गया",
+		"description": "Gesture added success message"
+	},
+	"gestureDrawInstructions": {
+		"message": "दायां माउस बटन दबाए रखें और नीचे एक जेस्चर बनाएं, पूरा करने के लिए छोड़ दें। समर्थित दिशाएं:",
+		"description": "Instructions for gesture drawing"
+	},
+	"gestureOverwriteConfirm": {
+		"message": "जेस्चर %pattern% पहले से मौजूद है। क्या इसे ओवरराइट करें?",
+		"description": "Confirmation message when adding a duplicate gesture"
+	},
+	"customGesture": {
+		"message": "कस्टम",
+		"description": "Label for custom gestures"
+	},
+	"deleteGesture": {
+		"message": "जेस्चर हटाएं",
+		"description": "Delete gesture button tooltip"
+	},
+	"deleteGestureConfirm": {
+		"message": "क्या जेस्चर %pattern% हटाएं?",
+		"description": "Delete gesture confirmation"
+	},
+	"gestureDeleted": {
+		"message": "✓ जेस्चर हटा दिया गया",
+		"description": "Gesture deleted success message"
+	},
+	"enterCustomUrl": {
+		"message": "URL दर्ज करें (जैसे https://, chrome://, आदि शामिल करने का सुझाव दें):",
+		"description": "Prompt for custom URL input"
+	},
+	"invalidUrl": {
+		"message": "कृपया एक मान्य URL दर्ज करें (http:// या https:// से शुरू)",
+		"description": "Invalid URL error message"
+	},
+	"popupTrail": {
+		"message": "जेस्चर ट्रेल",
+		"description": "Gesture trail in popup"
+	},
+	"popupHint": {
+		"message": "एक्शन संकेत",
+		"description": "Action hint in popup"
+	},
+	"popupCommonGestures": {
+		"message": "सामान्य जेस्चर",
+		"description": "Common gestures"
+	},
+	"popupCurrentSite": {
+		"message": "वर्तमान साइट",
+		"description": "Current site"
+	},
+	"popupRestricted": {
+		"message": "प्रतिबंधित पेज",
+		"description": "Restricted page"
+	},
+	"popupDisabled": {
+		"message": "अक्षम",
+		"description": "Disabled"
+	},
+	"popupAddBlacklist": {
+		"message": "ब्लैकलिस्ट में जोड़ें",
+		"description": "Add to blacklist"
+	},
+	"popupRemoveBlacklist": {
+		"message": "ब्लैकलिस्ट हटाएं",
+		"description": "Remove from blacklist"
+	},
+	"popupNotAvailable": {
+		"message": "उपलब्ध नहीं",
+		"description": "Not available"
+	},
+	"popupBack": {
+		"message": "पीछे",
+		"description": "Back - short"
+	},
+	"popupForward": {
+		"message": "आगे",
+		"description": "Forward - short"
+	},
+	"popupScrollUp": {
+		"message": "ऊपर",
+		"description": "Scroll up - short"
+	},
+	"popupScrollDown": {
+		"message": "नीचे",
+		"description": "Scroll down - short"
+	},
+	"popupClose": {
+		"message": "बंद करें",
+		"description": "Close Tab - short"
+	},
+	"popupRestore": {
+		"message": "बहाल करें",
+		"description": "Restore Tab - short"
+	},
+	"dragSearchText": {
+		"message": "🔍 ड्रैग खोज",
+		"description": "Drag search hint"
+	},
+	"dragOpenImage": {
+		"message": "🖼️ इमेज खोलें",
+		"description": "Drag open image hint"
+	},
+	"dragOpenLink": {
+		"message": "🔗 लिंक खोलें",
+		"description": "Drag open link hint"
+	},
+	"aboutTitle": {
+		"message": "FlowMouse के बारे में",
+		"description": "About title"
+	},
+	"aboutAuthor": {
+		"message": "लेखक",
+		"description": "Author"
+	},
+	"aboutWebsite": {
+		"message": "वेबसाइट",
+		"description": "Website"
+	},
+	"aboutOpenSource": {
+		"message": "GitHub",
+		"description": "GitHub link"
+	},
+	"aboutEmail": {
+		"message": "ईमेल",
+		"description": "Email"
+	},
+	"aboutPrivacy": {
+		"message": "गोपनीयता कथन",
+		"description": "Privacy statement"
+	},
+	"aboutPrivacyText": {
+		"message": "यह एक्सटेंशन GitHub पर होस्ट किए गए कोड के साथ एक ओपन-सोर्स प्रोजेक्ट है। योगदान और कोड समीक्षा का स्वागत है। सभी डेटा प्रोसेसिंग आपके डिवाइस पर स्थानीय रूप से की जाती है। एक्सटेंशन स्वयं कोई नेटवर्क कनेक्शन स्थापित नहीं करता है और इसमें कोई बैकएंड सर्वर नहीं है, इसलिए यह बाहरी सर्वर पर कोई उपयोगकर्ता डेटा एकत्र या अपलोड नहीं करता है। आपकी सहेजी गई सेटिंग्स आपके लॉग-इन डिवाइसों के बीच %browserName% ब्राउज़र की अंतर्निहित सिंक सेवा के माध्यम से एन्क्रिप्ट और सिंक की जाती हैं। यह प्रक्रिया पूरी तरह से ब्राउज़र द्वारा नियंत्रित होती है और आपकी ब्राउज़र की गोपनीयता और सिंक सेटिंग्स का पालन करती है।",
+		"description": "Privacy statement text"
+	},
+	"aboutCredits": {
+		"message": "श्रेय",
+		"description": "Credits"
+	},
+	"aboutCreditsText": {
+		"message": "डिजाइन प्रेरणा के लिए Microsoft Edge ब्राउज़र और crxMouse एक्सटेंशन का धन्यवाद।\nफीडबैक और सुझावों के लिए 52pojie.cn समुदाय और उपयोगकर्ताओं का धन्यवाद!",
+		"description": "Credits text"
+	},
+	"aboutFeatures": {
+		"message": "विशेषताएँ",
+		"description": "Features"
+	},
+	"aboutFeature1": {
+		"message": "🎯 16 डिफ़ॉल्ट जेस्चर + कस्टम जेस्चर",
+		"description": "Feature 1"
+	},
+	"aboutFeature2": {
+		"message": "🎨 विज़ुअल ट्रेल फीडबैक",
+		"description": "Feature 2"
+	},
+	"aboutFeature3": {
+		"message": "🔍 टेक्स्ट/इमेज/लिंक सुपर ड्रैग",
+		"description": "Feature 3"
+	},
+	"aboutFeature4": {
+		"message": "🚫 वेबसाइट ब्लैकलिस्ट",
+		"description": "Feature 4"
+	},
+	"aboutFeature5": {
+		"message": "☁️ %browserName% खाता सिंक",
+		"description": "Feature 5"
+	},
+	"aboutFeature6": {
+		"message": "🔒 स्थानीय रूप से चलता है, सिंक को छोड़कर कोई नेटवर्क नहीं",
+		"description": "Feature 6"
+	},
+	"tutorial": {
+		"message": "ट्यूटोरियल",
+		"description": "Tutorial link"
+	},
+	"learnMore": {
+		"message": "और जानें",
+		"description": "Learn more link"
+	},
+	"badgeNoNetwork": {
+		"message": "🔒 सिंक के अलावा कोई नेटवर्क नहीं",
+		"description": "No network privacy badge"
+	},
+	"badgeNoData": {
+		"message": "🚫 कोई डेटा संग्रह नहीं",
+		"description": "No data collection badge"
+	},
+	"badgeLocalRun": {
+		"message": "✅ स्थानीय रूप से चलता है",
+		"description": "Local run badge"
+	},
+	"newTabSettings": {
+		"message": "नया टैब सेटिंग्स",
+		"description": "New tab open settings"
+	},
+	"newTabPosition": {
+		"message": "स्थिति",
+		"description": "New tab position"
+	},
+	"tabPositionRight": {
+		"message": "वर्तमान टैब के दाईं ओर",
+		"description": "Right of current tab"
+	},
+	"tabPositionLeft": {
+		"message": "वर्तमान टैब के बाईं ओर",
+		"description": "Left of current tab"
+	},
+	"tabPositionFirst": {
+		"message": "पहला टैब (सबसे बाएं)",
+		"description": "First tab (leftmost)"
+	},
+	"tabPositionLast": {
+		"message": "अंतिम टैब (सबसे दाएं)",
+		"description": "Last tab (rightmost)"
+	},
+	"tabPositionCurrent": {
+		"message": "वर्तमान टैब",
+		"description": "Open in current tab"
+	},
+	"newTabActive": {
+		"message": "अग्रभूमि में खोलें",
+		"description": "Open tab in foreground"
+	},
+	"textDragGestures": {
+		"message": "टेक्स्ट ड्रैग जेस्चर",
+		"description": "Text drag gestures"
+	},
+	"linkDragGestures": {
+		"message": "लिंक ड्रैग जेस्चर",
+		"description": "Link drag gestures"
+	},
+	"imageDragGestures": {
+		"message": "इमेज ड्रैग जेस्चर",
+		"description": "Image drag gestures"
+	},
+	"direction": {
+		"message": "दिशा",
+		"description": "Direction column header"
+	},
+	"action": {
+		"message": "एक्शन",
+		"description": "Action column header"
+	},
+	"imageSearchUrl": {
+		"message": "इमेज खोज URL (%s = इमेज URL)",
+		"description": "Image search URL input"
+	},
+	"dragActionNone": {
+		"message": "कोई नहीं",
+		"description": "No action"
+	},
+	"dragActionSearch": {
+		"message": "🔍 खोज इंजन",
+		"description": "Search action"
+	},
+	"dragActionCopy": {
+		"message": "📋 कॉपी करें",
+		"description": "Copy action"
+	},
+	"dragActionOpenTab": {
+		"message": "📑 नए टैब में खोलें",
+		"description": "Open in new tab"
+	},
+	"dragActionOpenTabLink": {
+		"message": "🔗 लिंक खोलें",
+		"description": "Open link in new tab"
+	},
+	"dragActionOpenTabImage": {
+		"message": "🖼️ इमेज खोलें",
+		"description": "Open image in new tab"
+	},
+	"dragActionCopyLink": {
+		"message": "📋 लिंक कॉपी करें",
+		"description": "Copy link"
+	},
+	"dragActionSaveImage": {
+		"message": "💾 इमेज सहेजें",
+		"description": "Save image"
+	},
+	"dragActionCopyImage": {
+		"message": "🖼️ इमेज कॉपी करें",
+		"description": "Copy image"
+	},
+	"dragActionCopyImageUrl": {
+		"message": "📋 इमेज URL कॉपी करें",
+		"description": "Copy image URL"
+	},
+	"dragActionImageSearch": {
+		"message": "🔍 इमेज खोज",
+		"description": "Image search"
+	},
+	"dragActionCustomSearch": {
+		"message": "🔍 कस्टम खोज",
+		"description": "Custom search"
+	},
+	"reducedMotionWarning": {
+		"message": "⚠️ %OS% सिस्टम एनीमेशन अक्षम है, स्क्रॉल एनीमेशन ठीक से काम नहीं कर सकता है। आप %OS% सिस्टम सेटिंग्स में एनीमेशन सक्षम कर सकते हैं।",
+		"description": "Warning message when system reduced motion is enabled"
+	},
+	"autoDetectUrl": {
+		"message": "URL का स्वतः पता लगाएं",
+		"description": "Auto detect URL checkbox label"
+	},
+	"preferLink": {
+		"message": "लिंक को प्राथमिकता दें",
+		"description": "Prefer link checkbox label"
+	},
+	"menuNeedRefresh": {
+		"message": "FlowMouse लोड नहीं हुआ, रीफ्रेश करने के लिए क्लिक करें",
+		"description": "Context menu title for pages needing refresh"
+	},
+	"menuRestricted": {
+		"message": "FlowMouse अनुपलब्ध, कारण जानें",
+		"description": "Context menu title for restricted pages"
+	},
+	"showRestrictedNotice": {
+		"message": "प्रतिबंधित पेज नोटिस",
+		"description": "Setting title for restricted page notice"
+	},
+	"showRestrictedNoticeDesc": {
+		"message": "उन पेजों पर संदर्भ मेनू नोटिस दिखाएं जहाँ जेस्चर अनुपलब्ध हैं",
+		"description": "Setting description for restricted page notice"
+	},
+	"restrictedPagesDetailsTitle": {
+		"message": "⚠️ ब्राउज़र सुरक्षा नीतियों के कारण, एक्सटेंशन कुछ प्रकार के पेजों पर नहीं चल सकते हैं।",
+		"description": "Collapsible details title"
+	},
+	"showMoreHint": {
+		"message": " (विवरण दिखाएं)",
+		"description": "Hint to show more details"
+	},
+	"restrictedNewTab": {
+		"message": "नया टैब पेज (chrome://newtab)",
+		"description": "New tab page title"
+	},
+	"restrictedNewTabDesc": {
+		"message": "ब्राउज़र का डिफ़ॉल्ट नया टैब पेज एक सुरक्षित सिस्टम पेज है। एक्सटेंशन यहाँ स्क्रिप्ट इंजेक्ट या सामग्री संशोधित नहीं कर सकते हैं।",
+		"description": "New tab page description"
+	},
+	"restrictedStore": {
+		"message": "आधिकारिक एक्सटेंशन स्टोर",
+		"description": "Store page title"
+	},
+	"restrictedStoreDesc": {
+		"message": "उदाहरण के लिए %storeInfo%, आदि। स्टोर के सामान्य संचालन की सुरक्षा के लिए ब्राउज़र इन पेजों पर एक्सटेंशन चलाने से रोकते हैं।",
+		"description": "Store page description"
+	},
+	"restrictedInternal": {
+		"message": "ब्राउज़र आंतरिक पेज",
+		"description": "Internal page title"
+	},
+	"restrictedInternalDesc": {
+		"message": "chrome:// (Chrome) या edge:// (Edge) से शुरू होने वाले सभी पेज, जिसमें सेटिंग्स, इतिहास, डाउनलोड आदि शामिल हैं। इन पेजों में मुख्य ब्राउज़र फ़ंक्शन और उपयोगकर्ता गोपनीयता डेटा शामिल हैं, इसलिए वे सख्ती से सुरक्षित हैं।",
+		"description": "Internal page description"
+	},
+	"restrictedFile": {
+		"message": "स्थानीय फ़ाइल पेज (file://)",
+		"description": "File page title"
+	},
+	"restrictedFileDesc": {
+		"message": "file:// प्रोटोकॉल के माध्यम से खोले गए स्थानीय HTML फ़ाइलें। सुरक्षा प्रतिबंधों के कारण (दुर्भावनापूर्ण एक्सटेंशन को स्थानीय फ़ाइल सिस्टम तक पहुँचने से रोकने के लिए), एक्सटेंशन इन पेजों पर काम नहीं कर सकते हैं।",
+		"description": "File page description"
+	},
+	"restrictedViewSource": {
+		"message": "स्रोत पेज देखें (view-source:)",
+		"description": "View source page title"
+	},
+	"restrictedViewSourceDesc": {
+		"message": "ब्राउज़र का स्रोत कोड व्यूअर भी एक सुरक्षित सिस्टम पेज है। एक्सटेंशन यहाँ नहीं चल सकते।",
+		"description": "View source page description"
+	},
+	"restrictedOther": {
+		"message": "अन्य कम सामान्य प्रभावित पेज अलग से सूचीबद्ध नहीं हैं।",
+		"description": "Other restricted pages note"
+	},
+	"popupNeedRefresh": {
+		"message": "एक्सटेंशन लोड नहीं हुआ",
+		"description": "Popup title when content script not loaded"
+	},
+	"popupNeedRefreshDesc": {
+		"message": "यह पेज एक्सटेंशन इंस्टॉल/अपडेट होने से पहले खोला गया था। जेस्चर सक्षम करने के लिए रीफ्रेश करें।",
+		"description": "Popup description when content script not loaded"
+	},
+	"popupRefreshBtn": {
+		"message": "🔄 पेज रीफ्रेश करें",
+		"description": "Popup refresh button text"
+	},
+	"popupRestrictedTitle": {
+		"message": "जेस्चर अनुपलब्ध",
+		"description": "Popup title for restricted pages"
+	},
+	"popupRestrictedDesc": {
+		"message": "ब्राउज़र सुरक्षा प्रतिबंधों के कारण यह पेज जेस्चर का उपयोग नहीं कर सकता है।",
+		"description": "Popup description for restricted pages"
+	},
+	"popupLearnMore": {
+		"message": "📖 और जानें",
+		"description": "Popup learn more button text"
+	},
+	"tutorialPending": {
+		"message": "अभी आज़माएं",
+		"description": "Tutorial pending status"
+	},
+	"tutorialCompleted": {
+		"message": "पूर्ण",
+		"description": "Tutorial completed status"
+	},
+	"tutorialClickToStart": {
+		"message": "शुरू करने के लिए <span class=\"text-highlight\">दायां माउस बटन</span> क्लिक करें",
+		"description": "Tutorial Step 0 instruction"
+	},
+	"tutorialWelcomeTitle": {
+		"message": "FlowMouse में आपका स्वागत है",
+		"description": "Tutorial welcome title"
+	},
+	"tutorialWelcomeSubtitle": {
+		"message": "30 सेकंड में मूल बातें सीखें और सहज, अनुभवजन्य ब्राउज़िंग का आनंद लें",
+		"description": "Tutorial welcome subtitle"
+	},
+	"tutorialStep1Title": {
+		"message": "मूल बातें",
+		"description": "Tutorial Step 1 title"
+	},
+	"tutorialStep1Subtitle": {
+		"message": "मुख्य जेस्चर मैकेनिक सीखें",
+		"description": "Tutorial Step 1 subtitle"
+	},
+	"tutorialStep1InstructionIdle": {
+		"message": "<span class=\"text-highlight\">दायां माउस बटन</span> दबाएं और <strong>पकड़ें</strong>",
+		"description": "Tutorial Step 1 instruction idle"
+	},
+	"tutorialStep1InstructionPressing": {
+		"message": "<strong>उत्कृष्ट!</strong> अब <strong>%arrow% दाएं</strong> ड्रैग करें",
+		"description": "Tutorial Step 1 instruction pressing"
+	},
+	"tutorialStep1InstructionDragging": {
+		"message": "ड्रैग करते रहें...",
+		"description": "Tutorial Step 1 instruction dragging"
+	},
+	"tutorialStep1InstructionReleasing": {
+		"message": "<strong>बहुत बढ़िया!</strong> अब छोड़ें!",
+		"description": "Tutorial Step 1 instruction releasing"
+	},
+	"tutorialStep2Title": {
+		"message": "FlowMouse जेस्चर",
+		"description": "Tutorial Step 2 title"
+	},
+	"tutorialStep2Subtitle": {
+		"message": "जेस्चर करने के लिए <span class=\"text-highlight\">दायां माउस बटन</span> पकड़ें",
+		"description": "Tutorial Step 2 subtitle"
+	},
+	"tutorialStep2Footer": {
+		"message": "<strong>अधिक जेस्चर</strong> और <strong>पूर्ण अनुकूलन</strong> सेटिंग्स में उपलब्ध हैं।",
+		"description": "Footer note for step 2 discovery banner"
+	},
+	"tutorialStep2DiscoveryHeader": {
+		"message": "अधिक जेस्चर",
+		"description": "Header for step 2 discovery banner"
+	},
+	"tutorialStep3DiscoveryHeader": {
+		"message": "अधिक सुपर ड्रैग सुविधाएँ",
+		"description": "Header for step 3 discovery banner"
+	},
+	"tutorialStep3TextSearch": {
+		"message": "टेक्स्ट <span class=\"svg-arrow\">→</span> खोज",
+		"description": "Text drag search discovery item"
+	},
+	"tutorialStep3LinkOpen": {
+		"message": "लिंक <span class=\"svg-arrow\">→</span> नए टैब में खोलें",
+		"description": "Link drag open discovery item"
+	},
+	"tutorialStep3ImageOpen": {
+		"message": "इमेज <span class=\"svg-arrow\">→</span> नए टैब में खोलें",
+		"description": "Image drag open discovery item"
+	},
+	"tutorialStep3Footer": {
+		"message": "<strong>अधिक ड्रैग एक्शन</strong> और <strong>पूर्ण अनुकूलन</strong> उन्नत सेटिंग्स मोड में उपलब्ध हैं",
+		"description": "Footer for step 3 discovery banner"
+	},
+	"tutorialContinue": {
+		"message": "जारी रखें",
+		"description": "Tutorial continue button"
+	},
+	"tutorialStep3Title": {
+		"message": "सुपर ड्रैग",
+		"description": "Tutorial Step 3 title"
+	},
+	"tutorialStep3Subtitle": {
+		"message": "<span class=\"text-highlight\">बायां माउस बटन</span> पकड़ें और जल्दी से एक्शन करने के लिए <span class=\"svg-arrow\">→</span> ड्रैग करें",
+		"description": "Tutorial Step 3 subtitle"
+	},
+	"tutorialStep3HintTitle": {
+		"message": "टेक्स्ट चयन खोज",
+		"description": "Tutorial Step 3 hint title"
+	},
+	"tutorialStep3HintDesc": {
+		"message": "टेक्स्ट चुनें, फिर खोजने के लिए <span class=\"text-highlight\">बायां माउस बटन</span> का उपयोग करके <span class=\"svg-arrow\">→</span> ड्रैग करें",
+		"description": "Tutorial Step 3 hint description. Note: Must drag to right. Use SVG arrow instead of text for direction."
+	},
+	"tutorialStep3TextBoxLabel": {
+		"message": "इसे नीचे दिए गए टेक्स्ट के साथ आज़माएं!",
+		"description": "Tutorial Step 3 text box label"
+	},
+	"tutorialStep3SelectableText": {
+		"message": "FlowMouse सुपर ड्रैग",
+		"description": "Tutorial Step 3 selectable text"
+	},
+	"tutorialStep4Title": {
+		"message": "बधाई हो!",
+		"description": "Tutorial Step 4 title"
+	},
+	"tutorialStep4Subtitle": {
+		"message": "अब आप प्रवाह के साथ चलते हैं।",
+		"description": "Tutorial Step 4 subtitle"
+	},
+	"tutorialStep4Instruction": {
+		"message": "इस लिंक को <span class=\"text-highlight\">नए टैब</span> में खोलने के लिए <span class=\"text-highlight\">सुपर ड्रैग <span class=\"svg-arrow\">→</span></span> का उपयोग करें",
+		"description": "Tutorial Step 4 instruction. Note: Must drag to right. Use SVG arrow instead of text for direction."
+	},
+	"tutorialSettingsLink": {
+		"message": "FlowMouse सेटिंग्स",
+		"description": "Tutorial settings link"
+	},
+	"tutorialSettingsHint": {
+		"message": "बहुत सी शक्तिशाली सुविधाएँ आपके अन्वेषण की प्रतीक्षा कर रही हैं!",
+		"description": "Tutorial settings hint"
+	},
+	"tutorialWrongDirection": {
+		"message": "गलत दिशा! %arrow% दाएं ड्रैग करें",
+		"description": "Tutorial wrong direction error"
+	},
+	"tutorialEarlyRelease": {
+		"message": "बहुत जल्दी छोड़ दिया! खींचते रहें।",
+		"description": "Tutorial early release error"
+	},
+	"tutorialDragWrongButton": {
+		"message": "ड्रैग करने के लिए <span class=\"text-highlight\">बायां माउस बटन</span> का उपयोग करें",
+		"description": "Tutorial drag wrong button error"
+	},
+	"tutorialRefreshTip": {
+		"message": "सुझाव: इंस्टॉलेशन से पहले खोले गए टैब को FlowMouse का उपयोग करने के लिए <span class=\"text-highlight\">रीफ्रेश</span> करने की आवश्यकता है",
+		"description": "Tip about refreshing tabs"
+	},
+	"permissionBookmarksTitle": {
+		"message": "बुकमार्क प्रबंधित करें",
+		"description": "Permission popup title for bookmarks"
+	},
+	"permissionBookmarksDesc": {
+		"message": "पेजों को अपने बुकमार्क में जोड़ने के लिए, FlowMouse को आपके बुकमार्क तक पहुँचने की आवश्यकता है।",
+		"description": "Permission popup description for bookmarks"
+	},
+	"permissionDownloadsTitle": {
+		"message": "डाउनलोड प्रबंधित करें",
+		"description": "Permission popup title for downloads"
+	},
+	"permissionDownloadsDesc": {
+		"message": "इमेज सहेजने के लिए, FlowMouse को आपके डाउनलोड तक पहुँचने की आवश्यकता है।",
+		"description": "Permission popup description for downloads"
+	},
+	"permissionDownloadsPageCaptureTitle": {
+		"message": "इमेज सहेजें",
+		"description": "Permission popup title for downloads and page capture"
+	},
+	"permissionDownloadsPageCaptureDesc": {
+		"message": "इमेज सहेजने के लिए, FlowMouse को पेजों और डाउनलोड तक पहुँचने की आवश्यकता है।",
+		"description": "Permission popup description for downloads and page capture"
+	},
+	"grantPermission": {
+		"message": "अनुमति दें",
+		"description": "Grant permission button"
+	},
+	"grantPermissionCancel": {
+		"message": "रद्द करें",
+		"description": "Cancel button"
+	},
+	"permissionTitle": {
+		"message": "FlowMouse अनुमति",
+		"description": "Generic permission window title"
+	},
+	"tutorialPinHint": {
+		"message": "आसान पहुँच के लिए<span class='icon-ext'></span><b>एक्सटेंशन</b> क्लिक करें, और FlowMouse को<span class='icon-pin'></span><b>पिन</b> करें!",
+		"description": "Hint to pin the extension in tutorial step 4. Do not add space around icon."
+	},
+	"downloadErrorHotlink": {
+		"message": "छवि सहेजने में विफल। वेबसाइट में हॉटलिंक सुरक्षा हो सकती है। कृपया छवि पर राइट-क्लिक करें और \"Save image as...\" चुनें।",
+		"description": "Toast message when image download fails due to hotlink protection"
+	},
+	"saveImageLoadError": {
+		"message": "छवि सहेजना विफल: छवि लोड करने में विफल",
+		"description": "Toast message when image fails to load before saving"
+	},
+	"saveImageTimeout": {
+		"message": "छवि सहेजना विफल: लोडिंग समय समाप्त",
+		"description": "Toast message when image loading times out"
+	}
+}

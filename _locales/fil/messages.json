@@ -1,0 +1,1238 @@
+{
+	"extName": {
+		"message": "FlowMouse - Makinis na Mouse Gestures",
+		"description": "Extension name"
+	},
+	"extNameShort": {
+		"message": "FlowMouse",
+		"description": "Short extension name for popup"
+	},
+	"extDescription": {
+		"message": "Isang open-source na mouse gesture extension na nakatuon sa privacy at maayos na karanasan. Makinis na mga galaw ng mouse, suporta sa super drag, at lahat ng data ay nakaimbak nang lokal.",
+		"description": "Extension description"
+	},
+	"appearance": {
+		"message": "Hitsura",
+		"description": "Appearance section"
+	},
+	"theme": {
+		"message": "Tema",
+		"description": "Theme"
+	},
+	"themeDesc": {
+		"message": "Lumipat sa pagitan ng maliwanag at madilim na tema",
+		"description": "Theme description"
+	},
+	"themeDark": {
+		"message": "Madilim",
+		"description": "Dark theme"
+	},
+	"themeLight": {
+		"message": "Maliwanag",
+		"description": "Light theme"
+	},
+	"themeAuto": {
+		"message": "Sundin ang Sistema",
+		"description": "Auto theme - follow system"
+	},
+	"languageDesc": {
+		"message": "Piliin ang wika ng interface",
+		"description": "Language description"
+	},
+	"syncStatus": {
+		"message": "Katayuan ng Pag-sync",
+		"description": "Sync status"
+	},
+	"syncStatusDesc": {
+		"message": "I-sync ang mga setting gamit ang %browserName% account",
+		"description": "Sync status description"
+	},
+	"synced": {
+		"message": "Naka-sync",
+		"description": "Synced"
+	},
+	"author": {
+		"message": "May-akda",
+		"description": "Author"
+	},
+	"privacyNote": {
+		"message": "🔒 Gumagana nang lokal, walang koneksyon sa network maliban sa sync, walang pangongolekta ng data",
+		"description": "Privacy note in footer"
+	},
+	"supportUsText": {
+		"message": "Nasisiyahan sa FlowMouse? Mangyaring bigyan kami ng 5-star rating sa %appStoreInfo% upang suportahan kami!",
+		"description": "Rating text"
+	},
+	"storeNameChrome": {
+		"message": "Chrome Web Store",
+		"description": "Chrome Web Store name"
+	},
+	"storeNameEdge": {
+		"message": "Mga Add-on ng Edge",
+		"description": "Edge Add-ons name"
+	},
+	"storeNameFirefox": {
+		"message": "Mga Add-on ng Firefox",
+		"description": "Firefox Add-ons name"
+	},
+	"feedbackText": {
+		"message": "May mga problema o mungkahi? Mangyaring i-ulat sa pamamagitan ng <a href='mailto:Service@52pojie.cn'>Email</a>, <a href='https://github.com/Hmily-LCG/FlowMouse/issues' target='_blank'>GitHub</a>, o <a href='https://www.52pojie.cn/thread-2080303-1-1.html' target='_blank'>Forum</a>. Papabutihin namin ito sa lalong madaling panahon!",
+		"description": "Feedback text"
+	},
+	"supportAndFeedback": {
+		"message": "Suporta at Feedback",
+		"description": "Support and Feedback section title"
+	},
+	"feedbackTitle": {
+		"message": "Feedback at Mga Mungkahi",
+		"description": "Feedback row title"
+	},
+	"supportUsTitle": {
+		"message": "Suportahan Kami",
+		"description": "Rating row title"
+	},
+	"backToSettings": {
+		"message": "Bumalik sa Mga Setting",
+		"description": "Back to settings link"
+	},
+	"settings": {
+		"message": "Mga Setting",
+		"description": "Settings"
+	},
+	"moreSettings": {
+		"message": "Higit pang Mga Setting",
+		"description": "More settings button in popup"
+	},
+	"version": {
+		"message": "Bersyon",
+		"description": "Version"
+	},
+	"basicSettings": {
+		"message": "Mga Setting ng Galaw",
+		"description": "Gesture settings section"
+	},
+	"enableGesture": {
+		"message": "Paganahin ang mga Galaw",
+		"description": "Enable gesture feature"
+	},
+	"enableGestureDesc": {
+		"message": "Pindutin nang matagal ang kanang pindutan ng mouse at igalaw ang mouse upang madaling magsagawa ng mga galaw",
+		"description": "Hold the right mouse button and move the mouse to easily perform gestures"
+	},
+	"macLinuxContextMenuNotice": {
+		"message": "⚠️ Dahil sa mga limitasyon ng system, kinakailangan ang dobleng pag-right-click upang buksan ang context menu sa macOS / Linux.",
+		"description": "Notice for macOS / Linux users about double right-click for context menu"
+	},
+	"macTextDragNotice": {
+		"message": "⚠️ Dahil sa gawi ng macOS, kapag nagda-drag ng text, piliin muna ang text, pagkatapos ay pindutin at hawakan ang kaliwang pindutan nang sandali bago mag-drag. Kung hindi, maaaring hindi ma-trigger ang paghahanap.",
+		"description": "Notice for macOS users about text drag behavior"
+	},
+	"showTrail": {
+		"message": "Ipakita ang Bakas ng Galaw",
+		"description": "Show gesture trail"
+	},
+	"showTrailDesc": {
+		"message": "Ipakita ang linya ng bakas kapag nagsasagawa ng mga galaw",
+		"description": "Show trail line when performing gestures"
+	},
+	"showHint": {
+		"message": "Ipakita ang Pahiwatig ng Aksyon",
+		"description": "Show action hint"
+	},
+	"showHintDesc": {
+		"message": "Ipakita ang kasalukuyang aksyon ng galaw sa gitna ng screen",
+		"description": "Show current gesture action in center of screen"
+	},
+	"color": {
+		"message": "Kulay",
+		"description": "Color"
+	},
+	"width": {
+		"message": "Lapad",
+		"description": "Width/thickness"
+	},
+	"background": {
+		"message": "Background",
+		"description": "Background"
+	},
+	"opacity": {
+		"message": "Opacity",
+		"description": "Opacity"
+	},
+	"text": {
+		"message": "Teksto",
+		"description": "Text"
+	},
+	"scrollAmount": {
+		"message": "Distansya ng Pag-scroll",
+		"description": "Scroll amount"
+	},
+	"scrollAmountDesc": {
+		"message": "Distansya ng pag-scroll para sa mga galaw na pataas/pababa (% ng taas ng window)",
+		"description": "Scroll distance for up/down gestures"
+	},
+	"scrollSmoothness": {
+		"message": "Kinis ng Pag-scroll",
+		"description": "Scroll smoothness"
+	},
+	"scrollSmoothnessDesc": {
+		"message": "Effect ng animation ng pag-scroll para sa mga galaw na pataas/pababa",
+		"description": "Scroll smoothness description"
+	},
+	"smoothnessSystem": {
+		"message": "Sistema (Mataas na Pagganap)",
+		"description": "System scroll smoothness"
+	},
+	"smoothnessCustom": {
+		"message": "Makinis",
+		"description": "Custom smooth scrolling"
+	},
+	"smoothnessNone": {
+		"message": "Walang animation",
+		"description": "No scroll animation"
+	},
+	"dragFeatures": {
+		"message": "Mga Tampok ng Pag-drag",
+		"description": "Drag features section"
+	},
+	"textDragSearch": {
+		"message": "Pag-drag ng Teksto",
+		"description": "Text drag"
+	},
+	"textDragSearchDesc": {
+		"message": "I-drag ang napiling teksto upang maghanap",
+		"description": "Drag selected text to search"
+	},
+	"searchEngine": {
+		"message": "Search Engine",
+		"description": "Search engine"
+	},
+	"custom": {
+		"message": "Custom",
+		"description": "Custom"
+	},
+	"customUrlPlaceholder": {
+		"message": "Custom URL, gamitin ang %s para sa terminong hinahanap",
+		"description": "Custom URL placeholder"
+	},
+	"urlPlaceholderText": {
+		"message": "%s=Keyword",
+		"description": "Placeholder for text drag custom URL"
+	},
+	"urlPlaceholderImage": {
+		"message": "%s=URL ng Imahe",
+		"description": "Placeholder for image drag custom URL"
+	},
+	"searchEngine_baidu": {
+		"message": "Baidu",
+		"description": "Baidu search engine"
+	},
+	"searchEngine_360": {
+		"message": "360 Search",
+		"description": "360 search engine"
+	},
+	"searchEngine_yandex": {
+		"message": "Yandex",
+		"description": "Yandex search engine"
+	},
+	"searchEngine_system": {
+		"message": "Default ng browser",
+		"description": "System default search engine"
+	},
+	"imageDrag": {
+		"message": "Pag-drag ng Larawan",
+		"description": "Image drag"
+	},
+	"imageDragDesc": {
+		"message": "I-drag ang larawan upang buksan sa bagong tab",
+		"description": "Drag image to open in new tab"
+	},
+	"linkDrag": {
+		"message": "Pag-drag ng Link",
+		"description": "Link drag"
+	},
+	"linkDragDesc": {
+		"message": "I-drag ang link upang buksan sa bagong tab",
+		"description": "Drag link to open in new tab"
+	},
+	"enableCustomGestures": {
+		"message": "Mga Naka-customize na Galaw",
+		"description": "Enable custom gestures"
+	},
+	"enableCustomGesturesDesc": {
+		"message": "Tingnan at i-customize ang bawat aksyon ng galaw",
+		"description": "View and customize each gesture action"
+	},
+	"gestureAutoSaveHint": {
+		"message": "Tip: Awtomatikong nai-save ang mga pagbabago.",
+		"description": "Hint about auto-save"
+	},
+	"blacklist": {
+		"message": "Blacklist ng Website",
+		"description": "Website blacklist"
+	},
+	"blacklistPlaceholder": {
+		"message": "Ilagay ang domain, hal. example.com, pindutin ang Enter upang idagdag",
+		"description": "Blacklist input placeholder"
+	},
+	"add": {
+		"message": "Magdagdag",
+		"description": "Add button"
+	},
+	"emptyBlacklist": {
+		"message": "Walang mga naka-blacklist na site. Maglagay ng domain sa itaas upang magdagdag.",
+		"description": "Empty blacklist message"
+	},
+	"dataManagement": {
+		"message": "Pamamahala ng Data",
+		"description": "Data management section"
+	},
+	"export": {
+		"message": "I-export",
+		"description": "Export settings"
+	},
+	"import": {
+		"message": "I-import",
+		"description": "Import settings"
+	},
+	"reset": {
+		"message": "I-reset",
+		"description": "Reset to default"
+	},
+	"autoSaved": {
+		"message": "✓ Awtomatikong nai-save",
+		"description": "Auto-saved message"
+	},
+	"saveFailure": {
+		"message": "Nabigong i-save",
+		"description": "Save failure message"
+	},
+	"resetConfirm": {
+		"message": "Sigurado ka bang gusto mong i-reset ang lahat ng setting sa default?",
+		"description": "Reset confirmation"
+	},
+	"resetDone": {
+		"message": "Na-reset ang mga setting sa default",
+		"description": "Reset done message"
+	},
+	"exportDone": {
+		"message": "Na-export ang mga setting",
+		"description": "Export done message"
+	},
+	"importDone": {
+		"message": "Na-import ang mga setting",
+		"description": "Import done message"
+	},
+	"importFailed": {
+		"message": "Nabigo ang pag-import: Di-wastong configuration file",
+		"description": "Import failed message"
+	},
+	"importFailedSyncError": {
+		"message": "Nabigo ang pag-import: Error sa pag-sync, pakisuri ang status ng browser",
+		"description": "Import failed sync error message"
+	},
+	"invalidDomain": {
+		"message": "Mangyaring maglagay ng wastong domain",
+		"description": "Invalid domain message"
+	},
+	"domainExists": {
+		"message": "Nasa blacklist na ang domain",
+		"description": "Domain already in blacklist"
+	},
+	"about": {
+		"message": "Tungkol sa",
+		"description": "About section"
+	},
+	"language": {
+		"message": "Wika",
+		"description": "Language"
+	},
+	"languageAuto": {
+		"message": "Sundin ang Sistema",
+		"description": "Follow system language"
+	},
+	"privacyFriendly": {
+		"message": "Privacy Friendly",
+		"description": "Privacy friendly"
+	},
+	"localOnly": {
+		"message": "Lokal Lamang",
+		"description": "Local only"
+	},
+	"autoSave": {
+		"message": "Awtomatikong I-save",
+		"description": "Auto save"
+	},
+	"gestureDesc_L": {
+		"message": "Pakaliwa",
+		"description": "Gesture description for ←"
+	},
+	"gestureDesc_R": {
+		"message": "Pakanan",
+		"description": "Gesture description for →"
+	},
+	"gestureDesc_U": {
+		"message": "Paitaas",
+		"description": "Gesture description for ↑"
+	},
+	"gestureDesc_D": {
+		"message": "Pababa",
+		"description": "Gesture description for ↓"
+	},
+	"gestureDesc_DR": {
+		"message": "Pababa tapos Pakanan",
+		"description": "Gesture description for ↓→"
+	},
+	"gestureDesc_LU": {
+		"message": "Pakaliwa tapos Paitaas",
+		"description": "Gesture description for ←↑"
+	},
+	"gestureDesc_RU": {
+		"message": "Pakanan tapos Paitaas",
+		"description": "Gesture description for →↑"
+	},
+	"gestureDesc_RD": {
+		"message": "Pakanan tapos Pababa",
+		"description": "Gesture description for →↓"
+	},
+	"gestureDesc_UL": {
+		"message": "Paitaas tapos Pakaliwa",
+		"description": "Gesture description for ↑←"
+	},
+	"gestureDesc_UR": {
+		"message": "Paitaas tapos Pakanan",
+		"description": "Gesture description for ↑→"
+	},
+	"gestureDesc_DL": {
+		"message": "Pababa tapos Pakaliwa",
+		"description": "Gesture description for ↓←"
+	},
+	"gestureDesc_LD": {
+		"message": "Pakaliwa tapos Pababa",
+		"description": "Gesture description for ←↓"
+	},
+	"gestureDesc_UD": {
+		"message": "Paitaas tapos Pababa",
+		"description": "Gesture description for ↑↓"
+	},
+	"gestureDesc_DU": {
+		"message": "Pababa tapos Paitaas",
+		"description": "Gesture description for ↓↑"
+	},
+	"gestureDesc_LR": {
+		"message": "Pakaliwa tapos Pakanan",
+		"description": "Gesture description for ←→"
+	},
+	"gestureDesc_RL": {
+		"message": "Pakanan tapos Pakaliwa",
+		"description": "Gesture description for →←"
+	},
+	"actionNone": {
+		"message": "Wala",
+		"description": "No action"
+	},
+	"actionBack": {
+		"message": "Bumalik",
+		"description": "Go back"
+	},
+	"actionForward": {
+		"message": "Sulong",
+		"description": "Go forward"
+	},
+	"actionScrollUp": {
+		"message": "Mag-scroll Pataas",
+		"description": "Scroll up"
+	},
+	"actionScrollDown": {
+		"message": "Mag-scroll Pababa",
+		"description": "Scroll down"
+	},
+	"actionScrollToTop": {
+		"message": "Mag-scroll sa Tuktok",
+		"description": "Scroll to top"
+	},
+	"actionScrollToBottom": {
+		"message": "Mag-scroll sa Ilalim",
+		"description": "Scroll to bottom"
+	},
+	"actionCloseTab": {
+		"message": "Isara ang Tab",
+		"description": "Close tab"
+	},
+	"actionCloseTabKeepWindow": {
+		"message": "Isara ang Tab (Panatilihin ang Window)",
+		"description": "Close tab but keep window open"
+	},
+	"actionCloseBrowser": {
+		"message": "Isara ang Browser",
+		"description": "Close browser"
+	},
+	"actionRestoreTab": {
+		"message": "Ibalik ang Isinara na Tab",
+		"description": "Restore closed tab"
+	},
+	"actionNewTab": {
+		"message": "Bagong Tab",
+		"description": "New tab"
+	},
+	"actionCloseOtherTabs": {
+		"message": "Isara ang Ibang mga Tab",
+		"description": "Close other tabs"
+	},
+	"actionCloseLeftTabs": {
+		"message": "Isara ang mga Tab sa Kaliwa",
+		"description": "Close tabs to the left"
+	},
+	"actionCloseRightTabs": {
+		"message": "Isara ang mga Tab sa Kanan",
+		"description": "Close tabs to the right"
+	},
+	"actionCloseAllTabs": {
+		"message": "Isara ang Lahat ng Tab",
+		"description": "Close all tabs"
+	},
+	"actionSwitchLeftTab": {
+		"message": "Lumipat sa Tab sa Kaliwa",
+		"description": "Switch to left tab"
+	},
+	"actionSwitchRightTab": {
+		"message": "Lumipat sa Tab sa Kanan",
+		"description": "Switch to right tab"
+	},
+	"actionRefresh": {
+		"message": "I-refresh ang Kasalukuyang Tab",
+		"description": "Refresh current tab"
+	},
+	"actionRefreshAllTabs": {
+		"message": "I-refresh ang Lahat ng Tab",
+		"description": "Refresh all tabs"
+	},
+	"actionStopLoading": {
+		"message": "Ihinto ang Pag-load",
+		"description": "Stop loading"
+	},
+	"actionNewWindow": {
+		"message": "Bagong Window",
+		"description": "New window"
+	},
+	"actionNewIncognito": {
+		"message": "Bagong Incognito Window",
+		"description": "New incognito window"
+	},
+	"actionAddToBookmarks": {
+		"message": "Idagdag sa Mga Bookmark",
+		"description": "Add to bookmarks"
+	},
+	"actionToggleFullscreen": {
+		"message": "I-toggle ang Fullscreen",
+		"description": "Toggle fullscreen"
+	},
+	"actionToggleMaximize": {
+		"message": "I-toggle ang Maximize/Restore",
+		"description": "Toggle window maximize"
+	},
+	"actionMinimize": {
+		"message": "I-minimize ang Window",
+		"description": "Minimize window"
+	},
+	"actionOpenCustomUrl": {
+		"message": "Buksan ang Custom na URL",
+		"description": "Open custom URL"
+	},
+	"actionCopyUrl": {
+		"message": "Kopyahin ang Kasalukuyang URL",
+		"description": "Copy current URL"
+	},
+	"actionCopyTitle": {
+		"message": "Kopyahin ang Pamagat ng Pahina",
+		"description": "Copy page title"
+	},
+	"actionOpenDownloads": {
+		"message": "Buksan ang Mga Download",
+		"description": "Open downloads page"
+	},
+	"actionOpenHistory": {
+		"message": "Buksan ang Kasaysayan",
+		"description": "Open history page"
+	},
+	"actionOpenExtensions": {
+		"message": "Buksan ang Mga Extension",
+		"description": "Open extensions page"
+	},
+	"actionPrintPage": {
+		"message": "I-print ang Pahina",
+		"description": "Print page"
+	},
+	"actionDuplicateTab": {
+		"message": "I-duplicate ang Tab",
+		"description": "Duplicate current tab"
+	},
+	"actionToggleMuteTab": {
+		"message": "I-mute/I-unmute ang Kasalukuyang Tab",
+		"description": "Toggle mute current tab"
+	},
+	"actionToggleMuteAllTabs": {
+		"message": "I-mute/I-unmute ang Lahat ng Tab",
+		"description": "Toggle mute all tabs"
+	},
+	"showTrailOrigin": {
+		"message": "Ipakita ang Pinagmulan",
+		"description": "Show trail origin point"
+	},
+	"enableTrailSmooth": {
+		"message": "Pagpapakinis ng trail",
+		"description": "Enable trail smoothing for gesture visualization"
+	},
+	"distanceThreshold": {
+		"message": "Distansya ng pagkilala ng kumpas",
+		"description": "Gesture recognition distance"
+	},
+	"distanceThresholdDesc": {
+		"message": "Pinakamababang distansya ng paggalaw upang makilala ang isang kumpas",
+		"description": "Description for gesture recognition distance"
+	},
+	"distanceThresholdNotice": {
+		"message": "Tip: Inirerekomenda ang value sa pagitan ng 15-30 para sa pinakamahusay na pagkilala.",
+		"description": "Warning when distance threshold is too small or too large"
+	},
+	"enableAdvancedSettings": {
+		"message": "Mga Advanced na Setting",
+		"description": "Enable advanced settings"
+	},
+	"enableAdvancedSettingsDesc": {
+		"message": "Ipakita ang higit pang mga advanced na opsyon kapag pinagana",
+		"description": "Show more advanced options when enabled"
+	},
+	"enableAdvancedSettingsToggle": {
+		"message": "Mode ng Mga Advanced na Setting",
+		"description": "Enable advanced settings toggle label"
+	},
+	"urlFormatError": {
+		"message": "Mangyaring maglagay ng buong URL na nagsisimula sa http:// o https://",
+		"description": "URL format error message"
+	},
+	"resetToDefault": {
+		"message": "I-reset sa default",
+		"description": "Reset gesture to default action"
+	},
+	"addCustomGesture": {
+		"message": "Magdagdag ng Custom na Galaw",
+		"description": "Add custom gesture section title"
+	},
+	"gesturePattern": {
+		"message": "Pattern",
+		"description": "Gesture pattern label"
+	},
+	"selectAction": {
+		"message": "Piliin ang Aksyon",
+		"description": "Select action label"
+	},
+	"clear": {
+		"message": "I-clear",
+		"description": "Clear button"
+	},
+	"addGesture": {
+		"message": "Magdagdag ng Galaw",
+		"description": "Add gesture button"
+	},
+	"pleaseDrawGesture": {
+		"message": "Mangyaring gumuhit muna ng galaw",
+		"description": "Alert when no gesture drawn"
+	},
+	"gestureAdded": {
+		"message": "✓ Naidagdag ang Galaw",
+		"description": "Gesture added success message"
+	},
+	"gestureDrawInstructions": {
+		"message": "Pindutin nang matagal ang kanang pindutan ng mouse at gumuhit ng galaw sa ibaba, bitiwan upang makumpleto. Mga suportadong direksyon:",
+		"description": "Instructions for gesture drawing"
+	},
+	"gestureOverwriteConfirm": {
+		"message": "Umiiral na ang galaw na %pattern%. I-overwrite?",
+		"description": "Confirmation message when adding a duplicate gesture"
+	},
+	"customGesture": {
+		"message": "Custom",
+		"description": "Label for custom gestures"
+	},
+	"deleteGesture": {
+		"message": "Tanggalin ang Galaw",
+		"description": "Delete gesture button tooltip"
+	},
+	"deleteGestureConfirm": {
+		"message": "Tanggalin ang galaw na %pattern%?",
+		"description": "Delete gesture confirmation"
+	},
+	"gestureDeleted": {
+		"message": "✓ Natanggal ang Galaw",
+		"description": "Gesture deleted success message"
+	},
+	"enterCustomUrl": {
+		"message": "Ilagay ang URL (iminungkahing isama ang protocol tulad ng https://, chrome://, atbp.):",
+		"description": "Prompt for custom URL input"
+	},
+	"invalidUrl": {
+		"message": "Mangyaring maglagay ng wastong URL (nagsisimula sa http:// o https://)",
+		"description": "Invalid URL error message"
+	},
+	"popupTrail": {
+		"message": "Bakas ng Galaw",
+		"description": "Gesture trail in popup"
+	},
+	"popupHint": {
+		"message": "Pahiwatig ng Aksyon",
+		"description": "Action hint in popup"
+	},
+	"popupCommonGestures": {
+		"message": "Mga Karaniwang Galaw",
+		"description": "Common gestures"
+	},
+	"popupCurrentSite": {
+		"message": "Kasalukuyang Site",
+		"description": "Current site"
+	},
+	"popupRestricted": {
+		"message": "Limitadong Pahina",
+		"description": "Restricted page"
+	},
+	"popupDisabled": {
+		"message": "Naka-disable",
+		"description": "Disabled"
+	},
+	"popupAddBlacklist": {
+		"message": "Idagdag sa Blacklist",
+		"description": "Add to blacklist"
+	},
+	"popupRemoveBlacklist": {
+		"message": "Alisin sa Blacklist",
+		"description": "Remove from blacklist"
+	},
+	"popupNotAvailable": {
+		"message": "Hindi Magagamit",
+		"description": "Not available"
+	},
+	"popupBack": {
+		"message": "Bumalik",
+		"description": "Back - short"
+	},
+	"popupForward": {
+		"message": "Sulong",
+		"description": "Forward - short"
+	},
+	"popupScrollUp": {
+		"message": "Itaas",
+		"description": "Scroll up - short"
+	},
+	"popupScrollDown": {
+		"message": "Ibaba",
+		"description": "Scroll down - short"
+	},
+	"popupClose": {
+		"message": "Isara",
+		"description": "Close Tab - short"
+	},
+	"popupRestore": {
+		"message": "Ibalik",
+		"description": "Restore Tab - short"
+	},
+	"dragSearchText": {
+		"message": "🔍 Mag-drag para Maghanap",
+		"description": "Drag search hint"
+	},
+	"dragOpenImage": {
+		"message": "🖼️ Buksan ang Larawan",
+		"description": "Drag open image hint"
+	},
+	"dragOpenLink": {
+		"message": "🔗 Buksan ang Link",
+		"description": "Drag open link hint"
+	},
+	"aboutTitle": {
+		"message": "Tungkol sa FlowMouse",
+		"description": "About title"
+	},
+	"aboutAuthor": {
+		"message": "May-akda",
+		"description": "Author"
+	},
+	"aboutWebsite": {
+		"message": "Website",
+		"description": "Website"
+	},
+	"aboutOpenSource": {
+		"message": "GitHub",
+		"description": "GitHub link"
+	},
+	"aboutEmail": {
+		"message": "Email",
+		"description": "Email"
+	},
+	"aboutPrivacy": {
+		"message": "Pahayag ng Privacy",
+		"description": "Privacy statement"
+	},
+	"aboutPrivacyText": {
+		"message": "Ang extension na ito ay isang open-source na proyekto na ang code ay naka-host sa GitHub. Ang mga kontribusyon at code review ay tinatanggap. Ang lahat ng pagproseso ng data ay ginagawa nang lokal sa iyong device. Ang extension ay hindi nagtatag ng anumang mga koneksyon sa network at walang mga backend server, kaya hindi ito nangongolekta o nag-a-upload ng anumang data ng user sa mga panlabas na server. Ang iyong mga naka-save na setting ay naka-encrypt at naka-sync sa pagitan ng iyong mga naka-log-in na device sa pamamagitan ng built-in na serbisyo ng pag-sync ng browser ng %browserName%. Ang prosesong ito ay ganap na kinokontrol ng browser at sumusunod sa mga setting ng privacy at pag-sync ng iyong browser.",
+		"description": "Privacy statement text"
+	},
+	"aboutCredits": {
+		"message": "Credits",
+		"description": "Credits"
+	},
+	"aboutCreditsText": {
+		"message": "Salamat sa Microsoft Edge browser at crxMouse extension para sa inspirasyon sa disenyo.\nSalamat sa komunidad ng 52pojie.cn at mga user para sa feedback at mga mungkahi!",
+		"description": "Credits text"
+	},
+	"aboutFeatures": {
+		"message": "Mga Tampok",
+		"description": "Features"
+	},
+	"aboutFeature1": {
+		"message": "🎯 16 na Default na Galaw + Mga Custom na Galaw",
+		"description": "Feature 1"
+	},
+	"aboutFeature2": {
+		"message": "🎨 Visual Trail Feedback",
+		"description": "Feature 2"
+	},
+	"aboutFeature3": {
+		"message": "🔍 Super Drag para sa Teksto/Larawan/Link",
+		"description": "Feature 3"
+	},
+	"aboutFeature4": {
+		"message": "🚫 Blacklist ng Website",
+		"description": "Feature 4"
+	},
+	"aboutFeature5": {
+		"message": "☁️ Sync ng %browserName% Account",
+		"description": "Feature 5"
+	},
+	"aboutFeature6": {
+		"message": "🔒 Tumatakbo nang Lokal, Walang Network Maliban sa Sync",
+		"description": "Feature 6"
+	},
+	"tutorial": {
+		"message": "Tutorial",
+		"description": "Tutorial link"
+	},
+	"learnMore": {
+		"message": "Matuto Pa",
+		"description": "Learn more link"
+	},
+	"badgeNoNetwork": {
+		"message": "🔒 Walang Network Maliban sa Sync",
+		"description": "No network privacy badge"
+	},
+	"badgeNoData": {
+		"message": "🚫 Walang Pangongolekta ng Data",
+		"description": "No data collection badge"
+	},
+	"badgeLocalRun": {
+		"message": "✅ Tumatakbo nang Lokal",
+		"description": "Local run badge"
+	},
+	"newTabSettings": {
+		"message": "Mga Setting ng Bagong Tab",
+		"description": "New tab open settings"
+	},
+	"newTabPosition": {
+		"message": "Posisyon",
+		"description": "New tab position"
+	},
+	"tabPositionRight": {
+		"message": "Sa kanan ng kasalukuyang tab",
+		"description": "Right of current tab"
+	},
+	"tabPositionLeft": {
+		"message": "Sa kaliwa ng kasalukuyang tab",
+		"description": "Left of current tab"
+	},
+	"tabPositionFirst": {
+		"message": "Unang tab (pinakakaliwa)",
+		"description": "First tab (leftmost)"
+	},
+	"tabPositionLast": {
+		"message": "Huling tab (pinakakanan)",
+		"description": "Last tab (rightmost)"
+	},
+	"tabPositionCurrent": {
+		"message": "Kasalukuyang tab",
+		"description": "Open in current tab"
+	},
+	"newTabActive": {
+		"message": "Buksan sa foreground",
+		"description": "Open tab in foreground"
+	},
+	"textDragGestures": {
+		"message": "Mga Galaw ng Drag ng Teksto",
+		"description": "Text drag gestures"
+	},
+	"linkDragGestures": {
+		"message": "Mga Galaw ng Drag ng Link",
+		"description": "Link drag gestures"
+	},
+	"imageDragGestures": {
+		"message": "Mga Galaw ng Drag ng Larawan",
+		"description": "Image drag gestures"
+	},
+	"direction": {
+		"message": "Direksyon",
+		"description": "Direction column header"
+	},
+	"action": {
+		"message": "Aksyon",
+		"description": "Action column header"
+	},
+	"imageSearchUrl": {
+		"message": "URL para sa Paghahanap ng Larawan (%s = URL ng larawan)",
+		"description": "Image search URL input"
+	},
+	"dragActionNone": {
+		"message": "Wala",
+		"description": "No action"
+	},
+	"dragActionSearch": {
+		"message": "🔍 Search Engine",
+		"description": "Search action"
+	},
+	"dragActionCopy": {
+		"message": "📋 Kopyahin",
+		"description": "Copy action"
+	},
+	"dragActionOpenTab": {
+		"message": "📑 Buksan sa Bagong Tab",
+		"description": "Open in new tab"
+	},
+	"dragActionOpenTabLink": {
+		"message": "🔗 Buksan ang Link",
+		"description": "Open link in new tab"
+	},
+	"dragActionOpenTabImage": {
+		"message": "🖼️ Buksan ang Larawan",
+		"description": "Open image in new tab"
+	},
+	"dragActionCopyLink": {
+		"message": "📋 Kopyahin ang Link",
+		"description": "Copy link"
+	},
+	"dragActionSaveImage": {
+		"message": "💾 I-save ang Larawan",
+		"description": "Save image"
+	},
+	"dragActionCopyImage": {
+		"message": "🖼️ Kopyahin ang Larawan",
+		"description": "Copy image"
+	},
+	"dragActionCopyImageUrl": {
+		"message": "📋 Kopyahin ang URL ng Larawan",
+		"description": "Copy image URL"
+	},
+	"dragActionImageSearch": {
+		"message": "🔍 Paghahanap ng Larawan",
+		"description": "Image search"
+	},
+	"dragActionCustomSearch": {
+		"message": "🔍 Custom na Paghahanap",
+		"description": "Custom search"
+	},
+	"reducedMotionWarning": {
+		"message": "⚠️ Ang animation ng system ng %OS% ay naka-disable, maaaring hindi gumana nang maayos ang scroll animation. Maaari mong paganahin ang animation sa mga setting ng system ng %OS%.",
+		"description": "Warning message when system reduced motion is enabled"
+	},
+	"autoDetectUrl": {
+		"message": "Awtomatikong I-detect ang URL",
+		"description": "Auto detect URL checkbox label"
+	},
+	"preferLink": {
+		"message": "Mas Gusto ang Link",
+		"description": "Prefer link checkbox label"
+	},
+	"menuNeedRefresh": {
+		"message": "Hindi na-load ang FlowMouse, i-click para i-refresh",
+		"description": "Context menu title for pages needing refresh"
+	},
+	"menuRestricted": {
+		"message": "Hindi available ang FlowMouse, alamin kung bakit",
+		"description": "Context menu title for restricted pages"
+	},
+	"showRestrictedNotice": {
+		"message": "Paunawa sa Restricted na Pahina",
+		"description": "Setting title for restricted page notice"
+	},
+	"showRestrictedNoticeDesc": {
+		"message": "Ipakita ang paunawa sa context menu sa mga pahinang hindi available ang mga galaw",
+		"description": "Setting description for restricted page notice"
+	},
+	"restrictedPagesDetailsTitle": {
+		"message": "⚠️ Dahil sa mga patakaran sa seguridad ng browser, hindi maaaring tumakbo ang mga extension sa ilang uri ng mga pahina.",
+		"description": "Collapsible details title"
+	},
+	"showMoreHint": {
+		"message": " (Ipakita ang mga detalye)",
+		"description": "Hint to show more details"
+	},
+	"restrictedNewTab": {
+		"message": "Pahina ng Bagong Tab (chrome://newtab)",
+		"description": "New tab page title"
+	},
+	"restrictedNewTabDesc": {
+		"message": "Ang default na pahina ng bagong tab ng browser ay isang protektadong system page. Hindi maaaring mag-inject ng mga script o magbago ng nilalaman dito ang mga extension.",
+		"description": "New tab page description"
+	},
+	"restrictedStore": {
+		"message": "Opisyal na Mga Store ng Extension",
+		"description": "Store page title"
+	},
+	"restrictedStoreDesc": {
+		"message": "Halimbawa, %storeInfo%, atbp. Pinipigilan ng mga browser ang mga extension na tumakbo sa mga pahinang ito upang protektahan ang normal na operasyon ng store.",
+		"description": "Store page description"
+	},
+	"restrictedInternal": {
+		"message": "Mga Internal na Pahina ng Browser",
+		"description": "Internal page title"
+	},
+	"restrictedInternalDesc": {
+		"message": "Lahat ng pahina na nagsisimula sa chrome:// (Chrome) o edge:// (Edge), kabilang ang mga setting, kasaysayan, mga download, atbp. Ang mga pahinang ito ay may kinalaman sa mga pangunahing function ng browser at data ng privacy ng user, kaya mahigpit silang protektado.",
+		"description": "Internal page description"
+	},
+	"restrictedFile": {
+		"message": "Mga Pahina ng Lokal na File (file://)",
+		"description": "File page title"
+	},
+	"restrictedFileDesc": {
+		"message": "Mga lokal na HTML file na binuksan sa pamamagitan ng protocol na file://. Dahil sa mga paghihigpit sa seguridad (pinipigilan ang mga nakakahamak na extension na ma-access ang lokal na file system), hindi maaaring gumana ang mga extension sa mga pahinang ito.",
+		"description": "File page description"
+	},
+	"restrictedViewSource": {
+		"message": "Mga Pahina ng View Source (view-source:)",
+		"description": "View source page title"
+	},
+	"restrictedViewSourceDesc": {
+		"message": "Ang source code viewer ng browser ay isa ring protektadong system page. Hindi maaaring tumakbo dito ang mga extension.",
+		"description": "View source page description"
+	},
+	"restrictedOther": {
+		"message": "Ang iba pang hindi karaniwang apektadong mga pahina ay hindi nakalista nang hiwalay.",
+		"description": "Other restricted pages note"
+	},
+	"popupNeedRefresh": {
+		"message": "Hindi na-load ang Extension",
+		"description": "Popup title when content script not loaded"
+	},
+	"popupNeedRefreshDesc": {
+		"message": "Ang pahinang ito ay binuksan bago na-install/na-update ang extension. I-refresh upang paganahin ang mga galaw.",
+		"description": "Popup description when content script not loaded"
+	},
+	"popupRefreshBtn": {
+		"message": "🔄 I-refresh ang Pahina",
+		"description": "Popup refresh button text"
+	},
+	"popupRestrictedTitle": {
+		"message": "Hindi available ang mga galaw",
+		"description": "Popup title for restricted pages"
+	},
+	"popupRestrictedDesc": {
+		"message": "Ang pahinang ito ay hindi maaaring gumamit ng mga galaw dahil sa mga paghihigpit sa seguridad ng browser.",
+		"description": "Popup description for restricted pages"
+	},
+	"popupLearnMore": {
+		"message": "📖 Matuto Pa",
+		"description": "Popup learn more button text"
+	},
+	"tutorialPending": {
+		"message": "Susubukan",
+		"description": "Tutorial pending status"
+	},
+	"tutorialCompleted": {
+		"message": "Kumpleto",
+		"description": "Tutorial completed status"
+	},
+	"tutorialClickToStart": {
+		"message": "I-click ang <span class=\"text-highlight\">Kanang Pindutan ng Mouse</span> upang Magsimula",
+		"description": "Tutorial Step 0 instruction"
+	},
+	"tutorialWelcomeTitle": {
+		"message": "Maligayang pagdating sa FlowMouse",
+		"description": "Tutorial welcome title"
+	},
+	"tutorialWelcomeSubtitle": {
+		"message": "Matutunan ang mga pangunahing hakbang sa loob ng 30 segundo para sa mas makinis na pag-browse",
+		"description": "Tutorial welcome subtitle"
+	},
+	"tutorialStep1Title": {
+		"message": "Ang Mga Pangunahing Kaalaman",
+		"description": "Tutorial Step 1 title"
+	},
+	"tutorialStep1Subtitle": {
+		"message": "Matutunan ang pangunahing mekaniko ng galaw",
+		"description": "Tutorial Step 1 subtitle"
+	},
+	"tutorialStep1InstructionIdle": {
+		"message": "Pindutin at <strong>Hawakan</strong> ang <span class=\"text-highlight\">Kanang Pindutan ng Mouse</span>",
+		"description": "Tutorial Step 1 instruction idle"
+	},
+	"tutorialStep1InstructionPressing": {
+		"message": "<strong>Mahusay!</strong> Ngayon i-drag pakanan <strong>%arrow%</strong>",
+		"description": "Tutorial Step 1 instruction pressing"
+	},
+	"tutorialStep1InstructionDragging": {
+		"message": "Patuloy na i-drag...",
+		"description": "Tutorial Step 1 instruction dragging"
+	},
+	"tutorialStep1InstructionReleasing": {
+		"message": "<strong>Magaling!</strong> Ngayon ay bitawan!",
+		"description": "Tutorial Step 1 instruction releasing"
+	},
+	"tutorialStep2Title": {
+		"message": "Mga Galaw ng FlowMouse",
+		"description": "Tutorial Step 2 title"
+	},
+	"tutorialStep2Subtitle": {
+		"message": "Hawakan ang <span class=\"text-highlight\">Kanang Pindutan ng Mouse</span> upang magsagawa ng mga galaw",
+		"description": "Tutorial Step 2 subtitle"
+	},
+	"tutorialStep2Footer": {
+		"message": "<strong>Higit pang mga galaw</strong> at <strong>buong pag-customize</strong> ay available sa mga setting.",
+		"description": "Footer note for step 2 discovery banner"
+	},
+	"tutorialStep2DiscoveryHeader": {
+		"message": "Higit Pang Mga Galaw",
+		"description": "Header for step 2 discovery banner"
+	},
+	"tutorialStep3DiscoveryHeader": {
+		"message": "Higit Pang Mga Tampok ng Super Drag",
+		"description": "Header for step 3 discovery banner"
+	},
+	"tutorialStep3TextSearch": {
+		"message": "Teksto <span class=\"svg-arrow\">→</span> Maghanap",
+		"description": "Text drag search discovery item"
+	},
+	"tutorialStep3LinkOpen": {
+		"message": "Link <span class=\"svg-arrow\">→</span> Buksan sa Bagong Tab",
+		"description": "Link drag open discovery item"
+	},
+	"tutorialStep3ImageOpen": {
+		"message": "Larawan <span class=\"svg-arrow\">→</span> Buksan sa Bagong Tab",
+		"description": "Image drag open discovery item"
+	},
+	"tutorialStep3Footer": {
+		"message": "<strong>Higit pang mga aksyon sa pag-drag</strong> at <strong>buong pag-customize</strong> ay available sa advanced settings mode",
+		"description": "Footer for step 3 discovery banner"
+	},
+	"tutorialContinue": {
+		"message": "Magpatuloy",
+		"description": "Tutorial continue button"
+	},
+	"tutorialStep3Title": {
+		"message": "Super Drag",
+		"description": "Tutorial Step 3 title"
+	},
+	"tutorialStep3Subtitle": {
+		"message": "Hawakan ang <span class=\"text-highlight\">Kaliwang Pindutan ng Mouse</span> at i-drag <span class=\"svg-arrow\">→</span> upang magsagawa ng mga aksyon nang mabilis",
+		"description": "Tutorial Step 3 subtitle"
+	},
+	"tutorialStep3HintTitle": {
+		"message": "Paghahanap ng Piniling Teksto",
+		"description": "Tutorial Step 3 hint title"
+	},
+	"tutorialStep3HintDesc": {
+		"message": "Piliin ang teksto, pagkatapos ay gamitin ang <span class=\"text-highlight\">Kaliwang Pindutan ng Mouse</span> upang i-drag <span class=\"svg-arrow\">→</span> para maghanap",
+		"description": "Tutorial Step 3 hint description. Note: Must drag to right. Use SVG arrow instead of text for direction."
+	},
+	"tutorialStep3TextBoxLabel": {
+		"message": "Subukan ito sa teksto sa ibaba!",
+		"description": "Tutorial Step 3 text box label"
+	},
+	"tutorialStep3SelectableText": {
+		"message": "FlowMouse Super Drag",
+		"description": "Tutorial Step 3 selectable text"
+	},
+	"tutorialStep4Title": {
+		"message": "Binabati kita!",
+		"description": "Tutorial Step 4 title"
+	},
+	"tutorialStep4Subtitle": {
+		"message": "Mag-browse nang may \"Flow\".",
+		"description": "Tutorial Step 4 subtitle"
+	},
+	"tutorialStep4Instruction": {
+		"message": "Gamitin ang <span class=\"text-highlight\">Super Drag <span class=\"svg-arrow\">→</span></span> sa link na ito upang buksan sa isang <span class=\"text-highlight\">Bagong Tab</span>",
+		"description": "Tutorial Step 4 instruction. Note: Must drag to right. Use SVG arrow instead of text for direction."
+	},
+	"tutorialSettingsLink": {
+		"message": "Mga Setting ng FlowMouse",
+		"description": "Tutorial settings link"
+	},
+	"tutorialSettingsHint": {
+		"message": "Maraming makapangyarihang tampok ang naghihintay para sa iyong galugarin!",
+		"description": "Tutorial settings hint"
+	},
+	"tutorialWrongDirection": {
+		"message": "Maling direksyon! I-drag pakanan %arrow%",
+		"description": "Tutorial wrong direction error"
+	},
+	"tutorialEarlyRelease": {
+		"message": "Masyadong maagang binitiwan! Patuloy na i-drag.",
+		"description": "Tutorial early release error"
+	},
+	"tutorialDragWrongButton": {
+		"message": "Gamitin ang <span class=\"text-highlight\">Kaliwang Pindutan ng Mouse</span> upang i-drag",
+		"description": "Tutorial drag wrong button error"
+	},
+	"tutorialRefreshTip": {
+		"message": "Tip: Ang mga tab na binuksan bago ang pag-install ay kailangang <span class=\"text-highlight\">i-refresh</span> upang magamit ang FlowMouse",
+		"description": "Tip about refreshing tabs"
+	},
+	"permissionBookmarksTitle": {
+		"message": "Pamahalaan ang Mga Bookmark",
+		"description": "Permission popup title for bookmarks"
+	},
+	"permissionBookmarksDesc": {
+		"message": "Upang magdagdag ng mga pahina sa iyong mga bookmark, kailangan ng FlowMouse ng access sa iyong mga bookmark.",
+		"description": "Permission popup description for bookmarks"
+	},
+	"permissionDownloadsTitle": {
+		"message": "Pamahalaan ang Mga Download",
+		"description": "Permission popup title for downloads"
+	},
+	"permissionDownloadsDesc": {
+		"message": "Upang ma-save ang mga larawan, kailangan ng FlowMouse ng access sa iyong mga download.",
+		"description": "Permission popup description for downloads"
+	},
+	"permissionDownloadsPageCaptureTitle": {
+		"message": "I-save ang Larawan",
+		"description": "Permission popup title for downloads and page capture"
+	},
+	"permissionDownloadsPageCaptureDesc": {
+		"message": "Upang ma-save ang mga larawan, kailangan ng FlowMouse ng access sa mga page at mga download.",
+		"description": "Permission popup description for downloads and page capture"
+	},
+	"grantPermission": {
+		"message": "Magbigay ng Pahintulot",
+		"description": "Grant permission button"
+	},
+	"grantPermissionCancel": {
+		"message": "Kanselahin",
+		"description": "Cancel button"
+	},
+	"permissionTitle": {
+		"message": "Pahintulot ng FlowMouse",
+		"description": "Generic permission window title"
+	},
+	"tutorialPinHint": {
+		"message": "I-click ang<span class='icon-ext'></span><b>Extensions</b>, at<span class='icon-pin'></span><b>I-pin</b> ang FlowMouse para sa madaling pag-access!",
+		"description": "Hint to pin the extension in tutorial step 4. Do not add space around icon."
+	},
+	"downloadErrorHotlink": {
+		"message": "Nabigo ang pag-save ng imahe. Maaaring may proteksyon sa hotlink ang website. Mangyaring i-right-click ang imahe at piliin ang \"Save image as...\"",
+		"description": "Toast message when image download fails due to hotlink protection"
+	},
+	"saveImageLoadError": {
+		"message": "Nabigo ang pag-save ng larawan: Nabigong mag-load ang larawan",
+		"description": "Toast message when image fails to load before saving"
+	},
+	"saveImageTimeout": {
+		"message": "Nabigo ang pag-save ng larawan: Nag-time out ang pag-load",
+		"description": "Toast message when image loading times out"
+	}
+}

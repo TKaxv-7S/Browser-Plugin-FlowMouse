@@ -1,0 +1,1238 @@
+{
+	"extName": {
+		"message": "FlowMouse - ژست‌های ماوس",
+		"description": "Extension name"
+	},
+	"extNameShort": {
+		"message": "FlowMouse",
+		"description": "Short extension name for popup"
+	},
+	"extDescription": {
+		"message": "افزونه‌ای متن‌باز برای ژست‌های ماوس با تمرکز بر حریم خصوصی و تجربه کاربری روان. حرکات نرم و روان، پشتیبانی از سوپر دراگ (Super Drag)، و ذخیره تمام داده‌ها به‌صورت محلی.",
+		"description": "Extension description"
+	},
+	"appearance": {
+		"message": "ظاهر",
+		"description": "Appearance section"
+	},
+	"theme": {
+		"message": "پوسته",
+		"description": "Theme"
+	},
+	"themeDesc": {
+		"message": "تغییر بین حالت روشن و تاریک",
+		"description": "Theme description"
+	},
+	"themeDark": {
+		"message": "تاریک",
+		"description": "Dark theme"
+	},
+	"themeLight": {
+		"message": "روشن",
+		"description": "Light theme"
+	},
+	"themeAuto": {
+		"message": "پیروی از سیستم",
+		"description": "Auto theme - follow system"
+	},
+	"languageDesc": {
+		"message": "انتخاب زبان رابط کاربری",
+		"description": "Language description"
+	},
+	"syncStatus": {
+		"message": "وضعیت همگام‌سازی",
+		"description": "Sync status"
+	},
+	"syncStatusDesc": {
+		"message": "همگام‌سازی تنظیمات از طریق حساب %browserName%",
+		"description": "Sync status description"
+	},
+	"synced": {
+		"message": "همگام شده",
+		"description": "Synced"
+	},
+	"author": {
+		"message": "سازنده",
+		"description": "Author"
+	},
+	"privacyNote": {
+		"message": "🔒 اجرای کاملاً محلی، بدون اتصال به اینترنت (بجز همگام‌سازی)، بدون جمع‌آوری داده‌های کاربر",
+		"description": "Privacy note in footer"
+	},
+	"supportUsText": {
+		"message": "از FlowMouse لذت می‌برید؟ لطفاً با دادن ۵ ستاره در %appStoreInfo% از ما حمایت کنید؛ این انگیزه اصلی ما برای ارائه به‌روزرسانی‌های جدید است!",
+		"description": "Rating text"
+	},
+	"storeNameChrome": {
+		"message": "فروشگاه وب Chrome",
+		"description": "Chrome Web Store name"
+	},
+	"storeNameEdge": {
+		"message": "افزونه‌های Edge",
+		"description": "Edge Add-ons name"
+	},
+	"storeNameFirefox": {
+		"message": "افزونه‌های Firefox",
+		"description": "Firefox Add-ons name"
+	},
+	"feedbackText": {
+		"message": "مشکل یا پیشنهادی دارید؟ لطفاً از طریق <a href='mailto:Service@52pojie.cn'>ایمیل</a>، <a href='https://github.com/Hmily-LCG/FlowMouse/issues' target='_blank'>GitHub</a> یا <a href='https://www.52pojie.cn/thread-2080303-1-1.html' target='_blank'>انجمن</a> به ما اطلاع دهید. ما در اسرع وقت آن را بهبود خواهیم داد!",
+		"description": "Feedback text"
+	},
+	"supportAndFeedback": {
+		"message": "پشتیبانی و بازخورد",
+		"description": "Support and Feedback section title"
+	},
+	"feedbackTitle": {
+		"message": "بازخورد و پیشنهادات",
+		"description": "Feedback row title"
+	},
+	"supportUsTitle": {
+		"message": "حمایت از ما",
+		"description": "Rating row title"
+	},
+	"backToSettings": {
+		"message": "بازگشت به تنظیمات",
+		"description": "Back to settings link"
+	},
+	"settings": {
+		"message": "تنظیمات",
+		"description": "Settings"
+	},
+	"moreSettings": {
+		"message": "تنظیمات بیشتر",
+		"description": "More settings button in popup"
+	},
+	"version": {
+		"message": "نسخه",
+		"description": "Version"
+	},
+	"basicSettings": {
+		"message": "تنظیمات ژست",
+		"description": "Gesture settings section"
+	},
+	"enableGesture": {
+		"message": "فعال‌سازی ژست‌ها",
+		"description": "Enable gesture feature"
+	},
+	"enableGestureDesc": {
+		"message": "برای اجرای آسان ژست‌ها، دکمه راست ماوس را نگه دارید و حرکت دهید",
+		"description": "Hold the right mouse button and move the mouse to easily perform gestures"
+	},
+	"macLinuxContextMenuNotice": {
+		"message": "⚠️ به دلیل محدودیت‌های سیستم، در macOS / Linux برای باز کردن منوی راست‌کلیک نیاز به دوبار کلیک راست سریع است.",
+		"description": "Notice for macOS / Linux users about double right-click for context menu"
+	},
+	"macTextDragNotice": {
+		"message": "⚠️ به دلیل رفتار macOS، هنگام کشیدن متن، ابتدا متن را انتخاب کنید، سپس دکمه چپ را لحظه‌ای نگه دارید و بعد بکشید. در غیر این صورت جستجو ممکن است عمل نکند.",
+		"description": "Notice for macOS users about text drag behavior"
+	},
+	"showTrail": {
+		"message": "نمایش رد ژست",
+		"description": "Show gesture trail"
+	},
+	"showTrailDesc": {
+		"message": "نمایش خط مسیر هنگام اجرای ژست‌ها",
+		"description": "Show trail line when performing gestures"
+	},
+	"showHint": {
+		"message": "نمایش راهنمای عملکرد",
+		"description": "Show action hint"
+	},
+	"showHintDesc": {
+		"message": "نمایش عملکرد ژست فعلی در مرکز صفحه",
+		"description": "Show current gesture action in center of screen"
+	},
+	"color": {
+		"message": "رنگ",
+		"description": "Color"
+	},
+	"width": {
+		"message": "ضخامت",
+		"description": "Width/thickness"
+	},
+	"background": {
+		"message": "پس‌زمینه",
+		"description": "Background"
+	},
+	"opacity": {
+		"message": "شفافیت",
+		"description": "Opacity"
+	},
+	"text": {
+		"message": "متن",
+		"description": "Text"
+	},
+	"scrollAmount": {
+		"message": "فاصله پیمایش",
+		"description": "Scroll amount"
+	},
+	"scrollAmountDesc": {
+		"message": "فاصله پیمایش برای ژست‌های بالا/پایین (درصد ارتفاع پنجره)",
+		"description": "Scroll distance for up/down gestures"
+	},
+	"scrollSmoothness": {
+		"message": "روانی پیمایش",
+		"description": "Scroll smoothness"
+	},
+	"scrollSmoothnessDesc": {
+		"message": "اثر انیمیشن پیمایش برای ژست‌های بالا/پایین",
+		"description": "Scroll smoothness description"
+	},
+	"smoothnessSystem": {
+		"message": "سیستم (عملکرد بالا)",
+		"description": "System scroll smoothness"
+	},
+	"smoothnessCustom": {
+		"message": "نرم",
+		"description": "Custom smooth scrolling"
+	},
+	"smoothnessNone": {
+		"message": "بدون انیمیشن",
+		"description": "No scroll animation"
+	},
+	"dragFeatures": {
+		"message": "ویژگی‌های کشیدن (Drag)",
+		"description": "Drag features section"
+	},
+	"textDragSearch": {
+		"message": "کشیدن متن",
+		"description": "Text drag"
+	},
+	"textDragSearchDesc": {
+		"message": "متن انتخاب شده را برای جستجو بکشید",
+		"description": "Drag selected text to search"
+	},
+	"searchEngine": {
+		"message": "موتور جستجو",
+		"description": "Search engine"
+	},
+	"custom": {
+		"message": "سفارشی",
+		"description": "Custom"
+	},
+	"customUrlPlaceholder": {
+		"message": "آدرس سفارشی، از %s برای عبارت جستجو استفاده کنید",
+		"description": "Custom URL placeholder"
+	},
+	"urlPlaceholderText": {
+		"message": "%s=کلمه کلیدی",
+		"description": "Placeholder for text drag custom URL"
+	},
+	"urlPlaceholderImage": {
+		"message": "%s=آدرس تصویر",
+		"description": "Placeholder for image drag custom URL"
+	},
+	"searchEngine_baidu": {
+		"message": "Baidu",
+		"description": "Baidu search engine"
+	},
+	"searchEngine_360": {
+		"message": "360 Search",
+		"description": "360 search engine"
+	},
+	"searchEngine_yandex": {
+		"message": "Yandex",
+		"description": "Yandex search engine"
+	},
+	"searchEngine_system": {
+		"message": "پیش‌فرض مرورگر",
+		"description": "System default search engine"
+	},
+	"imageDrag": {
+		"message": "کشیدن تصویر",
+		"description": "Image drag"
+	},
+	"imageDragDesc": {
+		"message": "کشیدن تصویر برای باز کردن در تب جدید",
+		"description": "Drag image to open in new tab"
+	},
+	"linkDrag": {
+		"message": "کشیدن لینک",
+		"description": "Link drag"
+	},
+	"linkDragDesc": {
+		"message": "کشیدن لینک برای باز کردن در تب جدید",
+		"description": "Drag link to open in new tab"
+	},
+	"enableCustomGestures": {
+		"message": "ژست‌های سفارشی",
+		"description": "Enable custom gestures"
+	},
+	"enableCustomGesturesDesc": {
+		"message": "مشاهده و شخصی‌سازی عملکرد هر ژست",
+		"description": "View and customize each gesture action"
+	},
+	"gestureAutoSaveHint": {
+		"message": "نکته: تغییرات به صورت خودکار ذخیره می‌شوند.",
+		"description": "Hint about auto-save"
+	},
+	"blacklist": {
+		"message": "لیست سیاه وب‌سایت‌ها",
+		"description": "Website blacklist"
+	},
+	"blacklistPlaceholder": {
+		"message": "دامنه را وارد کنید، مثلاً example.com، سپس اینتر بزنید",
+		"description": "Blacklist input placeholder"
+	},
+	"add": {
+		"message": "افزودن",
+		"description": "Add button"
+	},
+	"emptyBlacklist": {
+		"message": "لیست سیاه خالی است. دامنه را در بالا وارد کنید.",
+		"description": "Empty blacklist message"
+	},
+	"dataManagement": {
+		"message": "مدیریت داده‌ها",
+		"description": "Data management section"
+	},
+	"export": {
+		"message": "برون‌بری",
+		"description": "Export settings"
+	},
+	"import": {
+		"message": "درون‌ریزی",
+		"description": "Import settings"
+	},
+	"reset": {
+		"message": "بازنشانی",
+		"description": "Reset to default"
+	},
+	"autoSaved": {
+		"message": "✓ خودکار ذخیره شد",
+		"description": "Auto-saved message"
+	},
+	"saveFailure": {
+		"message": "ذخیره نشد",
+		"description": "Save failure message"
+	},
+	"resetConfirm": {
+		"message": "آیا مطمئن هستید که می‌خواهید تمام تنظیمات را به حالت پیش‌فرض برگردانید؟",
+		"description": "Reset confirmation"
+	},
+	"resetDone": {
+		"message": "تنظیمات به حالت پیش‌فرض بازگشت",
+		"description": "Reset done message"
+	},
+	"exportDone": {
+		"message": "تنظیمات برون‌بری شد",
+		"description": "Export done message"
+	},
+	"importDone": {
+		"message": "تنظیمات درون‌ریزی شد",
+		"description": "Import done message"
+	},
+	"importFailed": {
+		"message": "درون‌ریزی ناموفق: فایل پیکربندی نامعتبر است",
+		"description": "Import failed message"
+	},
+	"importFailedSyncError": {
+		"message": "وارد کردن ناموفق بود: خطای همگام‌سازی، لطفاً وضعیت مرورگر را بررسی کنید",
+		"description": "Import failed sync error message"
+	},
+	"invalidDomain": {
+		"message": "لطفاً یک دامنه معتبر وارد کنید",
+		"description": "Invalid domain message"
+	},
+	"domainExists": {
+		"message": "دامنه قبلاً در لیست سیاه وجود دارد",
+		"description": "Domain already in blacklist"
+	},
+	"about": {
+		"message": "درباره",
+		"description": "About section"
+	},
+	"language": {
+		"message": "زبان",
+		"description": "Language"
+	},
+	"languageAuto": {
+		"message": "پیروی از سیستم",
+		"description": "Follow system language"
+	},
+	"privacyFriendly": {
+		"message": "دوست‌دار حریم خصوصی",
+		"description": "Privacy friendly"
+	},
+	"localOnly": {
+		"message": "فقط محلی",
+		"description": "Local only"
+	},
+	"autoSave": {
+		"message": "ذخیره خودکار",
+		"description": "Auto save"
+	},
+	"gestureDesc_L": {
+		"message": "چپ",
+		"description": "Gesture description for ←"
+	},
+	"gestureDesc_R": {
+		"message": "راست",
+		"description": "Gesture description for →"
+	},
+	"gestureDesc_U": {
+		"message": "بالا",
+		"description": "Gesture description for ↑"
+	},
+	"gestureDesc_D": {
+		"message": "پایین",
+		"description": "Gesture description for ↓"
+	},
+	"gestureDesc_DR": {
+		"message": "پایین سپس راست",
+		"description": "Gesture description for ↓→"
+	},
+	"gestureDesc_LU": {
+		"message": "چپ سپس بالا",
+		"description": "Gesture description for ←↑"
+	},
+	"gestureDesc_RU": {
+		"message": "راست سپس بالا",
+		"description": "Gesture description for →↑"
+	},
+	"gestureDesc_RD": {
+		"message": "راست سپس پایین",
+		"description": "Gesture description for →↓"
+	},
+	"gestureDesc_UL": {
+		"message": "بالا سپس چپ",
+		"description": "Gesture description for ↑←"
+	},
+	"gestureDesc_UR": {
+		"message": "بالا سپس راست",
+		"description": "Gesture description for ↑→"
+	},
+	"gestureDesc_DL": {
+		"message": "پایین سپس چپ",
+		"description": "Gesture description for ↓←"
+	},
+	"gestureDesc_LD": {
+		"message": "چپ سپس پایین",
+		"description": "Gesture description for ←↓"
+	},
+	"gestureDesc_UD": {
+		"message": "بالا سپس پایین",
+		"description": "Gesture description for ↑↓"
+	},
+	"gestureDesc_DU": {
+		"message": "پایین سپس بالا",
+		"description": "Gesture description for ↓↑"
+	},
+	"gestureDesc_LR": {
+		"message": "چپ سپس راست",
+		"description": "Gesture description for ←→"
+	},
+	"gestureDesc_RL": {
+		"message": "راست سپس چپ",
+		"description": "Gesture description for →←"
+	},
+	"actionNone": {
+		"message": "بدون عملکرد",
+		"description": "No action"
+	},
+	"actionBack": {
+		"message": "بازگشت",
+		"description": "Go back"
+	},
+	"actionForward": {
+		"message": "جلو رفتن",
+		"description": "Go forward"
+	},
+	"actionScrollUp": {
+		"message": "پیمایش به بالا",
+		"description": "Scroll up"
+	},
+	"actionScrollDown": {
+		"message": "پیمایش به پایین",
+		"description": "Scroll down"
+	},
+	"actionScrollToTop": {
+		"message": "پیمایش به ابتدا",
+		"description": "Scroll to top"
+	},
+	"actionScrollToBottom": {
+		"message": "پیمایش به انتها",
+		"description": "Scroll to bottom"
+	},
+	"actionCloseTab": {
+		"message": "بستن تب",
+		"description": "Close tab"
+	},
+	"actionCloseTabKeepWindow": {
+		"message": "بستن تب (نگه داشتن پنجره)",
+		"description": "Close tab but keep window open"
+	},
+	"actionCloseBrowser": {
+		"message": "بستن مرورگر",
+		"description": "Close browser"
+	},
+	"actionRestoreTab": {
+		"message": "بازگردانی تب بسته شده",
+		"description": "Restore closed tab"
+	},
+	"actionNewTab": {
+		"message": "تب جدید",
+		"description": "New tab"
+	},
+	"actionCloseOtherTabs": {
+		"message": "بستن سایر تب‌ها",
+		"description": "Close other tabs"
+	},
+	"actionCloseLeftTabs": {
+		"message": "بستن تب‌های سمت چپ",
+		"description": "Close tabs to the left"
+	},
+	"actionCloseRightTabs": {
+		"message": "بستن تب‌های سمت راست",
+		"description": "Close tabs to the right"
+	},
+	"actionCloseAllTabs": {
+		"message": "بستن همه تب‌ها",
+		"description": "Close all tabs"
+	},
+	"actionSwitchLeftTab": {
+		"message": "رفتن به تب چپ",
+		"description": "Switch to left tab"
+	},
+	"actionSwitchRightTab": {
+		"message": "رفتن به تب راست",
+		"description": "Switch to right tab"
+	},
+	"actionRefresh": {
+		"message": "بازخوانی تب جاری",
+		"description": "Refresh current tab"
+	},
+	"actionRefreshAllTabs": {
+		"message": "بازخوانی همه تب‌ها",
+		"description": "Refresh all tabs"
+	},
+	"actionStopLoading": {
+		"message": "توقف بارگذاری",
+		"description": "Stop loading"
+	},
+	"actionNewWindow": {
+		"message": "پنجره جدید",
+		"description": "New window"
+	},
+	"actionNewIncognito": {
+		"message": "پنجره ناشناس جدید",
+		"description": "New incognito window"
+	},
+	"actionAddToBookmarks": {
+		"message": "افزودن به نشانک‌ها",
+		"description": "Add to bookmarks"
+	},
+	"actionToggleFullscreen": {
+		"message": "تغییر حالت تمام صفحه",
+		"description": "Toggle fullscreen"
+	},
+	"actionToggleMaximize": {
+		"message": "تغییر حالت حداکثر/عادی پنجره",
+		"description": "Toggle window maximize"
+	},
+	"actionMinimize": {
+		"message": "کوچک کردن پنجره",
+		"description": "Minimize window"
+	},
+	"actionOpenCustomUrl": {
+		"message": "باز کردن آدرس سفارشی",
+		"description": "Open custom URL"
+	},
+	"actionCopyUrl": {
+		"message": "کپی آدرس فعلی",
+		"description": "Copy current URL"
+	},
+	"actionCopyTitle": {
+		"message": "کپی عنوان صفحه",
+		"description": "Copy page title"
+	},
+	"actionOpenDownloads": {
+		"message": "باز کردن دانلودها",
+		"description": "Open downloads page"
+	},
+	"actionOpenHistory": {
+		"message": "باز کردن تاریخچه",
+		"description": "Open history page"
+	},
+	"actionOpenExtensions": {
+		"message": "باز کردن افزونه‌ها",
+		"description": "Open extensions page"
+	},
+	"actionPrintPage": {
+		"message": "چاپ صفحه",
+		"description": "Print page"
+	},
+	"actionDuplicateTab": {
+		"message": "تکثیر تب",
+		"description": "Duplicate current tab"
+	},
+	"actionToggleMuteTab": {
+		"message": "قطع/وصل صدای تب جاری",
+		"description": "Toggle mute current tab"
+	},
+	"actionToggleMuteAllTabs": {
+		"message": "قطع/وصل صدای همه تب‌ها",
+		"description": "Toggle mute all tabs"
+	},
+	"showTrailOrigin": {
+		"message": "نمایش نقطه شروع",
+		"description": "Show trail origin point"
+	},
+	"enableTrailSmooth": {
+		"message": "هموارسازی مسیر",
+		"description": "Enable trail smoothing for gesture visualization"
+	},
+	"distanceThreshold": {
+		"message": "فاصله تشخیص ژست",
+		"description": "Gesture recognition distance"
+	},
+	"distanceThresholdDesc": {
+		"message": "حداقل فاصله حرکت برای تشخیص ژست",
+		"description": "Description for gesture recognition distance"
+	},
+	"distanceThresholdNotice": {
+		"message": "نکته: مقدار بین 15-30 برای بهترین تشخیص توصیه می شود.",
+		"description": "Warning when distance threshold is too small or too large"
+	},
+	"enableAdvancedSettings": {
+		"message": "تنظیمات پیشرفته",
+		"description": "Enable advanced settings"
+	},
+	"enableAdvancedSettingsDesc": {
+		"message": "نمایش گزینه‌های پیشرفته بیشتر",
+		"description": "Show more advanced options when enabled"
+	},
+	"enableAdvancedSettingsToggle": {
+		"message": "حالت تنظیمات پیشرفته",
+		"description": "Enable advanced settings toggle label"
+	},
+	"urlFormatError": {
+		"message": "لطفاً آدرس کامل را با http:// یا https:// وارد کنید",
+		"description": "URL format error message"
+	},
+	"resetToDefault": {
+		"message": "بازگشت به پیش‌فرض",
+		"description": "Reset gesture to default action"
+	},
+	"addCustomGesture": {
+		"message": "افزودن ژست سفارشی",
+		"description": "Add custom gesture section title"
+	},
+	"gesturePattern": {
+		"message": "الگو",
+		"description": "Gesture pattern label"
+	},
+	"selectAction": {
+		"message": "انتخاب عملکرد",
+		"description": "Select action label"
+	},
+	"clear": {
+		"message": "پاک کردن",
+		"description": "Clear button"
+	},
+	"addGesture": {
+		"message": "افزودن ژست",
+		"description": "Add gesture button"
+	},
+	"pleaseDrawGesture": {
+		"message": "لطفاً ابتدا یک ژست بکشید",
+		"description": "Alert when no gesture drawn"
+	},
+	"gestureAdded": {
+		"message": "✓ ژست افزوده شد",
+		"description": "Gesture added success message"
+	},
+	"gestureDrawInstructions": {
+		"message": "دکمه راست ماوس را نگه دارید و ژست را در زیر بکشید، سپس رها کنید. جهت‌های پشتیبانی شده:",
+		"description": "Instructions for gesture drawing"
+	},
+	"gestureOverwriteConfirm": {
+		"message": "ژست %pattern% از قبل وجود دارد. آیا جایگزین شود؟",
+		"description": "Confirmation message when adding a duplicate gesture"
+	},
+	"customGesture": {
+		"message": "سفارشی",
+		"description": "Label for custom gestures"
+	},
+	"deleteGesture": {
+		"message": "حذف ژست",
+		"description": "Delete gesture button tooltip"
+	},
+	"deleteGestureConfirm": {
+		"message": "آیا ژست %pattern% حذف شود؟",
+		"description": "Delete gesture confirmation"
+	},
+	"gestureDeleted": {
+		"message": "✓ ژست حذف شد",
+		"description": "Gesture deleted success message"
+	},
+	"enterCustomUrl": {
+		"message": "آدرس را وارد کنید (پیشنهاد می‌شود پروتکل را وارد کنید، مثلاً https:// یا chrome://):",
+		"description": "Prompt for custom URL input"
+	},
+	"invalidUrl": {
+		"message": "لطفاً یک آدرس معتبر وارد کنید (شروع با http:// یا https://)",
+		"description": "Invalid URL error message"
+	},
+	"popupTrail": {
+		"message": "رد ژست",
+		"description": "Gesture trail in popup"
+	},
+	"popupHint": {
+		"message": "راهنمای عمل",
+		"description": "Action hint in popup"
+	},
+	"popupCommonGestures": {
+		"message": "ژست‌های رایج",
+		"description": "Common gestures"
+	},
+	"popupCurrentSite": {
+		"message": "سایت فعلی",
+		"description": "Current site"
+	},
+	"popupRestricted": {
+		"message": "صفحه محدود شده",
+		"description": "Restricted page"
+	},
+	"popupDisabled": {
+		"message": "غیرفعال",
+		"description": "Disabled"
+	},
+	"popupAddBlacklist": {
+		"message": "افزودن به لیست سیاه",
+		"description": "Add to blacklist"
+	},
+	"popupRemoveBlacklist": {
+		"message": "حذف از لیست سیاه",
+		"description": "Remove from blacklist"
+	},
+	"popupNotAvailable": {
+		"message": "غیرقابل استفاده",
+		"description": "Not available"
+	},
+	"popupBack": {
+		"message": "بازگشت",
+		"description": "Back - short"
+	},
+	"popupForward": {
+		"message": "جلو",
+		"description": "Forward - short"
+	},
+	"popupScrollUp": {
+		"message": "بالا",
+		"description": "Scroll up - short"
+	},
+	"popupScrollDown": {
+		"message": "پایین",
+		"description": "Scroll down - short"
+	},
+	"popupClose": {
+		"message": "بستن",
+		"description": "Close Tab - short"
+	},
+	"popupRestore": {
+		"message": "بازگردانی",
+		"description": "Restore Tab - short"
+	},
+	"dragSearchText": {
+		"message": "🔍 جستجوی با کشیدن",
+		"description": "Drag search hint"
+	},
+	"dragOpenImage": {
+		"message": "🖼️ باز کردن تصویر",
+		"description": "Drag open image hint"
+	},
+	"dragOpenLink": {
+		"message": "🔗 باز کردن لینک",
+		"description": "Drag open link hint"
+	},
+	"aboutTitle": {
+		"message": "درباره FlowMouse",
+		"description": "About title"
+	},
+	"aboutAuthor": {
+		"message": "سازنده",
+		"description": "Author"
+	},
+	"aboutWebsite": {
+		"message": "وب‌سایت",
+		"description": "Website"
+	},
+	"aboutOpenSource": {
+		"message": "GitHub",
+		"description": "GitHub link"
+	},
+	"aboutEmail": {
+		"message": "ایمیل",
+		"description": "Email"
+	},
+	"aboutPrivacy": {
+		"message": "بیانیه حریم خصوصی",
+		"description": "Privacy statement"
+	},
+	"aboutPrivacyText": {
+		"message": "این افزونه یک پروژه متن‌باز است و کد آن در GitHub میزبانی می‌شود. مشارکت و بررسی کد مورد استقبال است. تمام پردازش داده‌ها به صورت محلی در دستگاه شما انجام می‌شود. این افزونه به خودی خود هیچ ارتباط اینترنتی برقرار نمی‌کند و سرور پشتیبانی ندارد، بنابراین هیچ داده کاربری را جمع‌آوری یا به سرورهای خارجی آپلود نمی‌کند. تنظیمات ذخیره شده شما به صورت رمزنگاری شده و از طریق سرویس همگام‌سازی داخلی مرورگر %browserName% بین دستگاه‌هایی که وارد حساب شده‌اید همگام می‌شود. این فرآیند کاملاً توسط مرورگر کنترل می‌شود و از تنظیمات حریم خصوصی و همگام‌سازی مرورگر شما پیروی می‌کند.",
+		"description": "Privacy statement text"
+	},
+	"aboutCredits": {
+		"message": "قدردانی",
+		"description": "Credits"
+	},
+	"aboutCreditsText": {
+		"message": "با تشکر از مرورگر Microsoft Edge و افزونه crxMouse برای الهام‌بخشی طراحی.\nبا تشکر از جامعه کاربران برای بازخوردها و پیشنهادات!",
+		"description": "Credits text"
+	},
+	"aboutFeatures": {
+		"message": "ویژگی‌ها",
+		"description": "Features"
+	},
+	"aboutFeature1": {
+		"message": "🎯 ۱۶ ژست پیش‌فرض + ژست‌های سفارشی",
+		"description": "Feature 1"
+	},
+	"aboutFeature2": {
+		"message": "🎨 بازخورد تصویری مسیر ژست",
+		"description": "Feature 2"
+	},
+	"aboutFeature3": {
+		"message": "🔍 کشیدن و رها کردن متن/تصویر/لینک (سوپر دراگ)",
+		"description": "Feature 3"
+	},
+	"aboutFeature4": {
+		"message": "🚫 لیست سیاه وب‌سایت‌ها",
+		"description": "Feature 4"
+	},
+	"aboutFeature5": {
+		"message": "☁️ همگام‌سازی حساب %browserName%",
+		"description": "Feature 5"
+	},
+	"aboutFeature6": {
+		"message": "🔒 اجرای کاملاً محلی، بدون شبکه (بجز همگام‌سازی)",
+		"description": "Feature 6"
+	},
+	"tutorial": {
+		"message": "آموزش",
+		"description": "Tutorial link"
+	},
+	"learnMore": {
+		"message": "بیشتر بدانید",
+		"description": "Learn more link"
+	},
+	"badgeNoNetwork": {
+		"message": "🔒 بدون شبکه (بجز همگام‌سازی)",
+		"description": "No network privacy badge"
+	},
+	"badgeNoData": {
+		"message": "🚫 بدون جمع‌آوری داده",
+		"description": "No data collection badge"
+	},
+	"badgeLocalRun": {
+		"message": "✅ اجرای محلی",
+		"description": "Local run badge"
+	},
+	"newTabSettings": {
+		"message": "تنظیمات باز شدن تب جدید",
+		"description": "New tab open settings"
+	},
+	"newTabPosition": {
+		"message": "موقعیت",
+		"description": "New tab position"
+	},
+	"tabPositionRight": {
+		"message": "سمت راست تب جاری",
+		"description": "Right of current tab"
+	},
+	"tabPositionLeft": {
+		"message": "سمت چپ تب جاری",
+		"description": "Left of current tab"
+	},
+	"tabPositionFirst": {
+		"message": "اولین تب (سمت چپ‌ترین)",
+		"description": "First tab (leftmost)"
+	},
+	"tabPositionLast": {
+		"message": "آخرین تب (سمت راست‌ترین)",
+		"description": "Last tab (rightmost)"
+	},
+	"tabPositionCurrent": {
+		"message": "تب جاری",
+		"description": "Open in current tab"
+	},
+	"newTabActive": {
+		"message": "باز شدن در پیش‌زمینه",
+		"description": "Open tab in foreground"
+	},
+	"textDragGestures": {
+		"message": "ژست‌های کشیدن متن",
+		"description": "Text drag gestures"
+	},
+	"linkDragGestures": {
+		"message": "ژست‌های کشیدن لینک",
+		"description": "Link drag gestures"
+	},
+	"imageDragGestures": {
+		"message": "ژست‌های کشیدن تصویر",
+		"description": "Image drag gestures"
+	},
+	"direction": {
+		"message": "جهت",
+		"description": "Direction column header"
+	},
+	"action": {
+		"message": "عمل",
+		"description": "Action column header"
+	},
+	"imageSearchUrl": {
+		"message": "آدرس جستجوی تصویر (%s = آدرس تصویر)",
+		"description": "Image search URL input"
+	},
+	"dragActionNone": {
+		"message": "هیچ",
+		"description": "No action"
+	},
+	"dragActionSearch": {
+		"message": "🔍 موتور جستجو",
+		"description": "Search action"
+	},
+	"dragActionCopy": {
+		"message": "📋 کپی",
+		"description": "Copy action"
+	},
+	"dragActionOpenTab": {
+		"message": "📑 باز کردن در تب جدید",
+		"description": "Open in new tab"
+	},
+	"dragActionOpenTabLink": {
+		"message": "🔗 باز کردن لینک",
+		"description": "Open link in new tab"
+	},
+	"dragActionOpenTabImage": {
+		"message": "🖼️ باز کردن تصویر",
+		"description": "Open image in new tab"
+	},
+	"dragActionCopyLink": {
+		"message": "📋 کپی لینک",
+		"description": "Copy link"
+	},
+	"dragActionSaveImage": {
+		"message": "💾 ذخیره تصویر",
+		"description": "Save image"
+	},
+	"dragActionCopyImage": {
+		"message": "🖼️ کپی تصویر",
+		"description": "Copy image"
+	},
+	"dragActionCopyImageUrl": {
+		"message": "📋 کپی آدرس تصویر",
+		"description": "Copy image URL"
+	},
+	"dragActionImageSearch": {
+		"message": "🔍 جستجوی تصویر",
+		"description": "Image search"
+	},
+	"dragActionCustomSearch": {
+		"message": "🔍 جستجوی سفارشی",
+		"description": "Custom search"
+	},
+	"reducedMotionWarning": {
+		"message": "⚠️ انیمیشن سیستم %OS% غیرفعال است، انیمیشن پیمایش ممکن است به درستی کار نکند. می‌توانید انیمیشن را در تنظیمات سیستم %OS% فعال کنید.",
+		"description": "Warning message when system reduced motion is enabled"
+	},
+	"autoDetectUrl": {
+		"message": "تشخیص خودکار لینک",
+		"description": "Auto detect URL checkbox label"
+	},
+	"preferLink": {
+		"message": "ترجیح لینک",
+		"description": "Prefer link checkbox label"
+	},
+	"menuNeedRefresh": {
+		"message": "FlowMouse بارگذاری نشده، کلیک برای بازخوانی",
+		"description": "Context menu title for pages needing refresh"
+	},
+	"menuRestricted": {
+		"message": "FlowMouse در دسترس نیست، دلیل",
+		"description": "Context menu title for restricted pages"
+	},
+	"showRestrictedNotice": {
+		"message": "اعلان صفحات محدود",
+		"description": "Setting title for restricted page notice"
+	},
+	"showRestrictedNoticeDesc": {
+		"message": "نمایش اعلان در منوی راست‌کلیک برای صفحاتی که ژست‌ها در آن‌ها پشتیبانی نمی‌شوند",
+		"description": "Setting description for restricted page notice"
+	},
+	"restrictedPagesDetailsTitle": {
+		"message": "⚠️ به دلیل سیاست‌های امنیتی مرورگر، افزونه‌ها نمی‌توانند در انواع خاصی از صفحات اجرا شوند.",
+		"description": "Collapsible details title"
+	},
+	"showMoreHint": {
+		"message": " (نمایش جزئیات)",
+		"description": "Hint to show more details"
+	},
+	"restrictedNewTab": {
+		"message": "صفحه تب جدید (chrome://newtab)",
+		"description": "New tab page title"
+	},
+	"restrictedNewTabDesc": {
+		"message": "صفحه پیش‌فرض تب جدید مرورگر یک صفحه سیستمی محافظت‌شده است. افزونه‌ها اجازه اجرای اسکریپت یا تغییر محتوا در این صفحه را ندارند.",
+		"description": "New tab page description"
+	},
+	"restrictedStore": {
+		"message": "فروشگاه‌های رسمی افزونه",
+		"description": "Store page title"
+	},
+	"restrictedStoreDesc": {
+		"message": "برای مثال %storeInfo% و غیره. مرورگرها برای محافظت از عملکرد صحیح فروشگاه، از اجرای افزونه‌ها در این صفحات جلوگیری می‌کنند.",
+		"description": "Store page description"
+	},
+	"restrictedInternal": {
+		"message": "صفحات داخلی مرورگر",
+		"description": "Internal page title"
+	},
+	"restrictedInternalDesc": {
+		"message": "تمام صفحاتی که با chrome:// (Chrome) یا edge:// (Edge) شروع می‌شوند، از جمله تنظیمات، تاریخچه، دانلودها و غیره. این صفحات شامل عملکردهای اصلی مرورگر و داده‌های حریم خصوصی کاربران هستند، بنابراین به شدت محافظت می‌شوند.",
+		"description": "Internal page description"
+	},
+	"restrictedFile": {
+		"message": "صفحات فایل محلی (file://)",
+		"description": "File page title"
+	},
+	"restrictedFileDesc": {
+		"message": "فایل‌های HTML محلی که از طریق پروتکل file:// باز می‌شوند. به دلیل محدودیت‌های امنیتی (جلوگیری از دسترسی افزونه‌های مخرب به فایل‌های سیستم)، افزونه‌ها نمی‌توانند در این صفحات کار کنند.",
+		"description": "File page description"
+	},
+	"restrictedViewSource": {
+		"message": "صفحات مشاهده منبع (view-source:)",
+		"description": "View source page title"
+	},
+	"restrictedViewSourceDesc": {
+		"message": "نمایشگر کد منبع مرورگر نیز یک صفحه سیستمی محافظت شده است. افزونه‌ها نمی‌توانند در اینجا اجرا شوند.",
+		"description": "View source page description"
+	},
+	"restrictedOther": {
+		"message": "سایر صفحات متأثر که کمتر رایج هستند جداگانه ذکر نشده‌اند.",
+		"description": "Other restricted pages note"
+	},
+	"popupNeedRefresh": {
+		"message": "افزونه بارگذاری نشده",
+		"description": "Popup title when content script not loaded"
+	},
+	"popupNeedRefreshDesc": {
+		"message": "این صفحه قبل از نصب/به‌روزرسانی افزونه باز شده است. برای فعال‌سازی ژست‌ها صفحه را بازخوانی کنید.",
+		"description": "Popup description when content script not loaded"
+	},
+	"popupRefreshBtn": {
+		"message": "🔄 بازخوانی صفحه",
+		"description": "Popup refresh button text"
+	},
+	"popupRestrictedTitle": {
+		"message": "ژست‌ها در این صفحه غیرفعال هستند",
+		"description": "Popup title for restricted pages"
+	},
+	"popupRestrictedDesc": {
+		"message": "این صفحه به دلیل محدودیت‌های امنیتی مرورگر نمی‌تواند از ژست‌ها استفاده کند.",
+		"description": "Popup description for restricted pages"
+	},
+	"popupLearnMore": {
+		"message": "📖 بیشتر بدانید",
+		"description": "Popup learn more button text"
+	},
+	"tutorialPending": {
+		"message": "امتحان کنید",
+		"description": "Tutorial pending status"
+	},
+	"tutorialCompleted": {
+		"message": "انجام شد",
+		"description": "Tutorial completed status"
+	},
+	"tutorialClickToStart": {
+		"message": "برای شروع <span class=\"text-highlight\">دکمه راست ماوس</span> را کلیک کنید",
+		"description": "Tutorial Step 0 instruction"
+	},
+	"tutorialWelcomeTitle": {
+		"message": "به FlowMouse خوش آمدید",
+		"description": "Tutorial welcome title"
+	},
+	"tutorialWelcomeSubtitle": {
+		"message": "اصول اولیه را در ۳۰ ثانیه یاد بگیرید تا مروری روان‌تر و بصری‌تر داشته باشید",
+		"description": "Tutorial welcome subtitle"
+	},
+	"tutorialStep1Title": {
+		"message": "اصول پایه",
+		"description": "Tutorial Step 1 title"
+	},
+	"tutorialStep1Subtitle": {
+		"message": "یادگیری مکانیسم اصلی ژست",
+		"description": "Tutorial Step 1 subtitle"
+	},
+	"tutorialStep1InstructionIdle": {
+		"message": "<span class=\"text-highlight\">دکمه راست ماوس</span> را فشار داده و <strong>نگه دارید</strong>",
+		"description": "Tutorial Step 1 instruction idle"
+	},
+	"tutorialStep1InstructionPressing": {
+		"message": "<strong>بسیار خوب!</strong> همچنان دکمه را نگه دارید و به <strong>%arrow% سمت راست</strong> بکشید",
+		"description": "Tutorial Step 1 instruction pressing"
+	},
+	"tutorialStep1InstructionDragging": {
+		"message": "ادامه دهید...",
+		"description": "Tutorial Step 1 instruction dragging"
+	},
+	"tutorialStep1InstructionReleasing": {
+		"message": "<strong>فوق‌العاده!</strong> حالا دکمه را رها کنید!",
+		"description": "Tutorial Step 1 instruction releasing"
+	},
+	"tutorialStep2Title": {
+		"message": "ژست‌های FlowMouse",
+		"description": "Tutorial Step 2 title"
+	},
+	"tutorialStep2Subtitle": {
+		"message": "برای اجرای ژست‌ها <span class=\"text-highlight\">دکمه راست ماوس</span> را نگه دارید",
+		"description": "Tutorial Step 2 subtitle"
+	},
+	"tutorialStep2Footer": {
+		"message": "<strong>ژست‌های بیشتر</strong> و <strong>شخصی‌سازی کامل</strong> در تنظیمات موجود است.",
+		"description": "Footer note for step 2 discovery banner"
+	},
+	"tutorialStep2DiscoveryHeader": {
+		"message": "ژست‌های بیشتر",
+		"description": "Header for step 2 discovery banner"
+	},
+	"tutorialStep3DiscoveryHeader": {
+		"message": "ویژگی‌های بیشتر سوپر دراگ",
+		"description": "Header for step 3 discovery banner"
+	},
+	"tutorialStep3TextSearch": {
+		"message": "متن <span class=\"svg-arrow\">→</span> جستجو",
+		"description": "Text drag search discovery item"
+	},
+	"tutorialStep3LinkOpen": {
+		"message": "لینک <span class=\"svg-arrow\">→</span> باز کردن در تب جدید",
+		"description": "Link drag open discovery item"
+	},
+	"tutorialStep3ImageOpen": {
+		"message": "تصویر <span class=\"svg-arrow\">→</span> باز کردن در تب جدید",
+		"description": "Image drag open discovery item"
+	},
+	"tutorialStep3Footer": {
+		"message": "<strong>اقدامات کشیدن بیشتر</strong> و <strong>شخصی‌سازی کامل</strong> در حالت تنظیمات پیشرفته موجود است",
+		"description": "Footer for step 3 discovery banner"
+	},
+	"tutorialContinue": {
+		"message": "ادامه",
+		"description": "Tutorial continue button"
+	},
+	"tutorialStep3Title": {
+		"message": "سوپر دراگ (Drag هوشمند)",
+		"description": "Tutorial Step 3 title"
+	},
+	"tutorialStep3Subtitle": {
+		"message": "<span class=\"text-highlight\">دکمه چپ ماوس</span> را نگه دارید و به <span class=\"svg-arrow\">→</span> بکشید تا عملیات سریع انجام شود",
+		"description": "Tutorial Step 3 subtitle"
+	},
+	"tutorialStep3HintTitle": {
+		"message": "جستجوی متن انتخابی",
+		"description": "Tutorial Step 3 hint title"
+	},
+	"tutorialStep3HintDesc": {
+		"message": "متن را انتخاب کنید، سپس با <span class=\"text-highlight\">دکمه چپ ماوس</span> به سمت <span class=\"svg-arrow\">→</span> بکشید تا جستجو آغاز شود",
+		"description": "Tutorial Step 3 hint description. Note: Must drag to right. Use SVG arrow instead of text for direction."
+	},
+	"tutorialStep3TextBoxLabel": {
+		"message": "با متن زیر امتحان کنید!",
+		"description": "Tutorial Step 3 text box label"
+	},
+	"tutorialStep3SelectableText": {
+		"message": "FlowMouse سوپر دراگ",
+		"description": "Tutorial Step 3 selectable text"
+	},
+	"tutorialStep4Title": {
+		"message": "تبریک!",
+		"description": "Tutorial Step 4 title"
+	},
+	"tutorialStep4Subtitle": {
+		"message": "با حرکت انگشتان، وارد حالت غرقگی (Flow) شوید.",
+		"description": "Tutorial Step 4 subtitle"
+	},
+	"tutorialStep4Instruction": {
+		"message": "از <span class=\"text-highlight\">سوپر دراگ <span class=\"svg-arrow\">→</span></span> روی این لینک استفاده کنید تا در <span class=\"text-highlight\">تب جدید</span> باز شود",
+		"description": "Tutorial Step 4 instruction. Note: Must drag to right. Use SVG arrow instead of text for direction."
+	},
+	"tutorialSettingsLink": {
+		"message": "تنظیمات FlowMouse",
+		"description": "Tutorial settings link"
+	},
+	"tutorialSettingsHint": {
+		"message": "قابلیت‌های قدرتمند بیشتری در انتظار شماست!",
+		"description": "Tutorial settings hint"
+	},
+	"tutorialWrongDirection": {
+		"message": "جهت اشتباه! به سمت %arrow% راست بکشید",
+		"description": "Tutorial wrong direction error"
+	},
+	"tutorialEarlyRelease": {
+		"message": "خیلی زود رها کردید! دوباره تلاش کنید.",
+		"description": "Tutorial early release error"
+	},
+	"tutorialDragWrongButton": {
+		"message": "از <span class=\"text-highlight\">دکمه چپ ماوس</span> برای کشیدن استفاده کنید",
+		"description": "Tutorial drag wrong button error"
+	},
+	"tutorialRefreshTip": {
+		"message": "نکته: تب‌هایی که قبل از نصب باز شده‌اند باید <span class=\"text-highlight\">بازخوانی</span> شوند تا از FlowMouse استفاده کنند",
+		"description": "Tip about refreshing tabs"
+	},
+	"permissionBookmarksTitle": {
+		"message": "مدیریت نشانک‌ها",
+		"description": "Permission popup title for bookmarks"
+	},
+	"permissionBookmarksDesc": {
+		"message": "برای افزودن صفحات به نشانک‌ها، FlowMouse به دسترسی به نشانک‌های شما نیاز دارد.",
+		"description": "Permission popup description for bookmarks"
+	},
+	"permissionDownloadsTitle": {
+		"message": "مدیریت دانلودها",
+		"description": "Permission popup title for downloads"
+	},
+	"permissionDownloadsDesc": {
+		"message": "برای ذخیره تصاویر، FlowMouse به دسترسی به دانلودهای شما نیاز دارد.",
+		"description": "Permission popup description for downloads"
+	},
+	"permissionDownloadsPageCaptureTitle": {
+		"message": "ذخیره تصویر",
+		"description": "Permission popup title for downloads and page capture"
+	},
+	"permissionDownloadsPageCaptureDesc": {
+		"message": "برای ذخیره تصاویر، FlowMouse به دسترسی به صفحات و دانلودها نیاز دارد.",
+		"description": "Permission popup description for downloads and page capture"
+	},
+	"grantPermission": {
+		"message": "اعطای مجوز",
+		"description": "Grant permission button"
+	},
+	"grantPermissionCancel": {
+		"message": "لغو",
+		"description": "Cancel button"
+	},
+	"permissionTitle": {
+		"message": "مجوز FlowMouse",
+		"description": "Generic permission window title"
+	},
+	"tutorialPinHint": {
+		"message": "روی<span class='icon-ext'></span><b>افزونه‌ها</b> کلیک کنید و FlowMouse را<span class='icon-pin'></span><b>سنجاق</b> کنید تا دسترسی آسان‌تر شود!",
+		"description": "Hint to pin the extension in tutorial step 4. Do not add space around icon."
+	},
+	"downloadErrorHotlink": {
+		"message": "ذخیره تصویر ناموفق بود. ممکن است وب‌سایت دارای محافظت هات‌لینک (Hotlinking) باشد. لطفاً روی تصویر کلیک راست کرده و گزینه «Save image as...» را انتخاب کنید.",
+		"description": "Toast message when image download fails due to hotlink protection"
+	},
+	"saveImageLoadError": {
+		"message": "ذخیره تصویر ناموفق بود: تصویر بارگیری نشد",
+		"description": "Toast message when image fails to load before saving"
+	},
+	"saveImageTimeout": {
+		"message": "ذخیره تصویر ناموفق بود: زمان بارگیری تمام شد",
+		"description": "Toast message when image loading times out"
+	}
+}

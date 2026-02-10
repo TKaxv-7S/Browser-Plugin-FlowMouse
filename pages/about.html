@@ -1,288 +1,88 @@
 <!DOCTYPE html>
-<html lang="zh-CN">
+<html>
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title data-i18n="aboutTitle">关于鼠标手势</title>
-    <style>
-        :root {
-            --bg-primary: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
-            --bg-secondary: rgba(255, 255, 255, 0.05);
-            --bg-tertiary: rgba(255, 255, 255, 0.03);
-            --text-primary: #fff;
-            --text-secondary: #888;
-            --text-muted: #666;
-            --border-color: rgba(255, 255, 255, 0.1);
-            --accent-color: #4285f4;
-        }
-
-        [data-theme="light"] {
-            --bg-primary: linear-gradient(135deg, #f5f7fa 0%, #e4e8eb 100%);
-            --bg-secondary: rgba(0, 0, 0, 0.03);
-            --bg-tertiary: rgba(0, 0, 0, 0.02);
-            --text-primary: #333;
-            --text-secondary: #666;
-            --text-muted: #999;
-            --border-color: rgba(0, 0, 0, 0.1);
-        }
-
-        * {
-            box-sizing: border-box;
-            margin: 0;
-            padding: 0;
-        }
-
-        body {
-            font-family: 'Segoe UI', 'Microsoft YaHei', sans-serif;
-            background: var(--bg-primary);
-            min-height: 100vh;
-            color: var(--text-primary);
-            padding: 20px;
-        }
-
-        .container {
-            max-width: 700px;
-            margin: 0 auto;
-        }
-
-        .header {
-            text-align: center;
-            margin-bottom: 30px;
-        }
-
-        .header .logo {
-            font-size: 4em;
-            margin-bottom: 10px;
-        }
-
-        .header h1 {
-            font-size: 2em;
-            margin-bottom: 5px;
-        }
-
-        .header .version {
-            color: var(--text-secondary);
-            font-size: 0.9em;
-        }
-
-        .section {
-            background: var(--bg-secondary);
-            border-radius: 12px;
-            padding: 20px;
-            margin-bottom: 20px;
-            border: 1px solid var(--border-color);
-        }
-
-        .section h2 {
-            font-size: 1.1em;
-            margin-bottom: 12px;
-            color: var(--accent-color);
-            display: flex;
-            align-items: center;
-            gap: 8px;
-        }
-
-        .section p {
-            line-height: 1.7;
-            color: var(--text-secondary);
-            font-size: 14px;
-            white-space: pre-line;
-        }
-
-        .info-row {
-            display: flex;
-            padding: 10px 0;
-            border-bottom: 1px solid var(--border-color);
-        }
-
-        .info-row:last-child {
-            border-bottom: none;
-        }
-
-        .info-label {
-            width: 80px;
-            flex-shrink: 0;
-            color: var(--text-secondary);
-            font-size: 14px;
-        }
-
-        .info-value {
-            flex: 1;
-            font-size: 14px;
-        }
-
-        .info-value a {
-            color: var(--accent-color);
-            text-decoration: none;
-        }
-
-        .info-value a:hover {
-            text-decoration: underline;
-        }
-
-        .features {
-            display: grid;
-            grid-template-columns: repeat(2, 1fr);
-            gap: 10px;
-        }
-
-        .feature {
-            background: var(--bg-tertiary);
-            padding: 12px;
-            border-radius: 8px;
-            font-size: 14px;
-        }
-
-        .privacy-badge {
-            display: inline-flex;
-            align-items: center;
-            gap: 5px;
-            background: linear-gradient(135deg, #34a853, #28a745);
-            padding: 4px 10px;
-            border-radius: 20px;
-            font-size: 12px;
-            color: #fff;
-            margin-right: 8px;
-        }
-
-        .badges {
-            display: flex;
-            flex-wrap: wrap;
-            gap: 8px;
-            margin-top: 10px;
-        }
-
-        .back-btn {
-            display: inline-block;
-            padding: 10px 20px;
-            background: var(--bg-secondary);
-            color: var(--text-primary);
-            text-decoration: none;
-            border-radius: 8px;
-            font-size: 14px;
-            margin-top: 20px;
-            transition: background 0.2s;
-            border: 1px solid var(--border-color);
-        }
-
-        .back-btn:hover {
-            background: var(--bg-tertiary);
-        }
-
-        .credits {
-            font-size: 13px;
-            color: var(--text-secondary);
-            line-height: 1.8;
-        }
-
-        .heart {
-            color: #ea4335;
-        }
-
-        .logo-img {
-            width: 32px;
-            height: 32px;
-            margin-right: 12px;
-            vertical-align: middle;
-            border-radius: 8px;
-        }
-
-        .header h1 {
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            font-size: 2em;
-            margin: 0;
-        }
-    </style>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title data-i18n="aboutTitle">About FlowMouse</title>
+	<link rel="stylesheet" href="../css/common.css">
+	<link rel="stylesheet" href="../css/option.css">
+	<style id="i18n-load-style">
+		[data-i18n], [data-i18n-placeholder], [data-i18n-title], select {
+			visibility: hidden;
+		}
+	</style>
 </head>
 
-<body>
-    <div class="container">
-        <div class="header">
-            <h1>
-                <img src="../icons/icon48.png" class="logo-img" alt="Logo">
-                <span data-i18n="aboutTitle">关于 FlowMouse</span>
-            </h1>
-        </div>
+<body class="about-page">
+	<div class="container">
+		<header>
+			<h1>
+				<img src="../icons/icon48.png" class="logo-img" alt="Logo">
+				<span data-i18n="aboutTitle">FlowMouse</span>
+			</h1>
+		</header>
 
-        
-        <div class="section">
-            <div class="info-row">
-                <span class="info-label" data-i18n="aboutAuthor">作者</span>
-                <span class="info-value">Hmily[LCG]</span>
-            </div>
-            <div class="info-row">
-                <span class="info-label" data-i18n="aboutWebsite">官网</span>
-                <span class="info-value"><a href="https://www.52pojie.cn/thread-2080303-1-1.html"
-                        target="_blank">https://www.52pojie.cn/thread-2080303-1-1.html</a></span>
-            </div>
-            <div class="info-row">
-                <span class="info-label" data-i18n="aboutOpenSource">开源</span>
-                <span class="info-value"><a href="https://github.com/Hmily-LCG/FlowMouse"
-                        target="_blank">https://github.com/Hmily-LCG/FlowMouse</a></span>
-            </div>
-            <div class="info-row">
-                <span class="info-label" data-i18n="aboutEmail">邮箱</span>
-                <span class="info-value"><a href="mailto:Service@52pojie.cn">Service@52pojie.cn</a></span>
-            </div>
-            <div class="info-row">
-                <span class="info-label" data-i18n="version">版本</span>
-                <span class="info-value version-from-manifest">1.1</span>
-            </div>
-        </div>
+		<div class="section">
+			<div class="info-row">
+				<span class="info-label" data-i18n="aboutAuthor">作者</span>
+				<span class="info-value">Hmily[LCG] & Coxxs</span>
+			</div>
+			<div class="info-row">
+				<span class="info-label" data-i18n="aboutWebsite">官网</span>
+				<span class="info-value"><a href="https://www.52pojie.cn/thread-2080303-1-1.html"
+						target="_blank">https://www.52pojie.cn/thread-2080303-1-1.html</a></span>
+			</div>
+			<div class="info-row">
+				<span class="info-label" data-i18n="aboutOpenSource">GitHub</span>
+				<span class="info-value"><a href="https://github.com/Hmily-LCG/FlowMouse"
+						target="_blank">https://github.com/Hmily-LCG/FlowMouse</a></span>
+			</div>
+			<div class="info-row">
+				<span class="info-label" data-i18n="aboutEmail">邮箱</span>
+				<span class="info-value"><a href="mailto:Service@52pojie.cn">Service@52pojie.cn</a></span>
+			</div>
+			<div class="info-row">
+				<span class="info-label" data-i18n="version">版本</span>
+				<span class="info-value version-from-manifest"></span>
+			</div>
+		</div>
 
-        
-        <div class="section">
-            <h2>✨ <span data-i18n="aboutFeatures">特性</span></h2>
-            <div class="features">
-                <div class="feature" data-i18n="aboutFeature1">🎯 16种默认手势 + 自定义手势</div>
-                <div class="feature" data-i18n="aboutFeature2">🎨 可视化轨迹反馈</div>
-                <div class="feature" data-i18n="aboutFeature3">🔍 文字/图片/链接超级拖拽</div>
-                <div class="feature" data-i18n="aboutFeature4">🚫 网站黑名单</div>
-                <div class="feature" data-i18n="aboutFeature5">☁️ Chrome账号同步</div>
-                <div class="feature" data-i18n="aboutFeature6">🔒 完全本地运行，无联网</div>
-            </div>
-        </div>
+		<div class="section">
+			<h2>✨ <span data-i18n="aboutFeatures">特性</span></h2>
+			<div class="features">
+				<div class="feature" data-i18n="aboutFeature1">🎯 16种默认手势 + 自定义手势</div>
+				<div class="feature" data-i18n="aboutFeature2">🎨 可视化轨迹反馈</div>
+				<div class="feature" data-i18n="aboutFeature3">🔍 文字/图片/链接超级拖拽</div>
+				<div class="feature" data-i18n="aboutFeature4">🚫 网站黑名单</div>
+				<div class="feature" data-i18n="aboutFeature5">☁️ Chrome 账号同步</div>
+				<div class="feature" data-i18n="aboutFeature6">🔒 完全本地运行，除同步外无联网</div>
+			</div>
+		</div>
 
-        
-        <div class="section">
-            <h2>⚠️ <span data-i18n="aboutNotes">注意事项</span></h2>
-            <p class="credits" data-i18n="aboutNotesText">
-                • 安装或启用扩展后，已打开的页面需要刷新才能使用手势功能<br>
-                • 浏览器内置页面（新标签页、设置页、扩展管理页等）因安全限制无法使用<br>
-                • Chrome Web Store 等谷歌特殊页面同样受限制<br>
-                • 如果页面包含多个 iframe 窗口，手势功能和鼠标轨迹可能会受影响，目前暂无法解决
-            </p>
-        </div>
+		<div class="section">
+			<h2>🔒 <span data-i18n="aboutPrivacy">隐私声明</span></h2>
+			<p data-i18n="aboutPrivacyText"></p>
+			<div class="badges">
+				<span class="privacy-badge" data-i18n="badgeNoNetwork">🔒 除同步外无联网</span>
+				<span class="privacy-badge" data-i18n="badgeNoData">🚫 不收集数据</span>
+				<span class="privacy-badge" data-i18n="badgeLocalRun">✅ 本地运行</span>
+			</div>
+		</div>
 
-        
-        <div class="section">
-            <h2>🔒 <span data-i18n="aboutPrivacy">隐私声明</span></h2>
-            <p data-i18n="aboutPrivacyText">
-                本扩展完全本地运行，无任何联网功能，不收集、不上传任何用户数据。您的设置通过Chrome账号同步功能存储，仅在您登录的设备间同步。
-            </p>
-            <div class="badges">
-                <span class="privacy-badge" data-i18n="badgeNoNetwork">🔒 无联网</span>
-                <span class="privacy-badge" data-i18n="badgeNoData">🚫 不收集数据</span>
-                <span class="privacy-badge" data-i18n="badgeLocalRun">✅ 本地运行</span>
-            </div>
-        </div>
+		<div class="section">
+			<h2><span class="heart">❤️</span> <span data-i18n="aboutCredits">致谢</span></h2>
+			<p class="credits" data-i18n="aboutCreditsText"></p>
+		</div>
 
-        
-        <div class="section">
-            <h2><span class="heart">❤️</span> <span data-i18n="aboutCredits">致谢</span></h2>
-            <p class="credits" data-i18n="aboutCreditsText">
-                感谢 Microsoft Edge 浏览器和 crxMouse 扩展的设计灵感。<br>
-                感谢吾爱破解论坛、论坛公众号等热心用户的反馈与建议！
-            </p>
-        </div>
+		<a href="options.html" class="back-btn">← <span data-i18n="backToSettings">返回设置</span></a>
+	</div>
 
-        <a href="options.html" class="back-btn">← <span data-i18n="backToSettings">返回设置</span></a>
-    </div>
-
-    <script src="../js/i18n.js"></script>
+	<script src="../js/i18n.js"></script>
+	<script src="../js/constants.js"></script>
+	<script src="../js/gesture-visual.js"></script>
+	<script src="../js/gesture-recognizer.js"></script>
+	<script src="../js/content.js"></script>
 </body>
 
 </html>

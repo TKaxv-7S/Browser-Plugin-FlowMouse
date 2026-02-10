@@ -1,0 +1,1238 @@
+{
+	"extName": {
+		"message": "FlowMouse - Жесты мышью",
+		"description": "Extension name"
+	},
+	"extNameShort": {
+		"message": "FlowMouse",
+		"description": "Short extension name for popup"
+	},
+	"extDescription": {
+		"message": "Расширение для жестов мышью с открытым исходным кодом, ориентированное на конфиденциальность и плавность работы. Плавные и отзывчивые жесты, Super Drag, все данные хранятся локально.",
+		"description": "Extension description"
+	},
+	"appearance": {
+		"message": "Внешний вид",
+		"description": "Appearance section"
+	},
+	"theme": {
+		"message": "Тема",
+		"description": "Theme"
+	},
+	"themeDesc": {
+		"message": "Переключение между светлой и темной темой",
+		"description": "Theme description"
+	},
+	"themeDark": {
+		"message": "Темная",
+		"description": "Dark theme"
+	},
+	"themeLight": {
+		"message": "Светлая",
+		"description": "Light theme"
+	},
+	"themeAuto": {
+		"message": "Как в системе",
+		"description": "Auto theme - follow system"
+	},
+	"languageDesc": {
+		"message": "Выберите язык интерфейса",
+		"description": "Language description"
+	},
+	"syncStatus": {
+		"message": "Статус синхронизации",
+		"description": "Sync status"
+	},
+	"syncStatusDesc": {
+		"message": "Синхронизация настроек через аккаунт %browserName%",
+		"description": "Sync status description"
+	},
+	"synced": {
+		"message": "Синхронизировано",
+		"description": "Synced"
+	},
+	"author": {
+		"message": "Автор",
+		"description": "Author"
+	},
+	"privacyNote": {
+		"message": "🔒 Работает локально, без доступа к интернету (кроме синхронизации), без сбора данных",
+		"description": "Privacy note in footer"
+	},
+	"supportUsText": {
+		"message": "Нравится FlowMouse? Пожалуйста, поставьте нам 5 звезд в %appStoreInfo% для поддержки!",
+		"description": "Rating text"
+	},
+	"storeNameChrome": {
+		"message": "Интернет-магазин Chrome",
+		"description": "Chrome Web Store name"
+	},
+	"storeNameEdge": {
+		"message": "Надстройки Edge",
+		"description": "Edge Add-ons name"
+	},
+	"storeNameFirefox": {
+		"message": "Дополнения для Firefox",
+		"description": "Firefox Add-ons name"
+	},
+	"feedbackText": {
+		"message": "Проблемы или предложения? Сообщите нам по <a href='mailto:Service@52pojie.cn'>электронной почте</a>, через <a href='https://github.com/Hmily-LCG/FlowMouse/issues' target='_blank'>GitHub</a> или на <a href='https://www.52pojie.cn/thread-2080303-1-1.html' target='_blank'>форуме</a>. Мы все исправим как можно быстрее!",
+		"description": "Feedback text"
+	},
+	"supportAndFeedback": {
+		"message": "Поддержка и обратная связь",
+		"description": "Support and Feedback section title"
+	},
+	"feedbackTitle": {
+		"message": "Отзывы и предложения",
+		"description": "Feedback row title"
+	},
+	"supportUsTitle": {
+		"message": "Поддержать нас",
+		"description": "Rating row title"
+	},
+	"backToSettings": {
+		"message": "Вернуться к настройкам",
+		"description": "Back to settings link"
+	},
+	"settings": {
+		"message": "Настройки",
+		"description": "Settings"
+	},
+	"moreSettings": {
+		"message": "Больше настроек",
+		"description": "More settings button in popup"
+	},
+	"version": {
+		"message": "Версия",
+		"description": "Version"
+	},
+	"basicSettings": {
+		"message": "Настройки жестов",
+		"description": "Gesture settings section"
+	},
+	"enableGesture": {
+		"message": "Включить жесты",
+		"description": "Enable gesture feature"
+	},
+	"enableGestureDesc": {
+		"message": "Зажмите правую кнопку мыши и сдвиньте мышь для выполнения жестов",
+		"description": "Hold the right mouse button and move the mouse to easily perform gestures"
+	},
+	"macLinuxContextMenuNotice": {
+		"message": "⚠️ Из-за системных ограничений для открытия контекстного меню на macOS / Linux требуется быстрое двойное нажатие правой кнопкой.",
+		"description": "Notice for macOS / Linux users about double right-click for context menu"
+	},
+	"macTextDragNotice": {
+		"message": "⚠️ Из-за особенностей macOS, при перетаскивании текста сначала выделите текст, затем зажмите левую кнопку на короткое время перед перетаскиванием. Иначе поиск может не сработать.",
+		"description": "Notice for macOS users about text drag behavior"
+	},
+	"showTrail": {
+		"message": "Показывать след жеста",
+		"description": "Show gesture trail"
+	},
+	"showTrailDesc": {
+		"message": "Отображать линию следа при выполнении жестов",
+		"description": "Show trail line when performing gestures"
+	},
+	"showHint": {
+		"message": "Показывать подсказку действия",
+		"description": "Show action hint"
+	},
+	"showHintDesc": {
+		"message": "Отображать текущее действие жеста в центре экрана",
+		"description": "Show current gesture action in center of screen"
+	},
+	"color": {
+		"message": "Цвет",
+		"description": "Color"
+	},
+	"width": {
+		"message": "Толщина",
+		"description": "Width/thickness"
+	},
+	"background": {
+		"message": "Фон",
+		"description": "Background"
+	},
+	"opacity": {
+		"message": "Прозрачность",
+		"description": "Opacity"
+	},
+	"text": {
+		"message": "Текст",
+		"description": "Text"
+	},
+	"scrollAmount": {
+		"message": "Дистанция прокрутки",
+		"description": "Scroll amount"
+	},
+	"scrollAmountDesc": {
+		"message": "Расстояние прокрутки для жестов вверх/вниз (% от высоты окна)",
+		"description": "Scroll distance for up/down gestures"
+	},
+	"scrollSmoothness": {
+		"message": "Плавность прокрутки",
+		"description": "Scroll smoothness"
+	},
+	"scrollSmoothnessDesc": {
+		"message": "Эффект анимации прокрутки для жестов вверх/вниз",
+		"description": "Scroll smoothness description"
+	},
+	"smoothnessSystem": {
+		"message": "Системная (Быстро)",
+		"description": "System scroll smoothness"
+	},
+	"smoothnessCustom": {
+		"message": "Плавная прокрутка",
+		"description": "Custom smooth scrolling"
+	},
+	"smoothnessNone": {
+		"message": "Без анимации",
+		"description": "No scroll animation"
+	},
+	"dragFeatures": {
+		"message": "Функции перетаскивания",
+		"description": "Drag features section"
+	},
+	"textDragSearch": {
+		"message": "Перетаскивание текста",
+		"description": "Text drag"
+	},
+	"textDragSearchDesc": {
+		"message": "Перетащите выделенный текст для поиска",
+		"description": "Drag selected text to search"
+	},
+	"searchEngine": {
+		"message": "Поисковая система",
+		"description": "Search engine"
+	},
+	"custom": {
+		"message": "Пользовательская",
+		"description": "Custom"
+	},
+	"customUrlPlaceholder": {
+		"message": "Пользовательский URL, используйте %s для поискового запроса",
+		"description": "Custom URL placeholder"
+	},
+	"urlPlaceholderText": {
+		"message": "%s=Ключевое слово",
+		"description": "Placeholder for text drag custom URL"
+	},
+	"urlPlaceholderImage": {
+		"message": "%s=URL изображения",
+		"description": "Placeholder for image drag custom URL"
+	},
+	"searchEngine_baidu": {
+		"message": "Baidu",
+		"description": "Baidu search engine"
+	},
+	"searchEngine_360": {
+		"message": "360 Search",
+		"description": "360 search engine"
+	},
+	"searchEngine_yandex": {
+		"message": "Яндекс",
+		"description": "Yandex search engine"
+	},
+	"searchEngine_system": {
+		"message": "По умолчанию",
+		"description": "System default search engine"
+	},
+	"imageDrag": {
+		"message": "Перетаскивание изображения",
+		"description": "Image drag"
+	},
+	"imageDragDesc": {
+		"message": "Перетащите изображение, чтобы открыть в новой вкладке",
+		"description": "Drag image to open in new tab"
+	},
+	"linkDrag": {
+		"message": "Перетаскивание ссылки",
+		"description": "Link drag"
+	},
+	"linkDragDesc": {
+		"message": "Перетащите ссылку, чтобы открыть в новой вкладке",
+		"description": "Drag link to open in new tab"
+	},
+	"enableCustomGestures": {
+		"message": "Пользовательские жесты",
+		"description": "Enable custom gestures"
+	},
+	"enableCustomGesturesDesc": {
+		"message": "Просмотр и настройка действий для каждого жеста",
+		"description": "View and customize each gesture action"
+	},
+	"gestureAutoSaveHint": {
+		"message": "Подсказка: Изменения сохраняются автоматически.",
+		"description": "Hint about auto-save"
+	},
+	"blacklist": {
+		"message": "Черный список сайтов",
+		"description": "Website blacklist"
+	},
+	"blacklistPlaceholder": {
+		"message": "Введите домен, например example.com, нажмите Enter для добавления",
+		"description": "Blacklist input placeholder"
+	},
+	"add": {
+		"message": "Добавить",
+		"description": "Add button"
+	},
+	"emptyBlacklist": {
+		"message": "Черный список пуст. Введите домен выше для добавления.",
+		"description": "Empty blacklist message"
+	},
+	"dataManagement": {
+		"message": "Управление данными",
+		"description": "Data management section"
+	},
+	"export": {
+		"message": "Экспорт",
+		"description": "Export settings"
+	},
+	"import": {
+		"message": "Импорт",
+		"description": "Import settings"
+	},
+	"reset": {
+		"message": "Сброс",
+		"description": "Reset to default"
+	},
+	"autoSaved": {
+		"message": "✓ Автосохранение",
+		"description": "Auto-saved message"
+	},
+	"saveFailure": {
+		"message": "Ошибка сохранения",
+		"description": "Save failure message"
+	},
+	"resetConfirm": {
+		"message": "Вы уверены, что хотите сбросить все настройки к значениям по умолчанию?",
+		"description": "Reset confirmation"
+	},
+	"resetDone": {
+		"message": "Настройки сброшены к значениям по умолчанию",
+		"description": "Reset done message"
+	},
+	"exportDone": {
+		"message": "Настройки экспортированы",
+		"description": "Export done message"
+	},
+	"importDone": {
+		"message": "Настройки импортированы",
+		"description": "Import done message"
+	},
+	"importFailed": {
+		"message": "Ошибка импорта: Неверный файл конфигурации",
+		"description": "Import failed message"
+	},
+	"importFailedSyncError": {
+		"message": "Ошибка импорта: Ошибка синхронизации, проверьте статус браузера",
+		"description": "Import failed sync error message"
+	},
+	"invalidDomain": {
+		"message": "Пожалуйста, введите корректный домен",
+		"description": "Invalid domain message"
+	},
+	"domainExists": {
+		"message": "Домен уже в черном списке",
+		"description": "Domain already in blacklist"
+	},
+	"about": {
+		"message": "О программе",
+		"description": "About section"
+	},
+	"language": {
+		"message": "Язык",
+		"description": "Language"
+	},
+	"languageAuto": {
+		"message": "Как в системе",
+		"description": "Follow system language"
+	},
+	"privacyFriendly": {
+		"message": "Конфиденциально",
+		"description": "Privacy friendly"
+	},
+	"localOnly": {
+		"message": "Локально",
+		"description": "Local only"
+	},
+	"autoSave": {
+		"message": "Автосохранение",
+		"description": "Auto save"
+	},
+	"gestureDesc_L": {
+		"message": "Влево",
+		"description": "Gesture description for ←"
+	},
+	"gestureDesc_R": {
+		"message": "Вправо",
+		"description": "Gesture description for →"
+	},
+	"gestureDesc_U": {
+		"message": "Вверх",
+		"description": "Gesture description for ↑"
+	},
+	"gestureDesc_D": {
+		"message": "Вниз",
+		"description": "Gesture description for ↓"
+	},
+	"gestureDesc_DR": {
+		"message": "Вниз, затем Вправо",
+		"description": "Gesture description for ↓→"
+	},
+	"gestureDesc_LU": {
+		"message": "Влево, затем Вверх",
+		"description": "Gesture description for ←↑"
+	},
+	"gestureDesc_RU": {
+		"message": "Вправо, затем Вверх",
+		"description": "Gesture description for →↑"
+	},
+	"gestureDesc_RD": {
+		"message": "Вправо, затем Вниз",
+		"description": "Gesture description for →↓"
+	},
+	"gestureDesc_UL": {
+		"message": "Вверх, затем Влево",
+		"description": "Gesture description for ↑←"
+	},
+	"gestureDesc_UR": {
+		"message": "Вверх, затем Вправо",
+		"description": "Gesture description for ↑→"
+	},
+	"gestureDesc_DL": {
+		"message": "Вниз, затем Влево",
+		"description": "Gesture description for ↓←"
+	},
+	"gestureDesc_LD": {
+		"message": "Влево, затем Вниз",
+		"description": "Gesture description for ←↓"
+	},
+	"gestureDesc_UD": {
+		"message": "Вверх, затем Вниз",
+		"description": "Gesture description for ↑↓"
+	},
+	"gestureDesc_DU": {
+		"message": "Вниз, затем Вверх",
+		"description": "Gesture description for ↓↑"
+	},
+	"gestureDesc_LR": {
+		"message": "Влево, затем Вправо",
+		"description": "Gesture description for ←→"
+	},
+	"gestureDesc_RL": {
+		"message": "Вправо, затем Влево",
+		"description": "Gesture description for →←"
+	},
+	"actionNone": {
+		"message": "Нет действия",
+		"description": "No action"
+	},
+	"actionBack": {
+		"message": "Назад",
+		"description": "Go back"
+	},
+	"actionForward": {
+		"message": "Вперед",
+		"description": "Go forward"
+	},
+	"actionScrollUp": {
+		"message": "Прокрутка вверх",
+		"description": "Scroll up"
+	},
+	"actionScrollDown": {
+		"message": "Прокрутка вниз",
+		"description": "Scroll down"
+	},
+	"actionScrollToTop": {
+		"message": "Прокрутка в начало",
+		"description": "Scroll to top"
+	},
+	"actionScrollToBottom": {
+		"message": "Прокрутка в конец",
+		"description": "Scroll to bottom"
+	},
+	"actionCloseTab": {
+		"message": "Закрыть вкладку",
+		"description": "Close tab"
+	},
+	"actionCloseTabKeepWindow": {
+		"message": "Закрыть вкладку (Не закрывать окно)",
+		"description": "Close tab but keep window open"
+	},
+	"actionCloseBrowser": {
+		"message": "Закрыть браузер",
+		"description": "Close browser"
+	},
+	"actionRestoreTab": {
+		"message": "Открыть закрытую вкладку",
+		"description": "Restore closed tab"
+	},
+	"actionNewTab": {
+		"message": "Новая вкладка",
+		"description": "New tab"
+	},
+	"actionCloseOtherTabs": {
+		"message": "Закрыть другие вкладки",
+		"description": "Close other tabs"
+	},
+	"actionCloseLeftTabs": {
+		"message": "Закрыть вкладки слева",
+		"description": "Close tabs to the left"
+	},
+	"actionCloseRightTabs": {
+		"message": "Закрыть вкладки справа",
+		"description": "Close tabs to the right"
+	},
+	"actionCloseAllTabs": {
+		"message": "Закрыть все вкладки",
+		"description": "Close all tabs"
+	},
+	"actionSwitchLeftTab": {
+		"message": "Переключить на вкладку слева",
+		"description": "Switch to left tab"
+	},
+	"actionSwitchRightTab": {
+		"message": "Переключить на вкладку справа",
+		"description": "Switch to right tab"
+	},
+	"actionRefresh": {
+		"message": "Обновить текущую вкладку",
+		"description": "Refresh current tab"
+	},
+	"actionRefreshAllTabs": {
+		"message": "Обновить все вкладки",
+		"description": "Refresh all tabs"
+	},
+	"actionStopLoading": {
+		"message": "Остановить загрузку",
+		"description": "Stop loading"
+	},
+	"actionNewWindow": {
+		"message": "Новое окно",
+		"description": "New window"
+	},
+	"actionNewIncognito": {
+		"message": "Новое окно в режиме инкогнито",
+		"description": "New incognito window"
+	},
+	"actionAddToBookmarks": {
+		"message": "Добавить в закладки",
+		"description": "Add to bookmarks"
+	},
+	"actionToggleFullscreen": {
+		"message": "Переключить полноэкранный режим",
+		"description": "Toggle fullscreen"
+	},
+	"actionToggleMaximize": {
+		"message": "Развернуть/Восстановить окно",
+		"description": "Toggle window maximize"
+	},
+	"actionMinimize": {
+		"message": "Свернуть окно",
+		"description": "Minimize window"
+	},
+	"actionOpenCustomUrl": {
+		"message": "Открыть свой URL",
+		"description": "Open custom URL"
+	},
+	"actionCopyUrl": {
+		"message": "Копировать URL",
+		"description": "Copy current URL"
+	},
+	"actionCopyTitle": {
+		"message": "Копировать заголовок страницы",
+		"description": "Copy page title"
+	},
+	"actionOpenDownloads": {
+		"message": "Открыть загрузки",
+		"description": "Open downloads page"
+	},
+	"actionOpenHistory": {
+		"message": "Открыть историю",
+		"description": "Open history page"
+	},
+	"actionOpenExtensions": {
+		"message": "Открыть расширения",
+		"description": "Open extensions page"
+	},
+	"actionPrintPage": {
+		"message": "Печать страницы",
+		"description": "Print page"
+	},
+	"actionDuplicateTab": {
+		"message": "Дублировать вкладку",
+		"description": "Duplicate current tab"
+	},
+	"actionToggleMuteTab": {
+		"message": "Включить/Выключить звук вкладки",
+		"description": "Toggle mute current tab"
+	},
+	"actionToggleMuteAllTabs": {
+		"message": "Включить/Выключить звук всех вкладок",
+		"description": "Toggle mute all tabs"
+	},
+	"showTrailOrigin": {
+		"message": "Показывать начальную точку",
+		"description": "Show trail origin point"
+	},
+	"enableTrailSmooth": {
+		"message": "Сглаживание траектории",
+		"description": "Enable trail smoothing for gesture visualization"
+	},
+	"distanceThreshold": {
+		"message": "Дистанция обнаружения жеста",
+		"description": "Gesture recognition distance"
+	},
+	"distanceThresholdDesc": {
+		"message": "Минимальное расстояние движения для распознавания жеста",
+		"description": "Description for gesture recognition distance"
+	},
+	"distanceThresholdNotice": {
+		"message": "Совет: Для лучшего распознавания рекомендуется значение от 15 до 30.",
+		"description": "Warning when distance threshold is too small or too large"
+	},
+	"enableAdvancedSettings": {
+		"message": "Расширенные настройки",
+		"description": "Enable advanced settings"
+	},
+	"enableAdvancedSettingsDesc": {
+		"message": "Показывать больше опций при включении",
+		"description": "Show more advanced options when enabled"
+	},
+	"enableAdvancedSettingsToggle": {
+		"message": "Режим расширенных настроек",
+		"description": "Enable advanced settings toggle label"
+	},
+	"urlFormatError": {
+		"message": "Пожалуйста, введите полный URL, начинающийся с http:// или https://",
+		"description": "URL format error message"
+	},
+	"resetToDefault": {
+		"message": "Вернуть по умолчанию",
+		"description": "Reset gesture to default action"
+	},
+	"addCustomGesture": {
+		"message": "Добавить пользовательский жест",
+		"description": "Add custom gesture section title"
+	},
+	"gesturePattern": {
+		"message": "Шаблон жеста",
+		"description": "Gesture pattern label"
+	},
+	"selectAction": {
+		"message": "Выберите действие",
+		"description": "Select action label"
+	},
+	"clear": {
+		"message": "Очистить",
+		"description": "Clear button"
+	},
+	"addGesture": {
+		"message": "Добавить жест",
+		"description": "Add gesture button"
+	},
+	"pleaseDrawGesture": {
+		"message": "Пожалуйста, сначала нарисуйте жест",
+		"description": "Alert when no gesture drawn"
+	},
+	"gestureAdded": {
+		"message": "✓ Жест добавлен",
+		"description": "Gesture added success message"
+	},
+	"gestureDrawInstructions": {
+		"message": "Зажмите правую кнопку мыши и нарисуйте жест ниже, отпустите для завершения. Поддерживаемые направления:",
+		"description": "Instructions for gesture drawing"
+	},
+	"gestureOverwriteConfirm": {
+		"message": "Жест %pattern% уже существует. Перезаписать?",
+		"description": "Confirmation message when adding a duplicate gesture"
+	},
+	"customGesture": {
+		"message": "Пользовательский",
+		"description": "Label for custom gestures"
+	},
+	"deleteGesture": {
+		"message": "Удалить жест",
+		"description": "Delete gesture button tooltip"
+	},
+	"deleteGestureConfirm": {
+		"message": "Удалить жест %pattern%?",
+		"description": "Delete gesture confirmation"
+	},
+	"gestureDeleted": {
+		"message": "✓ Жест удален",
+		"description": "Gesture deleted success message"
+	},
+	"enterCustomUrl": {
+		"message": "Введите URL (рекомендуется указать протокол, например https://, chrome:// и т.д.):",
+		"description": "Prompt for custom URL input"
+	},
+	"invalidUrl": {
+		"message": "Пожалуйста, введите корректный URL (начинающийся с http:// или https://)",
+		"description": "Invalid URL error message"
+	},
+	"popupTrail": {
+		"message": "След жеста",
+		"description": "Gesture trail in popup"
+	},
+	"popupHint": {
+		"message": "Подсказка",
+		"description": "Action hint in popup"
+	},
+	"popupCommonGestures": {
+		"message": "Обычные жесты",
+		"description": "Common gestures"
+	},
+	"popupCurrentSite": {
+		"message": "Текущий сайт",
+		"description": "Current site"
+	},
+	"popupRestricted": {
+		"message": "Ограниченная страница",
+		"description": "Restricted page"
+	},
+	"popupDisabled": {
+		"message": "Отключено",
+		"description": "Disabled"
+	},
+	"popupAddBlacklist": {
+		"message": "Добавить в черный список",
+		"description": "Add to blacklist"
+	},
+	"popupRemoveBlacklist": {
+		"message": "Удалить из черного списка",
+		"description": "Remove from blacklist"
+	},
+	"popupNotAvailable": {
+		"message": "Недоступно",
+		"description": "Not available"
+	},
+	"popupBack": {
+		"message": "Назад",
+		"description": "Back - short"
+	},
+	"popupForward": {
+		"message": "Вперед",
+		"description": "Forward - short"
+	},
+	"popupScrollUp": {
+		"message": "Вверх",
+		"description": "Scroll up - short"
+	},
+	"popupScrollDown": {
+		"message": "Вниз",
+		"description": "Scroll down - short"
+	},
+	"popupClose": {
+		"message": "Закрыть",
+		"description": "Close Tab - short"
+	},
+	"popupRestore": {
+		"message": "Восстановить",
+		"description": "Restore Tab - short"
+	},
+	"dragSearchText": {
+		"message": "🔍 Поиск при перетаскивании",
+		"description": "Drag search hint"
+	},
+	"dragOpenImage": {
+		"message": "🖼️ Открыть изображение",
+		"description": "Drag open image hint"
+	},
+	"dragOpenLink": {
+		"message": "🔗 Открыть ссылку",
+		"description": "Drag open link hint"
+	},
+	"aboutTitle": {
+		"message": "О FlowMouse",
+		"description": "About title"
+	},
+	"aboutAuthor": {
+		"message": "Автор",
+		"description": "Author"
+	},
+	"aboutWebsite": {
+		"message": "Сайт",
+		"description": "Website"
+	},
+	"aboutOpenSource": {
+		"message": "GitHub",
+		"description": "GitHub link"
+	},
+	"aboutEmail": {
+		"message": "Email",
+		"description": "Email"
+	},
+	"aboutPrivacy": {
+		"message": "Политика конфиденциальности",
+		"description": "Privacy statement"
+	},
+	"aboutPrivacyText": {
+		"message": "Это расширение является проектом с открытым исходным кодом, размещенным на GitHub. Мы приветствуем проверки кода и вклад сообщества. Вся обработка данных происходит локально на вашем устройстве. Само расширение не устанавливает сетевых подключений и не имеет бэкенд-серверов, поэтому не собирает и не загружает никаких пользовательских данных на внешние серверы. Ваши настройки шифруются и синхронизируются между вашими устройствами через встроенный сервис синхронизации браузера %browserName%. Этот процесс полностью контролируется браузером и следует вашим настройкам конфиденциальности и синхронизации.",
+		"description": "Privacy statement text"
+	},
+	"aboutCredits": {
+		"message": "Благодарности",
+		"description": "Credits"
+	},
+	"aboutCreditsText": {
+		"message": "Спасибо браузеру Microsoft Edge и расширению crxMouse за вдохновение.\nСпасибо сообществу 52pojie.cn и пользователям за отзывы и предложения!",
+		"description": "Credits text"
+	},
+	"aboutFeatures": {
+		"message": "Возможности",
+		"description": "Features"
+	},
+	"aboutFeature1": {
+		"message": "🎯 16 стандартных жестов + Пользовательские жесты",
+		"description": "Feature 1"
+	},
+	"aboutFeature2": {
+		"message": "🎨 Визуальный след",
+		"description": "Feature 2"
+	},
+	"aboutFeature3": {
+		"message": "🔍 Super Drag текста/картинок/ссылок",
+		"description": "Feature 3"
+	},
+	"aboutFeature4": {
+		"message": "🚫 Черный список сайтов",
+		"description": "Feature 4"
+	},
+	"aboutFeature5": {
+		"message": "☁️ Синхронизация через аккаунт %browserName%",
+		"description": "Feature 5"
+	},
+	"aboutFeature6": {
+		"message": "🔒 Работает локально, без интернета (кроме синхронизации)",
+		"description": "Feature 6"
+	},
+	"tutorial": {
+		"message": "Инструкция",
+		"description": "Tutorial link"
+	},
+	"learnMore": {
+		"message": "Узнать больше",
+		"description": "Learn more link"
+	},
+	"badgeNoNetwork": {
+		"message": "🔒 Без интернета (кроме синхронизации)",
+		"description": "No network privacy badge"
+	},
+	"badgeNoData": {
+		"message": "🚫 Без сбора данных",
+		"description": "No data collection badge"
+	},
+	"badgeLocalRun": {
+		"message": "✅ Локальная работа",
+		"description": "Local run badge"
+	},
+	"newTabSettings": {
+		"message": "Настройки новой вкладки",
+		"description": "New tab open settings"
+	},
+	"newTabPosition": {
+		"message": "Положение",
+		"description": "New tab position"
+	},
+	"tabPositionRight": {
+		"message": "Справа от текущей",
+		"description": "Right of current tab"
+	},
+	"tabPositionLeft": {
+		"message": "Слева от текущей",
+		"description": "Left of current tab"
+	},
+	"tabPositionFirst": {
+		"message": "Первая вкладка (Слева)",
+		"description": "First tab (leftmost)"
+	},
+	"tabPositionLast": {
+		"message": "Последняя вкладка (Справа)",
+		"description": "Last tab (rightmost)"
+	},
+	"tabPositionCurrent": {
+		"message": "Текущая вкладка",
+		"description": "Open in current tab"
+	},
+	"newTabActive": {
+		"message": "Открыть на переднем плане",
+		"description": "Open tab in foreground"
+	},
+	"textDragGestures": {
+		"message": "Жесты перетаскивания текста",
+		"description": "Text drag gestures"
+	},
+	"linkDragGestures": {
+		"message": "Жесты перетаскивания ссылок",
+		"description": "Link drag gestures"
+	},
+	"imageDragGestures": {
+		"message": "Жесты перетаскивания изображений",
+		"description": "Image drag gestures"
+	},
+	"direction": {
+		"message": "Направление",
+		"description": "Direction column header"
+	},
+	"action": {
+		"message": "Действие",
+		"description": "Action column header"
+	},
+	"imageSearchUrl": {
+		"message": "URL поиска картинок (%s = URL картинки)",
+		"description": "Image search URL input"
+	},
+	"dragActionNone": {
+		"message": "Нет действия",
+		"description": "No action"
+	},
+	"dragActionSearch": {
+		"message": "🔍 Поисковая система",
+		"description": "Search action"
+	},
+	"dragActionCopy": {
+		"message": "📋 Копировать",
+		"description": "Copy action"
+	},
+	"dragActionOpenTab": {
+		"message": "📑 Открыть в новой вкладке",
+		"description": "Open in new tab"
+	},
+	"dragActionOpenTabLink": {
+		"message": "🔗 Открыть ссылку",
+		"description": "Open link in new tab"
+	},
+	"dragActionOpenTabImage": {
+		"message": "🖼️ Открыть изображение",
+		"description": "Open image in new tab"
+	},
+	"dragActionCopyLink": {
+		"message": "📋 Копировать ссылку",
+		"description": "Copy link"
+	},
+	"dragActionSaveImage": {
+		"message": "💾 Сохранить изображение",
+		"description": "Save image"
+	},
+	"dragActionCopyImage": {
+		"message": "🖼️ Копировать изображение",
+		"description": "Copy image"
+	},
+	"dragActionCopyImageUrl": {
+		"message": "📋 Копировать URL изображения",
+		"description": "Copy image URL"
+	},
+	"dragActionImageSearch": {
+		"message": "🔍 Поиск по изображению",
+		"description": "Image search"
+	},
+	"dragActionCustomSearch": {
+		"message": "🔍 Пользовательский поиск",
+		"description": "Custom search"
+	},
+	"reducedMotionWarning": {
+		"message": "⚠️ В системе %OS% отключена анимация, плавная прокрутка может работать некорректно. Вы можете включить анимацию в настройках системы %OS%.",
+		"description": "Warning message when system reduced motion is enabled"
+	},
+	"autoDetectUrl": {
+		"message": "Автоопределение URL",
+		"description": "Auto detect URL checkbox label"
+	},
+	"preferLink": {
+		"message": "Предпочитать ссылку",
+		"description": "Prefer link checkbox label"
+	},
+	"menuNeedRefresh": {
+		"message": "FlowMouse не загружен, нажмите для обновления",
+		"description": "Context menu title for pages needing refresh"
+	},
+	"menuRestricted": {
+		"message": "FlowMouse недоступен, узнать почему",
+		"description": "Context menu title for restricted pages"
+	},
+	"showRestrictedNotice": {
+		"message": "Уведомление на ограниченных страницах",
+		"description": "Setting title for restricted page notice"
+	},
+	"showRestrictedNoticeDesc": {
+		"message": "Показывать уведомление в контекстном меню на страницах, где жесты недоступны",
+		"description": "Setting description for restricted page notice"
+	},
+	"restrictedPagesDetailsTitle": {
+		"message": "⚠️ Из-за политик безопасности браузера расширения не могут работать на определенных типах страниц.",
+		"description": "Collapsible details title"
+	},
+	"showMoreHint": {
+		"message": " (Показать подробности)",
+		"description": "Hint to show more details"
+	},
+	"restrictedNewTab": {
+		"message": "Новая вкладка (chrome://newtab)",
+		"description": "New tab page title"
+	},
+	"restrictedNewTabDesc": {
+		"message": "Страница новой вкладки по умолчанию защищена системой. Расширения не могут внедрять сюда скрипты.",
+		"description": "New tab page description"
+	},
+	"restrictedStore": {
+		"message": "Магазины расширений",
+		"description": "Store page title"
+	},
+	"restrictedStoreDesc": {
+		"message": "Например, %storeInfo% и др. Браузеры запрещают работу расширений на этих страницах для защиты нормальной работы магазина.",
+		"description": "Store page description"
+	},
+	"restrictedInternal": {
+		"message": "Внутренние страницы браузера",
+		"description": "Internal page title"
+	},
+	"restrictedInternalDesc": {
+		"message": "Все страницы, начинающиеся с chrome:// (Chrome) или edge:// (Edge), включая настройки, историю, загрузки. Эти страницы строго защищены.",
+		"description": "Internal page description"
+	},
+	"restrictedFile": {
+		"message": "Локальные файлы (file://)",
+		"description": "File page title"
+	},
+	"restrictedFileDesc": {
+		"message": "Локальные HTML файлы, открытые через протокол file://. Из-за ограничений безопасности (доступ к файловая системе), расширения здесь не работают.",
+		"description": "File page description"
+	},
+	"restrictedViewSource": {
+		"message": "Просмотр исходного кода (view-source:)",
+		"description": "View source page title"
+	},
+	"restrictedViewSourceDesc": {
+		"message": "Страница просмотра исходного кода также является защищенной системной страницей.",
+		"description": "View source page description"
+	},
+	"restrictedOther": {
+		"message": "Другие менее распространенные страницы не перечислены.",
+		"description": "Other restricted pages note"
+	},
+	"popupNeedRefresh": {
+		"message": "Расширение не загружено",
+		"description": "Popup title when content script not loaded"
+	},
+	"popupNeedRefreshDesc": {
+		"message": "Эта страница была открыта до установки/обновления расширения. Обновите страницу, чтобы включить жесты.",
+		"description": "Popup description when content script not loaded"
+	},
+	"popupRefreshBtn": {
+		"message": "🔄 Обновить страницу",
+		"description": "Popup refresh button text"
+	},
+	"popupRestrictedTitle": {
+		"message": "Жесты недоступны",
+		"description": "Popup title for restricted pages"
+	},
+	"popupRestrictedDesc": {
+		"message": "На этой странице нельзя использовать жесты из-за ограничений безопасности браузера.",
+		"description": "Popup description for restricted pages"
+	},
+	"popupLearnMore": {
+		"message": "📖 Узнать больше",
+		"description": "Popup learn more button text"
+	},
+	"tutorialPending": {
+		"message": "Попробовать",
+		"description": "Tutorial pending status"
+	},
+	"tutorialCompleted": {
+		"message": "Готово",
+		"description": "Tutorial completed status"
+	},
+	"tutorialClickToStart": {
+		"message": "Нажмите <span class=\"text-highlight\">правую кнопку мыши</span> чтобы начать",
+		"description": "Tutorial Step 0 instruction"
+	},
+	"tutorialWelcomeTitle": {
+		"message": "Добро пожаловать в FlowMouse",
+		"description": "Tutorial welcome title"
+	},
+	"tutorialWelcomeSubtitle": {
+		"message": "Освойте основы за 30 секунд для более плавного и интуитивного просмотра",
+		"description": "Tutorial welcome subtitle"
+	},
+	"tutorialStep1Title": {
+		"message": "Основы",
+		"description": "Tutorial Step 1 title"
+	},
+	"tutorialStep1Subtitle": {
+		"message": "Изучите механику жестов",
+		"description": "Tutorial Step 1 subtitle"
+	},
+	"tutorialStep1InstructionIdle": {
+		"message": "Зажмите <span class=\"text-highlight\">правую кнопку мыши</span>",
+		"description": "Tutorial Step 1 instruction idle"
+	},
+	"tutorialStep1InstructionPressing": {
+		"message": "<strong>Отлично!</strong> Удерживая кнопку, тяните <strong>%arrow% вправо</strong>",
+		"description": "Tutorial Step 1 instruction pressing"
+	},
+	"tutorialStep1InstructionDragging": {
+		"message": "Продолжайте тянуть...",
+		"description": "Tutorial Step 1 instruction dragging"
+	},
+	"tutorialStep1InstructionReleasing": {
+		"message": "<strong>Здорово!</strong> Теперь отпустите!",
+		"description": "Tutorial Step 1 instruction releasing"
+	},
+	"tutorialStep2Title": {
+		"message": "Жесты FlowMouse",
+		"description": "Tutorial Step 2 title"
+	},
+	"tutorialStep2Subtitle": {
+		"message": "Удерживайте <span class=\"text-highlight\">правую кнопку мыши</span> для выполнения жестов",
+		"description": "Tutorial Step 2 subtitle"
+	},
+	"tutorialStep2Footer": {
+		"message": "<strong>Больше жестов</strong> и <strong>полная настройка</strong> доступны в настройках.",
+		"description": "Footer note for step 2 discovery banner"
+	},
+	"tutorialStep2DiscoveryHeader": {
+		"message": "Больше жестов",
+		"description": "Header for step 2 discovery banner"
+	},
+	"tutorialStep3DiscoveryHeader": {
+		"message": "Больше функций Super Drag",
+		"description": "Header for step 3 discovery banner"
+	},
+	"tutorialStep3TextSearch": {
+		"message": "Текст <span class=\"svg-arrow\">→</span> Поиск",
+		"description": "Text drag search discovery item"
+	},
+	"tutorialStep3LinkOpen": {
+		"message": "Ссылка <span class=\"svg-arrow\">→</span> Открыть в новой вкладке",
+		"description": "Link drag open discovery item"
+	},
+	"tutorialStep3ImageOpen": {
+		"message": "Изображение <span class=\"svg-arrow\">→</span> Открыть в новой вкладке",
+		"description": "Image drag open discovery item"
+	},
+	"tutorialStep3Footer": {
+		"message": "<strong>Больше действий перетаскивания</strong> доступны в расширенных настройках",
+		"description": "Footer for step 3 discovery banner"
+	},
+	"tutorialContinue": {
+		"message": "Продолжить",
+		"description": "Tutorial continue button"
+	},
+	"tutorialStep3Title": {
+		"message": "Super Drag",
+		"description": "Tutorial Step 3 title"
+	},
+	"tutorialStep3Subtitle": {
+		"message": "Удерживайте <span class=\"text-highlight\">левую кнопку мыши</span> и тяните <span class=\"svg-arrow\">→</span> для быстрых действий",
+		"description": "Tutorial Step 3 subtitle"
+	},
+	"tutorialStep3HintTitle": {
+		"message": "Поиск выделенного текста",
+		"description": "Tutorial Step 3 hint title"
+	},
+	"tutorialStep3HintDesc": {
+		"message": "Выделите текст, затем зажмите <span class=\"text-highlight\">левую кнопку мыши</span> и перетащите <span class=\"svg-arrow\">→</span> для поиска",
+		"description": "Tutorial Step 3 hint description. Note: Must drag to right. Use SVG arrow instead of text for direction."
+	},
+	"tutorialStep3TextBoxLabel": {
+		"message": "Попробуйте с текстом ниже!",
+		"description": "Tutorial Step 3 text box label"
+	},
+	"tutorialStep3SelectableText": {
+		"message": "FlowMouse Super Drag",
+		"description": "Tutorial Step 3 selectable text"
+	},
+	"tutorialStep4Title": {
+		"message": "Поздравляем!",
+		"description": "Tutorial Step 4 title"
+	},
+	"tutorialStep4Subtitle": {
+		"message": "Ваши жесты входят в состояние потока.",
+		"description": "Tutorial Step 4 subtitle"
+	},
+	"tutorialStep4Instruction": {
+		"message": "Используйте <span class=\"text-highlight\">Super Drag <span class=\"svg-arrow\">→</span></span> на этой ссылке, чтобы открыть в <span class=\"text-highlight\">новой вкладке</span>",
+		"description": "Tutorial Step 4 instruction. Note: Must drag to right. Use SVG arrow instead of text for direction."
+	},
+	"tutorialSettingsLink": {
+		"message": "Настройки FlowMouse",
+		"description": "Tutorial settings link"
+	},
+	"tutorialSettingsHint": {
+		"message": "Множество мощных функций ждут вашего исследования!",
+		"description": "Tutorial settings hint"
+	},
+	"tutorialWrongDirection": {
+		"message": "Неверное направление! Тяните <strong>%arrow% вправо</strong>",
+		"description": "Tutorial wrong direction error"
+	},
+	"tutorialEarlyRelease": {
+		"message": "Отпустили слишком рано! Продолжайте тянуть.",
+		"description": "Tutorial early release error"
+	},
+	"tutorialDragWrongButton": {
+		"message": "Используйте <span class=\"text-highlight\">левую кнопку мыши</span> для перетаскивания",
+		"description": "Tutorial drag wrong button error"
+	},
+	"tutorialRefreshTip": {
+		"message": "Подсказка: Вкладки, открытые до установки FlowMouse, нужно <span class=\"text-highlight\">обновить</span> для использования жестов",
+		"description": "Tip about refreshing tabs"
+	},
+	"permissionBookmarksTitle": {
+		"message": "Управление закладками",
+		"description": "Permission popup title for bookmarks"
+	},
+	"permissionBookmarksDesc": {
+		"message": "Чтобы добавлять страницы в закладки, FlowMouse нужен доступ к закладкам.",
+		"description": "Permission popup description for bookmarks"
+	},
+	"permissionDownloadsTitle": {
+		"message": "Управление загрузками",
+		"description": "Permission popup title for downloads"
+	},
+	"permissionDownloadsDesc": {
+		"message": "Чтобы сохранять изображения, FlowMouse нужен доступ к загрузкам.",
+		"description": "Permission popup description for downloads"
+	},
+	"permissionDownloadsPageCaptureTitle": {
+		"message": "Сохранить изображение",
+		"description": "Permission popup title for downloads and page capture"
+	},
+	"permissionDownloadsPageCaptureDesc": {
+		"message": "Чтобы сохранять изображения, FlowMouse нужен доступ к страницам и загрузкам.",
+		"description": "Permission popup description for downloads and page capture"
+	},
+	"grantPermission": {
+		"message": "Предоставить разрешение",
+		"description": "Grant permission button"
+	},
+	"grantPermissionCancel": {
+		"message": "Отмена",
+		"description": "Cancel button"
+	},
+	"permissionTitle": {
+		"message": "Разрешение FlowMouse",
+		"description": "Generic permission window title"
+	},
+	"tutorialPinHint": {
+		"message": "Нажмите<span class='icon-ext'></span><b>Расширения</b>, и<span class='icon-pin'></span><b>закрепить</b> FlowMouse для быстрого доступа!",
+		"description": "Hint to pin the extension in tutorial step 4. Do not add space around icon."
+	},
+	"downloadErrorHotlink": {
+		"message": "Не удалось сохранить изображение. Возможно, на сайте включена защита от хотлинкинга. Щелкните правой кнопкой мыши по изображению и выберите «Сохранить изображение как...»",
+		"description": "Toast message when image download fails due to hotlink protection"
+	},
+	"saveImageLoadError": {
+		"message": "Не удалось сохранить изображение: ошибка загрузки изображения",
+		"description": "Toast message when image fails to load before saving"
+	},
+	"saveImageTimeout": {
+		"message": "Не удалось сохранить изображение: время загрузки истекло",
+		"description": "Toast message when image loading times out"
+	}
+}

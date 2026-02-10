@@ -1,0 +1,1238 @@
+{
+	"extName": {
+		"message": "FlowMouse - Egérgesztusok",
+		"description": "Extension name"
+	},
+	"extNameShort": {
+		"message": "FlowMouse",
+		"description": "Short extension name for popup"
+	},
+	"extDescription": {
+		"message": "Nyílt forráskódú egérgesztus bővítmény, amely a magánéletre és a zökkenőmentes élményre összpontosít. Simák a gesztusok, szuper húzási támogatás, és minden adat helyben tárolódik.",
+		"description": "Extension description"
+	},
+	"appearance": {
+		"message": "Megjelenés",
+		"description": "Appearance section"
+	},
+	"theme": {
+		"message": "Téma",
+		"description": "Theme"
+	},
+	"themeDesc": {
+		"message": "Váltás világos és sötét téma között",
+		"description": "Theme description"
+	},
+	"themeDark": {
+		"message": "Sötét",
+		"description": "Dark theme"
+	},
+	"themeLight": {
+		"message": "Világos",
+		"description": "Light theme"
+	},
+	"themeAuto": {
+		"message": "Rendszer követése",
+		"description": "Auto theme - follow system"
+	},
+	"languageDesc": {
+		"message": "Nyelv kiválasztása",
+		"description": "Language description"
+	},
+	"syncStatus": {
+		"message": "Szinkronizálás állapota",
+		"description": "Sync status"
+	},
+	"syncStatusDesc": {
+		"message": "Beállítások szinkronizálása %browserName% fiókkal",
+		"description": "Sync status description"
+	},
+	"synced": {
+		"message": "Szinkronizálva",
+		"description": "Synced"
+	},
+	"author": {
+		"message": "Szerző",
+		"description": "Author"
+	},
+	"privacyNote": {
+		"message": "🔒 Helyben fut, nincs hálózati hozzáférés kivéve a szinkronizálást, nincs adatgyűjtés",
+		"description": "Privacy note in footer"
+	},
+	"supportUsText": {
+		"message": "Tetszik a FlowMouse? Kérlek, adj nekünk egy 5 csillagos értékelést az %appStoreInfo%, hogy támogass minket!",
+		"description": "Rating text"
+	},
+	"storeNameChrome": {
+		"message": "Chrome Internetes áruház",
+		"description": "Chrome Web Store name"
+	},
+	"storeNameEdge": {
+		"message": "Edge-bővítmények",
+		"description": "Edge Add-ons name"
+	},
+	"storeNameFirefox": {
+		"message": "Firefox kiegészítők",
+		"description": "Firefox Add-ons name"
+	},
+	"feedbackText": {
+		"message": "Problémái vagy javaslatai vannak? Kérjük, jelentse <a href='mailto:Service@52pojie.cn'>E-mailben</a>, <a href='https://github.com/Hmily-LCG/FlowMouse/issues' target='_blank'>GitHubon</a> vagy a <a href='https://www.52pojie.cn/thread-2080303-1-1.html' target='_blank'>Fórumon</a>. A lehető leghamarabb javítjuk!",
+		"description": "Feedback text"
+	},
+	"supportAndFeedback": {
+		"message": "Támogatás és visszajelzés",
+		"description": "Support and Feedback section title"
+	},
+	"feedbackTitle": {
+		"message": "Visszajelzés és javaslatok",
+		"description": "Feedback row title"
+	},
+	"supportUsTitle": {
+		"message": "Támogass minket",
+		"description": "Rating row title"
+	},
+	"backToSettings": {
+		"message": "Vissza a beállításokhoz",
+		"description": "Back to settings link"
+	},
+	"settings": {
+		"message": "Beállítások",
+		"description": "Settings"
+	},
+	"moreSettings": {
+		"message": "További beállítások",
+		"description": "More settings button in popup"
+	},
+	"version": {
+		"message": "Verzió",
+		"description": "Version"
+	},
+	"basicSettings": {
+		"message": "Gesztus beállítások",
+		"description": "Gesture settings section"
+	},
+	"enableGesture": {
+		"message": "Gesztusok engedélyezése",
+		"description": "Enable gesture feature"
+	},
+	"enableGestureDesc": {
+		"message": "Tartsd lenyomva a jobb egérgombot és mozgasd az egeret a gesztusok egyszerű végrehajtásához",
+		"description": "Hold the right mouse button and move the mouse to easily perform gestures"
+	},
+	"macLinuxContextMenuNotice": {
+		"message": "⚠️ Rendszerkorlátozások miatt macOS / Linux alatt gyors dupla jobb kattintás szükséges a helyi menü megnyitásához.",
+		"description": "Notice for macOS / Linux users about double right-click for context menu"
+	},
+	"macTextDragNotice": {
+		"message": "⚠️ A macOS viselkedése miatt szöveg húzásakor először jelöld ki a szöveget, majd nyomd le és tartsd lenyomva rövid ideig a bal gombot, mielőtt húznád. Ellenkező esetben a keresés nem indul el.",
+		"description": "Notice for macOS users about text drag behavior"
+	},
+	"showTrail": {
+		"message": "Gesztus nyomvonalának megjelenítése",
+		"description": "Show gesture trail"
+	},
+	"showTrailDesc": {
+		"message": "Nyomvonal megjelenítése gesztusok végrehajtásakor",
+		"description": "Show trail line when performing gestures"
+	},
+	"showHint": {
+		"message": "Művelet tipp megjelenítése",
+		"description": "Show action hint"
+	},
+	"showHintDesc": {
+		"message": "Az aktuális gesztus műveletének megjelenítése a képernyő közepén",
+		"description": "Show current gesture action in center of screen"
+	},
+	"color": {
+		"message": "Szín",
+		"description": "Color"
+	},
+	"width": {
+		"message": "Vastagság",
+		"description": "Width/thickness"
+	},
+	"background": {
+		"message": "Háttér",
+		"description": "Background"
+	},
+	"opacity": {
+		"message": "Átlátszatanság",
+		"description": "Opacity"
+	},
+	"text": {
+		"message": "Szöveg",
+		"description": "Text"
+	},
+	"scrollAmount": {
+		"message": "Görgetési távolság",
+		"description": "Scroll amount"
+	},
+	"scrollAmountDesc": {
+		"message": "Görgetési távolság fel/le gesztusokhoz (% az ablak magasságából)",
+		"description": "Scroll distance for up/down gestures"
+	},
+	"scrollSmoothness": {
+		"message": "Görgetés simasága",
+		"description": "Scroll smoothness"
+	},
+	"scrollSmoothnessDesc": {
+		"message": "Görgetési animáció hatása fel/le gesztusokhoz",
+		"description": "Scroll smoothness description"
+	},
+	"smoothnessSystem": {
+		"message": "Rendszer (Nagy teljesítmény)",
+		"description": "System scroll smoothness"
+	},
+	"smoothnessCustom": {
+		"message": "Sima",
+		"description": "Custom smooth scrolling"
+	},
+	"smoothnessNone": {
+		"message": "Nincs animáció",
+		"description": "No scroll animation"
+	},
+	"dragFeatures": {
+		"message": "Húzási funkciók",
+		"description": "Drag features section"
+	},
+	"textDragSearch": {
+		"message": "Szöveg húzás",
+		"description": "Text drag"
+	},
+	"textDragSearchDesc": {
+		"message": "Kijelölt szöveg húzása kereséshez",
+		"description": "Drag selected text to search"
+	},
+	"searchEngine": {
+		"message": "Keresőmotor",
+		"description": "Search engine"
+	},
+	"custom": {
+		"message": "Egyéni",
+		"description": "Custom"
+	},
+	"customUrlPlaceholder": {
+		"message": "Egyéni URL, használd a %s-t a keresési kifejezés helyett",
+		"description": "Custom URL placeholder"
+	},
+	"urlPlaceholderText": {
+		"message": "%s=Kulcsszó",
+		"description": "Placeholder for text drag custom URL"
+	},
+	"urlPlaceholderImage": {
+		"message": "%s=Kép URL",
+		"description": "Placeholder for image drag custom URL"
+	},
+	"searchEngine_baidu": {
+		"message": "Baidu",
+		"description": "Baidu search engine"
+	},
+	"searchEngine_360": {
+		"message": "360 Search",
+		"description": "360 search engine"
+	},
+	"searchEngine_yandex": {
+		"message": "Yandex",
+		"description": "Yandex search engine"
+	},
+	"searchEngine_system": {
+		"message": "Böngésző alapértelmezett",
+		"description": "System default search engine"
+	},
+	"imageDrag": {
+		"message": "Kép húzás",
+		"description": "Image drag"
+	},
+	"imageDragDesc": {
+		"message": "Kép húzása új lapon való megnyitáshoz",
+		"description": "Drag image to open in new tab"
+	},
+	"linkDrag": {
+		"message": "Link húzás",
+		"description": "Link drag"
+	},
+	"linkDragDesc": {
+		"message": "Link húzása új lapon való megnyitáshoz",
+		"description": "Drag link to open in new tab"
+	},
+	"enableCustomGestures": {
+		"message": "Egyéni gesztusok",
+		"description": "Enable custom gestures"
+	},
+	"enableCustomGesturesDesc": {
+		"message": "Tekintsd meg és szabd testre az egyes gesztusok műveleteit",
+		"description": "View and customize each gesture action"
+	},
+	"gestureAutoSaveHint": {
+		"message": "Tipp: A módosítások automatikusan mentésre kerülnek.",
+		"description": "Hint about auto-save"
+	},
+	"blacklist": {
+		"message": "Weboldal feketelista",
+		"description": "Website blacklist"
+	},
+	"blacklistPlaceholder": {
+		"message": "Írj be egy domaint, pl. example.com, majd nyomj Entert a hozzáadáshoz",
+		"description": "Blacklist input placeholder"
+	},
+	"add": {
+		"message": "Hozzáadás",
+		"description": "Add button"
+	},
+	"emptyBlacklist": {
+		"message": "Nincs feketelistás oldal. Írj be egy domaint fent a hozzáadáshoz.",
+		"description": "Empty blacklist message"
+	},
+	"dataManagement": {
+		"message": "Adatkezelés",
+		"description": "Data management section"
+	},
+	"export": {
+		"message": "Exportálás",
+		"description": "Export settings"
+	},
+	"import": {
+		"message": "Importálás",
+		"description": "Import settings"
+	},
+	"reset": {
+		"message": "Visszaállítás",
+		"description": "Reset to default"
+	},
+	"autoSaved": {
+		"message": "✓ Automatikusan mentve",
+		"description": "Auto-saved message"
+	},
+	"saveFailure": {
+		"message": "Mentés sikertelen",
+		"description": "Save failure message"
+	},
+	"resetConfirm": {
+		"message": "Biztosan vissza akarod állítani az összes beállítást alapértelmezettre?",
+		"description": "Reset confirmation"
+	},
+	"resetDone": {
+		"message": "Beállítások visszaállítva alapértelmezettre",
+		"description": "Reset done message"
+	},
+	"exportDone": {
+		"message": "Beállítások exportálva",
+		"description": "Export done message"
+	},
+	"importDone": {
+		"message": "Beállítások importálva",
+		"description": "Import done message"
+	},
+	"importFailed": {
+		"message": "Importálás sikertelen: Érvénytelen konfigurációs fájl",
+		"description": "Import failed message"
+	},
+	"importFailedSyncError": {
+		"message": "Importálás sikertelen: Szinkronizálási hiba, kérjük, ellenőrizze a böngésző állapotát",
+		"description": "Import failed sync error message"
+	},
+	"invalidDomain": {
+		"message": "Kérlek, adj meg egy érvényes domaint",
+		"description": "Invalid domain message"
+	},
+	"domainExists": {
+		"message": "A domain már a feketelistán van",
+		"description": "Domain already in blacklist"
+	},
+	"about": {
+		"message": "Névjegy",
+		"description": "About section"
+	},
+	"language": {
+		"message": "Nyelv",
+		"description": "Language"
+	},
+	"languageAuto": {
+		"message": "Rendszer követése",
+		"description": "Follow system language"
+	},
+	"privacyFriendly": {
+		"message": "Adatvédelmi barát",
+		"description": "Privacy friendly"
+	},
+	"localOnly": {
+		"message": "Csak helyi",
+		"description": "Local only"
+	},
+	"autoSave": {
+		"message": "Automatikus mentés",
+		"description": "Auto save"
+	},
+	"gestureDesc_L": {
+		"message": "Balra",
+		"description": "Gesture description for ←"
+	},
+	"gestureDesc_R": {
+		"message": "Jobbra",
+		"description": "Gesture description for →"
+	},
+	"gestureDesc_U": {
+		"message": "Fel",
+		"description": "Gesture description for ↑"
+	},
+	"gestureDesc_D": {
+		"message": "Le",
+		"description": "Gesture description for ↓"
+	},
+	"gestureDesc_DR": {
+		"message": "Le majd Jobbra",
+		"description": "Gesture description for ↓→"
+	},
+	"gestureDesc_LU": {
+		"message": "Balra majd Fel",
+		"description": "Gesture description for ←↑"
+	},
+	"gestureDesc_RU": {
+		"message": "Jobbra majd Fel",
+		"description": "Gesture description for →↑"
+	},
+	"gestureDesc_RD": {
+		"message": "Jobbra majd Le",
+		"description": "Gesture description for →↓"
+	},
+	"gestureDesc_UL": {
+		"message": "Fel majd Balra",
+		"description": "Gesture description for ↑←"
+	},
+	"gestureDesc_UR": {
+		"message": "Fel majd Jobbra",
+		"description": "Gesture description for ↑→"
+	},
+	"gestureDesc_DL": {
+		"message": "Le majd Balra",
+		"description": "Gesture description for ↓←"
+	},
+	"gestureDesc_LD": {
+		"message": "Balra majd Le",
+		"description": "Gesture description for ←↓"
+	},
+	"gestureDesc_UD": {
+		"message": "Fel majd Le",
+		"description": "Gesture description for ↑↓"
+	},
+	"gestureDesc_DU": {
+		"message": "Le majd Fel",
+		"description": "Gesture description for ↓↑"
+	},
+	"gestureDesc_LR": {
+		"message": "Balra majd Jobbra",
+		"description": "Gesture description for ←→"
+	},
+	"gestureDesc_RL": {
+		"message": "Jobbra majd Balra",
+		"description": "Gesture description for →←"
+	},
+	"actionNone": {
+		"message": "Nincs művelet",
+		"description": "No action"
+	},
+	"actionBack": {
+		"message": "Vissza",
+		"description": "Go back"
+	},
+	"actionForward": {
+		"message": "Előre",
+		"description": "Go forward"
+	},
+	"actionScrollUp": {
+		"message": "Görgetés fel",
+		"description": "Scroll up"
+	},
+	"actionScrollDown": {
+		"message": "Görgetés le",
+		"description": "Scroll down"
+	},
+	"actionScrollToTop": {
+		"message": "Görgetés a tetejére",
+		"description": "Scroll to top"
+	},
+	"actionScrollToBottom": {
+		"message": "Görgetés az aljára",
+		"description": "Scroll to bottom"
+	},
+	"actionCloseTab": {
+		"message": "Lap bezárása",
+		"description": "Close tab"
+	},
+	"actionCloseTabKeepWindow": {
+		"message": "Lap bezárása (Ablak megtartása)",
+		"description": "Close tab but keep window open"
+	},
+	"actionCloseBrowser": {
+		"message": "Böngésző bezárása",
+		"description": "Close browser"
+	},
+	"actionRestoreTab": {
+		"message": "Bezárt lap visszaállítása",
+		"description": "Restore closed tab"
+	},
+	"actionNewTab": {
+		"message": "Új lap",
+		"description": "New tab"
+	},
+	"actionCloseOtherTabs": {
+		"message": "Más lapok bezárása",
+		"description": "Close other tabs"
+	},
+	"actionCloseLeftTabs": {
+		"message": "Bal oldali lapok bezárása",
+		"description": "Close tabs to the left"
+	},
+	"actionCloseRightTabs": {
+		"message": "Jobb oldali lapok bezárása",
+		"description": "Close tabs to the right"
+	},
+	"actionCloseAllTabs": {
+		"message": "Minden lap bezárása",
+		"description": "Close all tabs"
+	},
+	"actionSwitchLeftTab": {
+		"message": "Váltás a bal oldali lapra",
+		"description": "Switch to left tab"
+	},
+	"actionSwitchRightTab": {
+		"message": "Váltás a jobb oldali lapra",
+		"description": "Switch to right tab"
+	},
+	"actionRefresh": {
+		"message": "Jelenlegi lap frissítése",
+		"description": "Refresh current tab"
+	},
+	"actionRefreshAllTabs": {
+		"message": "Minden lap frissítése",
+		"description": "Refresh all tabs"
+	},
+	"actionStopLoading": {
+		"message": "Betöltés leállítása",
+		"description": "Stop loading"
+	},
+	"actionNewWindow": {
+		"message": "Új ablak",
+		"description": "New window"
+	},
+	"actionNewIncognito": {
+		"message": "Új inkognító ablak",
+		"description": "New incognito window"
+	},
+	"actionAddToBookmarks": {
+		"message": "Hozzáadás a könyvjelzőkhöz",
+		"description": "Add to bookmarks"
+	},
+	"actionToggleFullscreen": {
+		"message": "Teljes képernyő váltása",
+		"description": "Toggle fullscreen"
+	},
+	"actionToggleMaximize": {
+		"message": "Maximalizálás/Visszaállítás váltása",
+		"description": "Toggle window maximize"
+	},
+	"actionMinimize": {
+		"message": "Ablak minimalizálása",
+		"description": "Minimize window"
+	},
+	"actionOpenCustomUrl": {
+		"message": "Egyéni URL megnyitása",
+		"description": "Open custom URL"
+	},
+	"actionCopyUrl": {
+		"message": "Jelenlegi URL másolása",
+		"description": "Copy current URL"
+	},
+	"actionCopyTitle": {
+		"message": "Oldal címének másolása",
+		"description": "Copy page title"
+	},
+	"actionOpenDownloads": {
+		"message": "Letöltések megnyitása",
+		"description": "Open downloads page"
+	},
+	"actionOpenHistory": {
+		"message": "Előzmények megnyitása",
+		"description": "Open history page"
+	},
+	"actionOpenExtensions": {
+		"message": "Bővítmények megnyitása",
+		"description": "Open extensions page"
+	},
+	"actionPrintPage": {
+		"message": "Oldal nyomtatása",
+		"description": "Print page"
+	},
+	"actionDuplicateTab": {
+		"message": "Lap duplikálása",
+		"description": "Duplicate current tab"
+	},
+	"actionToggleMuteTab": {
+		"message": "Lap némítása/némítás feloldása",
+		"description": "Toggle mute current tab"
+	},
+	"actionToggleMuteAllTabs": {
+		"message": "Minden lap némítása/némítás feloldása",
+		"description": "Toggle mute all tabs"
+	},
+	"showTrailOrigin": {
+		"message": "Kezdőpont megjelenítése",
+		"description": "Show trail origin point"
+	},
+	"enableTrailSmooth": {
+		"message": "Nyomvonal simítása",
+		"description": "Enable trail smoothing for gesture visualization"
+	},
+	"distanceThreshold": {
+		"message": "Gesztusfelismerési távolság",
+		"description": "Gesture recognition distance"
+	},
+	"distanceThresholdDesc": {
+		"message": "Minimális mozgási távolság egy gesztus felismeréséhez",
+		"description": "Description for gesture recognition distance"
+	},
+	"distanceThresholdNotice": {
+		"message": "Tipp: A legjobb felismerés érdekében 15-30 közötti érték javasolt.",
+		"description": "Warning when distance threshold is too small or too large"
+	},
+	"enableAdvancedSettings": {
+		"message": "Speciális beállítások",
+		"description": "Enable advanced settings"
+	},
+	"enableAdvancedSettingsDesc": {
+		"message": "További speciális beállítások megjelenítése",
+		"description": "Show more advanced options when enabled"
+	},
+	"enableAdvancedSettingsToggle": {
+		"message": "Speciális beállítások mód",
+		"description": "Enable advanced settings toggle label"
+	},
+	"urlFormatError": {
+		"message": "Kérlek, add meg a teljes URL-t http:// vagy https:// kezdettel",
+		"description": "URL format error message"
+	},
+	"resetToDefault": {
+		"message": "Visszaállítás alapértelmezettre",
+		"description": "Reset gesture to default action"
+	},
+	"addCustomGesture": {
+		"message": "Egyéni gesztus hozzáadása",
+		"description": "Add custom gesture section title"
+	},
+	"gesturePattern": {
+		"message": "Minta",
+		"description": "Gesture pattern label"
+	},
+	"selectAction": {
+		"message": "Művelet kiválasztása",
+		"description": "Select action label"
+	},
+	"clear": {
+		"message": "Törlés",
+		"description": "Clear button"
+	},
+	"addGesture": {
+		"message": "Gesztus hozzáadása",
+		"description": "Add gesture button"
+	},
+	"pleaseDrawGesture": {
+		"message": "Kérlek, először rajzolj egy gesztust",
+		"description": "Alert when no gesture drawn"
+	},
+	"gestureAdded": {
+		"message": "✓ Gesztus hozzáadva",
+		"description": "Gesture added success message"
+	},
+	"gestureDrawInstructions": {
+		"message": "Tartsd lenyomva a jobb egérgombot és rajzolj egy gesztust lent, majd engedd fel a befejezéshez. Támogatott irányok:",
+		"description": "Instructions for gesture drawing"
+	},
+	"gestureOverwriteConfirm": {
+		"message": "A(z) %pattern% gesztus már létezik. Felülírod?",
+		"description": "Confirmation message when adding a duplicate gesture"
+	},
+	"customGesture": {
+		"message": "Egyéni",
+		"description": "Label for custom gestures"
+	},
+	"deleteGesture": {
+		"message": "Gesztus törlése",
+		"description": "Delete gesture button tooltip"
+	},
+	"deleteGestureConfirm": {
+		"message": "Törlöd a(z) %pattern% gesztust?",
+		"description": "Delete gesture confirmation"
+	},
+	"gestureDeleted": {
+		"message": "✓ Gesztus törölve",
+		"description": "Gesture deleted success message"
+	},
+	"enterCustomUrl": {
+		"message": "Írd be az URL-t (javasolt a protokoll megadása, pl. https://, chrome:// stb.):",
+		"description": "Prompt for custom URL input"
+	},
+	"invalidUrl": {
+		"message": "Kérlek, adj meg egy érvényes URL-t (http:// vagy https:// kezdettel)",
+		"description": "Invalid URL error message"
+	},
+	"popupTrail": {
+		"message": "Gesztus nyomvonal",
+		"description": "Gesture trail in popup"
+	},
+	"popupHint": {
+		"message": "Művelet tipp",
+		"description": "Action hint in popup"
+	},
+	"popupCommonGestures": {
+		"message": "Gyakori gesztusok",
+		"description": "Common gestures"
+	},
+	"popupCurrentSite": {
+		"message": "Jelenlegi oldal",
+		"description": "Current site"
+	},
+	"popupRestricted": {
+		"message": "Korlátozott oldal",
+		"description": "Restricted page"
+	},
+	"popupDisabled": {
+		"message": "Letiltva",
+		"description": "Disabled"
+	},
+	"popupAddBlacklist": {
+		"message": "Hozzáadás a feketelistához",
+		"description": "Add to blacklist"
+	},
+	"popupRemoveBlacklist": {
+		"message": "Eltávolítás a feketelistáról",
+		"description": "Remove from blacklist"
+	},
+	"popupNotAvailable": {
+		"message": "Nem elérhető",
+		"description": "Not available"
+	},
+	"popupBack": {
+		"message": "Vissza",
+		"description": "Back - short"
+	},
+	"popupForward": {
+		"message": "Előre",
+		"description": "Forward - short"
+	},
+	"popupScrollUp": {
+		"message": "Fel",
+		"description": "Scroll up - short"
+	},
+	"popupScrollDown": {
+		"message": "Le",
+		"description": "Scroll down - short"
+	},
+	"popupClose": {
+		"message": "Bezár",
+		"description": "Close Tab - short"
+	},
+	"popupRestore": {
+		"message": "Visszaállít",
+		"description": "Restore Tab - short"
+	},
+	"dragSearchText": {
+		"message": "🔍 Keresés húzással",
+		"description": "Drag search hint"
+	},
+	"dragOpenImage": {
+		"message": "🖼️ Kép megnyitása",
+		"description": "Drag open image hint"
+	},
+	"dragOpenLink": {
+		"message": "🔗 Link megnyitása",
+		"description": "Drag open link hint"
+	},
+	"aboutTitle": {
+		"message": "A FlowMouse-ról",
+		"description": "About title"
+	},
+	"aboutAuthor": {
+		"message": "Szerző",
+		"description": "Author"
+	},
+	"aboutWebsite": {
+		"message": "Weboldal",
+		"description": "Website"
+	},
+	"aboutOpenSource": {
+		"message": "GitHub",
+		"description": "GitHub link"
+	},
+	"aboutEmail": {
+		"message": "Email",
+		"description": "Email"
+	},
+	"aboutPrivacy": {
+		"message": "Adatvédelmi nyilatkozat",
+		"description": "Privacy statement"
+	},
+	"aboutPrivacyText": {
+		"message": "Ez a bővítmény egy nyílt forráskódú projekt, a kód a GitHub-on található. A hozzájárulásokat és a kód áttekintését szívesen látjuk. Minden adatfeldolgozás helyben történik az eszközödön. A bővítmény maga nem létesít hálózati kapcsolatot és nincsenek háttérszerverei, így nem gyűjt és nem tölt fel felhasználói adatokat külső szerverekre. A mentett beállításaid titkosítva szinkronizálódnak a bejelentkezett eszközeid között a %browserName% böngésző beépített szinkronizálási szolgáltatásán keresztül. Ezt a folyamatot teljes mértékben a böngésző vezérli, és a böngésződ adatvédelmi és szinkronizálási beállításait követi.",
+		"description": "Privacy statement text"
+	},
+	"aboutCredits": {
+		"message": "Köszönetnyilvánítás",
+		"description": "Credits"
+	},
+	"aboutCreditsText": {
+		"message": "Köszönet a Microsoft Edge böngészőnek és a crxMouse bővítménynek a tervezési inspirációért.\nKöszönet a 52pojie.cn közösségnek és a felhasználóknak a visszajelzésekért és javaslatokért!",
+		"description": "Credits text"
+	},
+	"aboutFeatures": {
+		"message": "Jellemzők",
+		"description": "Features"
+	},
+	"aboutFeature1": {
+		"message": "🎯 16 Alapértelmezett gesztus + Egyéni gesztusok",
+		"description": "Feature 1"
+	},
+	"aboutFeature2": {
+		"message": "🎨 Vizuális nyomvonal visszajelzés",
+		"description": "Feature 2"
+	},
+	"aboutFeature3": {
+		"message": "🔍 Szöveg/Kép/Link Super Drag",
+		"description": "Feature 3"
+	},
+	"aboutFeature4": {
+		"message": "🚫 Weboldal feketelista",
+		"description": "Feature 4"
+	},
+	"aboutFeature5": {
+		"message": "☁️ %browserName% fiók szinkronizálás",
+		"description": "Feature 5"
+	},
+	"aboutFeature6": {
+		"message": "🔒 Helyben fut, nincs hálózat kivéve szinkronizálás",
+		"description": "Feature 6"
+	},
+	"tutorial": {
+		"message": "Oktatóanyag",
+		"description": "Tutorial link"
+	},
+	"learnMore": {
+		"message": "Tudj meg többet",
+		"description": "Learn more link"
+	},
+	"badgeNoNetwork": {
+		"message": "🔒 Nincs hálózat kivéve szinkronizálás",
+		"description": "No network privacy badge"
+	},
+	"badgeNoData": {
+		"message": "🚫 Nincs adatgyűjtés",
+		"description": "No data collection badge"
+	},
+	"badgeLocalRun": {
+		"message": "✅ Helyben fut",
+		"description": "Local run badge"
+	},
+	"newTabSettings": {
+		"message": "Új lap beállítások",
+		"description": "New tab open settings"
+	},
+	"newTabPosition": {
+		"message": "Pozíció",
+		"description": "New tab position"
+	},
+	"tabPositionRight": {
+		"message": "Jelenlegi laptól jobbra",
+		"description": "Right of current tab"
+	},
+	"tabPositionLeft": {
+		"message": "Jelenlegi laptól balra",
+		"description": "Left of current tab"
+	},
+	"tabPositionFirst": {
+		"message": "Első lap (balszélső)",
+		"description": "First tab (leftmost)"
+	},
+	"tabPositionLast": {
+		"message": "Utolsó lap (jobbszélső)",
+		"description": "Last tab (rightmost)"
+	},
+	"tabPositionCurrent": {
+		"message": "Jelenlegi lap",
+		"description": "Open in current tab"
+	},
+	"newTabActive": {
+		"message": "Megnyitás előtérben",
+		"description": "Open tab in foreground"
+	},
+	"textDragGestures": {
+		"message": "Szöveg húzási gesztusok",
+		"description": "Text drag gestures"
+	},
+	"linkDragGestures": {
+		"message": "Link húzási gesztusok",
+		"description": "Link drag gestures"
+	},
+	"imageDragGestures": {
+		"message": "Kép húzási gesztusok",
+		"description": "Image drag gestures"
+	},
+	"direction": {
+		"message": "Irány",
+		"description": "Direction column header"
+	},
+	"action": {
+		"message": "Művelet",
+		"description": "Action column header"
+	},
+	"imageSearchUrl": {
+		"message": "Képkereső URL (%s = kép URL)",
+		"description": "Image search URL input"
+	},
+	"dragActionNone": {
+		"message": "Nincs",
+		"description": "No action"
+	},
+	"dragActionSearch": {
+		"message": "🔍 Keresőmotor",
+		"description": "Search action"
+	},
+	"dragActionCopy": {
+		"message": "📋 Másolás",
+		"description": "Copy action"
+	},
+	"dragActionOpenTab": {
+		"message": "📑 Megnyitás új lapon",
+		"description": "Open in new tab"
+	},
+	"dragActionOpenTabLink": {
+		"message": "🔗 Link megnyitása",
+		"description": "Open link in new tab"
+	},
+	"dragActionOpenTabImage": {
+		"message": "🖼️ Kép megnyitása",
+		"description": "Open image in new tab"
+	},
+	"dragActionCopyLink": {
+		"message": "📋 Link másolása",
+		"description": "Copy link"
+	},
+	"dragActionSaveImage": {
+		"message": "💾 Kép mentése",
+		"description": "Save image"
+	},
+	"dragActionCopyImage": {
+		"message": "🖼️ Kép másolása",
+		"description": "Copy image"
+	},
+	"dragActionCopyImageUrl": {
+		"message": "📋 Kép URL másolása",
+		"description": "Copy image URL"
+	},
+	"dragActionImageSearch": {
+		"message": "🔍 Képkeresés",
+		"description": "Image search"
+	},
+	"dragActionCustomSearch": {
+		"message": "🔍 Egyéni keresés",
+		"description": "Custom search"
+	},
+	"reducedMotionWarning": {
+		"message": "⚠️ A %OS% rendszeranimáció le van tiltva, a görgetési animáció nem biztos, hogy megfelelően működik. Engedélyezheted az animációt a %OS% rendszerbeállításaiban.",
+		"description": "Warning message when system reduced motion is enabled"
+	},
+	"autoDetectUrl": {
+		"message": "URL automatikus észlelése",
+		"description": "Auto detect URL checkbox label"
+	},
+	"preferLink": {
+		"message": "Link előnyben részesítése",
+		"description": "Prefer link checkbox label"
+	},
+	"menuNeedRefresh": {
+		"message": "A FlowMouse nem töltődött be, kattints a frissítéshez",
+		"description": "Context menu title for pages needing refresh"
+	},
+	"menuRestricted": {
+		"message": "A FlowMouse nem elérhető, tudj meg többet",
+		"description": "Context menu title for restricted pages"
+	},
+	"showRestrictedNotice": {
+		"message": "Korlátozott oldal értesítő",
+		"description": "Setting title for restricted page notice"
+	},
+	"showRestrictedNoticeDesc": {
+		"message": "Helyi menü értesítő megjelenítése azokon az oldalakon, ahol a gesztusok nem elérhetők",
+		"description": "Setting description for restricted page notice"
+	},
+	"restrictedPagesDetailsTitle": {
+		"message": "⚠️ A böngésző biztonsági irányelvei miatt a bővítmények nem futhatnak bizonyos típusú oldalakon.",
+		"description": "Collapsible details title"
+	},
+	"showMoreHint": {
+		"message": " (Részletek mutatása)",
+		"description": "Hint to show more details"
+	},
+	"restrictedNewTab": {
+		"message": "Új lap oldal (chrome://newtab)",
+		"description": "New tab page title"
+	},
+	"restrictedNewTabDesc": {
+		"message": "A böngésző alapértelmezett új lap oldala védett rendszeroldal. A bővítmények nem futtathatnak szkripteket és nem módosíthatják a tartalmat itt.",
+		"description": "New tab page description"
+	},
+	"restrictedStore": {
+		"message": "Hivatalos bővítmény áruházak",
+		"description": "Store page title"
+	},
+	"restrictedStoreDesc": {
+		"message": "Például %storeInfo% stb. A böngészők megakadályozzák a bővítmények futtatását ezeken az oldalakon, hogy megvédjék az áruház normál működését.",
+		"description": "Store page description"
+	},
+	"restrictedInternal": {
+		"message": "Böngésző belső oldalak",
+		"description": "Internal page title"
+	},
+	"restrictedInternalDesc": {
+		"message": "Minden chrome:// (Chrome) vagy edge:// (Edge) kezdőbetűs oldal, beleértve a beállításokat, előzményeket, letöltéseket stb. Ezek az oldalak alapvető böngészőfunkciókat és felhasználói adatvédelmi adatokat érintenek, ezért szigorúan védettek.",
+		"description": "Internal page description"
+	},
+	"restrictedFile": {
+		"message": "Helyi fájl oldalak (file://)",
+		"description": "File page title"
+	},
+	"restrictedFileDesc": {
+		"message": "file:// protokollon keresztül megnyitott helyi HTML fájlok. Biztonsági korlátozások miatt (megakadályozandó, hogy rosszindulatú bővítmények hozzáférjenek a helyi fájlrendszerhez), a bővítmények nem működhetnek ezeken az oldalakon.",
+		"description": "File page description"
+	},
+	"restrictedViewSource": {
+		"message": "Forráskód megtekintése oldalak (view-source:)",
+		"description": "View source page title"
+	},
+	"restrictedViewSourceDesc": {
+		"message": "A böngésző forráskód-megtekintője szintén védett rendszeroldal. A bővítmények itt nem futhatnak.",
+		"description": "View source page description"
+	},
+	"restrictedOther": {
+		"message": "Egyéb kevésbé gyakori érintett oldalak nincsenek külön felsorolva.",
+		"description": "Other restricted pages note"
+	},
+	"popupNeedRefresh": {
+		"message": "Bővítmény nem töltődött be",
+		"description": "Popup title when content script not loaded"
+	},
+	"popupNeedRefreshDesc": {
+		"message": "Ez az oldal a bővítmény telepítése/frissítése előtt lett megnyitva. Frissítsd az oldalt a gesztusok engedélyezéséhez.",
+		"description": "Popup description when content script not loaded"
+	},
+	"popupRefreshBtn": {
+		"message": "🔄 Oldal frissítése",
+		"description": "Popup refresh button text"
+	},
+	"popupRestrictedTitle": {
+		"message": "Gesztusok nem elérhetők",
+		"description": "Popup title for restricted pages"
+	},
+	"popupRestrictedDesc": {
+		"message": "Ez az oldal nem használhat gesztusokat a böngésző biztonsági korlátozásai miatt.",
+		"description": "Popup description for restricted pages"
+	},
+	"popupLearnMore": {
+		"message": "📖 Tudj meg többet",
+		"description": "Popup learn more button text"
+	},
+	"tutorialPending": {
+		"message": "Próbáld ki most",
+		"description": "Tutorial pending status"
+	},
+	"tutorialCompleted": {
+		"message": "Kész",
+		"description": "Tutorial completed status"
+	},
+	"tutorialClickToStart": {
+		"message": "Kattints a <span class=\"text-highlight\">Jobb egérgombbal</span> az indításhoz",
+		"description": "Tutorial Step 0 instruction"
+	},
+	"tutorialWelcomeTitle": {
+		"message": "Üdvözöl a FlowMouse",
+		"description": "Tutorial welcome title"
+	},
+	"tutorialWelcomeSubtitle": {
+		"message": "Sajátítsd el az alapokat 30 másodperc alatt a gördülékenyebb, intuitívabb böngészésért",
+		"description": "Tutorial welcome subtitle"
+	},
+	"tutorialStep1Title": {
+		"message": "Az alapok",
+		"description": "Tutorial Step 1 title"
+	},
+	"tutorialStep1Subtitle": {
+		"message": "Tanuld meg a gesztus mechanika magját",
+		"description": "Tutorial Step 1 subtitle"
+	},
+	"tutorialStep1InstructionIdle": {
+		"message": "Nyomd le és <strong>Tartsd lenyomva</strong> a <span class=\"text-highlight\">Jobb egérgombot</span>",
+		"description": "Tutorial Step 1 instruction idle"
+	},
+	"tutorialStep1InstructionPressing": {
+		"message": "<strong>Kiváló!</strong> Most húzd <strong>%arrow% Jobbra</strong>",
+		"description": "Tutorial Step 1 instruction pressing"
+	},
+	"tutorialStep1InstructionDragging": {
+		"message": "Húzd tovább...",
+		"description": "Tutorial Step 1 instruction dragging"
+	},
+	"tutorialStep1InstructionReleasing": {
+		"message": "<strong>Nagyszerű!</strong> Most engedd el!",
+		"description": "Tutorial Step 1 instruction releasing"
+	},
+	"tutorialStep2Title": {
+		"message": "FlowMouse Gesztusok",
+		"description": "Tutorial Step 2 title"
+	},
+	"tutorialStep2Subtitle": {
+		"message": "Tartsd lenyomva a <span class=\"text-highlight\">Jobb egérgombot</span> gesztusok végrehajtásához",
+		"description": "Tutorial Step 2 subtitle"
+	},
+	"tutorialStep2Footer": {
+		"message": "<strong>Több gesztus</strong> és <strong>teljes testreszabhatóság</strong> elérhető a beállításokban.",
+		"description": "Footer note for step 2 discovery banner"
+	},
+	"tutorialStep2DiscoveryHeader": {
+		"message": "Több gesztus",
+		"description": "Header for step 2 discovery banner"
+	},
+	"tutorialStep3DiscoveryHeader": {
+		"message": "Több Super Drag funkció",
+		"description": "Header for step 3 discovery banner"
+	},
+	"tutorialStep3TextSearch": {
+		"message": "Szöveg <span class=\"svg-arrow\">→</span> Keresés",
+		"description": "Text drag search discovery item"
+	},
+	"tutorialStep3LinkOpen": {
+		"message": "Link <span class=\"svg-arrow\">→</span> Megnyitás új lapon",
+		"description": "Link drag open discovery item"
+	},
+	"tutorialStep3ImageOpen": {
+		"message": "Kép <span class=\"svg-arrow\">→</span> Megnyitás új lapon",
+		"description": "Image drag open discovery item"
+	},
+	"tutorialStep3Footer": {
+		"message": "<strong>Több húzási művelet</strong> és <strong>teljes testreszabhatóság</strong> elérhető a speciális beállítások módban",
+		"description": "Footer for step 3 discovery banner"
+	},
+	"tutorialContinue": {
+		"message": "Folytatás",
+		"description": "Tutorial continue button"
+	},
+	"tutorialStep3Title": {
+		"message": "Super Drag",
+		"description": "Tutorial Step 3 title"
+	},
+	"tutorialStep3Subtitle": {
+		"message": "Tartsd lenyomva a <span class=\"text-highlight\">Bal egérgombot</span> és húzd <span class=\"svg-arrow\">→</span> a gyors műveletek végrehajtásához",
+		"description": "Tutorial Step 3 subtitle"
+	},
+	"tutorialStep3HintTitle": {
+		"message": "Szövegkijelölés keresés",
+		"description": "Tutorial Step 3 hint title"
+	},
+	"tutorialStep3HintDesc": {
+		"message": "Jelöld ki a szöveget, majd használd a <span class=\"text-highlight\">Bal egérgombot</span> a húzáshoz <span class=\"svg-arrow\">→</span> a kereséshez",
+		"description": "Tutorial Step 3 hint description. Note: Must drag to right. Use SVG arrow instead of text for direction."
+	},
+	"tutorialStep3TextBoxLabel": {
+		"message": "Próbáld ki az alábbi szöveggel!",
+		"description": "Tutorial Step 3 text box label"
+	},
+	"tutorialStep3SelectableText": {
+		"message": "FlowMouse Super Drag",
+		"description": "Tutorial Step 3 selectable text"
+	},
+	"tutorialStep4Title": {
+		"message": "Gratulálunk!",
+		"description": "Tutorial Step 4 title"
+	},
+	"tutorialStep4Subtitle": {
+		"message": "Most már áramlásban vagy.",
+		"description": "Tutorial Step 4 subtitle"
+	},
+	"tutorialStep4Instruction": {
+		"message": "Használd a <span class=\"text-highlight\">Super Draget <span class=\"svg-arrow\">→</span></span> ezen a linken a <span class=\"text-highlight\">Új lapon</span> való megnyitáshoz",
+		"description": "Tutorial Step 4 instruction. Note: Must drag to right. Use SVG arrow instead of text for direction."
+	},
+	"tutorialSettingsLink": {
+		"message": "FlowMouse beállítások",
+		"description": "Tutorial settings link"
+	},
+	"tutorialSettingsHint": {
+		"message": "Rengeteg erőteljes funkció vár felfedezésre!",
+		"description": "Tutorial settings hint"
+	},
+	"tutorialWrongDirection": {
+		"message": "Rossz irány! Húzd %arrow% Jobbra",
+		"description": "Tutorial wrong direction error"
+	},
+	"tutorialEarlyRelease": {
+		"message": "Túl korán engedted el! Húzd tovább.",
+		"description": "Tutorial early release error"
+	},
+	"tutorialDragWrongButton": {
+		"message": "Használd a <span class=\"text-highlight\">Bal egérgombot</span> a húzáshoz",
+		"description": "Tutorial drag wrong button error"
+	},
+	"tutorialRefreshTip": {
+		"message": "Tipp: A telepítés előtt megnyitott lapokat <span class=\"text-highlight\">frissíteni</span> kell a FlowMouse használatához",
+		"description": "Tip about refreshing tabs"
+	},
+	"permissionBookmarksTitle": {
+		"message": "Könyvjelzők kezelése",
+		"description": "Permission popup title for bookmarks"
+	},
+	"permissionBookmarksDesc": {
+		"message": "Az oldalak könyvjelzőkhöz adásához a FlowMouse hozzáférést igényel a könyvjelzőidhez.",
+		"description": "Permission popup description for bookmarks"
+	},
+	"permissionDownloadsTitle": {
+		"message": "Letöltések kezelése",
+		"description": "Permission popup title for downloads"
+	},
+	"permissionDownloadsDesc": {
+		"message": "Képek mentéséhez a FlowMouse hozzáférést igényel a letöltéseidhez.",
+		"description": "Permission popup description for downloads"
+	},
+	"permissionDownloadsPageCaptureTitle": {
+		"message": "Kép mentése",
+		"description": "Permission popup title for downloads and page capture"
+	},
+	"permissionDownloadsPageCaptureDesc": {
+		"message": "Képek mentéséhez a FlowMouse hozzáférést igényel az oldalakhoz és a letöltéseidhez.",
+		"description": "Permission popup description for downloads and page capture"
+	},
+	"grantPermission": {
+		"message": "Engedély megadása",
+		"description": "Grant permission button"
+	},
+	"grantPermissionCancel": {
+		"message": "Mégse",
+		"description": "Cancel button"
+	},
+	"permissionTitle": {
+		"message": "FlowMouse Engedély",
+		"description": "Generic permission window title"
+	},
+	"tutorialPinHint": {
+		"message": "Kattints a<span class='icon-ext'></span><b>Bővítmények</b> gombra, és<span class='icon-pin'></span><b>Rögzítsd</b> a FlowMouse-t a könnyű hozzáférésért!",
+		"description": "Hint to pin the extension in tutorial step 4. Do not add space around icon."
+	},
+	"downloadErrorHotlink": {
+		"message": "A kép mentése sikertelen. A webhely hotlink védelemmel rendelkezhet. Kattintson jobb gombbal a képre, és válassza a „Kép mentése másként...” lehetőséget",
+		"description": "Toast message when image download fails due to hotlink protection"
+	},
+	"saveImageLoadError": {
+		"message": "Kép mentése sikertelen: A kép betöltése sikertelen",
+		"description": "Toast message when image fails to load before saving"
+	},
+	"saveImageTimeout": {
+		"message": "Kép mentése sikertelen: Betöltési időtúllépés",
+		"description": "Toast message when image loading times out"
+	}
+}

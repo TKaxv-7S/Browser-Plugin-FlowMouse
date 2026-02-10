@@ -1,0 +1,1238 @@
+{
+	"extName": {
+		"message": "FlowMouse - Fare Hareketleri",
+		"description": "Extension name"
+	},
+	"extNameShort": {
+		"message": "FlowMouse",
+		"description": "Short extension name for popup"
+	},
+	"extDescription": {
+		"message": "Gizlilik ve akıcı deneyime odaklanan açık kaynaklı bir fare hareketi eklentisi. Akıcı ve hızlı hareketler, süper sürükleme desteği ve tüm veriler yerel olarak saklanır.",
+		"description": "Extension description"
+	},
+	"appearance": {
+		"message": "Görünüm",
+		"description": "Appearance section"
+	},
+	"theme": {
+		"message": "Tema",
+		"description": "Theme"
+	},
+	"themeDesc": {
+		"message": "Açık ve koyu tema arasında geçiş yap",
+		"description": "Theme description"
+	},
+	"themeDark": {
+		"message": "Koyu",
+		"description": "Dark theme"
+	},
+	"themeLight": {
+		"message": "Açık",
+		"description": "Light theme"
+	},
+	"themeAuto": {
+		"message": "Sistem varsayılanı",
+		"description": "Auto theme - follow system"
+	},
+	"languageDesc": {
+		"message": "Arayüz dilini seç",
+		"description": "Language description"
+	},
+	"syncStatus": {
+		"message": "Senkronizasyon Durumu",
+		"description": "Sync status"
+	},
+	"syncStatusDesc": {
+		"message": "Ayarları %browserName% hesabı üzerinden senkronize et",
+		"description": "Sync status description"
+	},
+	"synced": {
+		"message": "Senkronize Edildi",
+		"description": "Synced"
+	},
+	"author": {
+		"message": "Yazar",
+		"description": "Author"
+	},
+	"privacyNote": {
+		"message": "🔒 Yerel çalışır, senkronizasyon dışında ağ erişimi yok, veri toplanmaz",
+		"description": "Privacy note in footer"
+	},
+	"supportUsText": {
+		"message": "FlowMouse'u sevdiniz mi? Bize destek olmak için lütfen %appStoreInfo% 5 yıldız verin!",
+		"description": "Rating text"
+	},
+	"storeNameChrome": {
+		"message": "Chrome Web Mağazası",
+		"description": "Chrome Web Store name"
+	},
+	"storeNameEdge": {
+		"message": "Edge Eklentileri",
+		"description": "Edge Add-ons name"
+	},
+	"storeNameFirefox": {
+		"message": "Firefox Eklentileri",
+		"description": "Firefox Add-ons name"
+	},
+	"feedbackText": {
+		"message": "Sorun mu yaşıyorsunuz veya bir öneriniz mi var? Lütfen <a href='mailto:Service@52pojie.cn'>E-posta</a>, <a href='https://github.com/Hmily-LCG/FlowMouse/issues' target='_blank'>GitHub</a> veya <a href='https://www.52pojie.cn/thread-2080303-1-1.html' target='_blank'>Forum</a> üzerinden bildirin. En kısa sürede düzelteceğiz!",
+		"description": "Feedback text"
+	},
+	"supportAndFeedback": {
+		"message": "Destek ve Geri Bildirim",
+		"description": "Support and Feedback section title"
+	},
+	"feedbackTitle": {
+		"message": "Geri Bildirim ve Öneriler",
+		"description": "Feedback row title"
+	},
+	"supportUsTitle": {
+		"message": "Bize Destek Olun",
+		"description": "Rating row title"
+	},
+	"backToSettings": {
+		"message": "Ayarlara Dön",
+		"description": "Back to settings link"
+	},
+	"settings": {
+		"message": "Ayarlar",
+		"description": "Settings"
+	},
+	"moreSettings": {
+		"message": "Daha Fazla Ayar",
+		"description": "More settings button in popup"
+	},
+	"version": {
+		"message": "Sürüm",
+		"description": "Version"
+	},
+	"basicSettings": {
+		"message": "Hareket Ayarları",
+		"description": "Gesture settings section"
+	},
+	"enableGesture": {
+		"message": "Hareketleri Etkinleştir",
+		"description": "Enable gesture feature"
+	},
+	"enableGestureDesc": {
+		"message": "Hareketleri kolayca uygulamak için sağ fare tuşunu basılı tutun ve fareyi hareket ettirin",
+		"description": "Hold the right mouse button and move the mouse to easily perform gestures"
+	},
+	"macLinuxContextMenuNotice": {
+		"message": "⚠️ Sistem kısıtlamaları nedeniyle, macOS / Linux üzerinde sağ tık menüsünü açmak için hızlı çift sağ tıklama gereklidir.",
+		"description": "Notice for macOS / Linux users about double right-click for context menu"
+	},
+	"macTextDragNotice": {
+		"message": "⚠️ macOS davranışı nedeniyle, metni sürüklerken önce metni seçin, ardından sürüklemeden önce sol tuşa kısa bir süre basılı tutun. Aksi takdirde arama tetiklenmeyebilir.",
+		"description": "Notice for macOS users about text drag behavior"
+	},
+	"showTrail": {
+		"message": "Hareket İzini Göster",
+		"description": "Show gesture trail"
+	},
+	"showTrailDesc": {
+		"message": "Hareket yapılırken iz çizgisi göster",
+		"description": "Show trail line when performing gestures"
+	},
+	"showHint": {
+		"message": "İşlem İpucunu Göster",
+		"description": "Show action hint"
+	},
+	"showHintDesc": {
+		"message": "Geçerli hareket işlemini ekranın ortasında göster",
+		"description": "Show current gesture action in center of screen"
+	},
+	"color": {
+		"message": "Renk",
+		"description": "Color"
+	},
+	"width": {
+		"message": "Kalınlık",
+		"description": "Width/thickness"
+	},
+	"background": {
+		"message": "Arka Plan",
+		"description": "Background"
+	},
+	"opacity": {
+		"message": "Opaklık",
+		"description": "Opacity"
+	},
+	"text": {
+		"message": "Metin",
+		"description": "Text"
+	},
+	"scrollAmount": {
+		"message": "Kaydırma Mesafesi",
+		"description": "Scroll amount"
+	},
+	"scrollAmountDesc": {
+		"message": "Yukarı/aşağı hareketleri için kaydırma mesafesi (pencere yüksekliği %)",
+		"description": "Scroll distance for up/down gestures"
+	},
+	"scrollSmoothness": {
+		"message": "Kaydırma Akıcılığı",
+		"description": "Scroll smoothness"
+	},
+	"scrollSmoothnessDesc": {
+		"message": "Yukarı/aşağı hareketleri için kaydırma animasyon efekti",
+		"description": "Scroll smoothness description"
+	},
+	"smoothnessSystem": {
+		"message": "Sistem (Yüksek Performans)",
+		"description": "System scroll smoothness"
+	},
+	"smoothnessCustom": {
+		"message": "Pürüzsüz",
+		"description": "Custom smooth scrolling"
+	},
+	"smoothnessNone": {
+		"message": "Animasyon Yok",
+		"description": "No scroll animation"
+	},
+	"dragFeatures": {
+		"message": "Sürükleme Özellikleri",
+		"description": "Drag features section"
+	},
+	"textDragSearch": {
+		"message": "Metin Sürükleme",
+		"description": "Text drag"
+	},
+	"textDragSearchDesc": {
+		"message": "Seçilen metni sürükleyerek ara",
+		"description": "Drag selected text to search"
+	},
+	"searchEngine": {
+		"message": "Arama Motoru",
+		"description": "Search engine"
+	},
+	"custom": {
+		"message": "Özel",
+		"description": "Custom"
+	},
+	"customUrlPlaceholder": {
+		"message": "Özel URL, arama terimi için %s kullanın",
+		"description": "Custom URL placeholder"
+	},
+	"urlPlaceholderText": {
+		"message": "%s=Anahtar kelime",
+		"description": "Placeholder for text drag custom URL"
+	},
+	"urlPlaceholderImage": {
+		"message": "%s=Resim URL'si",
+		"description": "Placeholder for image drag custom URL"
+	},
+	"searchEngine_baidu": {
+		"message": "Baidu",
+		"description": "Baidu search engine"
+	},
+	"searchEngine_360": {
+		"message": "360 Search",
+		"description": "360 search engine"
+	},
+	"searchEngine_yandex": {
+		"message": "Yandex",
+		"description": "Yandex search engine"
+	},
+	"searchEngine_system": {
+		"message": "Tarayıcı Varsayılanı",
+		"description": "System default search engine"
+	},
+	"imageDrag": {
+		"message": "Resim Sürükleme",
+		"description": "Image drag"
+	},
+	"imageDragDesc": {
+		"message": "Resmi yeni sekmede açmak için sürükle",
+		"description": "Drag image to open in new tab"
+	},
+	"linkDrag": {
+		"message": "Bağlantı Sürükleme",
+		"description": "Link drag"
+	},
+	"linkDragDesc": {
+		"message": "Bağlantıyı yeni sekmede açmak için sürükle",
+		"description": "Drag link to open in new tab"
+	},
+	"enableCustomGestures": {
+		"message": "Özel Hareketler",
+		"description": "Enable custom gestures"
+	},
+	"enableCustomGesturesDesc": {
+		"message": "Her hareket eylemini görüntüle ve özelleştir",
+		"description": "View and customize each gesture action"
+	},
+	"gestureAutoSaveHint": {
+		"message": "İpucu: Değişiklikler otomatik olarak kaydedilir.",
+		"description": "Hint about auto-save"
+	},
+	"blacklist": {
+		"message": "Web Sitesi Kara Listesi",
+		"description": "Website blacklist"
+	},
+	"blacklistPlaceholder": {
+		"message": "Alan adı girin, örn. example.com, eklemek için Enter'a basın",
+		"description": "Blacklist input placeholder"
+	},
+	"add": {
+		"message": "Ekle",
+		"description": "Add button"
+	},
+	"emptyBlacklist": {
+		"message": "Kara listede site yok. Eklemek için yukarıya alan adı girin.",
+		"description": "Empty blacklist message"
+	},
+	"dataManagement": {
+		"message": "Veri Yönetimi",
+		"description": "Data management section"
+	},
+	"export": {
+		"message": "Dışa Aktar",
+		"description": "Export settings"
+	},
+	"import": {
+		"message": "İçe Aktar",
+		"description": "Import settings"
+	},
+	"reset": {
+		"message": "Sıfırla",
+		"description": "Reset to default"
+	},
+	"autoSaved": {
+		"message": "✓ Otomatik kaydedildi",
+		"description": "Auto-saved message"
+	},
+	"saveFailure": {
+		"message": "Kaydetme başarısız",
+		"description": "Save failure message"
+	},
+	"resetConfirm": {
+		"message": "Tüm ayarları varsayılana sıfırlamak istediğinizden emin misiniz?",
+		"description": "Reset confirmation"
+	},
+	"resetDone": {
+		"message": "Ayarlar varsayılana sıfırlandı",
+		"description": "Reset done message"
+	},
+	"exportDone": {
+		"message": "Ayarlar dışa aktarıldı",
+		"description": "Export done message"
+	},
+	"importDone": {
+		"message": "Ayarlar içe aktarıldı",
+		"description": "Import done message"
+	},
+	"importFailed": {
+		"message": "İçe aktarma başarısız: Geçersiz yapılandırma dosyası",
+		"description": "Import failed message"
+	},
+	"importFailedSyncError": {
+		"message": "İçe aktarma başarısız: Eşitleme hatası, lütfen tarayıcı durumunu kontrol edin",
+		"description": "Import failed sync error message"
+	},
+	"invalidDomain": {
+		"message": "Lütfen geçerli bir alan adı girin",
+		"description": "Invalid domain message"
+	},
+	"domainExists": {
+		"message": "Alan adı zaten kara listede",
+		"description": "Domain already in blacklist"
+	},
+	"about": {
+		"message": "Hakkında",
+		"description": "About section"
+	},
+	"language": {
+		"message": "Dil",
+		"description": "Language"
+	},
+	"languageAuto": {
+		"message": "Sistem varsayılanı",
+		"description": "Follow system language"
+	},
+	"privacyFriendly": {
+		"message": "Gizlilik Dostu",
+		"description": "Privacy friendly"
+	},
+	"localOnly": {
+		"message": "Yerel Çalışma",
+		"description": "Local only"
+	},
+	"autoSave": {
+		"message": "Otomatik Kayıt",
+		"description": "Auto save"
+	},
+	"gestureDesc_L": {
+		"message": "Sol",
+		"description": "Gesture description for ←"
+	},
+	"gestureDesc_R": {
+		"message": "Sağ",
+		"description": "Gesture description for →"
+	},
+	"gestureDesc_U": {
+		"message": "Yukarı",
+		"description": "Gesture description for ↑"
+	},
+	"gestureDesc_D": {
+		"message": "Aşağı",
+		"description": "Gesture description for ↓"
+	},
+	"gestureDesc_DR": {
+		"message": "Aşağı sonra Sağ",
+		"description": "Gesture description for ↓→"
+	},
+	"gestureDesc_LU": {
+		"message": "Sol sonra Yukarı",
+		"description": "Gesture description for ←↑"
+	},
+	"gestureDesc_RU": {
+		"message": "Sağ sonra Yukarı",
+		"description": "Gesture description for →↑"
+	},
+	"gestureDesc_RD": {
+		"message": "Sağ sonra Aşağı",
+		"description": "Gesture description for →↓"
+	},
+	"gestureDesc_UL": {
+		"message": "Yukarı sonra Sol",
+		"description": "Gesture description for ↑←"
+	},
+	"gestureDesc_UR": {
+		"message": "Yukarı sonra Sağ",
+		"description": "Gesture description for ↑→"
+	},
+	"gestureDesc_DL": {
+		"message": "Aşağı sonra Sol",
+		"description": "Gesture description for ↓←"
+	},
+	"gestureDesc_LD": {
+		"message": "Sol sonra Aşağı",
+		"description": "Gesture description for ←↓"
+	},
+	"gestureDesc_UD": {
+		"message": "Yukarı sonra Aşağı",
+		"description": "Gesture description for ↑↓"
+	},
+	"gestureDesc_DU": {
+		"message": "Aşağı sonra Yukarı",
+		"description": "Gesture description for ↓↑"
+	},
+	"gestureDesc_LR": {
+		"message": "Sol sonra Sağ",
+		"description": "Gesture description for ←→"
+	},
+	"gestureDesc_RL": {
+		"message": "Sağ sonra Sol",
+		"description": "Gesture description for →←"
+	},
+	"actionNone": {
+		"message": "İşlem Yok",
+		"description": "No action"
+	},
+	"actionBack": {
+		"message": "Geri Git",
+		"description": "Go back"
+	},
+	"actionForward": {
+		"message": "İleri Git",
+		"description": "Go forward"
+	},
+	"actionScrollUp": {
+		"message": "Yukarı Kaydır",
+		"description": "Scroll up"
+	},
+	"actionScrollDown": {
+		"message": "Aşağı Kaydır",
+		"description": "Scroll down"
+	},
+	"actionScrollToTop": {
+		"message": "En Üste Kaydır",
+		"description": "Scroll to top"
+	},
+	"actionScrollToBottom": {
+		"message": "En Alta Kaydır",
+		"description": "Scroll to bottom"
+	},
+	"actionCloseTab": {
+		"message": "Sekmeyi Kapat",
+		"description": "Close tab"
+	},
+	"actionCloseTabKeepWindow": {
+		"message": "Sekmeyi Kapat (Pencereyi Koru)",
+		"description": "Close tab but keep window open"
+	},
+	"actionCloseBrowser": {
+		"message": "Tarayıcıyı Kapat",
+		"description": "Close browser"
+	},
+	"actionRestoreTab": {
+		"message": "Kapatılan Sekmeyi Geri Aç",
+		"description": "Restore closed tab"
+	},
+	"actionNewTab": {
+		"message": "Yeni Sekme",
+		"description": "New tab"
+	},
+	"actionCloseOtherTabs": {
+		"message": "Diğer Sekmeleri Kapat",
+		"description": "Close other tabs"
+	},
+	"actionCloseLeftTabs": {
+		"message": "Soldaki Sekmeleri Kapat",
+		"description": "Close tabs to the left"
+	},
+	"actionCloseRightTabs": {
+		"message": "Sağdaki Sekmeleri Kapat",
+		"description": "Close tabs to the right"
+	},
+	"actionCloseAllTabs": {
+		"message": "Tüm Sekmeleri Kapat",
+		"description": "Close all tabs"
+	},
+	"actionSwitchLeftTab": {
+		"message": "Soldaki Sekmeye Geç",
+		"description": "Switch to left tab"
+	},
+	"actionSwitchRightTab": {
+		"message": "Sağdaki Sekmeye Geç",
+		"description": "Switch to right tab"
+	},
+	"actionRefresh": {
+		"message": "Geçerli Sekmeyi Yenile",
+		"description": "Refresh current tab"
+	},
+	"actionRefreshAllTabs": {
+		"message": "Tüm Sekmeleri Yenile",
+		"description": "Refresh all tabs"
+	},
+	"actionStopLoading": {
+		"message": "Yüklemeyi Durdur",
+		"description": "Stop loading"
+	},
+	"actionNewWindow": {
+		"message": "Yeni Pencere",
+		"description": "New window"
+	},
+	"actionNewIncognito": {
+		"message": "Yeni Gizli Pencere",
+		"description": "New incognito window"
+	},
+	"actionAddToBookmarks": {
+		"message": "Yer İşaretlerine Ekle",
+		"description": "Add to bookmarks"
+	},
+	"actionToggleFullscreen": {
+		"message": "Tam Ekran Yap/Çık",
+		"description": "Toggle fullscreen"
+	},
+	"actionToggleMaximize": {
+		"message": "Pencereyi Büyüt/Küçült",
+		"description": "Toggle window maximize"
+	},
+	"actionMinimize": {
+		"message": "Pencereyi Simge Durumuna Küçült",
+		"description": "Minimize window"
+	},
+	"actionOpenCustomUrl": {
+		"message": "Özel URL Aç",
+		"description": "Open custom URL"
+	},
+	"actionCopyUrl": {
+		"message": "URL'yi Kopyala",
+		"description": "Copy current URL"
+	},
+	"actionCopyTitle": {
+		"message": "Sayfa Başlığını Kopyala",
+		"description": "Copy page title"
+	},
+	"actionOpenDownloads": {
+		"message": "İndirilenleri Aç",
+		"description": "Open downloads page"
+	},
+	"actionOpenHistory": {
+		"message": "Geçmişi Aç",
+		"description": "Open history page"
+	},
+	"actionOpenExtensions": {
+		"message": "Eklentileri Aç",
+		"description": "Open extensions page"
+	},
+	"actionPrintPage": {
+		"message": "Sayfayı Yazdır",
+		"description": "Print page"
+	},
+	"actionDuplicateTab": {
+		"message": "Sekmeyi Çoğalt",
+		"description": "Duplicate current tab"
+	},
+	"actionToggleMuteTab": {
+		"message": "Sekme Sesi Aç/Kapat",
+		"description": "Toggle mute current tab"
+	},
+	"actionToggleMuteAllTabs": {
+		"message": "Tüm Sekmelerin Sesini Aç/Kapat",
+		"description": "Toggle mute all tabs"
+	},
+	"showTrailOrigin": {
+		"message": "Başlangıç Noktasını Göster",
+		"description": "Show trail origin point"
+	},
+	"enableTrailSmooth": {
+		"message": "İz Yumuşatma",
+		"description": "Enable trail smoothing for gesture visualization"
+	},
+	"distanceThreshold": {
+		"message": "Jest Tanıma Mesafesi",
+		"description": "Gesture recognition distance"
+	},
+	"distanceThresholdDesc": {
+		"message": "Bir jesti tanımak için minimum hareket mesafesi",
+		"description": "Description for gesture recognition distance"
+	},
+	"distanceThresholdNotice": {
+		"message": "İpucu: En iyi tanıma için 15-30 arasında bir değer önerilir.",
+		"description": "Warning when distance threshold is too small or too large"
+	},
+	"enableAdvancedSettings": {
+		"message": "Gelişmiş Ayarlar",
+		"description": "Enable advanced settings"
+	},
+	"enableAdvancedSettingsDesc": {
+		"message": "Etkinleştirildiğinde daha fazla gelişmiş seçenek göster",
+		"description": "Show more advanced options when enabled"
+	},
+	"enableAdvancedSettingsToggle": {
+		"message": "Gelişmiş Ayarlar Modu",
+		"description": "Enable advanced settings toggle label"
+	},
+	"urlFormatError": {
+		"message": "Lütfen http:// veya https:// ile başlayan tam URL girin",
+		"description": "URL format error message"
+	},
+	"resetToDefault": {
+		"message": "Varsayılana sıfırla",
+		"description": "Reset gesture to default action"
+	},
+	"addCustomGesture": {
+		"message": "Özel Hareket Ekle",
+		"description": "Add custom gesture section title"
+	},
+	"gesturePattern": {
+		"message": "Desen",
+		"description": "Gesture pattern label"
+	},
+	"selectAction": {
+		"message": "İşlem Seç",
+		"description": "Select action label"
+	},
+	"clear": {
+		"message": "Temizle",
+		"description": "Clear button"
+	},
+	"addGesture": {
+		"message": "Hareket Ekle",
+		"description": "Add gesture button"
+	},
+	"pleaseDrawGesture": {
+		"message": "Lütfen önce bir hareket çizin",
+		"description": "Alert when no gesture drawn"
+	},
+	"gestureAdded": {
+		"message": "✓ Hareket eklendi",
+		"description": "Gesture added success message"
+	},
+	"gestureDrawInstructions": {
+		"message": "Sağ fare tuşuna basılı tutarak aşağıda bir hareket çizin ve tamamlamak için bırakın. Desteklenen yönler:",
+		"description": "Instructions for gesture drawing"
+	},
+	"gestureOverwriteConfirm": {
+		"message": "%pattern% hareketi zaten mevcut. Üzerine yazılsın mı?",
+		"description": "Confirmation message when adding a duplicate gesture"
+	},
+	"customGesture": {
+		"message": "Özel",
+		"description": "Label for custom gestures"
+	},
+	"deleteGesture": {
+		"message": "Hareketi Sil",
+		"description": "Delete gesture button tooltip"
+	},
+	"deleteGestureConfirm": {
+		"message": "%pattern% hareketi silinsin mi?",
+		"description": "Delete gesture confirmation"
+	},
+	"gestureDeleted": {
+		"message": "✓ Hareket silindi",
+		"description": "Gesture deleted success message"
+	},
+	"enterCustomUrl": {
+		"message": "URL girin (https://, chrome:// vb. gibi protokolleri eklemeniz önerilir):",
+		"description": "Prompt for custom URL input"
+	},
+	"invalidUrl": {
+		"message": "Lütfen geçerli bir URL girin (http:// veya https:// ile başlayan)",
+		"description": "Invalid URL error message"
+	},
+	"popupTrail": {
+		"message": "Hareket İzi",
+		"description": "Gesture trail in popup"
+	},
+	"popupHint": {
+		"message": "İşlem İpucu",
+		"description": "Action hint in popup"
+	},
+	"popupCommonGestures": {
+		"message": "Yaygın Hareketler",
+		"description": "Common gestures"
+	},
+	"popupCurrentSite": {
+		"message": "Geçerli Site",
+		"description": "Current site"
+	},
+	"popupRestricted": {
+		"message": "Kısıtlı Sayfa",
+		"description": "Restricted page"
+	},
+	"popupDisabled": {
+		"message": "Devre Dışı",
+		"description": "Disabled"
+	},
+	"popupAddBlacklist": {
+		"message": "Kara Listeye Ekle",
+		"description": "Add to blacklist"
+	},
+	"popupRemoveBlacklist": {
+		"message": "Kara Listeden Çıkar",
+		"description": "Remove from blacklist"
+	},
+	"popupNotAvailable": {
+		"message": "Kullanılamaz",
+		"description": "Not available"
+	},
+	"popupBack": {
+		"message": "Geri",
+		"description": "Back - short"
+	},
+	"popupForward": {
+		"message": "İleri",
+		"description": "Forward - short"
+	},
+	"popupScrollUp": {
+		"message": "Yukarı",
+		"description": "Scroll up - short"
+	},
+	"popupScrollDown": {
+		"message": "Aşağı",
+		"description": "Scroll down - short"
+	},
+	"popupClose": {
+		"message": "Kapat",
+		"description": "Close Tab - short"
+	},
+	"popupRestore": {
+		"message": "Geri Yükle",
+		"description": "Restore Tab - short"
+	},
+	"dragSearchText": {
+		"message": "🔍 Sürükle Ara",
+		"description": "Drag search hint"
+	},
+	"dragOpenImage": {
+		"message": "🖼️ Resmi Aç",
+		"description": "Drag open image hint"
+	},
+	"dragOpenLink": {
+		"message": "🔗 Bağlantıyı Aç",
+		"description": "Drag open link hint"
+	},
+	"aboutTitle": {
+		"message": "FlowMouse Hakkında",
+		"description": "About title"
+	},
+	"aboutAuthor": {
+		"message": "Yazar",
+		"description": "Author"
+	},
+	"aboutWebsite": {
+		"message": "Web Sitesi",
+		"description": "Website"
+	},
+	"aboutOpenSource": {
+		"message": "GitHub",
+		"description": "GitHub link"
+	},
+	"aboutEmail": {
+		"message": "E-posta",
+		"description": "Email"
+	},
+	"aboutPrivacy": {
+		"message": "Gizlilik Bildirimi",
+		"description": "Privacy statement"
+	},
+	"aboutPrivacyText": {
+		"message": "Bu eklenti açık kaynaklı bir projedir ve kodları GitHub'da barındırılmaktadır. Katkılara ve incelemelere açıktır. Tüm veri işlemleri yerel olarak cihazınızda yapılır. Eklentinin kendisi senkronizasyon haricinde hiçbir ağ bağlantısı kurmaz ve arka uç sunucusu yoktur, bu nedenle herhangi bir kullanıcı verisi toplamaz veya harici sunuculara yüklemez. Kaydedilen ayarlarınız, oturum açtığınız cihazlar arasında %browserName% tarayıcısının yerleşik senkronizasyon hizmeti aracılığıyla şifreli olarak senkronize edilir. Bu süreç tamamen tarayıcı tarafından kontrol edilir ve tarayıcınızın gizlilik ve senkronizasyon ayarlarına tabidir.",
+		"description": "Privacy statement text"
+	},
+	"aboutCredits": {
+		"message": "Teşekkürler",
+		"description": "Credits"
+	},
+	"aboutCreditsText": {
+		"message": "Tasarım ilhamı için Microsoft Edge tarayıcısına ve crxMouse eklentisine teşekkürler.\nGeri bildirim ve önerileri için 52pojie.cn topluluğuna ve kullanıcılara teşekkürler!",
+		"description": "Credits text"
+	},
+	"aboutFeatures": {
+		"message": "Özellikler",
+		"description": "Features"
+	},
+	"aboutFeature1": {
+		"message": "🎯 16 Varsayılan Hareket + Özel Hareketler",
+		"description": "Feature 1"
+	},
+	"aboutFeature2": {
+		"message": "🎨 Görsel İz Geri Bildirimi",
+		"description": "Feature 2"
+	},
+	"aboutFeature3": {
+		"message": "🔍 Metin/Resim/Bağlantı Süper Sürükleme",
+		"description": "Feature 3"
+	},
+	"aboutFeature4": {
+		"message": "🚫 Web Sitesi Kara Listesi",
+		"description": "Feature 4"
+	},
+	"aboutFeature5": {
+		"message": "☁️ %browserName% Hesap Senkronizasyonu",
+		"description": "Feature 5"
+	},
+	"aboutFeature6": {
+		"message": "🔒 Tamamen Yerel Çalışır, Senkronizasyon Harici Ağ Yok",
+		"description": "Feature 6"
+	},
+	"tutorial": {
+		"message": "Kullanım Kılavuzu",
+		"description": "Tutorial link"
+	},
+	"learnMore": {
+		"message": "Daha Fazla Bilgi",
+		"description": "Learn more link"
+	},
+	"badgeNoNetwork": {
+		"message": "🔒 Senkronizasyon Harici Ağ Yok",
+		"description": "No network privacy badge"
+	},
+	"badgeNoData": {
+		"message": "🚫 Veri Toplama Yok",
+		"description": "No data collection badge"
+	},
+	"badgeLocalRun": {
+		"message": "✅ Yerel Çalışır",
+		"description": "Local run badge"
+	},
+	"newTabSettings": {
+		"message": "Yeni Sekme Ayarları",
+		"description": "New tab open settings"
+	},
+	"newTabPosition": {
+		"message": "Açılış Konumu",
+		"description": "New tab position"
+	},
+	"tabPositionRight": {
+		"message": "Geçerli sekmenin sağı",
+		"description": "Right of current tab"
+	},
+	"tabPositionLeft": {
+		"message": "Geçerli sekmenin solu",
+		"description": "Left of current tab"
+	},
+	"tabPositionFirst": {
+		"message": "İlk sekme (en sol)",
+		"description": "First tab (leftmost)"
+	},
+	"tabPositionLast": {
+		"message": "Son sekme (en sağ)",
+		"description": "Last tab (rightmost)"
+	},
+	"tabPositionCurrent": {
+		"message": "Geçerli sekme",
+		"description": "Open in current tab"
+	},
+	"newTabActive": {
+		"message": "Ön planda aç",
+		"description": "Open tab in foreground"
+	},
+	"textDragGestures": {
+		"message": "Metin sürükleme hareketleri",
+		"description": "Text drag gestures"
+	},
+	"linkDragGestures": {
+		"message": "Bağlantı sürükleme hareketleri",
+		"description": "Link drag gestures"
+	},
+	"imageDragGestures": {
+		"message": "Resim sürükleme hareketleri",
+		"description": "Image drag gestures"
+	},
+	"direction": {
+		"message": "Yön",
+		"description": "Direction column header"
+	},
+	"action": {
+		"message": "İşlem",
+		"description": "Action column header"
+	},
+	"imageSearchUrl": {
+		"message": "Resim arama URL'si (%s resim URL'si)",
+		"description": "Image search URL input"
+	},
+	"dragActionNone": {
+		"message": "İşlem Yok",
+		"description": "No action"
+	},
+	"dragActionSearch": {
+		"message": "🔍 Arama Motoru",
+		"description": "Search action"
+	},
+	"dragActionCopy": {
+		"message": "📋 Kopyala",
+		"description": "Copy action"
+	},
+	"dragActionOpenTab": {
+		"message": "📑 Yeni Sekmede Aç",
+		"description": "Open in new tab"
+	},
+	"dragActionOpenTabLink": {
+		"message": "🔗 Bağlantıyı Aç",
+		"description": "Open link in new tab"
+	},
+	"dragActionOpenTabImage": {
+		"message": "🖼️ Resmi Aç",
+		"description": "Open image in new tab"
+	},
+	"dragActionCopyLink": {
+		"message": "📋 Bağlantıyı Kopyala",
+		"description": "Copy link"
+	},
+	"dragActionSaveImage": {
+		"message": "💾 Resmi Kaydet",
+		"description": "Save image"
+	},
+	"dragActionCopyImage": {
+		"message": "🖼️ Resmi Kopyala",
+		"description": "Copy image"
+	},
+	"dragActionCopyImageUrl": {
+		"message": "📋 Resim URL'sini Kopyala",
+		"description": "Copy image URL"
+	},
+	"dragActionImageSearch": {
+		"message": "🔍 Resim Arama",
+		"description": "Image search"
+	},
+	"dragActionCustomSearch": {
+		"message": "🔍 Özel Arama",
+		"description": "Custom search"
+	},
+	"reducedMotionWarning": {
+		"message": "⚠️ %OS% sistem animasyonu devre dışı, kaydırma animasyonu düzgün görüntülenemeyebilir. %OS% sistem ayarlarından animasyonu açabilirsiniz.",
+		"description": "Warning message when system reduced motion is enabled"
+	},
+	"autoDetectUrl": {
+		"message": "Bağlantıyı otomatik algıla",
+		"description": "Auto detect URL checkbox label"
+	},
+	"preferLink": {
+		"message": "Bağlantıyı tercih et",
+		"description": "Prefer link checkbox label"
+	},
+	"menuNeedRefresh": {
+		"message": "FlowMouse yüklenmedi, yenilemek için tıkla",
+		"description": "Context menu title for pages needing refresh"
+	},
+	"menuRestricted": {
+		"message": "FlowMouse kullanılamıyor, nedenini öğren",
+		"description": "Context menu title for restricted pages"
+	},
+	"showRestrictedNotice": {
+		"message": "Kısıtlı Sayfa Bildirimi",
+		"description": "Setting title for restricted page notice"
+	},
+	"showRestrictedNoticeDesc": {
+		"message": "Hareketlerin kullanılamadığı sayfalarda sağ tık menüsü ipucu göster",
+		"description": "Setting description for restricted page notice"
+	},
+	"restrictedPagesDetailsTitle": {
+		"message": "⚠️ Tarayıcı güvenlik politikası nedeniyle, eklenti belirli sayfalarda çalışamaz",
+		"description": "Collapsible details title"
+	},
+	"showMoreHint": {
+		"message": "(Ayrıntıları Göster)",
+		"description": "Hint to show more details"
+	},
+	"restrictedNewTab": {
+		"message": "Yeni Sekme Sayfası (chrome://newtab)",
+		"description": "New tab page title"
+	},
+	"restrictedNewTabDesc": {
+		"message": "Tarayıcının varsayılan yeni sekme sayfası korumalı bir sistem sayfasıdır, eklentiler burada çalışamaz.",
+		"description": "New tab page description"
+	},
+	"restrictedStore": {
+		"message": "Resmi Mağaza Sayfası",
+		"description": "Store page title"
+	},
+	"restrictedStoreDesc": {
+		"message": "Örn. %storeInfo% vb. Kötü amaçlı eklentilerin mağazayı engellemesini önlemek için tarayıcı bu sayfalarda eklentileri yasaklar.",
+		"description": "Store page description"
+	},
+	"restrictedInternal": {
+		"message": "Tarayıcı Dahili Sayfaları",
+		"description": "Internal page title"
+	},
+	"restrictedInternalDesc": {
+		"message": "chrome:// (Chrome) veya edge:// (Edge) ile başlayan tüm dahili ayarlar, geçmiş, indirilenler sayfaları. Bu sayfalar tarayıcı çekirdek işlevleri ve kullanıcı verilerini içerdiğinden sıkı bir şekilde korunur.",
+		"description": "Internal page description"
+	},
+	"restrictedFile": {
+		"message": "Yerel Dosya Sayfaları (file://)",
+		"description": "File page title"
+	},
+	"restrictedFileDesc": {
+		"message": "file:// protokolü (yerel dosya sistemi erişimini önlemek için) ile açılan yerel HTML dosyaları, güvenlik kısıtlamaları nedeniyle eklenti bu sayfalarda çalışamaz.",
+		"description": "File page description"
+	},
+	"restrictedViewSource": {
+		"message": "Kaynağı Görüntüle Sayfaları (view-source:)",
+		"description": "View source page title"
+	},
+	"restrictedViewSourceDesc": {
+		"message": "Tarayıcının sağladığı kaynak kodu görünümü korumalı sistem sayfalarıdır, eklentiler burada çalışamaz.",
+		"description": "View source page description"
+	},
+	"restrictedOther": {
+		"message": "Diğer daha az yaygın kısıtlı sayfalar listelenmemiştir.",
+		"description": "Other restricted pages note"
+	},
+	"popupNeedRefresh": {
+		"message": "Eklenti Yüklenmedi",
+		"description": "Popup title when content script not loaded"
+	},
+	"popupNeedRefreshDesc": {
+		"message": "Bu sayfa eklenti yüklenmeden/güncellenmeden önce açıldı, hareketleri kullanmak için yenileyin",
+		"description": "Popup description when content script not loaded"
+	},
+	"popupRefreshBtn": {
+		"message": "🔄 Sayfayı Yenile",
+		"description": "Popup refresh button text"
+	},
+	"popupRestrictedTitle": {
+		"message": "Hareketler Kullanılamıyor",
+		"description": "Popup title for restricted pages"
+	},
+	"popupRestrictedDesc": {
+		"message": "Bu sayfa tarayıcı güvenlik kısıtlamaları nedeniyle eklentiyi yükleyemiyor",
+		"description": "Popup description for restricted pages"
+	},
+	"popupLearnMore": {
+		"message": "📖 Daha Fazla Bilgi",
+		"description": "Popup learn more button text"
+	},
+	"tutorialPending": {
+		"message": "Beklemede",
+		"description": "Tutorial pending status"
+	},
+	"tutorialCompleted": {
+		"message": "Tamamlandı",
+		"description": "Tutorial completed status"
+	},
+	"tutorialClickToStart": {
+		"message": "Başlamak için <span class=\"text-highlight\">Sağ Fare Tuşuna</span> tıklayın",
+		"description": "Tutorial Step 0 instruction"
+	},
+	"tutorialWelcomeTitle": {
+		"message": "FlowMouse'a Hoş Geldiniz",
+		"description": "Tutorial welcome title"
+	},
+	"tutorialWelcomeSubtitle": {
+		"message": "30 saniyede temel işlemleri öğrenin, gezinmeyi daha akıcı hale getirin, işlemlerinizi özelleştirin",
+		"description": "Tutorial welcome subtitle"
+	},
+	"tutorialStep1Title": {
+		"message": "Temel İşlemler",
+		"description": "Tutorial Step 1 title"
+	},
+	"tutorialStep1Subtitle": {
+		"message": "Temel hareket mekanizmasını öğrenin",
+		"description": "Tutorial Step 1 subtitle"
+	},
+	"tutorialStep1InstructionIdle": {
+		"message": "Lütfen <span class=\"text-highlight\">Sağ Fare Tuşuna</span> basılı tutun",
+		"description": "Tutorial Step 1 instruction idle"
+	},
+	"tutorialStep1InstructionPressing": {
+		"message": "<strong>Harika!</strong> Basılı tutmaya devam edin, <strong>%arrow% Sağa</strong> doğru sürükleyin",
+		"description": "Tutorial Step 1 instruction pressing"
+	},
+	"tutorialStep1InstructionDragging": {
+		"message": "Sürüklemeye devam edin...",
+		"description": "Tutorial Step 1 instruction dragging"
+	},
+	"tutorialStep1InstructionReleasing": {
+		"message": "<strong>Mükemmel!</strong> Sağ tuşu bırakın!",
+		"description": "Tutorial Step 1 instruction releasing"
+	},
+	"tutorialStep2Title": {
+		"message": "Yaygın Hareketler",
+		"description": "Tutorial Step 2 title"
+	},
+	"tutorialStep2Subtitle": {
+		"message": "Hareket çizmek için <span class=\"text-highlight\">Sağ Fare Tuşuna</span> basılı tutun",
+		"description": "Tutorial Step 2 subtitle"
+	},
+	"tutorialStep2Footer": {
+		"message": "<strong>Daha fazla hareket</strong> ve <strong>özelleştirme</strong> ayarlarda",
+		"description": "Footer note for step 2 discovery banner"
+	},
+	"tutorialStep2DiscoveryHeader": {
+		"message": "Daha Fazla Hareket Özelliği",
+		"description": "Header for step 2 discovery banner"
+	},
+	"tutorialStep3DiscoveryHeader": {
+		"message": "Daha Fazla Süper Sürükleme Özelliği",
+		"description": "Header for step 3 discovery banner"
+	},
+	"tutorialStep3TextSearch": {
+		"message": "Metin <span class=\"svg-arrow\">→</span> Arama",
+		"description": "Text drag search discovery item"
+	},
+	"tutorialStep3LinkOpen": {
+		"message": "Bağlantı <span class=\"svg-arrow\">→</span> Yeni Sekmede Aç",
+		"description": "Link drag open discovery item"
+	},
+	"tutorialStep3ImageOpen": {
+		"message": "Resim <span class=\"svg-arrow\">→</span> Yeni Sekmede Aç",
+		"description": "Image drag open discovery item"
+	},
+	"tutorialStep3Footer": {
+		"message": "<strong>Daha fazla sürükleme özelliği</strong> ve <strong>özelleştirme</strong> gelişmiş ayarlarda",
+		"description": "Footer for step 3 discovery banner"
+	},
+	"tutorialContinue": {
+		"message": "Devam Et",
+		"description": "Tutorial continue button"
+	},
+	"tutorialStep3Title": {
+		"message": "Süper Sürükleme",
+		"description": "Tutorial Step 3 title"
+	},
+	"tutorialStep3Subtitle": {
+		"message": "<span class=\"text-highlight\">Sol Fare Tuşuna</span> basılı tutup <span class=\"svg-arrow\">→</span> yönüne sürükleyin, hızlı işlem yapın",
+		"description": "Tutorial Step 3 subtitle"
+	},
+	"tutorialStep3HintTitle": {
+		"message": "Metin Sürükleme Arama",
+		"description": "Tutorial Step 3 hint title"
+	},
+	"tutorialStep3HintDesc": {
+		"message": "Metni seçin, aramak için <span class=\"text-highlight\">Sol Fare Tuşu</span> ile <span class=\"svg-arrow\">→</span> yönüne sürükleyin",
+		"description": "Tutorial Step 3 hint description. Note: Must drag to right. Use SVG arrow instead of text for direction."
+	},
+	"tutorialStep3TextBoxLabel": {
+		"message": "Aşağıdaki metinle deneyin!",
+		"description": "Tutorial Step 3 text box label"
+	},
+	"tutorialStep3SelectableText": {
+		"message": "FlowMouse Süper Sürükleme",
+		"description": "Tutorial Step 3 selectable text"
+	},
+	"tutorialStep4Title": {
+		"message": "Tebrikler!",
+		"description": "Tutorial Step 4 title"
+	},
+	"tutorialStep4Subtitle": {
+		"message": "Parmak ucuyla kaydırın, akışa katılın.",
+		"description": "Tutorial Step 4 subtitle"
+	},
+	"tutorialStep4Instruction": {
+		"message": "Bir bağlantı üzerinde <span class=\"text-highlight\">Süper Sürükleme <span class=\"svg-arrow\">→</span></span> yaparak <span class=\"text-highlight\">Yeni Sekmede</span> açın",
+		"description": "Tutorial Step 4 instruction. Note: Must drag to right. Use SVG arrow instead of text for direction."
+	},
+	"tutorialSettingsLink": {
+		"message": "FlowMouse Ayarları",
+		"description": "Tutorial settings link"
+	},
+	"tutorialSettingsHint": {
+		"message": "Keşfedilmeyi bekleyen daha fazla güçlü özellik var!",
+		"description": "Tutorial settings hint"
+	},
+	"tutorialWrongDirection": {
+		"message": "Yanlış yön！Lütfen %arrow% Sağa sürükleyin",
+		"description": "Tutorial wrong direction error"
+	},
+	"tutorialEarlyRelease": {
+		"message": "Çok erken bıraktınız! Tekrar deneyin.",
+		"description": "Tutorial early release error"
+	},
+	"tutorialDragWrongButton": {
+		"message": "Lütfen <span class=\"text-highlight\">Sol Fare Tuşu</span> ile sürükleyin",
+		"description": "Tutorial drag wrong button error"
+	},
+	"tutorialRefreshTip": {
+		"message": "İpucu: FlowMouse yüklenmeden önce açılan sekmelerin hareketleri kullanabilmesi için <span class=\"text-highlight\">yenilenmesi</span> gerekir",
+		"description": "Tip about refreshing tabs"
+	},
+	"permissionBookmarksTitle": {
+		"message": "Yer İşaretlerini Yönet",
+		"description": "Permission popup title for bookmarks"
+	},
+	"permissionBookmarksDesc": {
+		"message": "Sayfaları yer işaretlerine eklemek için FlowMouse yer işareti iznine ihtiyaç duyar.",
+		"description": "Permission popup description for bookmarks"
+	},
+	"permissionDownloadsTitle": {
+		"message": "İndirmeleri Yönet",
+		"description": "Permission popup title for downloads"
+	},
+	"permissionDownloadsDesc": {
+		"message": "Resimleri kaydetmek için FlowMouse indirme iznine ihtiyaç duyar.",
+		"description": "Permission popup description for downloads"
+	},
+	"permissionDownloadsPageCaptureTitle": {
+		"message": "Resmi Kaydet",
+		"description": "Permission popup title for downloads and page capture"
+	},
+	"permissionDownloadsPageCaptureDesc": {
+		"message": "Resimleri kaydetmek için FlowMouse sayfa ve indirme erişimine ihtiyaç duyar.",
+		"description": "Permission popup description for downloads and page capture"
+	},
+	"grantPermission": {
+		"message": "İzin Ver",
+		"description": "Grant permission button"
+	},
+	"grantPermissionCancel": {
+		"message": "İptal",
+		"description": "Cancel button"
+	},
+	"permissionTitle": {
+		"message": "FlowMouse İzin Gerektiriyor",
+		"description": "Generic permission window title"
+	},
+	"tutorialPinHint": {
+		"message": "<span class='icon-ext'></span><b>Eklentiler</b>'e tıklayın ve FlowMouse'u<span class='icon-pin'></span><b>Sabitleyin</b>, ayarlar daha erişilebilir olsun!",
+		"description": "Hint to pin the extension in tutorial step 4. Do not add space around icon."
+	},
+	"downloadErrorHotlink": {
+		"message": "Resim kaydedilemedi. Web sitesinde hotlink koruması olabilir. Lütfen resme sağ tıklayın ve \"Resmi farklı kaydet...\" seçeneğini belirleyin.",
+		"description": "Toast message when image download fails due to hotlink protection"
+	},
+	"saveImageLoadError": {
+		"message": "Resim kaydedilemedi: Resim yüklenemedi",
+		"description": "Toast message when image fails to load before saving"
+	},
+	"saveImageTimeout": {
+		"message": "Resim kaydedilemedi: Yükleme zaman aşımına uğradı",
+		"description": "Toast message when image loading times out"
+	}
+}

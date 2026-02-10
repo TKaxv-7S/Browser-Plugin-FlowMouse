@@ -1,259 +1,243 @@
 <!DOCTYPE html>
-<html lang="zh-CN">
+<html>
 
 <head>
-    <meta charset="UTF-8">
-    <title data-i18n="extName">FlowMouse</title>
-    <style>
-        :root {
-            --bg-primary: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
-            --bg-secondary: rgba(255, 255, 255, 0.05);
-            --text-primary: #fff;
-            --text-secondary: #888;
-            --border-color: rgba(255, 255, 255, 0.1);
-            --accent-color: #4285f4;
-        }
+	<meta charset="UTF-8">
+	<title data-i18n="extName">FlowMouse</title>
+	<link rel="stylesheet" href="../css/common.css">
+	<style>
+		:root {
+			--bg-secondary: rgba(255, 255, 255, 0.05);
+		}
 
-        [data-theme="light"] {
-            --bg-primary: linear-gradient(135deg, #f5f7fa 0%, #e4e8eb 100%);
-            --bg-secondary: rgba(0, 0, 0, 0.03);
-            --text-primary: #333;
-            --text-secondary: #666;
-            --border-color: rgba(0, 0, 0, 0.1);
-        }
+		[data-theme="light"] {
+			--bg-secondary: rgba(0, 0, 0, 0.03);
+			--text-primary: #333;
+		}
 
-        * {
-            box-sizing: border-box;
-            margin: 0;
-            padding: 0;
-        }
+		body {
+			width: 280px;
+			padding: 15px;
+			min-height: auto;
+		}
 
-        body {
-            width: 280px;
-            font-family: 'Segoe UI', 'Microsoft YaHei', sans-serif;
-            background: var(--bg-primary);
-            color: var(--text-primary);
-            padding: 15px;
-        }
+		.header {
+			display: flex;
+			align-items: center;
+			gap: 10px;
+			padding-bottom: 12px;
+			border-bottom: 1px solid var(--border-color);
+		}
 
-        .header {
-            display: flex;
-            align-items: center;
-            gap: 10px;
-            margin-bottom: 15px;
-            padding-bottom: 12px;
-            border-bottom: 1px solid var(--border-color);
-        }
+		.header h1 {
+			font-size: 16px;
+			font-weight: 600;
+		}
 
-        .header h1 {
-            font-size: 16px;
-            font-weight: 600;
-        }
+		.logo-small {
+			width: 18px;
+			height: 18px;
+			border-radius: 4px;
+		}
 
-        .logo-small {
-            width: 18px;
-            height: 18px;
-            border-radius: 4px;
-        }
+		.header .version {
+			font-size: 11px;
+			color: var(--text-secondary);
+			background: var(--bg-secondary);
+			padding: 2px 6px;
+			border-radius: 4px;
+		}
 
-        .header .version {
-            font-size: 11px;
-            color: var(--text-secondary);
-            background: var(--bg-secondary);
-            padding: 2px 6px;
-            border-radius: 4px;
-        }
+		.status-row {
+			display: flex;
+			justify-content: space-between;
+			align-items: center;
+			padding: 10px 0;
+			border-bottom: 1px solid var(--border-color);
+		}
 
-        .status-row {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            padding: 10px 0;
-            border-bottom: 1px solid var(--border-color);
-        }
+		.status-label {
+			font-size: 13px;
+		}
 
-        .status-label {
-            font-size: 13px;
-        }
+		.gestures-info {
+			background: var(--bg-secondary);
+			border-radius: 8px;
+			padding: 12px;
+			margin: 15px 0;
+			font-size: 12px;
+		}
 
-        .toggle {
-            position: relative;
-            width: 40px;
-            height: 22px;
-        }
+		.gestures-info h3 {
+			font-size: 13px;
+			margin-bottom: 8px;
+			color: var(--accent-color);
+		}
 
-        .toggle input {
-            opacity: 0;
-            width: 0;
-            height: 0;
-        }
+		.gesture-list {
+			display: grid;
+			grid-template-columns: 50px 1fr 50px 1fr;
+			gap: 6px 4px;
+			align-items: center;
+		}
 
-        .toggle .slider {
-            position: absolute;
-            cursor: pointer;
-            top: 0;
-            left: 0;
-            right: 0;
-            bottom: 0;
-            background-color: #444;
-            transition: 0.3s;
-            border-radius: 22px;
-        }
+		.gesture-pattern {
+			font-weight: bold;
+			text-align: center;
+		}
 
-        .toggle .slider:before {
-            position: absolute;
-            content: "";
-            height: 16px;
-            width: 16px;
-            left: 3px;
-            bottom: 3px;
-            background-color: #fff;
-            transition: 0.3s;
-            border-radius: 50%;
-        }
+		.gesture-action {
+			color: var(--text-secondary);
+			font-size: 11px;
+		}
 
-        .toggle input:checked+.slider {
-            background-color: var(--accent-color);
-        }
+		.actions {
+			display: flex;
+			gap: 8px;
+			margin-top: 15px;
+		}
 
-        .toggle input:checked+.slider:before {
-            transform: translateX(18px);
-        }
+		.btn {
+			flex: 1;
+			padding: 10px;
+			font-size: 13px;
+			border-radius: 6px;
+		}
 
-        .gestures-info {
-            background: var(--bg-secondary);
-            border-radius: 8px;
-            padding: 12px;
-            margin: 15px 0;
-            font-size: 12px;
-        }
+		.current-site {
+			margin-top: 12px;
+			padding-top: 12px;
+			border-top: 1px solid var(--border-color);
+			font-size: 12px;
+			color: var(--text-secondary);
+		}
 
-        .gestures-info h3 {
-            font-size: 13px;
-            margin-bottom: 8px;
-            color: var(--accent-color);
-        }
+		.current-site .domain {
+			color: var(--text-primary);
+			font-weight: 500;
+		}
 
-        .gesture-list {
-            display: grid;
-            grid-template-columns: 50px 1fr 50px 1fr;
-            gap: 6px 4px;
-            align-items: center;
-        }
+		.blacklisted {
+			color: #ea4335;
+		}
 
-        .gesture-pattern {
-            font-weight: bold;
-            text-align: center;
-        }
+		.not-available {
+			color: var(--text-secondary);
+			font-style: italic;
+		}
 
-        .gesture-action {
-            color: var(--text-secondary);
-            font-size: 11px;
-        }
+		.notice-box {
+			display: none;
+			background: var(--bg-secondary);
+			border-radius: 8px;
+			padding: 15px;
+			margin: 15px 0;
+			text-align: center;
+		}
 
-        .actions {
-            display: flex;
-            gap: 8px;
-            margin-top: 15px;
-        }
+		.notice-box.show {
+			display: block;
+		}
 
-        .btn {
-            flex: 1;
-            padding: 10px;
-            border: none;
-            border-radius: 6px;
-            font-size: 13px;
-            cursor: pointer;
-            transition: all 0.2s;
-        }
+		.notice-box .notice-icon {
+			font-size: 28px;
+			margin-bottom: 8px;
+		}
 
-        .btn-primary {
-            background: var(--accent-color);
-            color: #fff;
-        }
+		.notice-box .notice-title {
+			font-size: 14px;
+			font-weight: 600;
+			margin-bottom: 6px;
+		}
 
-        .btn-secondary {
-            background: var(--bg-secondary);
-            color: var(--text-primary);
-            border: 1px solid var(--border-color);
-        }
+		.notice-box .notice-desc {
+			font-size: 12px;
+			color: var(--text-secondary);
+			margin-bottom: 12px;
+			line-height: 1.5;
+		}
 
-        .btn:disabled {
-            opacity: 0.5;
-            cursor: not-allowed;
-        }
+		.notice-box .btn {
+			width: 100%;
+		}
 
-        .current-site {
-            margin-top: 12px;
-            padding-top: 12px;
-            border-top: 1px solid var(--border-color);
-            font-size: 12px;
-            color: var(--text-secondary);
-        }
+		.notice-box.warning .notice-icon {
+			color: #f4b400;
+		}
 
-        .current-site .domain {
-            color: var(--text-primary);
-            font-weight: 500;
-        }
-
-        .blacklisted {
-            color: #ea4335;
-        }
-
-        .not-available {
-            color: var(--text-secondary);
-            font-style: italic;
-        }
-    </style>
+		.notice-box.error .notice-icon {
+			color: #ea4335;
+		}
+	</style>
+	<style id="i18n-load-style">
+		[data-i18n], [data-i18n-placeholder], [data-i18n-title], select {
+			visibility: hidden;
+		}
+	</style>
 </head>
 
 <body>
-    <div class="header">
-        <img src="../icons/icon16.png" class="logo-small" alt="Logo">
-        <h1><span data-i18n="extNameShort">FlowMouse 心流鼠标</span></h1>
-        <span class="version version-from-manifest">v1.1</span>
-    </div>
+	<div class="header">
+		<img src="../icons/icon48.png" class="logo-small" alt="Logo">
+		<h1><span data-i18n="extNameShort">FlowMouse</span></h1>
+		<span class="version version-from-manifest"></span>
+	</div>
 
-    <div class="status-row" id="trailRow">
-        <span class="status-label" data-i18n="popupTrail">手势轨迹</span>
-        <label class="toggle">
-            <input type="checkbox" id="enableTrail" checked>
-            <span class="slider"></span>
-        </label>
-    </div>
+	<div class="status-row" id="trailRow">
+		<span class="status-label" data-i18n="popupTrail">手势轨迹</span>
+		<label class="toggle">
+			<input type="checkbox" id="enableTrail" checked>
+			<span class="slider"></span>
+		</label>
+	</div>
 
-    <div class="status-row" id="hudRow">
-        <span class="status-label" data-i18n="popupHint">操作提示</span>
-        <label class="toggle">
-            <input type="checkbox" id="enableHUD" checked>
-            <span class="slider"></span>
-        </label>
-    </div>
+	<div class="status-row" id="hudRow">
+		<span class="status-label" data-i18n="popupHint">操作提示</span>
+		<label class="toggle">
+			<input type="checkbox" id="enableHUD" checked>
+			<span class="slider"></span>
+		</label>
+	</div>
 
-    <div class="gestures-info" id="gesturesInfo">
-        <h3 data-i18n="popupCommonGestures">常用手势</h3>
-        <div class="gesture-list">
-            <span class="gesture-pattern">←</span><span class="gesture-action" data-i18n="popupBack">返回</span>
-            <span class="gesture-pattern">→</span><span class="gesture-action" data-i18n="popupForward">前进</span>
-            <span class="gesture-pattern">↑</span><span class="gesture-action" data-i18n="popupScrollUp">上翻</span>
-            <span class="gesture-pattern">↓</span><span class="gesture-action" data-i18n="popupScrollDown">下翻</span>
-            <span class="gesture-pattern">↓→</span><span class="gesture-action" data-i18n="popupClose">关闭</span>
-            <span class="gesture-pattern">→←</span><span class="gesture-action" data-i18n="popupRestore">恢复</span>
-        </div>
-    </div>
+	<div class="gestures-info" id="gesturesInfo">
+		<h3 data-i18n="popupCommonGestures">常用手势</h3>
+		<div class="gesture-list">
+			<span class="gesture-pattern">←</span><span class="gesture-action" data-i18n="popupBack">返回</span>
+			<span class="gesture-pattern">→</span><span class="gesture-action" data-i18n="popupForward">前进</span>
+			<span class="gesture-pattern">↑</span><span class="gesture-action" data-i18n="popupScrollUp">上翻</span>
+			<span class="gesture-pattern">↓</span><span class="gesture-action" data-i18n="popupScrollDown">下翻</span>
+			<span class="gesture-pattern">↓→</span><span class="gesture-action" data-i18n="popupClose">关闭</span>
+			<span class="gesture-pattern">→←</span><span class="gesture-action" data-i18n="popupRestore">恢复</span>
+		</div>
+	</div>
 
-    <div class="current-site">
-        <span data-i18n="popupCurrentSite">当前网站</span>: <span class="domain" id="currentDomain">-</span>
-        <span id="blacklistStatus"></span>
-    </div>
+	<div class="notice-box warning" id="needRefreshNotice">
+		<div class="notice-icon">⚠️</div>
+		<div class="notice-title" data-i18n="popupNeedRefresh">扩展程序未加载</div>
+		<div class="notice-desc" data-i18n="popupNeedRefreshDesc">此页面在扩展程序安装/更新前已打开，需要刷新才能使用手势</div>
+		<button class="btn btn-primary" id="refreshPageBtn" data-i18n="popupRefreshBtn">🔄 刷新页面</button>
+	</div>
 
-    <div class="actions">
-        <button class="btn btn-secondary" id="toggleBlacklist">加入黑名单</button>
-        <button class="btn btn-primary" id="openOptions" data-i18n="moreSettings">更多设置</button>
-    </div>
+	<div class="notice-box error" id="restrictedNotice">
+		<div class="notice-icon">🚫</div>
+		<div class="notice-title" data-i18n="popupRestrictedTitle">无法使用手势</div>
+		<div class="notice-desc" data-i18n="popupRestrictedDesc">此页面由于浏览器安全限制，扩展程序无法加载</div>
+		<button class="btn btn-secondary" id="learnMoreBtn" data-i18n="popupLearnMore">📖 了解详情</button>
+	</div>
 
-    <script src="../js/i18n.js"></script>
-    <script src="../js/popup.js"></script>
+	<div class="current-site">
+		<span data-i18n="popupCurrentSite">当前网站</span>: <span class="domain" id="currentDomain">-</span>
+		<span id="blacklistStatus"></span>
+	</div>
+
+	<div class="actions">
+		<button class="btn btn-secondary" id="toggleBlacklist" data-i18n="popupAddBlacklist">加入黑名单</button>
+		<button class="btn btn-primary" id="openOptions" data-i18n="moreSettings">更多设置</button>
+	</div>
+
+	<script src="../js/i18n.js"></script>
+	<script src="../js/constants.js"></script>
+	<script src="../js/popup.js"></script>
 </body>
 
 </html>

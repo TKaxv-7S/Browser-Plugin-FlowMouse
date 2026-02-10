@@ -1,0 +1,1238 @@
+{
+	"extName": {
+		"message": "FlowMouse - Gesturi Mouse",
+		"description": "Extension name"
+	},
+	"extNameShort": {
+		"message": "FlowMouse",
+		"description": "Short extension name for popup"
+	},
+	"extDescription": {
+		"message": "O extensie de gesturi mouse open-source, concentrată pe confidențialitate și experiență fluidă. Gesturi fine, suport super drag, și toate datele sunt stocate local.",
+		"description": "Extension description"
+	},
+	"appearance": {
+		"message": "Aspect",
+		"description": "Appearance section"
+	},
+	"theme": {
+		"message": "Temă",
+		"description": "Theme"
+	},
+	"themeDesc": {
+		"message": "Comută între tema luminoasă și cea întunecată",
+		"description": "Theme description"
+	},
+	"themeDark": {
+		"message": "Întunecat",
+		"description": "Dark theme"
+	},
+	"themeLight": {
+		"message": "Luminos",
+		"description": "Light theme"
+	},
+	"themeAuto": {
+		"message": "Urmează Sistemul",
+		"description": "Auto theme - follow system"
+	},
+	"languageDesc": {
+		"message": "Selectează limba interfeței",
+		"description": "Language description"
+	},
+	"syncStatus": {
+		"message": "Stare Sincronizare",
+		"description": "Sync status"
+	},
+	"syncStatusDesc": {
+		"message": "Sincronizare setări prin contul %browserName%",
+		"description": "Sync status description"
+	},
+	"synced": {
+		"message": "Sincronizat",
+		"description": "Synced"
+	},
+	"author": {
+		"message": "Autor",
+		"description": "Author"
+	},
+	"privacyNote": {
+		"message": "🔒 Rulează local, fără acces la rețea exceptând sincronizarea, fără colectare de date",
+		"description": "Privacy note in footer"
+	},
+	"supportUsText": {
+		"message": "Îți place FlowMouse? Te rugăm să ne dai 5 stele pe %appStoreInfo% pentru a ne susține!",
+		"description": "Rating text"
+	},
+	"storeNameChrome": {
+		"message": "Magazinul web Chrome",
+		"description": "Chrome Web Store name"
+	},
+	"storeNameEdge": {
+		"message": "Program de completare Edge",
+		"description": "Edge Add-ons name"
+	},
+	"storeNameFirefox": {
+		"message": "Suplimente Firefox",
+		"description": "Firefox Add-ons name"
+	},
+	"feedbackText": {
+		"message": "Aveți probleme sau sugestii? Vă rugăm să raportați prin <a href='mailto:Service@52pojie.cn'>E-mail</a>, <a href='https://github.com/Hmily-LCG/FlowMouse/issues' target='_blank'>GitHub</a> sau <a href='https://www.52pojie.cn/thread-2080303-1-1.html' target='_blank'>Forum</a>. Vom îmbunătăți cât mai curând posibil!",
+		"description": "Feedback text"
+	},
+	"supportAndFeedback": {
+		"message": "Suport și Feedback",
+		"description": "Support and Feedback section title"
+	},
+	"feedbackTitle": {
+		"message": "Feedback și Sugestii",
+		"description": "Feedback row title"
+	},
+	"supportUsTitle": {
+		"message": "Susține-ne",
+		"description": "Rating row title"
+	},
+	"backToSettings": {
+		"message": "Înapoi la Setări",
+		"description": "Back to settings link"
+	},
+	"settings": {
+		"message": "Setări",
+		"description": "Settings"
+	},
+	"moreSettings": {
+		"message": "Mai multe Setări",
+		"description": "More settings button in popup"
+	},
+	"version": {
+		"message": "Versiune",
+		"description": "Version"
+	},
+	"basicSettings": {
+		"message": "Setări Gesturi",
+		"description": "Gesture settings section"
+	},
+	"enableGesture": {
+		"message": "Activează Gesturi",
+		"description": "Enable gesture feature"
+	},
+	"enableGestureDesc": {
+		"message": "Ține apăsat butonul dreapta al mouse-ului și mișcă mouse-ul pentru a efectua gesturi cu ușurință",
+		"description": "Hold the right mouse button and move the mouse to easily perform gestures"
+	},
+	"macLinuxContextMenuNotice": {
+		"message": "⚠️ Din cauza limitărilor de sistem, pe macOS / Linux este necesar dublu click dreapta pentru a deschide meniul contextual.",
+		"description": "Notice for macOS / Linux users about double right-click for context menu"
+	},
+	"macTextDragNotice": {
+		"message": "⚠️ Din cauza comportamentului macOS, când trageți text, selectați mai întâi textul, apoi apăsați și mențineți scurt butonul stâng înainte de a trage. Altfel, căutarea ar putea să nu se declanșeze.",
+		"description": "Notice for macOS users about text drag behavior"
+	},
+	"showTrail": {
+		"message": "Arată Urma Gestului",
+		"description": "Show gesture trail"
+	},
+	"showTrailDesc": {
+		"message": "Afișează linia de urmărire când execuți gesturi",
+		"description": "Show trail line when performing gestures"
+	},
+	"showHint": {
+		"message": "Arată Indiciu Acțiune",
+		"description": "Show action hint"
+	},
+	"showHintDesc": {
+		"message": "Afișează acțiunea gestului curent în centrul ecranului",
+		"description": "Show current gesture action in center of screen"
+	},
+	"color": {
+		"message": "Culoare",
+		"description": "Color"
+	},
+	"width": {
+		"message": "Grosime",
+		"description": "Width/thickness"
+	},
+	"background": {
+		"message": "Fundal",
+		"description": "Background"
+	},
+	"opacity": {
+		"message": "Opacitate",
+		"description": "Opacity"
+	},
+	"text": {
+		"message": "Text",
+		"description": "Text"
+	},
+	"scrollAmount": {
+		"message": "Distanță de Derulare",
+		"description": "Scroll amount"
+	},
+	"scrollAmountDesc": {
+		"message": "Distanța de derulare pentru gesturile sus/jos (% din înălțimea ferestrei)",
+		"description": "Scroll distance for up/down gestures"
+	},
+	"scrollSmoothness": {
+		"message": "Finețe Derulare",
+		"description": "Scroll smoothness"
+	},
+	"scrollSmoothnessDesc": {
+		"message": "Efect de animație pentru gesturile de derulare sus/jos",
+		"description": "Scroll smoothness description"
+	},
+	"smoothnessSystem": {
+		"message": "Sistem (Performanță Înaltă)",
+		"description": "System scroll smoothness"
+	},
+	"smoothnessCustom": {
+		"message": "Fin",
+		"description": "Custom smooth scrolling"
+	},
+	"smoothnessNone": {
+		"message": "Fără animație",
+		"description": "No scroll animation"
+	},
+	"dragFeatures": {
+		"message": "Funcții Tragere (Drag)",
+		"description": "Drag features section"
+	},
+	"textDragSearch": {
+		"message": "Tragere Text",
+		"description": "Text drag"
+	},
+	"textDragSearchDesc": {
+		"message": "Trage textul selectat pentru a căuta",
+		"description": "Drag selected text to search"
+	},
+	"searchEngine": {
+		"message": "Motor de Căutare",
+		"description": "Search engine"
+	},
+	"custom": {
+		"message": "Personalizat",
+		"description": "Custom"
+	},
+	"customUrlPlaceholder": {
+		"message": "URL personalizat, folosește %s pentru termenul căutat",
+		"description": "Custom URL placeholder"
+	},
+	"urlPlaceholderText": {
+		"message": "%s=Cuvânt cheie",
+		"description": "Placeholder for text drag custom URL"
+	},
+	"urlPlaceholderImage": {
+		"message": "%s=URL imagine",
+		"description": "Placeholder for image drag custom URL"
+	},
+	"searchEngine_baidu": {
+		"message": "Baidu",
+		"description": "Baidu search engine"
+	},
+	"searchEngine_360": {
+		"message": "360 Search",
+		"description": "360 search engine"
+	},
+	"searchEngine_yandex": {
+		"message": "Yandex",
+		"description": "Yandex search engine"
+	},
+	"searchEngine_system": {
+		"message": "Implicit al browserului",
+		"description": "System default search engine"
+	},
+	"imageDrag": {
+		"message": "Tragere Imagine",
+		"description": "Image drag"
+	},
+	"imageDragDesc": {
+		"message": "Trage imaginea pentru a o deschide într-un tab nou",
+		"description": "Drag image to open in new tab"
+	},
+	"linkDrag": {
+		"message": "Tragere Link",
+		"description": "Link drag"
+	},
+	"linkDragDesc": {
+		"message": "Trage linkul pentru a-l deschide într-un tab nou",
+		"description": "Drag link to open in new tab"
+	},
+	"enableCustomGestures": {
+		"message": "Gesturi Personalizate",
+		"description": "Enable custom gestures"
+	},
+	"enableCustomGesturesDesc": {
+		"message": "Vezi și personalizează fiecare acțiune a gesturilor",
+		"description": "View and customize each gesture action"
+	},
+	"gestureAutoSaveHint": {
+		"message": "Sfat: Modificările sunt salvate automat.",
+		"description": "Hint about auto-save"
+	},
+	"blacklist": {
+		"message": "Listă Neagră Site-uri",
+		"description": "Website blacklist"
+	},
+	"blacklistPlaceholder": {
+		"message": "Introdu domeniul, ex. example.com, apasă Enter pentru a adăuga",
+		"description": "Blacklist input placeholder"
+	},
+	"add": {
+		"message": "Adaugă",
+		"description": "Add button"
+	},
+	"emptyBlacklist": {
+		"message": "Niciun site în lista neagră. Introdu un domeniu mai sus pentru a adăuga.",
+		"description": "Empty blacklist message"
+	},
+	"dataManagement": {
+		"message": "Gestionare Date",
+		"description": "Data management section"
+	},
+	"export": {
+		"message": "Exportă",
+		"description": "Export settings"
+	},
+	"import": {
+		"message": "Importă",
+		"description": "Import settings"
+	},
+	"reset": {
+		"message": "Resetează",
+		"description": "Reset to default"
+	},
+	"autoSaved": {
+		"message": "✓ Salvat automat",
+		"description": "Auto-saved message"
+	},
+	"saveFailure": {
+		"message": "Salvarea a eșuat",
+		"description": "Save failure message"
+	},
+	"resetConfirm": {
+		"message": "Ești sigur că vrei să resetezi toate setările la valorile implicite?",
+		"description": "Reset confirmation"
+	},
+	"resetDone": {
+		"message": "Setările au fost resetate la valori implicite",
+		"description": "Reset done message"
+	},
+	"exportDone": {
+		"message": "Setări exportate",
+		"description": "Export done message"
+	},
+	"importDone": {
+		"message": "Setări importate",
+		"description": "Import done message"
+	},
+	"importFailed": {
+		"message": "Import eșuat: Fișier de configurare invalid",
+		"description": "Import failed message"
+	},
+	"importFailedSyncError": {
+		"message": "Import eșuat: Eroare de sincronizare, vă rugăm să verificați starea browserului",
+		"description": "Import failed sync error message"
+	},
+	"invalidDomain": {
+		"message": "Te rugăm să introduci un domeniu valid",
+		"description": "Invalid domain message"
+	},
+	"domainExists": {
+		"message": "Domeniul este deja în lista neagră",
+		"description": "Domain already in blacklist"
+	},
+	"about": {
+		"message": "Despre",
+		"description": "About section"
+	},
+	"language": {
+		"message": "Limbă",
+		"description": "Language"
+	},
+	"languageAuto": {
+		"message": "Urmează Sistemul",
+		"description": "Follow system language"
+	},
+	"privacyFriendly": {
+		"message": "Prietenos cu Confidențialitatea",
+		"description": "Privacy friendly"
+	},
+	"localOnly": {
+		"message": "Doar Local",
+		"description": "Local only"
+	},
+	"autoSave": {
+		"message": "Salvare Automată",
+		"description": "Auto save"
+	},
+	"gestureDesc_L": {
+		"message": "Stânga",
+		"description": "Gesture description for ←"
+	},
+	"gestureDesc_R": {
+		"message": "Dreapta",
+		"description": "Gesture description for →"
+	},
+	"gestureDesc_U": {
+		"message": "Sus",
+		"description": "Gesture description for ↑"
+	},
+	"gestureDesc_D": {
+		"message": "Jos",
+		"description": "Gesture description for ↓"
+	},
+	"gestureDesc_DR": {
+		"message": "Jos apoi Dreapta",
+		"description": "Gesture description for ↓→"
+	},
+	"gestureDesc_LU": {
+		"message": "Stânga apoi Sus",
+		"description": "Gesture description for ←↑"
+	},
+	"gestureDesc_RU": {
+		"message": "Dreapta apoi Sus",
+		"description": "Gesture description for →↑"
+	},
+	"gestureDesc_RD": {
+		"message": "Dreapta apoi Jos",
+		"description": "Gesture description for →↓"
+	},
+	"gestureDesc_UL": {
+		"message": "Sus apoi Stânga",
+		"description": "Gesture description for ↑←"
+	},
+	"gestureDesc_UR": {
+		"message": "Sus apoi Dreapta",
+		"description": "Gesture description for ↑→"
+	},
+	"gestureDesc_DL": {
+		"message": "Jos apoi Stânga",
+		"description": "Gesture description for ↓←"
+	},
+	"gestureDesc_LD": {
+		"message": "Stânga apoi Jos",
+		"description": "Gesture description for ←↓"
+	},
+	"gestureDesc_UD": {
+		"message": "Sus apoi Jos",
+		"description": "Gesture description for ↑↓"
+	},
+	"gestureDesc_DU": {
+		"message": "Jos apoi Sus",
+		"description": "Gesture description for ↓↑"
+	},
+	"gestureDesc_LR": {
+		"message": "Stânga apoi Dreapta",
+		"description": "Gesture description for ←→"
+	},
+	"gestureDesc_RL": {
+		"message": "Dreapta apoi Stânga",
+		"description": "Gesture description for →←"
+	},
+	"actionNone": {
+		"message": "Nimic",
+		"description": "No action"
+	},
+	"actionBack": {
+		"message": "Înapoi",
+		"description": "Go back"
+	},
+	"actionForward": {
+		"message": "Înainte",
+		"description": "Go forward"
+	},
+	"actionScrollUp": {
+		"message": "Derulează Sus",
+		"description": "Scroll up"
+	},
+	"actionScrollDown": {
+		"message": "Derulează Jos",
+		"description": "Scroll down"
+	},
+	"actionScrollToTop": {
+		"message": "Derulează la Început",
+		"description": "Scroll to top"
+	},
+	"actionScrollToBottom": {
+		"message": "Derulează la Sfârșit",
+		"description": "Scroll to bottom"
+	},
+	"actionCloseTab": {
+		"message": "Închide Tab",
+		"description": "Close tab"
+	},
+	"actionCloseTabKeepWindow": {
+		"message": "Închide Tab (Păstrează Fereastra)",
+		"description": "Close tab but keep window open"
+	},
+	"actionCloseBrowser": {
+		"message": "Închide Browser",
+		"description": "Close browser"
+	},
+	"actionRestoreTab": {
+		"message": "Restaurează Tab Închis",
+		"description": "Restore closed tab"
+	},
+	"actionNewTab": {
+		"message": "Tab Nou",
+		"description": "New tab"
+	},
+	"actionCloseOtherTabs": {
+		"message": "Închide Celelalte Tab-uri",
+		"description": "Close other tabs"
+	},
+	"actionCloseLeftTabs": {
+		"message": "Închide Tab-urile din Stânga",
+		"description": "Close tabs to the left"
+	},
+	"actionCloseRightTabs": {
+		"message": "Închide Tab-urile din Dreapta",
+		"description": "Close tabs to the right"
+	},
+	"actionCloseAllTabs": {
+		"message": "Închide Toate Tab-urile",
+		"description": "Close all tabs"
+	},
+	"actionSwitchLeftTab": {
+		"message": "Comută la Tab-ul din Stânga",
+		"description": "Switch to left tab"
+	},
+	"actionSwitchRightTab": {
+		"message": "Comută la Tab-ul din Dreapta",
+		"description": "Switch to right tab"
+	},
+	"actionRefresh": {
+		"message": "Reîmprospătează Tab Curent",
+		"description": "Refresh current tab"
+	},
+	"actionRefreshAllTabs": {
+		"message": "Reîmprospătează Toate Tab-urile",
+		"description": "Refresh all tabs"
+	},
+	"actionStopLoading": {
+		"message": "Oprește Încărcarea",
+		"description": "Stop loading"
+	},
+	"actionNewWindow": {
+		"message": "Fereastră Nouă",
+		"description": "New window"
+	},
+	"actionNewIncognito": {
+		"message": "Fereastră Incognito Nouă",
+		"description": "New incognito window"
+	},
+	"actionAddToBookmarks": {
+		"message": "Adaugă la Marcaje",
+		"description": "Add to bookmarks"
+	},
+	"actionToggleFullscreen": {
+		"message": "Comută Ecran Complet",
+		"description": "Toggle fullscreen"
+	},
+	"actionToggleMaximize": {
+		"message": "Comută Maximizare/Restaurare",
+		"description": "Toggle window maximize"
+	},
+	"actionMinimize": {
+		"message": "Minimizează Fereastra",
+		"description": "Minimize window"
+	},
+	"actionOpenCustomUrl": {
+		"message": "Deschide URL Personalizat",
+		"description": "Open custom URL"
+	},
+	"actionCopyUrl": {
+		"message": "Copiază URL Curent",
+		"description": "Copy current URL"
+	},
+	"actionCopyTitle": {
+		"message": "Copiază Titlu Pagină",
+		"description": "Copy page title"
+	},
+	"actionOpenDownloads": {
+		"message": "Deschide Descărcări",
+		"description": "Open downloads page"
+	},
+	"actionOpenHistory": {
+		"message": "Deschide Istoric",
+		"description": "Open history page"
+	},
+	"actionOpenExtensions": {
+		"message": "Deschide Extensii",
+		"description": "Open extensions page"
+	},
+	"actionPrintPage": {
+		"message": "Printează Pagina",
+		"description": "Print page"
+	},
+	"actionDuplicateTab": {
+		"message": "Duplică Tab",
+		"description": "Duplicate current tab"
+	},
+	"actionToggleMuteTab": {
+		"message": "Activează/Dezactivează Sunet Tab",
+		"description": "Toggle mute current tab"
+	},
+	"actionToggleMuteAllTabs": {
+		"message": "Activează/Dezactivează Sunet Toate Tab-urile",
+		"description": "Toggle mute all tabs"
+	},
+	"showTrailOrigin": {
+		"message": "Arată Punctul de Origine",
+		"description": "Show trail origin point"
+	},
+	"enableTrailSmooth": {
+		"message": "Netezirea urmei",
+		"description": "Enable trail smoothing for gesture visualization"
+	},
+	"distanceThreshold": {
+		"message": "Distanță recunoaștere gesturi",
+		"description": "Gesture recognition distance"
+	},
+	"distanceThresholdDesc": {
+		"message": "Distanța minimă de mișcare pentru a recunoaște un gest",
+		"description": "Description for gesture recognition distance"
+	},
+	"distanceThresholdNotice": {
+		"message": "Sfat: Se recomandă o valoare între 15-30 pentru cea mai bună recunoaștere.",
+		"description": "Warning when distance threshold is too small or too large"
+	},
+	"enableAdvancedSettings": {
+		"message": "Setări Avansate",
+		"description": "Enable advanced settings"
+	},
+	"enableAdvancedSettingsDesc": {
+		"message": "Afișează mai multe opțiuni avansate când este activat",
+		"description": "Show more advanced options when enabled"
+	},
+	"enableAdvancedSettingsToggle": {
+		"message": "Mod Setări Avansate",
+		"description": "Enable advanced settings toggle label"
+	},
+	"urlFormatError": {
+		"message": "Te rugăm să introduci un URL complet începând cu http:// sau https://",
+		"description": "URL format error message"
+	},
+	"resetToDefault": {
+		"message": "Revin-o la implicit",
+		"description": "Reset gesture to default action"
+	},
+	"addCustomGesture": {
+		"message": "Adaugă Gest Personalizat",
+		"description": "Add custom gesture section title"
+	},
+	"gesturePattern": {
+		"message": "Model",
+		"description": "Gesture pattern label"
+	},
+	"selectAction": {
+		"message": "Selectează Acțiune",
+		"description": "Select action label"
+	},
+	"clear": {
+		"message": "Curăță",
+		"description": "Clear button"
+	},
+	"addGesture": {
+		"message": "Adaugă Gest",
+		"description": "Add gesture button"
+	},
+	"pleaseDrawGesture": {
+		"message": "Te rugăm să desenezi un gest mai întâi",
+		"description": "Alert when no gesture drawn"
+	},
+	"gestureAdded": {
+		"message": "✓ Gest adăugat",
+		"description": "Gesture added success message"
+	},
+	"gestureDrawInstructions": {
+		"message": "Ține apăsat butonul dreapta al mouse-ului și desenează un gest mai jos, eliberează pentru a completa. Direcții suportate:",
+		"description": "Instructions for gesture drawing"
+	},
+	"gestureOverwriteConfirm": {
+		"message": "Gestul %pattern% există deja. Suprascrii?",
+		"description": "Confirmation message when adding a duplicate gesture"
+	},
+	"customGesture": {
+		"message": "Personalizat",
+		"description": "Label for custom gestures"
+	},
+	"deleteGesture": {
+		"message": "Șterge Gest",
+		"description": "Delete gesture button tooltip"
+	},
+	"deleteGestureConfirm": {
+		"message": "Ștergi gestul %pattern%?",
+		"description": "Delete gesture confirmation"
+	},
+	"gestureDeleted": {
+		"message": "✓ Gest șters",
+		"description": "Gesture deleted success message"
+	},
+	"enterCustomUrl": {
+		"message": "Introdu URL (sugerat inclusiv protocol precum https://, chrome://, etc.):",
+		"description": "Prompt for custom URL input"
+	},
+	"invalidUrl": {
+		"message": "Te rugăm să introduci un URL valid (începând cu http:// sau https://)",
+		"description": "Invalid URL error message"
+	},
+	"popupTrail": {
+		"message": "Urmă Gest",
+		"description": "Gesture trail in popup"
+	},
+	"popupHint": {
+		"message": "Indiciu Acțiune",
+		"description": "Action hint in popup"
+	},
+	"popupCommonGestures": {
+		"message": "Gesturi Comune",
+		"description": "Common gestures"
+	},
+	"popupCurrentSite": {
+		"message": "Site Curent",
+		"description": "Current site"
+	},
+	"popupRestricted": {
+		"message": "Pagină Restricționată",
+		"description": "Restricted page"
+	},
+	"popupDisabled": {
+		"message": "Dezactivat",
+		"description": "Disabled"
+	},
+	"popupAddBlacklist": {
+		"message": "Adaugă la Lista Neagră",
+		"description": "Add to blacklist"
+	},
+	"popupRemoveBlacklist": {
+		"message": "Scoate din Lista Neagră",
+		"description": "Remove from blacklist"
+	},
+	"popupNotAvailable": {
+		"message": "Indisponibil",
+		"description": "Not available"
+	},
+	"popupBack": {
+		"message": "Înapoi",
+		"description": "Back - short"
+	},
+	"popupForward": {
+		"message": "Înainte",
+		"description": "Forward - short"
+	},
+	"popupScrollUp": {
+		"message": "Sus",
+		"description": "Scroll up - short"
+	},
+	"popupScrollDown": {
+		"message": "Jos",
+		"description": "Scroll down - short"
+	},
+	"popupClose": {
+		"message": "Închide",
+		"description": "Close Tab - short"
+	},
+	"popupRestore": {
+		"message": "Restabilește",
+		"description": "Restore Tab - short"
+	},
+	"dragSearchText": {
+		"message": "🔍 Căutare prin Tragere",
+		"description": "Drag search hint"
+	},
+	"dragOpenImage": {
+		"message": "🖼️ Deschide Imagine",
+		"description": "Drag open image hint"
+	},
+	"dragOpenLink": {
+		"message": "🔗 Deschide Link",
+		"description": "Drag open link hint"
+	},
+	"aboutTitle": {
+		"message": "Despre FlowMouse",
+		"description": "About title"
+	},
+	"aboutAuthor": {
+		"message": "Autor",
+		"description": "Author"
+	},
+	"aboutWebsite": {
+		"message": "Website",
+		"description": "Website"
+	},
+	"aboutOpenSource": {
+		"message": "GitHub",
+		"description": "GitHub link"
+	},
+	"aboutEmail": {
+		"message": "Email",
+		"description": "Email"
+	},
+	"aboutPrivacy": {
+		"message": "Declarație de Confidențialitate",
+		"description": "Privacy statement"
+	},
+	"aboutPrivacyText": {
+		"message": "Această extensie este un proiect open-source cu codul găzduit pe GitHub. Contribuțiile și revizuirea codului sunt binevenite. Toată procesarea datelor se face local pe dispozitivul tău. Extensia în sine nu stabilește nicio conexiune de rețea și nu are servere backend, deci nu colectează și nu încarcă datele utilizatorului pe servere externe. Setările tale salvate sunt criptate și sincronizate între dispozitivele autentificate prin serviciul de sincronizare integrat în browserul %browserName%. Acest proces este controlat în totalitate de browser și respectă setările tale de confidențialitate și sincronizare ale browserului.",
+		"description": "Privacy statement text"
+	},
+	"aboutCredits": {
+		"message": "Credite",
+		"description": "Credits"
+	},
+	"aboutCreditsText": {
+		"message": "Mulțumiri browserului Microsoft Edge și extensiei crxMouse pentru inspirația de design.\nMulțumiri comunității 52pojie.cn și utilizatorilor pentru feedback și sugestii!",
+		"description": "Credits text"
+	},
+	"aboutFeatures": {
+		"message": "Caracteristici",
+		"description": "Features"
+	},
+	"aboutFeature1": {
+		"message": "🎯 16 Gesturi Implicite + Gesturi Personalizate",
+		"description": "Feature 1"
+	},
+	"aboutFeature2": {
+		"message": "🎨 Feedback Vizual Urmă",
+		"description": "Feature 2"
+	},
+	"aboutFeature3": {
+		"message": "🔍 Super Drag Text/Imagine/Link",
+		"description": "Feature 3"
+	},
+	"aboutFeature4": {
+		"message": "🚫 Listă Neagră Site-uri",
+		"description": "Feature 4"
+	},
+	"aboutFeature5": {
+		"message": "☁️ Sincronizare Cont %browserName%",
+		"description": "Feature 5"
+	},
+	"aboutFeature6": {
+		"message": "🔒 Rulează Local, Fără Rețea (exceptând Sincronizarea)",
+		"description": "Feature 6"
+	},
+	"tutorial": {
+		"message": "Tutorial",
+		"description": "Tutorial link"
+	},
+	"learnMore": {
+		"message": "Află Mai Multe",
+		"description": "Learn more link"
+	},
+	"badgeNoNetwork": {
+		"message": "🔒 Fără Rețea (doar Sync)",
+		"description": "No network privacy badge"
+	},
+	"badgeNoData": {
+		"message": "🚫 Fără Colectare Date",
+		"description": "No data collection badge"
+	},
+	"badgeLocalRun": {
+		"message": "✅ Rulează Local",
+		"description": "Local run badge"
+	},
+	"newTabSettings": {
+		"message": "Setări Tab Nou",
+		"description": "New tab open settings"
+	},
+	"newTabPosition": {
+		"message": "Poziție",
+		"description": "New tab position"
+	},
+	"tabPositionRight": {
+		"message": "Dreapta tab-ului curent",
+		"description": "Right of current tab"
+	},
+	"tabPositionLeft": {
+		"message": "Stânga tab-ului curent",
+		"description": "Left of current tab"
+	},
+	"tabPositionFirst": {
+		"message": "Primul tab (cel mai din stânga)",
+		"description": "First tab (leftmost)"
+	},
+	"tabPositionLast": {
+		"message": "Ultimul tab (cel mai din dreapta)",
+		"description": "Last tab (rightmost)"
+	},
+	"tabPositionCurrent": {
+		"message": "Tab-ul Curent",
+		"description": "Open in current tab"
+	},
+	"newTabActive": {
+		"message": "Deschide în prim plan",
+		"description": "Open tab in foreground"
+	},
+	"textDragGestures": {
+		"message": "Gesturi Tragere Text",
+		"description": "Text drag gestures"
+	},
+	"linkDragGestures": {
+		"message": "Gesturi Tragere Link",
+		"description": "Link drag gestures"
+	},
+	"imageDragGestures": {
+		"message": "Gesturi Tragere Imagine",
+		"description": "Image drag gestures"
+	},
+	"direction": {
+		"message": "Direcție",
+		"description": "Direction column header"
+	},
+	"action": {
+		"message": "Acțiune",
+		"description": "Action column header"
+	},
+	"imageSearchUrl": {
+		"message": "URL Căutare Imagine (%s = URL imagine)",
+		"description": "Image search URL input"
+	},
+	"dragActionNone": {
+		"message": "Nimic",
+		"description": "No action"
+	},
+	"dragActionSearch": {
+		"message": "🔍 Motor Căutare",
+		"description": "Search action"
+	},
+	"dragActionCopy": {
+		"message": "📋 Copiază",
+		"description": "Copy action"
+	},
+	"dragActionOpenTab": {
+		"message": "📑 Deschide în Tab Nou",
+		"description": "Open in new tab"
+	},
+	"dragActionOpenTabLink": {
+		"message": "🔗 Deschide Link",
+		"description": "Open link in new tab"
+	},
+	"dragActionOpenTabImage": {
+		"message": "🖼️ Deschide Imagine",
+		"description": "Open image in new tab"
+	},
+	"dragActionCopyLink": {
+		"message": "📋 Copiază Link",
+		"description": "Copy link"
+	},
+	"dragActionSaveImage": {
+		"message": "💾 Salvează Imagine",
+		"description": "Save image"
+	},
+	"dragActionCopyImage": {
+		"message": "🖼️ Copiază Imagine",
+		"description": "Copy image"
+	},
+	"dragActionCopyImageUrl": {
+		"message": "📋 Copiază URL Imagine",
+		"description": "Copy image URL"
+	},
+	"dragActionImageSearch": {
+		"message": "🔍 Căutare Imagine",
+		"description": "Image search"
+	},
+	"dragActionCustomSearch": {
+		"message": "🔍 Căutare Personalizată",
+		"description": "Custom search"
+	},
+	"reducedMotionWarning": {
+		"message": "⚠️ Animația de sistem %OS% este dezactivată, derularea animată ar putea să nu funcționeze corect. Poți activa animația în setările de sistem %OS%.",
+		"description": "Warning message when system reduced motion is enabled"
+	},
+	"autoDetectUrl": {
+		"message": "Detectare Automată URL",
+		"description": "Auto detect URL checkbox label"
+	},
+	"preferLink": {
+		"message": "Preferă Link",
+		"description": "Prefer link checkbox label"
+	},
+	"menuNeedRefresh": {
+		"message": "FlowMouse nu s-a încărcat, click pentru refresh",
+		"description": "Context menu title for pages needing refresh"
+	},
+	"menuRestricted": {
+		"message": "FlowMouse indisponibil, află de ce",
+		"description": "Context menu title for restricted pages"
+	},
+	"showRestrictedNotice": {
+		"message": "Notificare Pagină Restricționată",
+		"description": "Setting title for restricted page notice"
+	},
+	"showRestrictedNoticeDesc": {
+		"message": "Afișează notificare meniu contextual pe paginile unde gesturile sunt indisponibile",
+		"description": "Setting description for restricted page notice"
+	},
+	"restrictedPagesDetailsTitle": {
+		"message": "⚠️ Din cauza politicilor de securitate ale browserului, extensiile nu pot rula pe anumite tipuri de pagini.",
+		"description": "Collapsible details title"
+	},
+	"showMoreHint": {
+		"message": " (Arată detalii)",
+		"description": "Hint to show more details"
+	},
+	"restrictedNewTab": {
+		"message": "Pagina Tab Nou (chrome://newtab)",
+		"description": "New tab page title"
+	},
+	"restrictedNewTabDesc": {
+		"message": "Pagina implicită de tab nou a browserului este o pagină de sistem protejată. Extensiile nu pot injecta scripturi aici.",
+		"description": "New tab page description"
+	},
+	"restrictedStore": {
+		"message": "Magazine Oficiale Extensii",
+		"description": "Store page title"
+	},
+	"restrictedStoreDesc": {
+		"message": "De exemplu %storeInfo%, etc. Browserele previn rularea extensiilor pe aceste pagini pentru a proteja funcționarea normală a magazinului.",
+		"description": "Store page description"
+	},
+	"restrictedInternal": {
+		"message": "Pagini Interne Browser",
+		"description": "Internal page title"
+	},
+	"restrictedInternalDesc": {
+		"message": "Toate paginile care încep cu chrome:// (Chrome) sau edge:// (Edge), inclusiv setări, istoric, descărcări, etc. Aceste pagini sunt protejate strict.",
+		"description": "Internal page description"
+	},
+	"restrictedFile": {
+		"message": "Pagini Fișiere Locale (file://)",
+		"description": "File page title"
+	},
+	"restrictedFileDesc": {
+		"message": "Fișiere HTML locale deschise prin protocolul file://. Din cauza restricțiilor de securitate, extensiile nu pot funcționa pe aceste pagini.",
+		"description": "File page description"
+	},
+	"restrictedViewSource": {
+		"message": "Pagini Vizualizare Sursă (view-source:)",
+		"description": "View source page title"
+	},
+	"restrictedViewSourceDesc": {
+		"message": "Vizualizatorul de cod sursă al browserului este de asemenea o pagină de sistem protejată.",
+		"description": "View source page description"
+	},
+	"restrictedOther": {
+		"message": "Alte pagini afectate mai puțin comune nu sunt listate separat.",
+		"description": "Other restricted pages note"
+	},
+	"popupNeedRefresh": {
+		"message": "Extensia nu este încărcată",
+		"description": "Popup title when content script not loaded"
+	},
+	"popupNeedRefreshDesc": {
+		"message": "Această pagină a fost deschisă înainte de instalarea/actualizarea extensiei. Reîmprospătează pagina pentru a activa gesturile.",
+		"description": "Popup description when content script not loaded"
+	},
+	"popupRefreshBtn": {
+		"message": "🔄 Reîmprospătează Pagina",
+		"description": "Popup refresh button text"
+	},
+	"popupRestrictedTitle": {
+		"message": "Gesturi indisponibile",
+		"description": "Popup title for restricted pages"
+	},
+	"popupRestrictedDesc": {
+		"message": "Această pagină nu poate utiliza gesturi din cauza restricțiilor de securitate ale browserului.",
+		"description": "Popup description for restricted pages"
+	},
+	"popupLearnMore": {
+		"message": "📖 Află Mai Multe",
+		"description": "Popup learn more button text"
+	},
+	"tutorialPending": {
+		"message": "Încearcă acum",
+		"description": "Tutorial pending status"
+	},
+	"tutorialCompleted": {
+		"message": "Gata",
+		"description": "Tutorial completed status"
+	},
+	"tutorialClickToStart": {
+		"message": "Click butonul <span class=\"text-highlight\">Dreapta Mouse</span> pentru a Începe",
+		"description": "Tutorial Step 0 instruction"
+	},
+	"tutorialWelcomeTitle": {
+		"message": "Bun venit la FlowMouse",
+		"description": "Tutorial welcome title"
+	},
+	"tutorialWelcomeSubtitle": {
+		"message": "Învață bazele în 30 de secunde pentru o navigare mai fluidă",
+		"description": "Tutorial welcome subtitle"
+	},
+	"tutorialStep1Title": {
+		"message": "Bazele",
+		"description": "Tutorial Step 1 title"
+	},
+	"tutorialStep1Subtitle": {
+		"message": "Învață mecanismul de bază al gesturilor",
+		"description": "Tutorial Step 1 subtitle"
+	},
+	"tutorialStep1InstructionIdle": {
+		"message": "Apasă și <strong>Ține</strong> <span class=\"text-highlight\">Butonul Dreapta Mouse</span>",
+		"description": "Tutorial Step 1 instruction idle"
+	},
+	"tutorialStep1InstructionPressing": {
+		"message": "<strong>Excelent!</strong> Acum trage <strong>%arrow% Dreapta</strong>",
+		"description": "Tutorial Step 1 instruction pressing"
+	},
+	"tutorialStep1InstructionDragging": {
+		"message": "Continuă să tragi...",
+		"description": "Tutorial Step 1 instruction dragging"
+	},
+	"tutorialStep1InstructionReleasing": {
+		"message": "<strong>Grozav!</strong> Acum eliberează!",
+		"description": "Tutorial Step 1 instruction releasing"
+	},
+	"tutorialStep2Title": {
+		"message": "Gesturi FlowMouse",
+		"description": "Tutorial Step 2 title"
+	},
+	"tutorialStep2Subtitle": {
+		"message": "Ține <span class=\"text-highlight\">Butonul Dreapta Mouse</span> pentru a efectua gesturi",
+		"description": "Tutorial Step 2 subtitle"
+	},
+	"tutorialStep2Footer": {
+		"message": "<strong>Mai multe gesturi</strong> și <strong>customizare totală</strong> disponibile în setări.",
+		"description": "Footer note for step 2 discovery banner"
+	},
+	"tutorialStep2DiscoveryHeader": {
+		"message": "Mai Multe Gesturi",
+		"description": "Header for step 2 discovery banner"
+	},
+	"tutorialStep3DiscoveryHeader": {
+		"message": "Mai multe funcții Super Drag",
+		"description": "Header for step 3 discovery banner"
+	},
+	"tutorialStep3TextSearch": {
+		"message": "Text <span class=\"svg-arrow\">→</span> Căutare",
+		"description": "Text drag search discovery item"
+	},
+	"tutorialStep3LinkOpen": {
+		"message": "Link <span class=\"svg-arrow\">→</span> Deschide în Tab Nou",
+		"description": "Link drag open discovery item"
+	},
+	"tutorialStep3ImageOpen": {
+		"message": "Imagine <span class=\"svg-arrow\">→</span> Deschide în Tab Nou",
+		"description": "Image drag open discovery item"
+	},
+	"tutorialStep3Footer": {
+		"message": "<strong>Mai multe acțiuni drag</strong> și <strong>customizare totală</strong> disponibile în modul avansat",
+		"description": "Footer for step 3 discovery banner"
+	},
+	"tutorialContinue": {
+		"message": "Continuă",
+		"description": "Tutorial continue button"
+	},
+	"tutorialStep3Title": {
+		"message": "Super Tragere",
+		"description": "Tutorial Step 3 title"
+	},
+	"tutorialStep3Subtitle": {
+		"message": "Ține <span class=\"text-highlight\">Butonul Stânga Mouse</span> și trage <span class=\"svg-arrow\">→</span> pentru acțiuni rapide",
+		"description": "Tutorial Step 3 subtitle"
+	},
+	"tutorialStep3HintTitle": {
+		"message": "Căutare Selecție Text",
+		"description": "Tutorial Step 3 hint title"
+	},
+	"tutorialStep3HintDesc": {
+		"message": "Selectează text, apoi folosește <span class=\"text-highlight\">Butonul Stânga Mouse</span> pentru a trage <span class=\"svg-arrow\">→</span> pentru căutare",
+		"description": "Tutorial Step 3 hint description. Note: Must drag to right. Use SVG arrow instead of text for direction."
+	},
+	"tutorialStep3TextBoxLabel": {
+		"message": "Încearcă cu textul de mai jos!",
+		"description": "Tutorial Step 3 text box label"
+	},
+	"tutorialStep3SelectableText": {
+		"message": "FlowMouse Super Drag",
+		"description": "Tutorial Step 3 selectable text"
+	},
+	"tutorialStep4Title": {
+		"message": "Felicitări!",
+		"description": "Tutorial Step 4 title"
+	},
+	"tutorialStep4Subtitle": {
+		"message": "Acum te miști odată cu fluxul.",
+		"description": "Tutorial Step 4 subtitle"
+	},
+	"tutorialStep4Instruction": {
+		"message": "Folosește <span class=\"text-highlight\">Super Drag <span class=\"svg-arrow\">→</span></span> pe acest link pentru a deschide într-un <span class=\"text-highlight\">Tab Nou</span>",
+		"description": "Tutorial Step 4 instruction. Note: Must drag to right. Use SVG arrow instead of text for direction."
+	},
+	"tutorialSettingsLink": {
+		"message": "Setări FlowMouse",
+		"description": "Tutorial settings link"
+	},
+	"tutorialSettingsHint": {
+		"message": "Multe alte funcții puternice te așteaptă să le explorezi!",
+		"description": "Tutorial settings hint"
+	},
+	"tutorialWrongDirection": {
+		"message": "Direcție greșită! Trage %arrow% Dreapta",
+		"description": "Tutorial wrong direction error"
+	},
+	"tutorialEarlyRelease": {
+		"message": "Eliberat prea devreme! Continuă să tragi.",
+		"description": "Tutorial early release error"
+	},
+	"tutorialDragWrongButton": {
+		"message": "Folosește <span class=\"text-highlight\">Butonul Stânga Mouse</span> pentru a trage",
+		"description": "Tutorial drag wrong button error"
+	},
+	"tutorialRefreshTip": {
+		"message": "Sfat: Tab-urile deschise înainte de instalare trebuie <span class=\"text-highlight\">reîmprospătate</span> pentru a folosi FlowMouse",
+		"description": "Tip about refreshing tabs"
+	},
+	"permissionBookmarksTitle": {
+		"message": "Administrare Marcaje",
+		"description": "Permission popup title for bookmarks"
+	},
+	"permissionBookmarksDesc": {
+		"message": "Pentru a adăuga pagini la marcaje, FlowMouse are nevoie de acces la marcajele tale.",
+		"description": "Permission popup description for bookmarks"
+	},
+	"permissionDownloadsTitle": {
+		"message": "Administrare Descărcări",
+		"description": "Permission popup title for downloads"
+	},
+	"permissionDownloadsDesc": {
+		"message": "Pentru a salva imagini, FlowMouse are nevoie de acces la descărcări.",
+		"description": "Permission popup description for downloads"
+	},
+	"permissionDownloadsPageCaptureTitle": {
+		"message": "Salvează imaginea",
+		"description": "Permission popup title for downloads and page capture"
+	},
+	"permissionDownloadsPageCaptureDesc": {
+		"message": "Pentru a salva imagini, FlowMouse are nevoie de acces la pagini și descărcări.",
+		"description": "Permission popup description for downloads and page capture"
+	},
+	"grantPermission": {
+		"message": "Acordă Permisiune",
+		"description": "Grant permission button"
+	},
+	"grantPermissionCancel": {
+		"message": "Anulează",
+		"description": "Cancel button"
+	},
+	"permissionTitle": {
+		"message": "Permisiune FlowMouse",
+		"description": "Generic permission window title"
+	},
+	"tutorialPinHint": {
+		"message": "Click<span class='icon-ext'></span><b>Extensii</b>, și<span class='icon-pin'></span><b>Fixează</b> FlowMouse pentru acces ușor!",
+		"description": "Hint to pin the extension in tutorial step 4. Do not add space around icon."
+	},
+	"downloadErrorHotlink": {
+		"message": "Salvarea imaginii a eșuat. Este posibil ca site-ul web să aibă protecție hotlink. Vă rugăm să faceți clic dreapta pe imagine și să selectați „Salvați imaginea ca...”",
+		"description": "Toast message when image download fails due to hotlink protection"
+	},
+	"saveImageLoadError": {
+		"message": "Salvarea imaginii a eșuat: Imaginea nu s-a putut încărca",
+		"description": "Toast message when image fails to load before saving"
+	},
+	"saveImageTimeout": {
+		"message": "Salvarea imaginii a eșuat: Timpul de încărcare a expirat",
+		"description": "Toast message when image loading times out"
+	}
+}

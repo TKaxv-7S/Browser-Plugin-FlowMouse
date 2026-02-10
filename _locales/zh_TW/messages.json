@@ -1,0 +1,1238 @@
+{
+	"extName": {
+		"message": "FlowMouse - 心流滑鼠手勢",
+		"description": "Extension name"
+	},
+	"extNameShort": {
+		"message": "FlowMouse 心流滑鼠",
+		"description": "Short extension name for popup"
+	},
+	"extDescription": {
+		"message": "專注於隱私與流暢體驗的開源滑鼠手勢擴充功能。手勢操作流暢順手，支援超級拖曳，且所有資料僅儲存於本地。",
+		"description": "Extension description"
+	},
+	"appearance": {
+		"message": "外觀設定",
+		"description": "Appearance section"
+	},
+	"theme": {
+		"message": "主題",
+		"description": "Theme"
+	},
+	"themeDesc": {
+		"message": "切換淺色/深色主題",
+		"description": "Theme description"
+	},
+	"themeDark": {
+		"message": "深色",
+		"description": "Dark theme"
+	},
+	"themeLight": {
+		"message": "淺色",
+		"description": "Light theme"
+	},
+	"themeAuto": {
+		"message": "跟隨系統",
+		"description": "Auto theme - follow system"
+	},
+	"languageDesc": {
+		"message": "選擇介面語言",
+		"description": "Language description"
+	},
+	"syncStatus": {
+		"message": "同步狀態",
+		"description": "Sync status"
+	},
+	"syncStatusDesc": {
+		"message": "設定透過 %browserName% 帳號同步",
+		"description": "Sync status description"
+	},
+	"synced": {
+		"message": "已同步",
+		"description": "Synced"
+	},
+	"author": {
+		"message": "作者",
+		"description": "Author"
+	},
+	"privacyNote": {
+		"message": "🔒 純本機執行，除同步外無任何網路連線，不收集任何使用者資料",
+		"description": "Privacy note in footer"
+	},
+	"supportUsText": {
+		"message": "喜歡 FlowMouse？請在 %appStoreInfo% 給我們一個五星鼓勵，這是我們更新的動力！",
+		"description": "Rating text"
+	},
+	"storeNameChrome": {
+		"message": "Chrome 線上應用程式商店",
+		"description": "Chrome Web Store name"
+	},
+	"storeNameEdge": {
+		"message": "Edge 附加元件",
+		"description": "Edge Add-ons name"
+	},
+	"storeNameFirefox": {
+		"message": "Firefox 附加元件",
+		"description": "Firefox Add-ons name"
+	},
+	"feedbackText": {
+		"message": "遇到問題或有建議？請透過 <a href='mailto:Service@52pojie.cn'>Email</a>、<a href='https://github.com/Hmily-LCG/FlowMouse/issues' target='_blank'>GitHub</a> 或 <a href='https://www.52pojie.cn/thread-2080303-1-1.html' target='_blank'>論壇</a> 告訴我們，我們會盡快改進！",
+		"description": "Feedback text"
+	},
+	"supportAndFeedback": {
+		"message": "支援與回饋",
+		"description": "Support and Feedback section title"
+	},
+	"feedbackTitle": {
+		"message": "回饋建議",
+		"description": "Feedback row title"
+	},
+	"supportUsTitle": {
+		"message": "鼓勵我們",
+		"description": "Rating row title"
+	},
+	"backToSettings": {
+		"message": "返回設定",
+		"description": "Back to settings link"
+	},
+	"settings": {
+		"message": "設定",
+		"description": "Settings"
+	},
+	"moreSettings": {
+		"message": "更多設定",
+		"description": "More settings button in popup"
+	},
+	"version": {
+		"message": "版本",
+		"description": "Version"
+	},
+	"basicSettings": {
+		"message": "手勢功能",
+		"description": "Gesture settings section"
+	},
+	"enableGesture": {
+		"message": "啟用手勢功能",
+		"description": "Enable gesture feature"
+	},
+	"enableGestureDesc": {
+		"message": "按住右鍵並滑動滑鼠，輕鬆進行手勢操作",
+		"description": "Hold the right mouse button and move the mouse to easily perform gestures"
+	},
+	"macLinuxContextMenuNotice": {
+		"message": "⚠️ 由於系統限制，macOS / Linux 下需按兩下右鍵才能開啟原生選單。",
+		"description": "Notice for macOS / Linux users about double right-click for context menu"
+	},
+	"macTextDragNotice": {
+		"message": "⚠️ 受系統特性影響，拖曳文字時需先選取文字，按住左鍵短暫停頓後再拖曳，否則可能無法觸發搜尋。",
+		"description": "Notice for macOS users about text drag behavior"
+	},
+	"showTrail": {
+		"message": "顯示手勢軌跡",
+		"description": "Show gesture trail"
+	},
+	"showTrailDesc": {
+		"message": "在執行手勢時顯示軌跡線",
+		"description": "Show trail line when performing gestures"
+	},
+	"showHint": {
+		"message": "顯示操作提示",
+		"description": "Show action hint"
+	},
+	"showHintDesc": {
+		"message": "在螢幕中央顯示當前手勢對應的操作",
+		"description": "Show current gesture action in center of screen"
+	},
+	"color": {
+		"message": "顏色",
+		"description": "Color"
+	},
+	"width": {
+		"message": "粗細",
+		"description": "Width/thickness"
+	},
+	"background": {
+		"message": "背景",
+		"description": "Background"
+	},
+	"opacity": {
+		"message": "透明度",
+		"description": "Opacity"
+	},
+	"text": {
+		"message": "文字",
+		"description": "Text"
+	},
+	"scrollAmount": {
+		"message": "捲動距離",
+		"description": "Scroll amount"
+	},
+	"scrollAmountDesc": {
+		"message": "上下捲動手勢的捲動距離（視窗高度百分比）",
+		"description": "Scroll distance for up/down gestures"
+	},
+	"scrollSmoothness": {
+		"message": "捲動動畫",
+		"description": "Scroll smoothness"
+	},
+	"scrollSmoothnessDesc": {
+		"message": "上下捲動手勢的動畫效果",
+		"description": "Scroll smoothness description"
+	},
+	"smoothnessSystem": {
+		"message": "系統 (高效能)",
+		"description": "System scroll smoothness"
+	},
+	"smoothnessCustom": {
+		"message": "平滑",
+		"description": "Custom smooth scrolling"
+	},
+	"smoothnessNone": {
+		"message": "關閉動畫",
+		"description": "No scroll animation"
+	},
+	"dragFeatures": {
+		"message": "拖曳功能",
+		"description": "Drag features section"
+	},
+	"textDragSearch": {
+		"message": "文字拖曳",
+		"description": "Text drag"
+	},
+	"textDragSearchDesc": {
+		"message": "選取文字後拖曳進行搜尋",
+		"description": "Drag selected text to search"
+	},
+	"searchEngine": {
+		"message": "搜尋引擎",
+		"description": "Search engine"
+	},
+	"custom": {
+		"message": "自訂",
+		"description": "Custom"
+	},
+	"customUrlPlaceholder": {
+		"message": "自訂網址，用 %s 代替搜尋詞",
+		"description": "Custom URL placeholder"
+	},
+	"urlPlaceholderText": {
+		"message": "%s=搜尋詞",
+		"description": "Placeholder for text drag custom URL"
+	},
+	"urlPlaceholderImage": {
+		"message": "%s=圖片網址",
+		"description": "Placeholder for image drag custom URL"
+	},
+	"searchEngine_baidu": {
+		"message": "百度",
+		"description": "Baidu search engine"
+	},
+	"searchEngine_360": {
+		"message": "360搜索",
+		"description": "360 search engine"
+	},
+	"searchEngine_yandex": {
+		"message": "Yandex",
+		"description": "Yandex search engine"
+	},
+	"searchEngine_system": {
+		"message": "瀏覽器預設",
+		"description": "System default search engine"
+	},
+	"imageDrag": {
+		"message": "圖片拖曳",
+		"description": "Image drag"
+	},
+	"imageDragDesc": {
+		"message": "拖曳圖片在新分頁開啟",
+		"description": "Drag image to open in new tab"
+	},
+	"linkDrag": {
+		"message": "連結拖曳",
+		"description": "Link drag"
+	},
+	"linkDragDesc": {
+		"message": "拖曳連結在新分頁開啟",
+		"description": "Drag link to open in new tab"
+	},
+	"enableCustomGestures": {
+		"message": "自訂手勢",
+		"description": "Enable custom gestures"
+	},
+	"enableCustomGesturesDesc": {
+		"message": "檢視並自訂每個手勢的操作",
+		"description": "View and customize each gesture action"
+	},
+	"gestureAutoSaveHint": {
+		"message": "提示：修改後自動儲存。",
+		"description": "Hint about auto-save"
+	},
+	"blacklist": {
+		"message": "網站黑名單",
+		"description": "Website blacklist"
+	},
+	"blacklistPlaceholder": {
+		"message": "輸入網域，如 example.com，按 Enter 新增",
+		"description": "Blacklist input placeholder"
+	},
+	"add": {
+		"message": "新增",
+		"description": "Add button"
+	},
+	"emptyBlacklist": {
+		"message": "暫無黑名單，在上方輸入網域新增",
+		"description": "Empty blacklist message"
+	},
+	"dataManagement": {
+		"message": "資料管理",
+		"description": "Data management section"
+	},
+	"export": {
+		"message": "匯出設定",
+		"description": "Export settings"
+	},
+	"import": {
+		"message": "匯入設定",
+		"description": "Import settings"
+	},
+	"reset": {
+		"message": "還原預設值",
+		"description": "Reset to default"
+	},
+	"autoSaved": {
+		"message": "✓ 已自動儲存",
+		"description": "Auto-saved message"
+	},
+	"saveFailure": {
+		"message": "儲存失敗",
+		"description": "Save failure message"
+	},
+	"resetConfirm": {
+		"message": "確定要將所有設定還原為預設值嗎？",
+		"description": "Reset confirmation"
+	},
+	"resetDone": {
+		"message": "已還原預設設定",
+		"description": "Reset done message"
+	},
+	"exportDone": {
+		"message": "設定已匯出",
+		"description": "Export done message"
+	},
+	"importDone": {
+		"message": "設定已匯入",
+		"description": "Import done message"
+	},
+	"importFailed": {
+		"message": "匯入失敗：無效的設定檔",
+		"description": "Import failed message"
+	},
+	"importFailedSyncError": {
+		"message": "匯入失敗：同步異常，請檢查瀏覽器狀態",
+		"description": "Import failed sync error message"
+	},
+	"invalidDomain": {
+		"message": "請輸入有效的網域",
+		"description": "Invalid domain message"
+	},
+	"domainExists": {
+		"message": "該網域已在黑名單中",
+		"description": "Domain already in blacklist"
+	},
+	"about": {
+		"message": "關於",
+		"description": "About section"
+	},
+	"language": {
+		"message": "語言",
+		"description": "Language"
+	},
+	"languageAuto": {
+		"message": "跟隨系統",
+		"description": "Follow system language"
+	},
+	"privacyFriendly": {
+		"message": "隱私友善",
+		"description": "Privacy friendly"
+	},
+	"localOnly": {
+		"message": "本地執行",
+		"description": "Local only"
+	},
+	"autoSave": {
+		"message": "自動儲存",
+		"description": "Auto save"
+	},
+	"gestureDesc_L": {
+		"message": "向左",
+		"description": "Gesture description for ←"
+	},
+	"gestureDesc_R": {
+		"message": "向右",
+		"description": "Gesture description for →"
+	},
+	"gestureDesc_U": {
+		"message": "向上",
+		"description": "Gesture description for ↑"
+	},
+	"gestureDesc_D": {
+		"message": "向下",
+		"description": "Gesture description for ↓"
+	},
+	"gestureDesc_DR": {
+		"message": "向下再向右",
+		"description": "Gesture description for ↓→"
+	},
+	"gestureDesc_LU": {
+		"message": "向左再向上",
+		"description": "Gesture description for ←↑"
+	},
+	"gestureDesc_RU": {
+		"message": "向右再向上",
+		"description": "Gesture description for →↑"
+	},
+	"gestureDesc_RD": {
+		"message": "向右再向下",
+		"description": "Gesture description for →↓"
+	},
+	"gestureDesc_UL": {
+		"message": "向上再向左",
+		"description": "Gesture description for ↑←"
+	},
+	"gestureDesc_UR": {
+		"message": "向上再向右",
+		"description": "Gesture description for ↑→"
+	},
+	"gestureDesc_DL": {
+		"message": "向下再向左",
+		"description": "Gesture description for ↓←"
+	},
+	"gestureDesc_LD": {
+		"message": "向左再向下",
+		"description": "Gesture description for ←↓"
+	},
+	"gestureDesc_UD": {
+		"message": "向上再向下",
+		"description": "Gesture description for ↑↓"
+	},
+	"gestureDesc_DU": {
+		"message": "向下再向上",
+		"description": "Gesture description for ↓↑"
+	},
+	"gestureDesc_LR": {
+		"message": "向左再向右",
+		"description": "Gesture description for ←→"
+	},
+	"gestureDesc_RL": {
+		"message": "向右再向左",
+		"description": "Gesture description for →←"
+	},
+	"actionNone": {
+		"message": "無操作",
+		"description": "No action"
+	},
+	"actionBack": {
+		"message": "返回",
+		"description": "Go back"
+	},
+	"actionForward": {
+		"message": "前進",
+		"description": "Go forward"
+	},
+	"actionScrollUp": {
+		"message": "向上捲動",
+		"description": "Scroll up"
+	},
+	"actionScrollDown": {
+		"message": "向下捲動",
+		"description": "Scroll down"
+	},
+	"actionScrollToTop": {
+		"message": "捲動至頂端",
+		"description": "Scroll to top"
+	},
+	"actionScrollToBottom": {
+		"message": "捲動至底端",
+		"description": "Scroll to bottom"
+	},
+	"actionCloseTab": {
+		"message": "關閉分頁",
+		"description": "Close tab"
+	},
+	"actionCloseTabKeepWindow": {
+		"message": "關閉分頁(保留視窗)",
+		"description": "Close tab but keep window open"
+	},
+	"actionCloseBrowser": {
+		"message": "關閉瀏覽器",
+		"description": "Close browser"
+	},
+	"actionRestoreTab": {
+		"message": "重新開啟已關閉的分頁",
+		"description": "Restore closed tab"
+	},
+	"actionNewTab": {
+		"message": "開啟新分頁",
+		"description": "New tab"
+	},
+	"actionCloseOtherTabs": {
+		"message": "關閉其他分頁",
+		"description": "Close other tabs"
+	},
+	"actionCloseLeftTabs": {
+		"message": "關閉左側分頁",
+		"description": "Close tabs to the left"
+	},
+	"actionCloseRightTabs": {
+		"message": "關閉右側分頁",
+		"description": "Close tabs to the right"
+	},
+	"actionCloseAllTabs": {
+		"message": "關閉所有分頁",
+		"description": "Close all tabs"
+	},
+	"actionSwitchLeftTab": {
+		"message": "切換至左側分頁",
+		"description": "Switch to left tab"
+	},
+	"actionSwitchRightTab": {
+		"message": "切換至右側分頁",
+		"description": "Switch to right tab"
+	},
+	"actionRefresh": {
+		"message": "重新整理目前分頁",
+		"description": "Refresh current tab"
+	},
+	"actionRefreshAllTabs": {
+		"message": "重新整理所有分頁",
+		"description": "Refresh all tabs"
+	},
+	"actionStopLoading": {
+		"message": "停止載入",
+		"description": "Stop loading"
+	},
+	"actionNewWindow": {
+		"message": "新視窗",
+		"description": "New window"
+	},
+	"actionNewIncognito": {
+		"message": "新增無痕式視窗",
+		"description": "New incognito window"
+	},
+	"actionAddToBookmarks": {
+		"message": "新增至書籤",
+		"description": "Add to bookmarks"
+	},
+	"actionToggleFullscreen": {
+		"message": "切換全螢幕",
+		"description": "Toggle fullscreen"
+	},
+	"actionToggleMaximize": {
+		"message": "視窗最大化/還原",
+		"description": "Toggle window maximize"
+	},
+	"actionMinimize": {
+		"message": "視窗最小化",
+		"description": "Minimize window"
+	},
+	"actionOpenCustomUrl": {
+		"message": "開啟自訂網址",
+		"description": "Open custom URL"
+	},
+	"actionCopyUrl": {
+		"message": "複製目前網址",
+		"description": "Copy current URL"
+	},
+	"actionCopyTitle": {
+		"message": "複製頁面標題",
+		"description": "Copy page title"
+	},
+	"actionOpenDownloads": {
+		"message": "開啟下載頁面",
+		"description": "Open downloads page"
+	},
+	"actionOpenHistory": {
+		"message": "開啟歷史紀錄",
+		"description": "Open history page"
+	},
+	"actionOpenExtensions": {
+		"message": "開啟擴充功能管理",
+		"description": "Open extensions page"
+	},
+	"actionPrintPage": {
+		"message": "列印頁面",
+		"description": "Print page"
+	},
+	"actionDuplicateTab": {
+		"message": "複製目前分頁",
+		"description": "Duplicate current tab"
+	},
+	"actionToggleMuteTab": {
+		"message": "靜音/取消靜音目前分頁",
+		"description": "Toggle mute current tab"
+	},
+	"actionToggleMuteAllTabs": {
+		"message": "靜音/取消靜音全部分頁",
+		"description": "Toggle mute all tabs"
+	},
+	"showTrailOrigin": {
+		"message": "顯示起始原點",
+		"description": "Show trail origin point"
+	},
+	"enableTrailSmooth": {
+		"message": "軌跡平滑",
+		"description": "Enable trail smoothing for gesture visualization"
+	},
+	"distanceThreshold": {
+		"message": "手勢觸發距離",
+		"description": "Gesture recognition distance"
+	},
+	"distanceThresholdDesc": {
+		"message": "判定為手勢所需的最小滑動距離",
+		"description": "Description for gesture recognition distance"
+	},
+	"distanceThresholdNotice": {
+		"message": "提示：建議設定在 15-30 之間，以達最佳辨識效果。",
+		"description": "Warning when distance threshold is too small or too large"
+	},
+	"enableAdvancedSettings": {
+		"message": "進階設定",
+		"description": "Enable advanced settings"
+	},
+	"enableAdvancedSettingsDesc": {
+		"message": "開啟後顯示更多進階選項",
+		"description": "Show more advanced options when enabled"
+	},
+	"enableAdvancedSettingsToggle": {
+		"message": "進階設定模式",
+		"description": "Enable advanced settings toggle label"
+	},
+	"urlFormatError": {
+		"message": "請輸入完整網址，需要以 http:// 或 https:// 開頭",
+		"description": "URL format error message"
+	},
+	"resetToDefault": {
+		"message": "還原預設值",
+		"description": "Reset gesture to default action"
+	},
+	"addCustomGesture": {
+		"message": "新增自訂手勢",
+		"description": "Add custom gesture section title"
+	},
+	"gesturePattern": {
+		"message": "手勢序列",
+		"description": "Gesture pattern label"
+	},
+	"selectAction": {
+		"message": "選擇動作",
+		"description": "Select action label"
+	},
+	"clear": {
+		"message": "清除",
+		"description": "Clear button"
+	},
+	"addGesture": {
+		"message": "新增手勢",
+		"description": "Add gesture button"
+	},
+	"pleaseDrawGesture": {
+		"message": "請先繪製手勢",
+		"description": "Alert when no gesture drawn"
+	},
+	"gestureAdded": {
+		"message": "✓ 手勢已新增",
+		"description": "Gesture added success message"
+	},
+	"gestureDrawInstructions": {
+		"message": "按住滑鼠右鍵在下方區域繪製手勢，鬆開後完成繪製。支援方向：",
+		"description": "Instructions for gesture drawing"
+	},
+	"gestureOverwriteConfirm": {
+		"message": "手勢 %pattern% 已存在，是否覆寫？",
+		"description": "Confirmation message when adding a duplicate gesture"
+	},
+	"customGesture": {
+		"message": "自訂",
+		"description": "Label for custom gestures"
+	},
+	"deleteGesture": {
+		"message": "刪除手勢",
+		"description": "Delete gesture button tooltip"
+	},
+	"deleteGestureConfirm": {
+		"message": "確定刪除手勢 %pattern% 嗎？",
+		"description": "Delete gesture confirmation"
+	},
+	"gestureDeleted": {
+		"message": "✓ 手勢已刪除",
+		"description": "Gesture deleted success message"
+	},
+	"enterCustomUrl": {
+		"message": "請輸入網址（建議包含協定，如 https://、chrome:// 等）：",
+		"description": "Prompt for custom URL input"
+	},
+	"invalidUrl": {
+		"message": "請輸入有效的網址（以 http:// 或 https:// 開頭）",
+		"description": "Invalid URL error message"
+	},
+	"popupTrail": {
+		"message": "手勢軌跡",
+		"description": "Gesture trail in popup"
+	},
+	"popupHint": {
+		"message": "操作提示",
+		"description": "Action hint in popup"
+	},
+	"popupCommonGestures": {
+		"message": "常用手勢",
+		"description": "Common gestures"
+	},
+	"popupCurrentSite": {
+		"message": "目前網站",
+		"description": "Current site"
+	},
+	"popupRestricted": {
+		"message": "受限頁面",
+		"description": "Restricted page"
+	},
+	"popupDisabled": {
+		"message": "已停用",
+		"description": "Disabled"
+	},
+	"popupAddBlacklist": {
+		"message": "加入黑名單",
+		"description": "Add to blacklist"
+	},
+	"popupRemoveBlacklist": {
+		"message": "取消黑名單",
+		"description": "Remove from blacklist"
+	},
+	"popupNotAvailable": {
+		"message": "無法使用",
+		"description": "Not available"
+	},
+	"popupBack": {
+		"message": "返回",
+		"description": "Back - short"
+	},
+	"popupForward": {
+		"message": "前進",
+		"description": "Forward - short"
+	},
+	"popupScrollUp": {
+		"message": "往上捲",
+		"description": "Scroll up - short"
+	},
+	"popupScrollDown": {
+		"message": "往下捲",
+		"description": "Scroll down - short"
+	},
+	"popupClose": {
+		"message": "關閉分頁",
+		"description": "Close Tab - short"
+	},
+	"popupRestore": {
+		"message": "還原分頁",
+		"description": "Restore Tab - short"
+	},
+	"dragSearchText": {
+		"message": "🔍 拖曳搜尋",
+		"description": "Drag search hint"
+	},
+	"dragOpenImage": {
+		"message": "🖼️ 開啟圖片",
+		"description": "Drag open image hint"
+	},
+	"dragOpenLink": {
+		"message": "🔗 開啟連結",
+		"description": "Drag open link hint"
+	},
+	"aboutTitle": {
+		"message": "關於 FlowMouse",
+		"description": "About title"
+	},
+	"aboutAuthor": {
+		"message": "作者",
+		"description": "Author"
+	},
+	"aboutWebsite": {
+		"message": "官網",
+		"description": "Website"
+	},
+	"aboutOpenSource": {
+		"message": "GitHub",
+		"description": "GitHub link"
+	},
+	"aboutEmail": {
+		"message": "信箱",
+		"description": "Email"
+	},
+	"aboutPrivacy": {
+		"message": "隱私聲明",
+		"description": "Privacy statement"
+	},
+	"aboutPrivacyText": {
+		"message": "本擴充功能為開源專案，程式碼已託管於 GitHub，歡迎審閱與貢獻。擴充功能的所有資料處理均在您的裝置本地完成，其自身不建立任何網路連線，亦無後端伺服器，因此不會收集或上傳任何使用者資料至外部伺服器。您儲存的設定透過 %browserName% 瀏覽器內建的同步服務在您已登入的裝置間加密同步。該過程完全由瀏覽器控制，並遵循您瀏覽器的隱私與同步設定。",
+		"description": "Privacy statement text"
+	},
+	"aboutCredits": {
+		"message": "致謝",
+		"description": "Credits"
+	},
+	"aboutCreditsText": {
+		"message": "感謝 Microsoft Edge 瀏覽器和 crxMouse 擴充功能的設計靈感。\n感謝吾愛破解論壇、論壇公眾號等熱心使用者的回饋與建議！",
+		"description": "Credits text"
+	},
+	"aboutFeatures": {
+		"message": "特性",
+		"description": "Features"
+	},
+	"aboutFeature1": {
+		"message": "🎯 16 種預設手勢 + 自訂手勢",
+		"description": "Feature 1"
+	},
+	"aboutFeature2": {
+		"message": "🎨 視覺化軌跡回饋",
+		"description": "Feature 2"
+	},
+	"aboutFeature3": {
+		"message": "🔍 文字/圖片/連結超級拖曳",
+		"description": "Feature 3"
+	},
+	"aboutFeature4": {
+		"message": "🚫 網站黑名單",
+		"description": "Feature 4"
+	},
+	"aboutFeature5": {
+		"message": "☁️ %browserName% 帳號同步",
+		"description": "Feature 5"
+	},
+	"aboutFeature6": {
+		"message": "🔒 完全本地執行，除同步外無連線",
+		"description": "Feature 6"
+	},
+	"tutorial": {
+		"message": "使用教學",
+		"description": "Tutorial link"
+	},
+	"learnMore": {
+		"message": "了解更多",
+		"description": "Learn more link"
+	},
+	"badgeNoNetwork": {
+		"message": "🔒 除同步外無連線",
+		"description": "No network privacy badge"
+	},
+	"badgeNoData": {
+		"message": "🚫 不收集資料",
+		"description": "No data collection badge"
+	},
+	"badgeLocalRun": {
+		"message": "✅ 本地執行",
+		"description": "Local run badge"
+	},
+	"newTabSettings": {
+		"message": "新分頁開啟設定",
+		"description": "New tab open settings"
+	},
+	"newTabPosition": {
+		"message": "開啟位置",
+		"description": "New tab position"
+	},
+	"tabPositionRight": {
+		"message": "目前分頁右側",
+		"description": "Right of current tab"
+	},
+	"tabPositionLeft": {
+		"message": "目前分頁左側",
+		"description": "Left of current tab"
+	},
+	"tabPositionFirst": {
+		"message": "第一個分頁",
+		"description": "First tab (leftmost)"
+	},
+	"tabPositionLast": {
+		"message": "最後一個分頁",
+		"description": "Last tab (rightmost)"
+	},
+	"tabPositionCurrent": {
+		"message": "目前分頁",
+		"description": "Open in current tab"
+	},
+	"newTabActive": {
+		"message": "前景開啟",
+		"description": "Open tab in foreground"
+	},
+	"textDragGestures": {
+		"message": "文字拖曳手勢",
+		"description": "Text drag gestures"
+	},
+	"linkDragGestures": {
+		"message": "連結拖曳手勢",
+		"description": "Link drag gestures"
+	},
+	"imageDragGestures": {
+		"message": "圖片拖曳手勢",
+		"description": "Image drag gestures"
+	},
+	"direction": {
+		"message": "方向",
+		"description": "Direction column header"
+	},
+	"action": {
+		"message": "動作",
+		"description": "Action column header"
+	},
+	"imageSearchUrl": {
+		"message": "圖片搜尋 URL (%s 為圖片地址)",
+		"description": "Image search URL input"
+	},
+	"dragActionNone": {
+		"message": "無操作",
+		"description": "No action"
+	},
+	"dragActionSearch": {
+		"message": "🔍 搜尋引擎",
+		"description": "Search action"
+	},
+	"dragActionCopy": {
+		"message": "📋 複製",
+		"description": "Copy action"
+	},
+	"dragActionOpenTab": {
+		"message": "📑 新分頁開啟",
+		"description": "Open in new tab"
+	},
+	"dragActionOpenTabLink": {
+		"message": "🔗 開啟連結",
+		"description": "Open link in new tab"
+	},
+	"dragActionOpenTabImage": {
+		"message": "🖼️ 開啟圖片",
+		"description": "Open image in new tab"
+	},
+	"dragActionCopyLink": {
+		"message": "📋 複製連結",
+		"description": "Copy link"
+	},
+	"dragActionSaveImage": {
+		"message": "💾 儲存圖片",
+		"description": "Save image"
+	},
+	"dragActionCopyImage": {
+		"message": "🖼️ 複製圖片",
+		"description": "Copy image"
+	},
+	"dragActionCopyImageUrl": {
+		"message": "📋 複製圖片網址",
+		"description": "Copy image URL"
+	},
+	"dragActionImageSearch": {
+		"message": "🔍 圖片搜尋",
+		"description": "Image search"
+	},
+	"dragActionCustomSearch": {
+		"message": "🔍 自訂搜尋",
+		"description": "Custom search"
+	},
+	"reducedMotionWarning": {
+		"message": "⚠️ %OS% 系統動畫未啟用，可能無法正常顯示捲動動畫。可在 %OS% 系統設定中開啟動畫。",
+		"description": "Warning message when system reduced motion is enabled"
+	},
+	"autoDetectUrl": {
+		"message": "自動辨識連結",
+		"description": "Auto detect URL checkbox label"
+	},
+	"preferLink": {
+		"message": "優先開啟連結",
+		"description": "Prefer link checkbox label"
+	},
+	"menuNeedRefresh": {
+		"message": "FlowMouse 未載入，點擊重新整理",
+		"description": "Context menu title for pages needing refresh"
+	},
+	"menuRestricted": {
+		"message": "FlowMouse 無法使用，了解原因",
+		"description": "Context menu title for restricted pages"
+	},
+	"showRestrictedNotice": {
+		"message": "受限頁面提醒",
+		"description": "Setting title for restricted page notice"
+	},
+	"showRestrictedNoticeDesc": {
+		"message": "在無法使用手勢的頁面顯示右鍵選單提示",
+		"description": "Setting description for restricted page notice"
+	},
+	"restrictedPagesDetailsTitle": {
+		"message": "⚠️ 由於瀏覽器的安全策略限制，擴充功能無法在特定類型的頁面中執行",
+		"description": "Collapsible details title"
+	},
+	"showMoreHint": {
+		"message": "（顯示詳情）",
+		"description": "Hint to show more details"
+	},
+	"restrictedNewTab": {
+		"message": "新分頁 (chrome://newtab)",
+		"description": "New tab page title"
+	},
+	"restrictedNewTabDesc": {
+		"message": "瀏覽器預設的新分頁屬於受保護的系統頁面，擴充功能無法在此頁面執行。",
+		"description": "New tab page description"
+	},
+	"restrictedStore": {
+		"message": "官方應用程式商店頁面",
+		"description": "Store page title"
+	},
+	"restrictedStoreDesc": {
+		"message": "例如 %storeInfo% 等。瀏覽器禁止擴充功能在此類頁面執行，以防止惡意擴充功能干擾商店的正常存取與安裝流程。",
+		"description": "Store page description"
+	},
+	"restrictedInternal": {
+		"message": "瀏覽器內部管理頁面",
+		"description": "Internal page title"
+	},
+	"restrictedInternalDesc": {
+		"message": "所有以 chrome:// (Chrome) 或 edge:// (Edge) 開頭的內部設定、歷史紀錄、下載管理等頁面。這些頁面涉及瀏覽器核心功能與使用者隱私資料，因此被嚴格保護。",
+		"description": "Internal page description"
+	},
+	"restrictedFile": {
+		"message": "本地檔案頁面 (file://)",
+		"description": "File page title"
+	},
+	"restrictedFileDesc": {
+		"message": "透過 file:// 協定開啟的本地 HTML 檔案，由於安全限制（防止惡意擴充功能存取本地檔案系統），擴充功能無法在此類頁面執行。",
+		"description": "File page description"
+	},
+	"restrictedViewSource": {
+		"message": "檢視原始碼頁面 (view-source:)",
+		"description": "View source page title"
+	},
+	"restrictedViewSourceDesc": {
+		"message": "瀏覽器提供的原始碼檢視介面同樣屬於受保護的系統頁面，擴充功能無法在此頁面執行。",
+		"description": "View source page description"
+	},
+	"restrictedOther": {
+		"message": "其他不常用受影響的頁面不再單獨列出。",
+		"description": "Other restricted pages note"
+	},
+	"popupNeedRefresh": {
+		"message": "擴充功能未載入",
+		"description": "Popup title when content script not loaded"
+	},
+	"popupNeedRefreshDesc": {
+		"message": "此頁面在擴充功能安裝/更新前已開啟，需要重新整理才能使用手勢",
+		"description": "Popup description when content script not loaded"
+	},
+	"popupRefreshBtn": {
+		"message": "🔄 重新整理頁面",
+		"description": "Popup refresh button text"
+	},
+	"popupRestrictedTitle": {
+		"message": "無法使用手勢",
+		"description": "Popup title for restricted pages"
+	},
+	"popupRestrictedDesc": {
+		"message": "此頁面由於瀏覽器安全限制，擴充功能無法載入",
+		"description": "Popup description for restricted pages"
+	},
+	"popupLearnMore": {
+		"message": "📖 了解詳情",
+		"description": "Popup learn more button text"
+	},
+	"tutorialPending": {
+		"message": "待嘗試",
+		"description": "Tutorial pending status"
+	},
+	"tutorialCompleted": {
+		"message": "完成",
+		"description": "Tutorial completed status"
+	},
+	"tutorialClickToStart": {
+		"message": "按<span class=\"text-highlight\">滑鼠右鍵</span>開始",
+		"description": "Tutorial Step 0 instruction"
+	},
+	"tutorialWelcomeTitle": {
+		"message": "歡迎使用 FlowMouse",
+		"description": "Tutorial welcome title"
+	},
+	"tutorialWelcomeSubtitle": {
+		"message": "30 秒快速掌握基礎操作，讓瀏覽更流暢，讓操作更隨心",
+		"description": "Tutorial welcome subtitle"
+	},
+	"tutorialStep1Title": {
+		"message": "基礎操作",
+		"description": "Tutorial Step 1 title"
+	},
+	"tutorialStep1Subtitle": {
+		"message": "掌握核心手勢機制",
+		"description": "Tutorial Step 1 subtitle"
+	},
+	"tutorialStep1InstructionIdle": {
+		"message": "請按住<span class=\"text-highlight\">滑鼠右鍵</span>",
+		"description": "Tutorial Step 1 instruction idle"
+	},
+	"tutorialStep1InstructionPressing": {
+		"message": "<strong>很好！</strong>保持按住，向 <strong>%arrow% 右</strong> 拖曳",
+		"description": "Tutorial Step 1 instruction pressing"
+	},
+	"tutorialStep1InstructionDragging": {
+		"message": "繼續拖曳...",
+		"description": "Tutorial Step 1 instruction dragging"
+	},
+	"tutorialStep1InstructionReleasing": {
+		"message": "<strong>非常好！</strong>鬆開右鍵！",
+		"description": "Tutorial Step 1 instruction releasing"
+	},
+	"tutorialStep2Title": {
+		"message": "常用手勢",
+		"description": "Tutorial Step 2 title"
+	},
+	"tutorialStep2Subtitle": {
+		"message": "按住<span class=\"text-highlight\">滑鼠右鍵</span>繪製手勢",
+		"description": "Tutorial Step 2 subtitle"
+	},
+	"tutorialStep2Footer": {
+		"message": "<strong>更多手勢</strong> 及 <strong>手勢自訂</strong> 可在設定中探索",
+		"description": "Footer note for step 2 discovery banner"
+	},
+	"tutorialStep2DiscoveryHeader": {
+		"message": "更多手勢功能",
+		"description": "Header for step 2 discovery banner"
+	},
+	"tutorialStep3DiscoveryHeader": {
+		"message": "更多超級拖曳功能",
+		"description": "Header for step 3 discovery banner"
+	},
+	"tutorialStep3TextSearch": {
+		"message": "文字 <span class=\"svg-arrow\">→</span> 搜尋",
+		"description": "Text drag search discovery item"
+	},
+	"tutorialStep3LinkOpen": {
+		"message": "連結 <span class=\"svg-arrow\">→</span> 新分頁開啟",
+		"description": "Link drag open discovery item"
+	},
+	"tutorialStep3ImageOpen": {
+		"message": "圖片 <span class=\"svg-arrow\">→</span> 新分頁開啟",
+		"description": "Image drag open discovery item"
+	},
+	"tutorialStep3Footer": {
+		"message": "<strong>更多拖曳功能</strong> 及 <strong>拖曳自訂</strong> 可在進階設定模式中探索",
+		"description": "Footer for step 3 discovery banner"
+	},
+	"tutorialContinue": {
+		"message": "繼續",
+		"description": "Tutorial continue button"
+	},
+	"tutorialStep3Title": {
+		"message": "超級拖曳",
+		"description": "Tutorial Step 3 title"
+	},
+	"tutorialStep3Subtitle": {
+		"message": "按住<span class=\"text-highlight\">滑鼠左鍵</span>並向 <span class=\"svg-arrow\">→</span> 拖曳，快速執行操作",
+		"description": "Tutorial Step 3 subtitle"
+	},
+	"tutorialStep3HintTitle": {
+		"message": "文字拖曳搜尋",
+		"description": "Tutorial Step 3 hint title"
+	},
+	"tutorialStep3HintDesc": {
+		"message": "選取文字，用<span class=\"text-highlight\">滑鼠左鍵</span>向 <span class=\"svg-arrow\">→</span> 拖曳以搜尋",
+		"description": "Tutorial Step 3 hint description. Note: Must drag to right. Use SVG arrow instead of text for direction."
+	},
+	"tutorialStep3TextBoxLabel": {
+		"message": "用下面的文字試試看！",
+		"description": "Tutorial Step 3 text box label"
+	},
+	"tutorialStep3SelectableText": {
+		"message": "FlowMouse 超級拖曳",
+		"description": "Tutorial Step 3 selectable text"
+	},
+	"tutorialStep4Title": {
+		"message": "恭喜！",
+		"description": "Tutorial Step 4 title"
+	},
+	"tutorialStep4Subtitle": {
+		"message": "指尖滑動，進入心流。",
+		"description": "Tutorial Step 4 subtitle"
+	},
+	"tutorialStep4Instruction": {
+		"message": "在連結上<span class=\"text-highlight\">超級拖曳 <span class=\"svg-arrow\">→</span></span>，就能在<span class=\"text-highlight\">新分頁</span>開啟",
+		"description": "Tutorial Step 4 instruction. Note: Must drag to right. Use SVG arrow instead of text for direction."
+	},
+	"tutorialSettingsLink": {
+		"message": "FlowMouse 設定",
+		"description": "Tutorial settings link"
+	},
+	"tutorialSettingsHint": {
+		"message": "還有更多強大功能等你探索！",
+		"description": "Tutorial settings hint"
+	},
+	"tutorialWrongDirection": {
+		"message": "方向錯誤！請向 %arrow% 右拖曳",
+		"description": "Tutorial wrong direction error"
+	},
+	"tutorialEarlyRelease": {
+		"message": "鬆開太早了！再試一次。",
+		"description": "Tutorial early release error"
+	},
+	"tutorialDragWrongButton": {
+		"message": "請使用<span class=\"text-highlight\">滑鼠左鍵</span>拖曳",
+		"description": "Tutorial drag wrong button error"
+	},
+	"tutorialRefreshTip": {
+		"message": "提示：安裝 FlowMouse 前已開啟的分頁，需要<span class=\"text-highlight\">重新整理</span>後才能使用手勢",
+		"description": "Tip about refreshing tabs"
+	},
+	"permissionBookmarksTitle": {
+		"message": "管理書籤",
+		"description": "Permission popup title for bookmarks"
+	},
+	"permissionBookmarksDesc": {
+		"message": "為了將頁面新增到書籤，FlowMouse 需要書籤權限。",
+		"description": "Permission popup description for bookmarks"
+	},
+	"permissionDownloadsTitle": {
+		"message": "管理下載",
+		"description": "Permission popup title for downloads"
+	},
+	"permissionDownloadsDesc": {
+		"message": "為了儲存圖片，FlowMouse 需要下載權限。",
+		"description": "Permission popup description for downloads"
+	},
+	"permissionDownloadsPageCaptureTitle": {
+		"message": "儲存圖片",
+		"description": "Permission popup title for downloads and page capture"
+	},
+	"permissionDownloadsPageCaptureDesc": {
+		"message": "為了儲存圖片，FlowMouse 需要存取頁面和下載權限。",
+		"description": "Permission popup description for downloads and page capture"
+	},
+	"grantPermission": {
+		"message": "授予權限",
+		"description": "Grant permission button"
+	},
+	"grantPermissionCancel": {
+		"message": "取消",
+		"description": "Cancel button"
+	},
+	"permissionTitle": {
+		"message": "FlowMouse 需要權限",
+		"description": "Generic permission window title"
+	},
+	"tutorialPinHint": {
+		"message": "點擊<span class='icon-ext'></span><b>擴充功能</b>，並<span class='icon-pin'></span><b>釘選</b> FlowMouse，讓設定更便捷！",
+		"description": "Hint to pin the extension in tutorial step 4. Do not add space around icon."
+	},
+	"downloadErrorHotlink": {
+		"message": "圖片儲存失敗，該網站可能有防盜鏈保護，請按滑鼠右鍵並選擇「另存圖片...」進行儲存",
+		"description": "Toast message when image download fails due to hotlink protection"
+	},
+	"saveImageLoadError": {
+		"message": "儲存圖片失敗：圖片載入失敗",
+		"description": "Toast message when image fails to load before saving"
+	},
+	"saveImageTimeout": {
+		"message": "儲存圖片失敗：載入逾時",
+		"description": "Toast message when image loading times out"
+	}
+}

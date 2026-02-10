@@ -1,0 +1,1238 @@
+{
+	"extName": {
+		"message": "FlowMouse - Gestur Mouse",
+		"description": "Extension name"
+	},
+	"extNameShort": {
+		"message": "FlowMouse",
+		"description": "Short extension name for popup"
+	},
+	"extDescription": {
+		"message": "Ekstensi gestur mouse sumber terbuka yang berfokus pada privasi dan pengalaman yang lancar. Operasi gestur yang mulus dan responsif, mendukung super drag, dan semua data disimpan secara lokal.",
+		"description": "Extension description"
+	},
+	"appearance": {
+		"message": "Tampilan",
+		"description": "Appearance section"
+	},
+	"theme": {
+		"message": "Tema",
+		"description": "Theme"
+	},
+	"themeDesc": {
+		"message": "Beralih antara tema terang dan gelap",
+		"description": "Theme description"
+	},
+	"themeDark": {
+		"message": "Gelap",
+		"description": "Dark theme"
+	},
+	"themeLight": {
+		"message": "Terang",
+		"description": "Light theme"
+	},
+	"themeAuto": {
+		"message": "Ikuti Sistem",
+		"description": "Auto theme - follow system"
+	},
+	"languageDesc": {
+		"message": "Pilih bahasa antarmuka",
+		"description": "Language description"
+	},
+	"syncStatus": {
+		"message": "Status Sinkronisasi",
+		"description": "Sync status"
+	},
+	"syncStatusDesc": {
+		"message": "Pengaturan sinkronisasi melalui akun %browserName%",
+		"description": "Sync status description"
+	},
+	"synced": {
+		"message": "Disinkronkan",
+		"description": "Synced"
+	},
+	"author": {
+		"message": "Penulis",
+		"description": "Author"
+	},
+	"privacyNote": {
+		"message": "🔒 Berjalan secara lokal, bebas koneksi internet kecuali sinkronisasi, tidak mengumpulkan data pengguna",
+		"description": "Privacy note in footer"
+	},
+	"supportUsText": {
+		"message": "Suka FlowMouse? Berikan kami peringkat bintang 5 di %appStoreInfo% untuk mendukung kami!",
+		"description": "Rating text"
+	},
+	"storeNameChrome": {
+		"message": "Chrome Web Store",
+		"description": "Chrome Web Store name"
+	},
+	"storeNameEdge": {
+		"message": "Add-on Edge",
+		"description": "Edge Add-ons name"
+	},
+	"storeNameFirefox": {
+		"message": "Add-on Firefox",
+		"description": "Firefox Add-ons name"
+	},
+	"feedbackText": {
+		"message": "Ada masalah atau saran? Silakan laporkan melalui <a href='mailto:Service@52pojie.cn'>Email</a>, <a href='https://github.com/Hmily-LCG/FlowMouse/issues' target='_blank'>GitHub</a>, atau <a href='https://www.52pojie.cn/thread-2080303-1-1.html' target='_blank'>Forum</a>. Kami akan meningkatkannya sesegera mungkin!",
+		"description": "Feedback text"
+	},
+	"supportAndFeedback": {
+		"message": "Dukungan & Umpan Balik",
+		"description": "Support and Feedback section title"
+	},
+	"feedbackTitle": {
+		"message": "Umpan Balik & Saran",
+		"description": "Feedback row title"
+	},
+	"supportUsTitle": {
+		"message": "Dukung Kami",
+		"description": "Rating row title"
+	},
+	"backToSettings": {
+		"message": "Kembali ke Pengaturan",
+		"description": "Back to settings link"
+	},
+	"settings": {
+		"message": "Pengaturan",
+		"description": "Settings"
+	},
+	"moreSettings": {
+		"message": "Pengaturan Lainnya",
+		"description": "More settings button in popup"
+	},
+	"version": {
+		"message": "Versi",
+		"description": "Version"
+	},
+	"basicSettings": {
+		"message": "Fitur Gestur",
+		"description": "Gesture settings section"
+	},
+	"enableGesture": {
+		"message": "Aktifkan Fitur Gestur",
+		"description": "Enable gesture feature"
+	},
+	"enableGestureDesc": {
+		"message": "Tahan tombol kanan mouse dan gerakkan mouse untuk melakukan gestur dengan mudah",
+		"description": "Hold the right mouse button and move the mouse to easily perform gestures"
+	},
+	"macLinuxContextMenuNotice": {
+		"message": "⚠️ Karena batasan sistem, pada macOS / Linux perlu klik kanan dua kali untuk membuka menu konteks asli.",
+		"description": "Notice for macOS / Linux users about double right-click for context menu"
+	},
+	"macTextDragNotice": {
+		"message": "⚠️ Karena karakteristik sistem, saat menyeret teks perlu memilih teks terlebih dahulu, klik dan tahan tombol kiri sejenak sebelum menyeret, jika tidak pencarian mungkin tidak terpicu.",
+		"description": "Notice for macOS users about text drag behavior"
+	},
+	"showTrail": {
+		"message": "Tampilkan Jejak Gestur",
+		"description": "Show gesture trail"
+	},
+	"showTrailDesc": {
+		"message": "Tampilkan garis jejak saat melakukan gerakan",
+		"description": "Show trail line when performing gestures"
+	},
+	"showHint": {
+		"message": "Tampilkan Petunjuk Operasi",
+		"description": "Show action hint"
+	},
+	"showHintDesc": {
+		"message": "Tampilkan operasi yang sesuai dengan gestur saat ini di tengah layar",
+		"description": "Show current gesture action in center of screen"
+	},
+	"color": {
+		"message": "Warna",
+		"description": "Color"
+	},
+	"width": {
+		"message": "Ketebalan",
+		"description": "Width/thickness"
+	},
+	"background": {
+		"message": "Latar Belakang",
+		"description": "Background"
+	},
+	"opacity": {
+		"message": "Opasitas",
+		"description": "Opacity"
+	},
+	"text": {
+		"message": "Teks",
+		"description": "Text"
+	},
+	"scrollAmount": {
+		"message": "Jarak Gulir",
+		"description": "Scroll amount"
+	},
+	"scrollAmountDesc": {
+		"message": "Jarak gulir untuk gerakan naik/turun (% tinggi jendela)",
+		"description": "Scroll distance for up/down gestures"
+	},
+	"scrollSmoothness": {
+		"message": "Kehalusan Gulir",
+		"description": "Scroll smoothness"
+	},
+	"scrollSmoothnessDesc": {
+		"message": "Efek animasi gulir untuk gerakan naik/turun",
+		"description": "Scroll smoothness description"
+	},
+	"smoothnessSystem": {
+		"message": "Sistem (Kinerja Tinggi)",
+		"description": "System scroll smoothness"
+	},
+	"smoothnessCustom": {
+		"message": "Halus",
+		"description": "Custom smooth scrolling"
+	},
+	"smoothnessNone": {
+		"message": "Nonaktifkan Animasi",
+		"description": "No scroll animation"
+	},
+	"dragFeatures": {
+		"message": "Fitur Seret",
+		"description": "Drag features section"
+	},
+	"textDragSearch": {
+		"message": "Seret Teks",
+		"description": "Text drag"
+	},
+	"textDragSearchDesc": {
+		"message": "Seret teks yang dipilih untuk mencari",
+		"description": "Drag selected text to search"
+	},
+	"searchEngine": {
+		"message": "Mesin Pencari",
+		"description": "Search engine"
+	},
+	"custom": {
+		"message": "Kustom",
+		"description": "Custom"
+	},
+	"customUrlPlaceholder": {
+		"message": "URL Kustom, gunakan %s untuk istilah pencarian",
+		"description": "Custom URL placeholder"
+	},
+	"urlPlaceholderText": {
+		"message": "%s=Kata kunci",
+		"description": "Placeholder for text drag custom URL"
+	},
+	"urlPlaceholderImage": {
+		"message": "%s=URL Gambar",
+		"description": "Placeholder for image drag custom URL"
+	},
+	"searchEngine_baidu": {
+		"message": "Baidu",
+		"description": "Baidu search engine"
+	},
+	"searchEngine_360": {
+		"message": "360 Search",
+		"description": "360 search engine"
+	},
+	"searchEngine_yandex": {
+		"message": "Yandex",
+		"description": "Yandex search engine"
+	},
+	"searchEngine_system": {
+		"message": "Bawaan Browser",
+		"description": "System default search engine"
+	},
+	"imageDrag": {
+		"message": "Seret Gambar",
+		"description": "Image drag"
+	},
+	"imageDragDesc": {
+		"message": "Seret gambar untuk membuka di tab baru",
+		"description": "Drag image to open in new tab"
+	},
+	"linkDrag": {
+		"message": "Seret Tautan",
+		"description": "Link drag"
+	},
+	"linkDragDesc": {
+		"message": "Seret tautan untuk membuka di tab baru",
+		"description": "Drag link to open in new tab"
+	},
+	"enableCustomGestures": {
+		"message": "Gerakan Kustom",
+		"description": "Enable custom gestures"
+	},
+	"enableCustomGesturesDesc": {
+		"message": "Lihat dan kustomisasi setiap tindakan gerakan",
+		"description": "View and customize each gesture action"
+	},
+	"gestureAutoSaveHint": {
+		"message": "Catatan: Perubahan disimpan otomatis.",
+		"description": "Hint about auto-save"
+	},
+	"blacklist": {
+		"message": "Daftar Hitam Situs Web",
+		"description": "Website blacklist"
+	},
+	"blacklistPlaceholder": {
+		"message": "Masukkan domain, misal example.com, tekan Enter untuk menambahkan",
+		"description": "Blacklist input placeholder"
+	},
+	"add": {
+		"message": "Tambah",
+		"description": "Add button"
+	},
+	"emptyBlacklist": {
+		"message": "Daftar hitam kosong. Masukkan domain di atas untuk menambahkan.",
+		"description": "Empty blacklist message"
+	},
+	"dataManagement": {
+		"message": "Manajemen Data",
+		"description": "Data management section"
+	},
+	"export": {
+		"message": "Ekspor",
+		"description": "Export settings"
+	},
+	"import": {
+		"message": "Impor",
+		"description": "Import settings"
+	},
+	"reset": {
+		"message": "Atur Ulang",
+		"description": "Reset to default"
+	},
+	"autoSaved": {
+		"message": "✓ Disimpan otomatis",
+		"description": "Auto-saved message"
+	},
+	"saveFailure": {
+		"message": "Gagal menyimpan",
+		"description": "Save failure message"
+	},
+	"resetConfirm": {
+		"message": "Apakah Anda yakin ingin mengatur ulang semua pengaturan ke default?",
+		"description": "Reset confirmation"
+	},
+	"resetDone": {
+		"message": "Pengaturan diatur ulang ke default",
+		"description": "Reset done message"
+	},
+	"exportDone": {
+		"message": "Pengaturan diekspor",
+		"description": "Export done message"
+	},
+	"importDone": {
+		"message": "Pengaturan diimpor",
+		"description": "Import done message"
+	},
+	"importFailed": {
+		"message": "Impor gagal: File konfigurasi tidak valid",
+		"description": "Import failed message"
+	},
+	"importFailedSyncError": {
+		"message": "Impor gagal: Kesalahan sinkronisasi, silakan periksa status browser",
+		"description": "Import failed sync error message"
+	},
+	"invalidDomain": {
+		"message": "Masukkan domain yang valid",
+		"description": "Invalid domain message"
+	},
+	"domainExists": {
+		"message": "Domain sudah ada di daftar hitam",
+		"description": "Domain already in blacklist"
+	},
+	"about": {
+		"message": "Tentang",
+		"description": "About section"
+	},
+	"language": {
+		"message": "Bahasa",
+		"description": "Language"
+	},
+	"languageAuto": {
+		"message": "Ikuti Sistem",
+		"description": "Follow system language"
+	},
+	"privacyFriendly": {
+		"message": "Ramah Privasi",
+		"description": "Privacy friendly"
+	},
+	"localOnly": {
+		"message": "Hanya Lokal",
+		"description": "Local only"
+	},
+	"autoSave": {
+		"message": "Simpan Otomatis",
+		"description": "Auto save"
+	},
+	"gestureDesc_L": {
+		"message": "Kiri",
+		"description": "Gesture description for ←"
+	},
+	"gestureDesc_R": {
+		"message": "Kanan",
+		"description": "Gesture description for →"
+	},
+	"gestureDesc_U": {
+		"message": "Atas",
+		"description": "Gesture description for ↑"
+	},
+	"gestureDesc_D": {
+		"message": "Bawah",
+		"description": "Gesture description for ↓"
+	},
+	"gestureDesc_DR": {
+		"message": "Bawah lalu Kanan",
+		"description": "Gesture description for ↓→"
+	},
+	"gestureDesc_LU": {
+		"message": "Kiri lalu Atas",
+		"description": "Gesture description for ←↑"
+	},
+	"gestureDesc_RU": {
+		"message": "Kanan lalu Atas",
+		"description": "Gesture description for →↑"
+	},
+	"gestureDesc_RD": {
+		"message": "Kanan lalu Bawah",
+		"description": "Gesture description for →↓"
+	},
+	"gestureDesc_UL": {
+		"message": "Atas lalu Kiri",
+		"description": "Gesture description for ↑←"
+	},
+	"gestureDesc_UR": {
+		"message": "Atas lalu Kanan",
+		"description": "Gesture description for ↑→"
+	},
+	"gestureDesc_DL": {
+		"message": "Bawah lalu Kiri",
+		"description": "Gesture description for ↓←"
+	},
+	"gestureDesc_LD": {
+		"message": "Kiri lalu Bawah",
+		"description": "Gesture description for ←↓"
+	},
+	"gestureDesc_UD": {
+		"message": "Atas lalu Bawah",
+		"description": "Gesture description for ↑↓"
+	},
+	"gestureDesc_DU": {
+		"message": "Bawah lalu Atas",
+		"description": "Gesture description for ↓↑"
+	},
+	"gestureDesc_LR": {
+		"message": "Kiri lalu Kanan",
+		"description": "Gesture description for ←→"
+	},
+	"gestureDesc_RL": {
+		"message": "Kanan lalu Kiri",
+		"description": "Gesture description for →←"
+	},
+	"actionNone": {
+		"message": "Tidak ada",
+		"description": "No action"
+	},
+	"actionBack": {
+		"message": "Kembali",
+		"description": "Go back"
+	},
+	"actionForward": {
+		"message": "Maju",
+		"description": "Go forward"
+	},
+	"actionScrollUp": {
+		"message": "Gulir ke Atas",
+		"description": "Scroll up"
+	},
+	"actionScrollDown": {
+		"message": "Gulir ke Bawah",
+		"description": "Scroll down"
+	},
+	"actionScrollToTop": {
+		"message": "Gulir ke Paling Atas",
+		"description": "Scroll to top"
+	},
+	"actionScrollToBottom": {
+		"message": "Gulir ke Paling Bawah",
+		"description": "Scroll to bottom"
+	},
+	"actionCloseTab": {
+		"message": "Tutup Tab",
+		"description": "Close tab"
+	},
+	"actionCloseTabKeepWindow": {
+		"message": "Tutup Tab (Tetap Buka Jendela)",
+		"description": "Close tab but keep window open"
+	},
+	"actionCloseBrowser": {
+		"message": "Tutup Browser",
+		"description": "Close browser"
+	},
+	"actionRestoreTab": {
+		"message": "Buka Kembali Tab yang Ditutup",
+		"description": "Restore closed tab"
+	},
+	"actionNewTab": {
+		"message": "Tab Baru",
+		"description": "New tab"
+	},
+	"actionCloseOtherTabs": {
+		"message": "Tutup Tab Lain",
+		"description": "Close other tabs"
+	},
+	"actionCloseLeftTabs": {
+		"message": "Tutup Tab di Kiri",
+		"description": "Close tabs to the left"
+	},
+	"actionCloseRightTabs": {
+		"message": "Tutup Tab di Kanan",
+		"description": "Close tabs to the right"
+	},
+	"actionCloseAllTabs": {
+		"message": "Tutup Semua Tab",
+		"description": "Close all tabs"
+	},
+	"actionSwitchLeftTab": {
+		"message": "Beralih ke Tab Kiri",
+		"description": "Switch to left tab"
+	},
+	"actionSwitchRightTab": {
+		"message": "Beralih ke Tab Kanan",
+		"description": "Switch to right tab"
+	},
+	"actionRefresh": {
+		"message": "Segarkan Tab Saat Ini",
+		"description": "Refresh current tab"
+	},
+	"actionRefreshAllTabs": {
+		"message": "Segarkan Semua Tab",
+		"description": "Refresh all tabs"
+	},
+	"actionStopLoading": {
+		"message": "Hentikan Pemuatan",
+		"description": "Stop loading"
+	},
+	"actionNewWindow": {
+		"message": "Jendela Baru",
+		"description": "New window"
+	},
+	"actionNewIncognito": {
+		"message": "Jendela Penyamaran Baru",
+		"description": "New incognito window"
+	},
+	"actionAddToBookmarks": {
+		"message": "Tambahkan ke Bookmark",
+		"description": "Add to bookmarks"
+	},
+	"actionToggleFullscreen": {
+		"message": "Alihkan Layar Penuh",
+		"description": "Toggle fullscreen"
+	},
+	"actionToggleMaximize": {
+		"message": "Alihkan Maksimalkan/Pulihkan",
+		"description": "Toggle window maximize"
+	},
+	"actionMinimize": {
+		"message": "Minimalkan Jendela",
+		"description": "Minimize window"
+	},
+	"actionOpenCustomUrl": {
+		"message": "Buka URL Kustom",
+		"description": "Open custom URL"
+	},
+	"actionCopyUrl": {
+		"message": "Salin URL Saat Ini",
+		"description": "Copy current URL"
+	},
+	"actionCopyTitle": {
+		"message": "Salin Judul Halaman",
+		"description": "Copy page title"
+	},
+	"actionOpenDownloads": {
+		"message": "Buka Unduhan",
+		"description": "Open downloads page"
+	},
+	"actionOpenHistory": {
+		"message": "Buka Riwayat",
+		"description": "Open history page"
+	},
+	"actionOpenExtensions": {
+		"message": "Buka Ekstensi",
+		"description": "Open extensions page"
+	},
+	"actionPrintPage": {
+		"message": "Cetak Halaman",
+		"description": "Print page"
+	},
+	"actionDuplicateTab": {
+		"message": "Duplikat Tab",
+		"description": "Duplicate current tab"
+	},
+	"actionToggleMuteTab": {
+		"message": "Matikan/Aktifkan Suara Tab Saat Ini",
+		"description": "Toggle mute current tab"
+	},
+	"actionToggleMuteAllTabs": {
+		"message": "Matikan/Aktifkan Suara Semua Tab",
+		"description": "Toggle mute all tabs"
+	},
+	"showTrailOrigin": {
+		"message": "Tampilkan Titik Asal",
+		"description": "Show trail origin point"
+	},
+	"enableTrailSmooth": {
+		"message": "Penghalusan Jejak",
+		"description": "Enable trail smoothing for gesture visualization"
+	},
+	"distanceThreshold": {
+		"message": "Jarak Pengenalan Isyarat",
+		"description": "Gesture recognition distance"
+	},
+	"distanceThresholdDesc": {
+		"message": "Jarak gerakan minimum untuk mengenali isyarat",
+		"description": "Description for gesture recognition distance"
+	},
+	"distanceThresholdNotice": {
+		"message": "Tips: Nilai antara 15-30 direkomendasikan untuk pengenalan terbaik.",
+		"description": "Warning when distance threshold is too small or too large"
+	},
+	"enableAdvancedSettings": {
+		"message": "Pengaturan Lanjutan",
+		"description": "Enable advanced settings"
+	},
+	"enableAdvancedSettingsDesc": {
+		"message": "Tampilkan lebih banyak opsi lanjutan saat diaktifkan",
+		"description": "Show more advanced options when enabled"
+	},
+	"enableAdvancedSettingsToggle": {
+		"message": "Mode Pengaturan Lanjutan",
+		"description": "Enable advanced settings toggle label"
+	},
+	"urlFormatError": {
+		"message": "Harap masukkan URL lengkap yang dimulai dengan http:// atau https://",
+		"description": "URL format error message"
+	},
+	"resetToDefault": {
+		"message": "Atur ulang ke default",
+		"description": "Reset gesture to default action"
+	},
+	"addCustomGesture": {
+		"message": "Tambah Gerakan Kustom",
+		"description": "Add custom gesture section title"
+	},
+	"gesturePattern": {
+		"message": "Pola",
+		"description": "Gesture pattern label"
+	},
+	"selectAction": {
+		"message": "Pilih Tindakan",
+		"description": "Select action label"
+	},
+	"clear": {
+		"message": "Bersihkan",
+		"description": "Clear button"
+	},
+	"addGesture": {
+		"message": "Tambah Gerakan",
+		"description": "Add gesture button"
+	},
+	"pleaseDrawGesture": {
+		"message": "Harap gambar gerakan terlebih dahulu",
+		"description": "Alert when no gesture drawn"
+	},
+	"gestureAdded": {
+		"message": "✓ Gerakan ditambahkan",
+		"description": "Gesture added success message"
+	},
+	"gestureDrawInstructions": {
+		"message": "Tahan tombol kanan mouse dan gambar gerakan di bawah, lepaskan untuk menyelesaikan. Arah yang didukung:",
+		"description": "Instructions for gesture drawing"
+	},
+	"gestureOverwriteConfirm": {
+		"message": "Gerakan %pattern% sudah ada. Timpa?",
+		"description": "Confirmation message when adding a duplicate gesture"
+	},
+	"customGesture": {
+		"message": "Kustom",
+		"description": "Label for custom gestures"
+	},
+	"deleteGesture": {
+		"message": "Hapus Gerakan",
+		"description": "Delete gesture button tooltip"
+	},
+	"deleteGestureConfirm": {
+		"message": "Hapus gerakan %pattern%?",
+		"description": "Delete gesture confirmation"
+	},
+	"gestureDeleted": {
+		"message": "✓ Gerakan dihapus",
+		"description": "Gesture deleted success message"
+	},
+	"enterCustomUrl": {
+		"message": "Masukkan URL (disarankan menyertakan protokol seperti https://, chrome://, dll.):",
+		"description": "Prompt for custom URL input"
+	},
+	"invalidUrl": {
+		"message": "Harap masukkan URL yang valid (dimulai dengan http:// atau https://)",
+		"description": "Invalid URL error message"
+	},
+	"popupTrail": {
+		"message": "Jejak Gerakan",
+		"description": "Gesture trail in popup"
+	},
+	"popupHint": {
+		"message": "Petunjuk Tindakan",
+		"description": "Action hint in popup"
+	},
+	"popupCommonGestures": {
+		"message": "Gerakan Umum",
+		"description": "Common gestures"
+	},
+	"popupCurrentSite": {
+		"message": "Situs Saat Ini",
+		"description": "Current site"
+	},
+	"popupRestricted": {
+		"message": "Halaman Terbatas",
+		"description": "Restricted page"
+	},
+	"popupDisabled": {
+		"message": "Dinonaktifkan",
+		"description": "Disabled"
+	},
+	"popupAddBlacklist": {
+		"message": "Tambahkan ke Daftar Hitam",
+		"description": "Add to blacklist"
+	},
+	"popupRemoveBlacklist": {
+		"message": "Hapus Daftar Hitam",
+		"description": "Remove from blacklist"
+	},
+	"popupNotAvailable": {
+		"message": "Tidak Tersedia",
+		"description": "Not available"
+	},
+	"popupBack": {
+		"message": "Kembali",
+		"description": "Back - short"
+	},
+	"popupForward": {
+		"message": "Maju",
+		"description": "Forward - short"
+	},
+	"popupScrollUp": {
+		"message": "Atas",
+		"description": "Scroll up - short"
+	},
+	"popupScrollDown": {
+		"message": "Bawah",
+		"description": "Scroll down - short"
+	},
+	"popupClose": {
+		"message": "Tutup",
+		"description": "Close Tab - short"
+	},
+	"popupRestore": {
+		"message": "Pulihkan Tab",
+		"description": "Restore Tab - short"
+	},
+	"dragSearchText": {
+		"message": "🔍 Seret Cari",
+		"description": "Drag search hint"
+	},
+	"dragOpenImage": {
+		"message": "🖼️ Buka Gambar",
+		"description": "Drag open image hint"
+	},
+	"dragOpenLink": {
+		"message": "🔗 Buka Tautan",
+		"description": "Drag open link hint"
+	},
+	"aboutTitle": {
+		"message": "Tentang FlowMouse",
+		"description": "About title"
+	},
+	"aboutAuthor": {
+		"message": "Penulis",
+		"description": "Author"
+	},
+	"aboutWebsite": {
+		"message": "Situs web",
+		"description": "Website"
+	},
+	"aboutOpenSource": {
+		"message": "GitHub",
+		"description": "GitHub link"
+	},
+	"aboutEmail": {
+		"message": "Email",
+		"description": "Email"
+	},
+	"aboutPrivacy": {
+		"message": "Pernyataan Privasi",
+		"description": "Privacy statement"
+	},
+	"aboutPrivacyText": {
+		"message": "Ekstensi ini adalah proyek sumber terbuka, kode telah dihosting di GitHub, silakan tinjau dan berkontribusi. Semua pemrosesan data dilakukan secara lokal di perangkat Anda, tidak memerlukan koneksi internet apa pun, juga tidak ada server backend, sehingga tidak mengumpulkan atau mengunggah data pengguna apa pun ke server luar. Pengaturan yang Anda simpan dienkripsi dan disinkronkan di antara perangkat yang Anda gunakan melalui layanan sinkronisasi bawaan browser %browserName%. Proses ini sepenuhnya dikendalikan oleh browser dan mematuhi pengaturan privasi serta sinkronisasi browser Anda.",
+		"description": "Privacy statement text"
+	},
+	"aboutCredits": {
+		"message": "Kredit",
+		"description": "Credits"
+	},
+	"aboutCreditsText": {
+		"message": "Terima kasih kepada browser Microsoft Edge dan ekstensi crxMouse untuk inspirasi desain.\nTerima kasih kepada komunitas 52pojie.cn dan pengguna atas umpan balik dan saran!",
+		"description": "Credits text"
+	},
+	"aboutFeatures": {
+		"message": "Fitur",
+		"description": "Features"
+	},
+	"aboutFeature1": {
+		"message": "🎯 16 Gestur Default + Gestur Kustom",
+		"description": "Feature 1"
+	},
+	"aboutFeature2": {
+		"message": "🎨 Umpan Balik Jejak Visual",
+		"description": "Feature 2"
+	},
+	"aboutFeature3": {
+		"message": "🔍 Super Drag Teks/Gambar/Tautan",
+		"description": "Feature 3"
+	},
+	"aboutFeature4": {
+		"message": "🚫 Daftar Hitam Situs Web",
+		"description": "Feature 4"
+	},
+	"aboutFeature5": {
+		"message": "☁️ Sinkronisasi Akun %browserName%",
+		"description": "Feature 5"
+	},
+	"aboutFeature6": {
+		"message": "🔒 Berjalan Secara Lokal, Tanpa Jaringan Kecuali Sinkronisasi",
+		"description": "Feature 6"
+	},
+	"tutorial": {
+		"message": "Tutorial",
+		"description": "Tutorial link"
+	},
+	"learnMore": {
+		"message": "Pelajari Lebih Lanjut",
+		"description": "Learn more link"
+	},
+	"badgeNoNetwork": {
+		"message": "🔒 Tanpa Jaringan Kecuali Sinkronisasi",
+		"description": "No network privacy badge"
+	},
+	"badgeNoData": {
+		"message": "🚫 Tidak Ada Pengumpulan Data",
+		"description": "No data collection badge"
+	},
+	"badgeLocalRun": {
+		"message": "✅ Berjalan Secara Lokal",
+		"description": "Local run badge"
+	},
+	"newTabSettings": {
+		"message": "Pengaturan Tab Baru",
+		"description": "New tab open settings"
+	},
+	"newTabPosition": {
+		"message": "Posisi",
+		"description": "New tab position"
+	},
+	"tabPositionRight": {
+		"message": "Di kanan tab saat ini",
+		"description": "Right of current tab"
+	},
+	"tabPositionLeft": {
+		"message": "Di kiri tab saat ini",
+		"description": "Left of current tab"
+	},
+	"tabPositionFirst": {
+		"message": "Tab pertama (paling kiri)",
+		"description": "First tab (leftmost)"
+	},
+	"tabPositionLast": {
+		"message": "Tab terakhir (paling kanan)",
+		"description": "Last tab (rightmost)"
+	},
+	"tabPositionCurrent": {
+		"message": "Tab saat ini",
+		"description": "Open in current tab"
+	},
+	"newTabActive": {
+		"message": "Buka di depan",
+		"description": "Open tab in foreground"
+	},
+	"textDragGestures": {
+		"message": "Gerakan Seret Teks",
+		"description": "Text drag gestures"
+	},
+	"linkDragGestures": {
+		"message": "Gerakan Seret Tautan",
+		"description": "Link drag gestures"
+	},
+	"imageDragGestures": {
+		"message": "Gerakan Seret Gambar",
+		"description": "Image drag gestures"
+	},
+	"direction": {
+		"message": "Arah",
+		"description": "Direction column header"
+	},
+	"action": {
+		"message": "Tindakan",
+		"description": "Action column header"
+	},
+	"imageSearchUrl": {
+		"message": "URL Pencarian Gambar (%s = URL gambar)",
+		"description": "Image search URL input"
+	},
+	"dragActionNone": {
+		"message": "Tidak ada",
+		"description": "No action"
+	},
+	"dragActionSearch": {
+		"message": "🔍 Mesin Pencari",
+		"description": "Search action"
+	},
+	"dragActionCopy": {
+		"message": "📋 Salin",
+		"description": "Copy action"
+	},
+	"dragActionOpenTab": {
+		"message": "📑 Buka di Tab Baru",
+		"description": "Open in new tab"
+	},
+	"dragActionOpenTabLink": {
+		"message": "🔗 Buka Tautan",
+		"description": "Open link in new tab"
+	},
+	"dragActionOpenTabImage": {
+		"message": "🖼️ Buka Gambar",
+		"description": "Open image in new tab"
+	},
+	"dragActionCopyLink": {
+		"message": "📋 Salin Tautan",
+		"description": "Copy link"
+	},
+	"dragActionSaveImage": {
+		"message": "💾 Simpan Gambar",
+		"description": "Save image"
+	},
+	"dragActionCopyImage": {
+		"message": "🖼️ Salin Gambar",
+		"description": "Copy image"
+	},
+	"dragActionCopyImageUrl": {
+		"message": "📋 Salin URL Gambar",
+		"description": "Copy image URL"
+	},
+	"dragActionImageSearch": {
+		"message": "🔍 Pencarian Gambar",
+		"description": "Image search"
+	},
+	"dragActionCustomSearch": {
+		"message": "🔍 Pencarian Kustom",
+		"description": "Custom search"
+	},
+	"reducedMotionWarning": {
+		"message": "⚠️ Animasi sistem %OS% dinonaktifkan, animasi gulir mungkin tidak berfungsi dengan baik. Anda dapat mengaktifkan animasi di pengaturan sistem %OS%.",
+		"description": "Warning message when system reduced motion is enabled"
+	},
+	"autoDetectUrl": {
+		"message": "Deteksi URL Otomatis",
+		"description": "Auto detect URL checkbox label"
+	},
+	"preferLink": {
+		"message": "Prioritaskan Tautan",
+		"description": "Prefer link checkbox label"
+	},
+	"menuNeedRefresh": {
+		"message": "FlowMouse belum dimuat, klik untuk menyegarkan",
+		"description": "Context menu title for pages needing refresh"
+	},
+	"menuRestricted": {
+		"message": "FlowMouse tidak tersedia, pelajari alasannya",
+		"description": "Context menu title for restricted pages"
+	},
+	"showRestrictedNotice": {
+		"message": "Pemberitahuan Halaman Terbatas",
+		"description": "Setting title for restricted page notice"
+	},
+	"showRestrictedNoticeDesc": {
+		"message": "Tampilkan pemberitahuan menu konteks pada halaman di mana gerakan tidak tersedia",
+		"description": "Setting description for restricted page notice"
+	},
+	"restrictedPagesDetailsTitle": {
+		"message": "⚠️ Karena kebijakan keamanan browser, ekstensi tidak dapat berjalan di jenis halaman tertentu.",
+		"description": "Collapsible details title"
+	},
+	"showMoreHint": {
+		"message": " (Tampilkan rincian)",
+		"description": "Hint to show more details"
+	},
+	"restrictedNewTab": {
+		"message": "Halaman Tab Baru (chrome://newtab)",
+		"description": "New tab page title"
+	},
+	"restrictedNewTabDesc": {
+		"message": "Halaman tab baru bawaan browser adalah halaman sistem yang terlindungi. Ekstensi tidak dapat berjalan di halaman ini.",
+		"description": "New tab page description"
+	},
+	"restrictedStore": {
+		"message": "Toko Ekstensi Resmi",
+		"description": "Store page title"
+	},
+	"restrictedStoreDesc": {
+		"message": "Misalnya %storeInfo%, dll. Browser melarang ekstensi berjalan di halaman-halaman tersebut untuk mencegah ekstensi berbahaya mengganggu akses normal dan proses instalasi toko.",
+		"description": "Store page description"
+	},
+	"restrictedInternal": {
+		"message": "Halaman Internal Browser",
+		"description": "Internal page title"
+	},
+	"restrictedInternalDesc": {
+		"message": "Semua halaman yang dimulai dengan chrome:// (Chrome) atau edge:// (Edge), termasuk pengaturan, riwayat, unduhan, dll. Halaman-halaman ini melibatkan fungsi inti browser dan data privasi pengguna, sehingga dilindungi dengan ketat.",
+		"description": "Internal page description"
+	},
+	"restrictedFile": {
+		"message": "Halaman File Lokal (file://)",
+		"description": "File page title"
+	},
+	"restrictedFileDesc": {
+		"message": "File HTML lokal yang dibuka melalui protokol file://. Karena batasan keamanan (mencegah ekstensi berbahaya mengakses sistem file lokal), ekstensi tidak dapat berjalan di halaman seperti ini.",
+		"description": "File page description"
+	},
+	"restrictedViewSource": {
+		"message": "Halaman Lihat Sumber (view-source:)",
+		"description": "View source page title"
+	},
+	"restrictedViewSourceDesc": {
+		"message": "Penampil kode sumber browser juga merupakan halaman sistem yang dilindungi. Ekstensi tidak dapat berjalan di sini.",
+		"description": "View source page description"
+	},
+	"restrictedOther": {
+		"message": "Halaman lain yang kurang umum terpengaruh tidak tercantum secara terpisah.",
+		"description": "Other restricted pages note"
+	},
+	"popupNeedRefresh": {
+		"message": "Ekstensi belum dimuat",
+		"description": "Popup title when content script not loaded"
+	},
+	"popupNeedRefreshDesc": {
+		"message": "Halaman ini dibuka sebelum ekstensi dipasang/diperbarui. Segarkan untuk mengaktifkan gerakan.",
+		"description": "Popup description when content script not loaded"
+	},
+	"popupRefreshBtn": {
+		"message": "🔄 Segarkan Halaman",
+		"description": "Popup refresh button text"
+	},
+	"popupRestrictedTitle": {
+		"message": "Gerakan tidak tersedia",
+		"description": "Popup title for restricted pages"
+	},
+	"popupRestrictedDesc": {
+		"message": "Halaman ini tidak dapat menggunakan gerakan karena pembatasan keamanan browser.",
+		"description": "Popup description for restricted pages"
+	},
+	"popupLearnMore": {
+		"message": "📖 Pelajari Lebih Lanjut",
+		"description": "Popup learn more button text"
+	},
+	"tutorialPending": {
+		"message": "Coba sekarang",
+		"description": "Tutorial pending status"
+	},
+	"tutorialCompleted": {
+		"message": "Selesai",
+		"description": "Tutorial completed status"
+	},
+	"tutorialClickToStart": {
+		"message": "Klik <span class=\"text-highlight\">Tombol Kanan Mouse</span> untuk Mulai",
+		"description": "Tutorial Step 0 instruction"
+	},
+	"tutorialWelcomeTitle": {
+		"message": "Selamat datang di FlowMouse",
+		"description": "Tutorial welcome title"
+	},
+	"tutorialWelcomeSubtitle": {
+		"message": "Kuasai dasar-dasar dalam 30 detik untuk penjelajahan yang lebih lancar dan intuitif",
+		"description": "Tutorial welcome subtitle"
+	},
+	"tutorialStep1Title": {
+		"message": "Dasar-dasar",
+		"description": "Tutorial Step 1 title"
+	},
+	"tutorialStep1Subtitle": {
+		"message": "Pelajari mekanisme gerakan inti",
+		"description": "Tutorial Step 1 subtitle"
+	},
+	"tutorialStep1InstructionIdle": {
+		"message": "Tekan dan <strong>Tahan</strong> <span class=\"text-highlight\">Tombol Kanan Mouse</span>",
+		"description": "Tutorial Step 1 instruction idle"
+	},
+	"tutorialStep1InstructionPressing": {
+		"message": "<strong>Bagus sekali!</strong> Sekarang seret <strong>%arrow% Kanan</strong>",
+		"description": "Tutorial Step 1 instruction pressing"
+	},
+	"tutorialStep1InstructionDragging": {
+		"message": "Tetap menyeret...",
+		"description": "Tutorial Step 1 instruction dragging"
+	},
+	"tutorialStep1InstructionReleasing": {
+		"message": "<strong>Hebat!</strong> Sekarang lepaskan!",
+		"description": "Tutorial Step 1 instruction releasing"
+	},
+	"tutorialStep2Title": {
+		"message": "Gerakan FlowMouse",
+		"description": "Tutorial Step 2 title"
+	},
+	"tutorialStep2Subtitle": {
+		"message": "Tahan <span class=\"text-highlight\">Tombol Kanan Mouse</span> untuk melakukan gerakan",
+		"description": "Tutorial Step 2 subtitle"
+	},
+	"tutorialStep2Footer": {
+		"message": "<strong>Lebih banyak gerakan</strong> dan <strong>kustomisasi penuh</strong> tersedia di pengaturan.",
+		"description": "Footer note for step 2 discovery banner"
+	},
+	"tutorialStep2DiscoveryHeader": {
+		"message": "Lebih Banyak Gerakan",
+		"description": "Header for step 2 discovery banner"
+	},
+	"tutorialStep3DiscoveryHeader": {
+		"message": "Lebih Banyak Fitur Super Drag",
+		"description": "Header for step 3 discovery banner"
+	},
+	"tutorialStep3TextSearch": {
+		"message": "Teks <span class=\"svg-arrow\">→</span> Cari",
+		"description": "Text drag search discovery item"
+	},
+	"tutorialStep3LinkOpen": {
+		"message": "Tautan <span class=\"svg-arrow\">→</span> Buka di Tab Baru",
+		"description": "Link drag open discovery item"
+	},
+	"tutorialStep3ImageOpen": {
+		"message": "Gambar <span class=\"svg-arrow\">→</span> Buka di Tab Baru",
+		"description": "Image drag open discovery item"
+	},
+	"tutorialStep3Footer": {
+		"message": "<strong>Lebih banyak tindakan seret</strong> dan <strong>kustomisasi penuh</strong> tersedia di mode pengaturan lanjutan",
+		"description": "Footer for step 3 discovery banner"
+	},
+	"tutorialContinue": {
+		"message": "Lanjutkan",
+		"description": "Tutorial continue button"
+	},
+	"tutorialStep3Title": {
+		"message": "Super Drag",
+		"description": "Tutorial Step 3 title"
+	},
+	"tutorialStep3Subtitle": {
+		"message": "Tahan <span class=\"text-highlight\">Tombol Kiri Mouse</span> dan seret <span class=\"svg-arrow\">→</span> untuk melakukan tindakan dengan cepat",
+		"description": "Tutorial Step 3 subtitle"
+	},
+	"tutorialStep3HintTitle": {
+		"message": "Pencarian Pilihan Teks",
+		"description": "Tutorial Step 3 hint title"
+	},
+	"tutorialStep3HintDesc": {
+		"message": "Pilih teks, lalu gunakan <span class=\"text-highlight\">Tombol Kiri Mouse</span> untuk menyeret <span class=\"svg-arrow\">→</span> guna mencari",
+		"description": "Tutorial Step 3 hint description. Note: Must drag to right. Use SVG arrow instead of text for direction."
+	},
+	"tutorialStep3TextBoxLabel": {
+		"message": "Coba dengan teks di bawah ini!",
+		"description": "Tutorial Step 3 text box label"
+	},
+	"tutorialStep3SelectableText": {
+		"message": "Super Drag FlowMouse",
+		"description": "Tutorial Step 3 selectable text"
+	},
+	"tutorialStep4Title": {
+		"message": "Selamat!",
+		"description": "Tutorial Step 4 title"
+	},
+	"tutorialStep4Subtitle": {
+		"message": "Ujung jari meluncur, masuk ke dalam kondisi Flow.",
+		"description": "Tutorial Step 4 subtitle"
+	},
+	"tutorialStep4Instruction": {
+		"message": "Gunakan <span class=\"text-highlight\">Super Drag <span class=\"svg-arrow\">→</span></span> pada tautan ini untuk membuka di <span class=\"text-highlight\">Tab Baru</span>",
+		"description": "Tutorial Step 4 instruction. Note: Must drag to right. Use SVG arrow instead of text for direction."
+	},
+	"tutorialSettingsLink": {
+		"message": "Pengaturan FlowMouse",
+		"description": "Tutorial settings link"
+	},
+	"tutorialSettingsHint": {
+		"message": "Banyak fitur canggih menanti untuk Anda jelajahi!",
+		"description": "Tutorial settings hint"
+	},
+	"tutorialWrongDirection": {
+		"message": "Arah salah! Seret %arrow% Kanan",
+		"description": "Tutorial wrong direction error"
+	},
+	"tutorialEarlyRelease": {
+		"message": "Dilepaskan terlalu awal! Terus seret.",
+		"description": "Tutorial early release error"
+	},
+	"tutorialDragWrongButton": {
+		"message": "Gunakan <span class=\"text-highlight\">Tombol Kiri Mouse</span> untuk menyeret",
+		"description": "Tutorial drag wrong button error"
+	},
+	"tutorialRefreshTip": {
+		"message": "Tips: Tab yang dibuka sebelum instalasi perlu <span class=\"text-highlight\">disegarkan</span> untuk menggunakan FlowMouse",
+		"description": "Tip about refreshing tabs"
+	},
+	"permissionBookmarksTitle": {
+		"message": "Kelola Bookmark",
+		"description": "Permission popup title for bookmarks"
+	},
+	"permissionBookmarksDesc": {
+		"message": "Untuk menambahkan halaman ke bookmark Anda, FlowMouse memerlukan akses ke bookmark Anda.",
+		"description": "Permission popup description for bookmarks"
+	},
+	"permissionDownloadsTitle": {
+		"message": "Kelola Unduhan",
+		"description": "Permission popup title for downloads"
+	},
+	"permissionDownloadsDesc": {
+		"message": "Untuk menyimpan gambar, FlowMouse memerlukan akses ke unduhan Anda.",
+		"description": "Permission popup description for downloads"
+	},
+	"permissionDownloadsPageCaptureTitle": {
+		"message": "Simpan Gambar",
+		"description": "Permission popup title for downloads and page capture"
+	},
+	"permissionDownloadsPageCaptureDesc": {
+		"message": "Untuk menyimpan gambar, FlowMouse memerlukan akses ke halaman dan unduhan.",
+		"description": "Permission popup description for downloads and page capture"
+	},
+	"grantPermission": {
+		"message": "Berikan Izin",
+		"description": "Grant permission button"
+	},
+	"grantPermissionCancel": {
+		"message": "Batal",
+		"description": "Cancel button"
+	},
+	"permissionTitle": {
+		"message": "Izin FlowMouse",
+		"description": "Generic permission window title"
+	},
+	"tutorialPinHint": {
+		"message": "Klik<span class='icon-ext'></span><b>Ekstensi</b>, dan<span class='icon-pin'></span><b>Sematkan</b> FlowMouse untuk akses mudah!",
+		"description": "Hint to pin the extension in tutorial step 4. Do not add space around icon."
+	},
+	"downloadErrorHotlink": {
+		"message": "Gagal menyimpan gambar, situs ini mungkin memiliki pelindung hotlink, silakan klik kanan gambar dan pilih \"Simpan gambar sebagai...\" untuk menyimpan",
+		"description": "Toast message when image download fails due to hotlink protection"
+	},
+	"saveImageLoadError": {
+		"message": "Gagal menyimpan gambar: Gambar gagal dimuat",
+		"description": "Toast message when image fails to load before saving"
+	},
+	"saveImageTimeout": {
+		"message": "Gagal menyimpan gambar: Waktu pemuatan habis",
+		"description": "Toast message when image loading times out"
+	}
+}
