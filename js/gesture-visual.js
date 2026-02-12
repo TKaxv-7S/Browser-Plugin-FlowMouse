@@ -278,10 +278,13 @@ class GestureVisualizer {
 				break;
 		}
 
-		return `:host{font-family:${fontFamily};${extraRules}}`;
+		return `:host{font-family:${fontFamily} !important;${extraRules}}`;
 	}
 
 	show() {
+		if (this.container && !this.container.isConnected) {
+			this.cleanup();
+		}
 		if (!this.canvas) this.init();
 		this.trail = [];
 		

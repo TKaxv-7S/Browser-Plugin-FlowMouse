@@ -531,8 +531,21 @@
 
 			while (target && target !== document.body && depth < 5) {
 				if (target.getAttribute && target.getAttribute('draggable') === 'false') {
-					if (target.tagName === 'A' || target.tagName === 'IMG' ||
-						(window.getSelection().rangeCount > 0 && window.getSelection().containsNode(target, true))) {
+					let shouldForce = false;
+
+					if (target.tagName === 'IMG') {
+						shouldForce = true;
+					}
+					else if (target.tagName === 'A' && target.href) {
+						if (!target.querySelector('input, textarea, select, button')) {
+							shouldForce = true;
+						}
+					}
+					else if (window.getSelection().rangeCount > 0 && window.getSelection().containsNode(target, true)) {
+						shouldForce = true;
+					}
+
+					if (shouldForce) {
 						target.setAttribute('draggable', 'true');
 						target.setAttribute('data-flowmouse-modified', 'true'); 
 						hasModified = true;
