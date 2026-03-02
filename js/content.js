@@ -127,6 +127,7 @@
 				'duplicateTab': { name: msg('actionDuplicateTab', '复制当前标签页'), type: 'background' },
 				'toggleMuteTab': { name: msg('actionToggleMuteTab', '静音/取消静音当前标签页'), type: 'background' },
 				'toggleMuteAllTabs': { name: msg('actionToggleMuteAllTabs', '静音/取消静音全部标签页'), type: 'background' },
+				'sendCustomEvent': { name: msg('actionSendCustomEvent', '发送手势自定义事件'), type: 'local' },
 			};
 		}
 
@@ -924,6 +925,9 @@
 						break;
 					case 'printPage':
 						window.print();
+						break;
+					case "sendCustomEvent":
+						window.dispatchEvent(new CustomEvent("FLOW_MOUSE_EVENT", { detail: pattern }));
 						break;
 				}
 			} else {

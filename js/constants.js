@@ -61,6 +61,7 @@
 		'duplicateTab': 'actionDuplicateTab',
 		'toggleMuteTab': 'actionToggleMuteTab',
 		'toggleMuteAllTabs': 'actionToggleMuteAllTabs',
+		'sendCustomEvent': 'actionSendCustomEvent',
 	};
 
 	const SEARCH_ENGINES = {

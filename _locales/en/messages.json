@@ -575,6 +575,10 @@
 		"message": "Mute/Unmute All Tabs",
 		"description": "Toggle mute all tabs"
 	},
+	"actionSendCustomEvent": {
+		"message": "Send custom event",
+		"description": "Send custom event"
+	},
 	"showTrailOrigin": {
 		"message": "Show Origin Point",
 		"description": "Show trail origin point"

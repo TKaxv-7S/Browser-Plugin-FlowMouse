@@ -575,6 +575,10 @@
 		"message": "静音/取消静音全部标签页",
 		"description": "Toggle mute all tabs"
 	},
+	"actionSendCustomEvent": {
+		"message": "发送手势自定义事件",
+		"description": "Send custom event"
+	},
 	"showTrailOrigin": {
 		"message": "显示起始原点",
 		"description": "Show trail origin point"
