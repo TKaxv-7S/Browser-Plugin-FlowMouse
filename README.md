@@ -1,87 +1,87 @@
-# FlowMouse：心流鼠标
+# FlowMouse
 
-**[English](README.en.md)**
+**[中文](README.zh_CN.md)**
 
-一款追求极致流畅与隐私保护的开源 Chrome 鼠标手势扩展。通过自然的鼠标滑动，助您无缝操控浏览器，真正进入专注高效的“心流”状态。
+An open-source Chrome mouse gesture extension dedicated to ultimate smoothness and privacy protection. Through natural mouse movements, it helps you seamlessly control your browser and truly enter a focused and efficient "flow" state.
 
-## ✨ 核心特性
-- **完全本地，隐私至上**：所有操作均在本地完成（除Chrome内置同步外），**零网络请求、零数据收集、零信息上传**，彻底守护您的浏览隐私。
-- **自定义手势，随心所欲**：除了16种默认手势外，支持自定义扩展更多手势操作。
-- **超级拖拽，效率翻倍**：
-  - **拖拽文字** → 支持自定义搜索引擎划词搜索和复制文字等细节设置。
-  - **拖拽图片** → 支持新标签页查看、保存图片、复制图片地址、以图搜索或自定义搜索等细节设置。
-  - **拖拽链接** → 支持打开链接和复制链接等细节设置。
-- **直观设置，随心定制**：提供清晰的可视化设置页，支持自定义手势轨迹颜色、宽度及操作提示。
-- **多语言支持**：完整适配简体中文、英文等世界主流语言界面。
-- **新手引导**：首次安装后自动跳转至使用教程页面，手把手教您玩转鼠标手势，零门槛轻松入门。
+## ✨ Core Features
+- **Completely Local, Privacy First**: All operations are performed locally (except for Chrome's built-in sync). **Zero network requests, zero data collection, and zero information uploading**—thoroughly protecting your browsing privacy.
+- **Custom Gestures, At Your Will**: In addition to the 16 default gestures, it supports full customization for additional gesture operations.
+- **Super Drag, Double the Efficiency**:
+  - **Drag Text** → Supports searching selected text via custom search engines, copying text, and more.
+  - **Drag Image** → Supports opening in a new tab, saving images, copying image addresses, reverse image search, custom search, and more.
+  - **Drag Link** → Supports opening links, copying link addresses, and more.
+- **Intuitive Settings, Fully Customizable**: Provides a clear, visual settings page allowing you to customize gesture trail colors, widths, and operation tooltips.
+- **Multi-language Support**: Fully adapted for Simplified Chinese, English, and other major global languages.
+- **New User Guide**: Automatically redirects to a tutorial page after the first installation, guiding you step-by-step on how to use mouse gestures for an easy start.
 
-## 🚀 安装方法
-### 📦 方式一：通过 Chrome 应用商店安装（推荐）
-**如果你喜欢FlowMouse，请在应用商店给我们一个五星鼓励，这是我们更新的动力。**
+## 🚀 Installation Methods
+### 📦 Method 1: Chrome Web Store (Recommended)
+**If you enjoy FlowMouse, please encourage us with a five-star rating in the Web Store; this is our motivation for updates.**
 [https://chrome.google.com/webstore/detail/fnldhkfidchnjiokpoemdhoejmaojkgp](https://chrome.google.com/webstore/detail/fnldhkfidchnjiokpoemdhoejmaojkgp)
 
-### 📦 方式二：离线安装扩展
-1.  **下载安装包**
-    从 [百度网盘](https://pan.baidu.com/s/175cd1dOrAcQEAbRRFlOfhA?pwd=52pj) 或 [GitHub Releases](https://github.com/Hmily-LCG/FlowMouse/releases) 下载最新版本的 `.crx` 或 `.zip` 文件。
-2.  **打开扩展程序界面**
-    在 Chrome 浏览器地址栏输入以下地址并回车访问：`chrome://extensions/`
-3.  **开启开发者模式**
-    在页面右上角找到 **“开发者模式”** (Developer mode)，点击开关将其切换为 **开启** 状态。
-4.  **安装扩展程序**
-    *   将下载好的 `.crx` 或 `.zip` 文件直接**拖入**该扩展程序页面中。
-    *   当浏览器显示“要添加...吗？”的提示框时，点击 **“添加扩展程序”** 即可。
-    *   *提示：如果是 ZIP 文件且拖拽无效，请先解压，然后点击页面左上角的“加载已解压的扩展程序”并选择解压后的文件夹。*
+### 📦 Method 2: Offline Installation
+1.  **Download Installation Package**
+    Download the latest version of the `.crx` or `.zip` file from [GitHub Releases](https://github.com/Hmily-LCG/FlowMouse/releases).
+2.  **Open Extensions Page**
+    Enter the following address in the Chrome browser address bar and press Enter: `chrome://extensions/`
+3.  **Enable Developer Mode**
+    Find **"Developer mode"** in the top right corner of the page and click the switch to turn it **ON**.
+4.  **Install Extension**
+    *   Drag and drop the downloaded `.crx` or `.zip` file directly into the extensions page.
+    *   When the browser prompts "Add ...?", click **"Add extension"**.
+    * *Tip: If dragging a ZIP file doesn't work, unzip it first. Then click "Load unpacked" in the top left corner and select the unzipped folder.*
 
-## 📖 默认手势指南
-所有手势均可在选项页面修改或自定义。
+## 📖 Default Gesture Guide
+All gestures can be modified or customized in the options page.
 
-| 手势 | 功能 | 手势 | 功能 |
+| Gesture | Function | Gesture | Function |
 |:---:|:---|:---:|:---|
-| `←` | 后退 | `→` | 前进 |
-| `↑` | 向上滚动 | `↓` | 向下滚动 |
-| `↓→` | 关闭当前标签页 | `←↑` | 恢复关闭的标签页 |
-| `→↑` | 新建标签页 | `→↓` | 刷新当前页面 |
-| `↑←` | 切换到左侧标签页 | `↑→` | 切换到右侧标签页 |
-| `↓←` | 停止加载 | `←↓` | 关闭所有标签页 |
-| `↑↓` | 滚动到底部 | `↓↑` | 滚动到顶部 |
-| `←→` | 关闭当前标签页 | `→←` | 恢复关闭的标签页 |
+| `←` | Back | `→` | Forward |
+| `↑` | Scroll Up | `↓` | Scroll Down |
+| `↓→` | Close Current Tab | `←↑` | Reopen Closed Tab |
+| `→↑` | New Tab | `→↓` | Reload Current Page |
+| `↑←` | Switch to Left Tab | `↑→` | Switch to Right Tab |
+| `↓←` | Stop Loading | `←↓` | Close All Tabs |
+| `↑↓` | Scroll to Bottom | `↓↑` | Scroll to Top |
+| `←→` | Close Current Tab | `→←` | Reopen Closed Tab |
 
-## 📝 更新日志
-详见Github：[https://github.com/Hmily-LCG/FlowMouse/blob/main/CHANGELOG.zh_CN.md](https://github.com/Hmily-LCG/FlowMouse/blob/main/CHANGELOG.zh_CN.md)
+## 📝 Changelog
+View the full changelog: [https://github.com/Hmily-LCG/FlowMouse/blob/main/CHANGELOG.md](https://github.com/Hmily-LCG/FlowMouse/blob/main/CHANGELOG.md)
 
-## 🔒 隐私承诺
-**FlowMouse 郑重承诺：**
-- **本扩展为开源项目，代码已托管于 GitHub，欢迎审阅与贡献。**
-- **不收集**任何您的浏览历史、书签或操作习惯。
-- **不上传**任何本地数据至第三方服务器（仅限 Chrome 同步）。
-- **不嵌入**任何第三方分析或广告代码。
-您保存的设置通过 Chrome 浏览器内置的同步服务在您已登录的设备间加密同步。该过程完全由浏览器控制，并遵循您浏览器的隐私与同步设置。
-
----
-
-## 💡 缘起
-
-多年以来，我一直是 CrxMouse 的忠实用户，它确实极大地提升了我的操作效率。然而，长期使用中也一直伴随着一个困扰：它频繁弹出请求授予“高级功能”权限——实质上是希望获取用户访问的网址记录。出于对隐私的坚持，我始终没有同意。
-
-直到几个月前，CrxMouse 的一次版本更新导致我在访问吾爱破解论坛时，发现了异常：用户无法登陆、不能评分，甚至回帖后页面也不再自动跳转。经过排查，我很快确认问题根源在于该扩展程序注入的 JavaScript 脚本。论坛里也陆续出现了大量用户反馈，他们遇到了同样的困扰，以为是网站本身出了问题，其实是插件兼容性导致的，并且这个问题影响所有 Discuz! 论坛。
-
-我本期待插件作者能尽快修复。可惜事与愿违，尽管接连发布了两个更新，问题依然存在。在等待一个多月仍无进展后，我意识到可能需要寻找替代方案。然而市场上同类扩展程序寥寥无几，功能也难以完全符合需求。
-
-于是，我决定自己动手。就这样，FlowMouse 诞生了。
-
-在此，我依然想感谢 CrxMouse，它不仅多年来为我带来了效率提升，也正是因为它所暴露的问题，直接促成了这个新扩展程序的开发。同时，也要感谢 Edge 浏览器，除了我常用的几个核心手势外，FlowMouse 中其余的手势功能也参考了 Edge 的常用手势进行了补全。一直很羡慕 Edge 原生手势的流畅性能与出色兼容性，毕竟相比通过 JavaScript 绘制轨迹，原生支持的效果确实要好太多。
-
-FlowMouse 希望能延续手势操作的便捷，同时更注重隐私保护与稳定兼容。这是一个源于实际需求、也回归用户体验的小项目。如果你也遇到类似困扰，或许它能为你提供一个新的选择。
+## 🔒 Privacy Commitment
+**FlowMouse makes a solemn promise:**
+- **This extension is an open-source project; the code is hosted on GitHub. Reviews and contributions are welcome.**
+- **Does not collect** any of your browsing history, bookmarks, or usage habits.
+- **Does not upload** any local data to third-party servers (limited to Chrome sync only).
+- **Does not embed** any third-party analytics or advertising code.
+Your saved settings are encrypted and synced across your logged-in devices via Chrome's built-in sync service. This process is entirely controlled by the browser and follows your browser's privacy and sync settings.
 
 ---
 
-**FlowMouse · 让浏览更流畅，让操作更随心。**
+## 💡 Origin
+
+For many years, I was a loyal user of CrxMouse, and it truly improved my operational efficiency. However, long-term use came with a persistent annoyance: it frequently requested "advanced feature" permissions—essentially attempting to access my browsing history. Valuing my privacy, I never consented.
+
+A few months ago, a CrxMouse update caused anomalies when I visited the 52pojie forum: users could not log in, could not rate posts, and pages would not automatically redirect after replying. After troubleshooting, I quickly confirmed the root cause was a JavaScript script injected by the extension. Many users on the forum reported the same trouble, initially suspecting a website issue, but it was actually a plugin compatibility problem affecting all Discuz! forums.
+
+I hoped the plugin author would fix it quickly. Unfortunately, despite two consecutive updates, the problem persisted. After waiting over a month with no progress, I realized I might need to look for an alternative. However, there were very few similar extensions on the market, and none fully met my needs.
+
+So, I decided to build it myself. Thus, FlowMouse was born.
+
+I still want to acknowledge CrxMouse. It not only boosted my efficiency for years, but the issues it exposed were the direct catalyst for this new extension. I also want to thank the Edge browser. Aside from the core gestures I use frequently, the remaining gestures in FlowMouse were implemented based on Edge's standard gestures. I have always envied the smoothness and compatibility of Edge's native gestures—compared to drawing trails via JavaScript, native support feels significantly better.
+
+FlowMouse aims to continue the convenience of gesture operations while prioritizing privacy protection and stable compatibility. This is a small project born from actual needs and a return to user experience. If you have encountered similar troubles, perhaps this offers you a new choice.
 
 ---
 
-### 👨‍💻 作者信息
-- **作者**：Hmily [LCG] & Coxxs
-- **官网**：[https://www.52pojie.cn/thread-2080303-1-1.html](https://www.52pojie.cn/thread-2080303-1-1.html)
-- **GitHub**：[https://github.com/Hmily-LCG/FlowMouse](https://github.com/Hmily-LCG/FlowMouse)
-- **邮箱**：Service@52pojie.cn
-- 欢迎大家通过邮箱反馈问题和改进建议。
+**FlowMouse · Smoother browsing, intuitive control.**
+
+---
+
+### 👨‍💻 Author Information
+- **Author**: Hmily [LCG] & Coxxs
+- **Official Website**: [https://www.52pojie.cn/thread-2080303-1-1.html](https://www.52pojie.cn/thread-2080303-1-1.html)
+- **GitHub**: [https://github.com/Hmily-LCG/FlowMouse](https://github.com/Hmily-LCG/FlowMouse)
+- **Email**: Service@52pojie.cn
+- Feedback and improvement suggestions via email are welcome.
