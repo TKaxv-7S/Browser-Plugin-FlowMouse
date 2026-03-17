@@ -16,9 +16,10 @@ An open-source Chrome mouse gesture extension dedicated to ultimate smoothness a
 - **New User Guide**: Automatically redirects to a tutorial page after the first installation, guiding you step-by-step on how to use mouse gestures for an easy start.
 
 ## 🚀 Installation Methods
-### 📦 Method 1: Chrome Web Store (Recommended)
-**If you enjoy FlowMouse, please encourage us with a five-star rating in the Web Store; this is our motivation for updates.**
-[https://chrome.google.com/webstore/detail/fnldhkfidchnjiokpoemdhoejmaojkgp](https://chrome.google.com/webstore/detail/fnldhkfidchnjiokpoemdhoejmaojkgp)
+### 📦 Method 1: Install from Official Stores (Recommended)
+**If you enjoy FlowMouse, please encourage us with a five-star rating in the store; this is our motivation for updates.**
+- **Chrome / Edge**: [https://chrome.google.com/webstore/detail/fnldhkfidchnjiokpoemdhoejmaojkgp](https://chrome.google.com/webstore/detail/fnldhkfidchnjiokpoemdhoejmaojkgp)
+- **Firefox**: [https://addons.mozilla.org/firefox/addon/flowmouse/](https://addons.mozilla.org/firefox/addon/flowmouse/)
 
 ### 📦 Method 2: Offline Installation
 1.  **Download Installation Package**

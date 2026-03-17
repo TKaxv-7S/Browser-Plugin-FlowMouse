@@ -14,9 +14,10 @@
 - **新手引导**：首次安装后自动跳转至使用教程页面，手把手教您玩转鼠标手势，零门槛轻松入门。
 
 ## 🚀 安装方法
-### 📦 方式一：通过 Chrome 应用商店安装（推荐）
+### 📦 方式一：通过扩展商店安装（推荐）
 **如果你喜欢FlowMouse，请在应用商店给我们一个五星鼓励，这是我们更新的动力。**
-[https://chrome.google.com/webstore/detail/fnldhkfidchnjiokpoemdhoejmaojkgp](https://chrome.google.com/webstore/detail/fnldhkfidchnjiokpoemdhoejmaojkgp)
+- **Chrome / Edge**: [https://chrome.google.com/webstore/detail/fnldhkfidchnjiokpoemdhoejmaojkgp](https://chrome.google.com/webstore/detail/fnldhkfidchnjiokpoemdhoejmaojkgp)
+- **Firefox**: [https://addons.mozilla.org/firefox/addon/flowmouse/](https://addons.mozilla.org/firefox/addon/flowmouse/)
 
 ### 📦 方式二：离线安装扩展
 1.  **下载安装包**

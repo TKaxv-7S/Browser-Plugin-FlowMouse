@@ -1,5 +1,50 @@
 ## FlowMouse Changelog
 
+### v1.3 (2026-03-17)
+
+**New Features:**
+- **Added support for Firefox and Edge browsers**
+- **Added mouse wheel gestures: Hold right mouse button and scroll up/down**
+- **Added special gestures: Hold right mouse button and left-click / Hold left mouse button and right-click**
+- **Expert Mode: Added command chains, allowing multiple actions to be executed in a single gesture**
+- Support displaying the option to disable/enable gestures in the right-click context menu
+- New color picker, supporting adjustments for gesture text/line opacity, blur, disabling shadows, etc.
+- Expert Mode: Support adjusting gesture turning tolerance settings
+- Added new gestures:
+  - **Simulate Keystrokes**
+  - Send Custom Events (Thanks to @g9wp)
+  - Switch to First Tab / Switch to Last Tab
+  - Pin/Unpin Current Tab
+  - Close Window
+  - Copy Page Title along with Current URL
+
+**Gesture Improvements:**
+- Support adjusting scroll distance and animation for each scroll gesture individually
+- Optimized continuous scroll animations; support setting continuous scroll acceleration
+- Gestures for switching to the left/right/first/last tab can now be configured to move the current tab instead
+- New gesture action selection interface
+- Support adjusting settings for certain gesture commands individually
+
+**Drag & Drop Improvements:**
+- **Dragging in the same direction supports executing multiple actions, such as multi-engine reverse image search / multi-engine search, etc.**
+- **Support for custom drag-and-drop gestures**
+- **Support opening pages in an Incognito/Private window when dragging**
+- Support dragging to copy link text
+
+**Interface & More Improvements:**
+- **Brand new Logo design (Thanks to @Ps出来的小赵)**
+- **Refactored code significantly to optimize performance and fix bugs**
+- **New settings interface design**
+- **Redesigned gesture recording process**
+- Improved the design of the extension button popup
+- Added reset buttons for specific options in the settings interface
+- Improved language selection menu design
+- Fixed an issue on macOS/Linux where gestures might affect the web page's right-click context menu
+- Fixed an issue in Chrome where right-clicking on Bing web pages might break links
+- Improved support for some third-party Android browsers
+- Other minor improvements
+
+
 ### v1.2 (2026-02-10)
 
 **New Features:**
@@ -43,7 +88,7 @@
 - Gesture hint boxes now use Shadow DOM to avoid interference from website styles
 - Improved support for RTL languages
 - Refactored code significantly to optimize performance and fix bugs
-- Other detail improvements
+- Other minor improvements
 
 
 ### v1.1 (2025-12-24)
