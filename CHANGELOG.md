@@ -1,5 +1,27 @@
 ## FlowMouse Changelog
 
+### v1.4 (2026-03-22)
+
+**Gesture Improvements:**
+- **Expert Mode: Support setting gesture trigger keys**: Right / Middle / Side / Stylus Right buttons
+- Support keeping pinned tabs when closing tabs
+- Simplified gesture icon display
+- Refresh tab command supports hard reload (bypass cache)
+- Support specifying tab position when opening a new tab or custom link
+
+**Drag & Drop Improvements:**
+- Improved HUD display when dragging text triggers automatic link recognition
+- Improved drag type recognition logic
+- Fixed an issue in Firefox where dragging an image inside a Shadow DOM might be incorrectly recognized as a link
+- Fixed an issue where drag-and-drop did not work on certain websites
+
+**Interface & More Improvements:**
+- On-demand event binding to optimize compatibility with older web pages
+- Fixed a settings sidebar bug for RTL languages
+- Fixed an issue where gesture trail rendering stuttered on certain pages
+- Other minor improvements
+
+
 ### v1.3 (2026-03-17)
 
 **New Features:**
