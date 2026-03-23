@@ -1,88 +1,104 @@
-# FlowMouse
+<p align="right">
+<b>English</b> · <a href="./README.zh_CN.md">中文</a>
+</p>
+<div align="center">
 
-**[中文](README.zh_CN.md)**
+<h1><img src="./assets/icon-heading.png" alt="" width="32" align="center"> FlowMouse</h1>
 
-An open-source Chrome mouse gesture extension dedicated to ultimate smoothness and privacy protection. Through natural mouse movements, it helps you seamlessly control your browser and truly enter a focused and efficient "flow" state.
+[![GitHub stars](https://img.shields.io/github/stars/Hmily-LCG/FlowMouse.svg)](https://github.com/Hmily-LCG/FlowMouse)
+[![GitHub release](https://img.shields.io/github/v/release/Hmily-LCG/FlowMouse)](https://github.com/Hmily-LCG/FlowMouse/releases)
+[![License](https://img.shields.io/github/license/Hmily-LCG/FlowMouse)](https://github.com/Hmily-LCG/FlowMouse/blob/main/LICENSE)
+[![Chrome Web Store](https://img.shields.io/chrome-web-store/users/fnldhkfidchnjiokpoemdhoejmaojkgp?label=Chrome%20Web%20Store)](https://chrome.google.com/webstore/detail/fnldhkfidchnjiokpoemdhoejmaojkgp)
+[![Mozilla Add-on](https://img.shields.io/amo/users/flowmouse?label=Firefox%20Add-on)](https://addons.mozilla.org/firefox/addon/flowmouse/)
 
-## ✨ Core Features
-- **Completely Local, Privacy First**: All operations are performed locally (except for Chrome's built-in sync). **Zero network requests, zero data collection, and zero information uploading**—thoroughly protecting your browsing privacy.
-- **Custom Gestures, At Your Will**: In addition to the 16 default gestures, it supports full customization for additional gesture operations.
-- **Super Drag, Double the Efficiency**:
-  - **Drag Text** → Supports searching selected text via custom search engines, copying text, and more.
-  - **Drag Image** → Supports opening in a new tab, saving images, copying image addresses, reverse image search, custom search, and more.
-  - **Drag Link** → Supports opening links, copying link addresses, and more.
-- **Intuitive Settings, Fully Customizable**: Provides a clear, visual settings page allowing you to customize gesture trail colors, widths, and operation tooltips.
-- **Multi-language Support**: Fully adapted for Simplified Chinese, English, and other major global languages.
-- **New User Guide**: Automatically redirects to a tutorial page after the first installation, guiding you step-by-step on how to use mouse gestures for an easy start.
+An open-source mouse gesture extension designed for ultimate smoothness. Swipe your fingertips, enter the *Flow*.
 
-## 🚀 Installation Methods
-### 📦 Method 1: Install from Official Stores (Recommended)
-**If you enjoy FlowMouse, please encourage us with a five-star rating in the store; this is our motivation for updates.**
-- **Chrome / Edge**: [https://chrome.google.com/webstore/detail/fnldhkfidchnjiokpoemdhoejmaojkgp](https://chrome.google.com/webstore/detail/fnldhkfidchnjiokpoemdhoejmaojkgp)
-- **Firefox**: [https://addons.mozilla.org/firefox/addon/flowmouse/](https://addons.mozilla.org/firefox/addon/flowmouse/)
+Supports gesture navigation, super drag, wheel and rocker gestures, and the ability to customize all gestures and more.
+</div>
 
-### 📦 Method 2: Offline Installation
-1.  **Download Installation Package**
-    Download the latest version of the `.crx` or `.zip` file from [GitHub Releases](https://github.com/Hmily-LCG/FlowMouse/releases).
-2.  **Open Extensions Page**
-    Enter the following address in the Chrome browser address bar and press Enter: `chrome://extensions/`
-3.  **Enable Developer Mode**
-    Find **"Developer mode"** in the top right corner of the page and click the switch to turn it **ON**.
-4.  **Install Extension**
-    *   Drag and drop the downloaded `.crx` or `.zip` file directly into the extensions page.
-    *   When the browser prompts "Add ...?", click **"Add extension"**.
-    * *Tip: If dragging a ZIP file doesn't work, unzip it first. Then click "Load unpacked" in the top left corner and select the unzipped folder.*
+<div align="center">
+<br>
+<img src="./assets/screenshot-1.png" alt="FlowMouse Settings" width="700">
+</div>
 
-## 📖 Default Gesture Guide
-All gestures can be modified or customized in the options page.
+## Install
+
+#### Chrome / Microsoft Edge
+
+<a href="https://chrome.google.com/webstore/detail/fnldhkfidchnjiokpoemdhoejmaojkgp"><img src="https://developer.chrome.com/static/docs/webstore/branding/image/mPGKYBIR2uCP0ApchDXE.png" alt="Available on Chrome Web Store" height="58"></a>
+
+#### Firefox
+
+<a href="https://addons.mozilla.org/firefox/addon/flowmouse/"><img src="https://blog.mozilla.org/addons/files/2020/04/get-the-addon-fx-apr-2020.svg" alt="Get the Add-on for Firefox" height="58"></a>
+
+> You can also download from [GitHub Releases](https://github.com/Hmily-LCG/FlowMouse/releases) for manual installation.
+
+## Features
+
+FlowMouse is a mouse gesture extension designed for ultimate smoothness. Seamlessly navigate your browser through natural mouse movements, helping you truly enter a focused and productive state of "flow".
+
+- <img src="./assets/icons/mouse-right.svg" width="16" height="16"> **Custom gestures:** 16 built-in gestures, plus unlimited custom ones you define yourself.
+- <img src="./assets/icons/mouse-left.svg" width="16" height="16"> **Super drag:** Drag text to search (custom engines supported), drag images to open/save/reverse-search, drag links to open/copy.
+- <img src="./assets/icons/mouse.svg" width="16" height="16"> **Wheel gestures:** Hold the right mouse button and scroll to quickly switch tabs.
+- <img src="./assets/icons/mouse-pointer-click.svg" width="16" height="16"> **Rocker gestures:** Hold one mouse button and click the other to navigate back/forward.
+- <img src="./assets/icons/workflow.svg" width="16" height="16"> **Command chains:** Run multiple actions from a single gesture.
+- <img src="./assets/icons/sliders-horizontal.svg" width="16" height="16"> **Visual settings:** Configure gesture trail color, width, action hints, and more from a clean settings UI.
+- <img src="./assets/icons/book-open.svg" width="16" height="16"> **Tutorial:** Interactive guide on first install.
+
+## Default Gestures
+
+All gestures can be customized in the options page.
 
 | Gesture | Function | Gesture | Function |
 |:---:|:---|:---:|:---|
 | `←` | Back | `→` | Forward |
 | `↑` | Scroll Up | `↓` | Scroll Down |
-| `↓→` | Close Current Tab | `←↑` | Reopen Closed Tab |
-| `→↑` | New Tab | `→↓` | Reload Current Page |
 | `↑←` | Switch to Left Tab | `↑→` | Switch to Right Tab |
-| `↓←` | Stop Loading | `←↓` | Close All Tabs |
+| `→↑` | New Tab | `→↓` | Reload Current Page |
+| `↓←` | Stop Loading | `↓→` | Close Current Tab |
+| `←↑` | Reopen Closed Tab | `←↓` | Close All Tabs |
 | `↑↓` | Scroll to Bottom | `↓↑` | Scroll to Top |
 | `←→` | Close Current Tab | `→←` | Reopen Closed Tab |
 
-## 📝 Changelog
-View the full changelog: [https://github.com/Hmily-LCG/FlowMouse/blob/main/CHANGELOG.md](https://github.com/Hmily-LCG/FlowMouse/blob/main/CHANGELOG.md)
+## Privacy
 
-## 🔒 Privacy Commitment
-**FlowMouse makes a solemn promise:**
-- **This extension is an open-source project; the code is hosted on GitHub. Reviews and contributions are welcome.**
-- **Does not collect** any of your browsing history, bookmarks, or usage habits.
-- **Does not upload** any local data to third-party servers (limited to Chrome sync only).
-- **Does not embed** any third-party analytics or advertising code.
-Your saved settings are encrypted and synced across your logged-in devices via Chrome's built-in sync service. This process is entirely controlled by the browser and follows your browser's privacy and sync settings.
+FlowMouse is an open source extension. The code is hosted on GitHub and open to review and contribution.
+
+- FlowMouse **does not collect** any browsing history, bookmarks, or usage habits.
+- FlowMouse **does not contain** any analytics or advertising code.
+- FlowMouse **does not upload** any local data to third-party servers.
+
+FlowMouse settings are stored locally via the browser's storage API. If browser sync is enabled (e.g., Chrome Sync, Firefox Sync), settings are encrypted and synced across your signed-in devices by the browser. This process is entirely controlled by your browser and follows your browser's privacy and sync settings.
+
+## Changelog
+
+See [CHANGELOG.md](https://github.com/Hmily-LCG/FlowMouse/blob/main/CHANGELOG.md).
+
+## The story behind FlowMouse
+
+For years, I was a loyal CrxMouse user. It genuinely improved my productivity. But one thing always bugged me: it kept requesting "advanced feature" permissions, which really meant access to my browsing history. I never agreed.
+
+Then one day, a CrxMouse update broke things on the 52pojie forum: users couldn't log in, couldn't rate posts, and pages stopped redirecting after replying. I traced the issue to a JavaScript snippet injected by the extension. Other users reported the same problems, thinking the site itself was broken, but it was actually caused by the extension and affected all Discuz!-based forums.
+
+I expected the author to fix it quickly. Two updates came and went, but the bug remained. After waiting over a month with no progress, I started looking for alternatives. There were very few similar extensions on the market, and none of them fully met my needs.
+
+So I decided to build my own. That's how FlowMouse was born.
+
+I still want to give credit to CrxMouse. It boosted my efficiency for years, and the problems it caused were the direct reason this project exists. I also want to thank Edge browser. Beyond the core gestures I use daily, FlowMouse's remaining gestures were modeled after Edge's built-in gesture set. I've always admired the smoothness and compatibility of Edge's native gestures; compared to drawing trails via JavaScript, native support is in a different league.
+
+FlowMouse aims to carry on the convenience of gesture navigation while putting privacy and compatibility first. It's a small project born from a real need. If you've run into similar frustrations, maybe it can be a good alternative for you.
+
+— Hmily [LCG]
 
 ---
 
-## 💡 Origin
-
-For many years, I was a loyal user of CrxMouse, and it truly improved my operational efficiency. However, long-term use came with a persistent annoyance: it frequently requested "advanced feature" permissions—essentially attempting to access my browsing history. Valuing my privacy, I never consented.
-
-A few months ago, a CrxMouse update caused anomalies when I visited the 52pojie forum: users could not log in, could not rate posts, and pages would not automatically redirect after replying. After troubleshooting, I quickly confirmed the root cause was a JavaScript script injected by the extension. Many users on the forum reported the same trouble, initially suspecting a website issue, but it was actually a plugin compatibility problem affecting all Discuz! forums.
-
-I hoped the plugin author would fix it quickly. Unfortunately, despite two consecutive updates, the problem persisted. After waiting over a month with no progress, I realized I might need to look for an alternative. However, there were very few similar extensions on the market, and none fully met my needs.
-
-So, I decided to build it myself. Thus, FlowMouse was born.
-
-I still want to acknowledge CrxMouse. It not only boosted my efficiency for years, but the issues it exposed were the direct catalyst for this new extension. I also want to thank the Edge browser. Aside from the core gestures I use frequently, the remaining gestures in FlowMouse were implemented based on Edge's standard gestures. I have always envied the smoothness and compatibility of Edge's native gestures—compared to drawing trails via JavaScript, native support feels significantly better.
-
-FlowMouse aims to continue the convenience of gesture operations while prioritizing privacy protection and stable compatibility. This is a small project born from actual needs and a return to user experience. If you have encountered similar troubles, perhaps this offers you a new choice.
+**FlowMouse · Smoother browsing, effortless control.**
 
 ---
 
-**FlowMouse · Smoother browsing, intuitive control.**
-
----
-
-### 👨‍💻 Author Information
-- **Author**: Hmily [LCG] & Coxxs
-- **Official Website**: [https://www.52pojie.cn/thread-2080303-1-1.html](https://www.52pojie.cn/thread-2080303-1-1.html)
+### Author Information
+- **Authors**: Hmily [LCG] & Coxxs
+- **Website**: [https://www.52pojie.cn/thread-2080303-1-1.html](https://www.52pojie.cn/thread-2080303-1-1.html)
 - **GitHub**: [https://github.com/Hmily-LCG/FlowMouse](https://github.com/Hmily-LCG/FlowMouse)
 - **Email**: Service@52pojie.cn
-- Feedback and improvement suggestions via email are welcome.
+- Feedback and suggestions are welcomed via email.

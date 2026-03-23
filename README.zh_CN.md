@@ -1,64 +1,80 @@
-# FlowMouse：心流鼠标
+<p align="right">
+<a href="./README.md">English</a> · <b>中文</b>
+</p>
+<div align="center">
 
-一款追求极致流畅与隐私保护的开源 Chrome 鼠标手势扩展。通过自然的鼠标滑动，助您无缝操控浏览器，真正进入专注高效的“心流”状态。
+<h1><img src="./assets/icon-heading.png" alt="" width="32" align="center"> FlowMouse 心流鼠标</h1>
 
-## ✨ 核心特性
-- **完全本地，隐私至上**：所有操作均在本地完成（除Chrome内置同步外），**零网络请求、零数据收集、零信息上传**，彻底守护您的浏览隐私。
-- **自定义手势，随心所欲**：除了16种默认手势外，支持自定义扩展更多手势操作。
-- **超级拖拽，效率翻倍**：
-  - **拖拽文字** → 支持自定义搜索引擎划词搜索和复制文字等细节设置。
-  - **拖拽图片** → 支持新标签页查看、保存图片、复制图片地址、以图搜索或自定义搜索等细节设置。
-  - **拖拽链接** → 支持打开链接和复制链接等细节设置。
-- **直观设置，随心定制**：提供清晰的可视化设置页，支持自定义手势轨迹颜色、宽度及操作提示。
-- **多语言支持**：完整适配简体中文、英文等世界主流语言界面。
-- **新手引导**：首次安装后自动跳转至使用教程页面，手把手教您玩转鼠标手势，零门槛轻松入门。
+[![GitHub stars](https://img.shields.io/github/stars/Hmily-LCG/FlowMouse.svg)](https://github.com/Hmily-LCG/FlowMouse)
+[![GitHub release](https://img.shields.io/github/v/release/Hmily-LCG/FlowMouse)](https://github.com/Hmily-LCG/FlowMouse/releases)
+[![License](https://img.shields.io/github/license/Hmily-LCG/FlowMouse)](https://github.com/Hmily-LCG/FlowMouse/blob/main/LICENSE)
+[![Chrome Web Store](https://img.shields.io/chrome-web-store/users/fnldhkfidchnjiokpoemdhoejmaojkgp?label=Chrome%20Web%20Store)](https://chrome.google.com/webstore/detail/fnldhkfidchnjiokpoemdhoejmaojkgp)
+[![Mozilla Add-on](https://img.shields.io/amo/users/flowmouse?label=Firefox%20Add-on)](https://addons.mozilla.org/firefox/addon/flowmouse/)
 
-## 🚀 安装方法
-### 📦 方式一：通过扩展商店安装（推荐）
-**如果你喜欢FlowMouse，请在应用商店给我们一个五星鼓励，这是我们更新的动力。**
-- **Chrome / Edge**: [https://chrome.google.com/webstore/detail/fnldhkfidchnjiokpoemdhoejmaojkgp](https://chrome.google.com/webstore/detail/fnldhkfidchnjiokpoemdhoejmaojkgp)
-- **Firefox**: [https://addons.mozilla.org/firefox/addon/flowmouse/](https://addons.mozilla.org/firefox/addon/flowmouse/)
+一款追求极致流畅的开源鼠标手势扩展。指尖滑动，进入心流。
 
-### 📦 方式二：离线安装扩展
-1.  **下载安装包**
-    从 [百度网盘](https://pan.baidu.com/s/175cd1dOrAcQEAbRRFlOfhA?pwd=52pj) 或 [GitHub Releases](https://github.com/Hmily-LCG/FlowMouse/releases) 下载最新版本的 `.crx` 或 `.zip` 文件。
-2.  **打开扩展程序界面**
-    在 Chrome 浏览器地址栏输入以下地址并回车访问：`chrome://extensions/`
-3.  **开启开发者模式**
-    在页面右上角找到 **“开发者模式”** (Developer mode)，点击开关将其切换为 **开启** 状态。
-4.  **安装扩展程序**
-    *   将下载好的 `.crx` 或 `.zip` 文件直接**拖入**该扩展程序页面中。
-    *   当浏览器显示“要添加...吗？”的提示框时，点击 **“添加扩展程序”** 即可。
-    *   *提示：如果是 ZIP 文件且拖拽无效，请先解压，然后点击页面左上角的“加载已解压的扩展程序”并选择解压后的文件夹。*
+支持手势导航、超级拖拽、滚轮手势、特殊手势，并可自定义所有手势及更多功能。
+</div>
 
-## 📖 默认手势指南
+<div align="center">
+<br>
+<img src="./assets/screenshot-zh-cn-1.png" alt="FlowMouse Settings" width="700">
+</div>
+
+## 安装
+
+#### Chrome / Microsoft Edge
+
+<a href="https://chrome.google.com/webstore/detail/fnldhkfidchnjiokpoemdhoejmaojkgp"><img src="https://developer.chrome.com/static/docs/webstore/branding/image/mPGKYBIR2uCP0ApchDXE.png" alt="Available on Chrome Web Store" height="58"></a>
+
+#### Firefox
+
+<a href="https://addons.mozilla.org/firefox/addon/flowmouse/"><img src="https://blog.mozilla.org/addons/files/2020/04/get-the-addon-fx-apr-2020.svg" alt="Get the Add-on for Firefox" height="58"></a>
+
+> 也可从 [GitHub Releases](https://github.com/Hmily-LCG/FlowMouse/releases) 或 [百度网盘](https://pan.baidu.com/s/175cd1dOrAcQEAbRRFlOfhA?pwd=52pj) 下载并手动离线安装。
+
+## 特性
+
+FlowMouse 是一款追求极致流畅的鼠标手势扩展。通过自然的鼠标滑动，助您无缝操控浏览器，真正进入专注高效的“心流”状态。
+
+- <img src="./assets/icons/mouse-right.svg" width="16" height="16"> **自定义手势** - 内置 16 种默认手势，支持自定义扩展更多手势操作。
+- <img src="./assets/icons/mouse-left.svg" width="16" height="16"> **超级拖拽** - 拖拽文字进行搜索（支持自定义引擎），拖拽图片查看/保存/以图搜索，拖拽链接打开/复制。
+- <img src="./assets/icons/mouse.svg" width="16" height="16"> **滚轮手势** - 按住鼠标右键并滚动滚轮，快速切换标签页。
+- <img src="./assets/icons/mouse-pointer-click.svg" width="16" height="16"> **特殊手势** - 按住一个鼠标按键的同时点击另一个按键，实现后退/前进导航。
+- <img src="./assets/icons/workflow.svg" width="16" height="16"> **命令链** - 通过单个手势连续执行多个操作。
+- <img src="./assets/icons/sliders-horizontal.svg" width="16" height="16"> **可视化设置** - 提供清晰的设置界面，支持自定义手势轨迹颜色、宽度及操作提示。
+- <img src="./assets/icons/book-open.svg" width="16" height="16"> **新手引导** - 首次安装提供交互式的新手入门教程。
+
+## 默认手势
+
 所有手势均可在选项页面修改或自定义。
 
 | 手势 | 功能 | 手势 | 功能 |
 |:---:|:---|:---:|:---|
 | `←` | 后退 | `→` | 前进 |
 | `↑` | 向上滚动 | `↓` | 向下滚动 |
-| `↓→` | 关闭当前标签页 | `←↑` | 恢复关闭的标签页 |
-| `→↑` | 新建标签页 | `→↓` | 刷新当前页面 |
 | `↑←` | 切换到左侧标签页 | `↑→` | 切换到右侧标签页 |
-| `↓←` | 停止加载 | `←↓` | 关闭所有标签页 |
+| `→↑` | 新建标签页 | `→↓` | 刷新当前页面 |
+| `↓←` | 停止加载 | `↓→` | 关闭当前标签页 |
+| `←↑` | 恢复关闭的标签页 | `←↓` | 关闭所有标签页 |
 | `↑↓` | 滚动到底部 | `↓↑` | 滚动到顶部 |
 | `←→` | 关闭当前标签页 | `→←` | 恢复关闭的标签页 |
 
-## 📝 更新日志
-详见Github：[https://github.com/Hmily-LCG/FlowMouse/blob/main/CHANGELOG.zh_CN.md](https://github.com/Hmily-LCG/FlowMouse/blob/main/CHANGELOG.zh_CN.md)
+## 隐私
 
-## 🔒 隐私承诺
-**FlowMouse 郑重承诺：**
-- **本扩展为开源项目，代码已托管于 GitHub，欢迎审阅与贡献。**
-- **不收集**任何您的浏览历史、书签或操作习惯。
-- **不上传**任何本地数据至第三方服务器（仅限 Chrome 同步）。
-- **不嵌入**任何第三方分析或广告代码。
-您保存的设置通过 Chrome 浏览器内置的同步服务在您已登录的设备间加密同步。该过程完全由浏览器控制，并遵循您浏览器的隐私与同步设置。
+FlowMouse 是开源项目，代码已托管于 GitHub，欢迎审阅与贡献。
 
----
+- FlowMouse **不收集**任何您的浏览历史、书签或操作习惯。
+- FlowMouse **不包含**任何数据分析或广告代码。
+- FlowMouse **不上传**任何本地数据至第三方服务器。
 
-## 💡 缘起
+您的设置通过浏览器的存储 API 保存在本地。若启用了浏览器同步服务（如 Chrome Sync、Firefox Sync），设置将由浏览器内置的同步服务在您已登录的设备间加密同步。该过程完全由浏览器控制，并遵循浏览器的隐私与同步设置。
+
+## 更新日志
+
+详见 [CHANGELOG.zh_CN.md](https://github.com/Hmily-LCG/FlowMouse/blob/main/CHANGELOG.zh_CN.md)。
+
+## 缘起
 
 多年以来，我一直是 CrxMouse 的忠实用户，它确实极大地提升了我的操作效率。然而，长期使用中也一直伴随着一个困扰：它频繁弹出请求授予“高级功能”权限——实质上是希望获取用户访问的网址记录。出于对隐私的坚持，我始终没有同意。
 
@@ -72,13 +88,15 @@
 
 FlowMouse 希望能延续手势操作的便捷，同时更注重隐私保护与稳定兼容。这是一个源于实际需求、也回归用户体验的小项目。如果你也遇到类似困扰，或许它能为你提供一个新的选择。
 
+— Hmily [LCG]
+
 ---
 
 **FlowMouse · 让浏览更流畅，让操作更随心。**
 
 ---
 
-### 👨‍💻 作者信息
+### 作者信息
 - **作者**：Hmily [LCG] & Coxxs
 - **官网**：[https://www.52pojie.cn/thread-2080303-1-1.html](https://www.52pojie.cn/thread-2080303-1-1.html)
 - **GitHub**：[https://github.com/Hmily-LCG/FlowMouse](https://github.com/Hmily-LCG/FlowMouse)
