@@ -1,6 +1,54 @@
 (function () {
 	'use strict';
 
+	class EventManager {
+		constructor() {
+			this._bindings = [];
+			this._onUpdateCallbacks = [];
+		}
+
+		add(condition, target, event, handler, options) {
+			this._bindings.push({ target, event, handler, options, condition, active: false });
+			return this;
+		}
+
+		onUpdate(fn) {
+			this._onUpdateCallbacks.push(fn);
+			return this;
+		}
+
+		update() {
+			for (const b of this._bindings) {
+				const shouldBeActive = b.condition ? b.condition() : true;
+				if (shouldBeActive && !b.active) {
+					b.target.addEventListener(b.event, b.handler, b.options);
+					b.active = true;
+				} else if (!shouldBeActive && b.active) {
+					b.target.removeEventListener(b.event, b.handler, b.options);
+					b.active = false;
+				}
+			}
+			for (const fn of this._onUpdateCallbacks) fn();
+		}
+
+		dispose() {
+			for (const b of this._bindings) {
+				if (b.active) {
+					b.target.removeEventListener(b.event, b.handler, b.options);
+					b.active = false;
+				}
+			}
+			this._bindings.length = 0;
+		}
+	}
+
+	window.EventManager = EventManager;
+})();
+
+
+(function () {
+	'use strict';
+
 	let i18nMessages = null;
 	let currentLanguage = null;
 
@@ -258,7 +306,7 @@
 	}
 
 
-	function tryParseAsUrl(text) {
+	function tryParseAsUrl(text, requireProtocol = false) {
 		if (!text || typeof text !== 'string') return null;
 		text = text.trim();
 		if (!text) return null;
@@ -267,8 +315,11 @@
 		if (protocolRegex.test(text)) {
 			const ignoreProtocol = /^(javascript|data|blob):/i;
 			if (ignoreProtocol.test(text)) return null;
-			return text;
+			if (/^(mailto|tel|sms|magnet):/i.test(text) || text.includes('://')) return text;
+			return null;
 		}
+
+		if (requireProtocol) return null;
 
 		const ipRegex = /^(\d{1,3}\.){3}\d{1,3}(:\d+)?(\/.*)?$/;
 		if (ipRegex.test(text)) {
@@ -449,17 +500,21 @@
 			return key ? msg(key) : '';
 		}
 
-		function getDragHints(type, pattern) {
+		function getDragHints(type, pattern, dragContent) {
 			const gestures = getGesturesForDragType(type);
 			if (!gestures) return [];
 
 			const configs = getDragGestureConfigs(gestures, pattern);
 			const rawHints = [];
 			for (const cfg of configs) {
-				const action = cfg.action || 'none';
+				let action = cfg.action || 'none';
 				if (action === 'none') continue;
-				const hint = getActionHintText(action, type);
-				if (hint) rawHints.push(hint);
+				if (action === 'search' && type === 'text' && cfg.autoDetectUrl === true && dragContent && tryParseAsUrl(dragContent, false)) {
+					rawHints.push(msg('dragActionOpenTabLink'));
+				} else {
+					const hint = getActionHintText(action, type);
+					if (hint) rawHints.push(hint);
+				}
 			}
 
 			const countMap = new Map();
@@ -581,6 +636,8 @@
 							isRtl: window.ContentI18n.getDir() === 'rtl'
 						});
 					}
+
+					eventManager.update();
 				});
 			} catch (e) {
 			}
@@ -646,6 +703,7 @@
 
 		let gestureState = {
 			isRightButton: false,
+			gestureButton: null,
 			isDrag: false,
 			selectedText: '',
 			dragElement: null,
@@ -660,6 +718,7 @@
 			if (SETTINGS.enableHUD) visualizer.updateAction('', []);
 			recognizer.reset();
 			gestureState.isRightButton = false;
+			gestureState.gestureButton = null;
 			gestureState.isDrag = false;
 			gestureState.selectedText = '';
 			gestureState.dragElement = null;
@@ -694,6 +753,12 @@
 		}
 
 		const visualizer = new RelayGestureVisualizer();
+
+		const isGestureEnabled = () => SETTINGS.enableGesture && !isBlacklisted;
+		const isWheelGestureEnabled = () => SETTINGS.enableWheelGestures && !isBlacklisted;
+		const isSpecialGestureEnabled = () => SETTINGS.enableSpecialGestures && !isBlacklisted;
+		const isDragEnabled = () => SETTINGS.enableDrag && !isBlacklisted;
+		const eventManager = new window.EventManager();
 
 		const isMacOrLinux = /Mac|Linux/i.test(navigator.platform);
 		let lastRightClickTime = 0;
@@ -730,9 +795,7 @@
 			}
 		});
 
-		document.addEventListener('contextmenu', (e) => {
-			if (isBlacklisted) return;
-
+		eventManager.add(() => !isBlacklisted, document, 'contextmenu', (e) => {
 			if (wheelGestureTriggered) {
 				wheelGestureTriggered = false;
 				e.preventDefault();
@@ -754,7 +817,9 @@
 				return false;
 			}
 
-			if (!SETTINGS.enableGesture && !SETTINGS.enableWheelGestures && !SETTINGS.enableSpecialGestures) return;
+			const triggerBtns = SETTINGS.gestureTriggerButtons;
+			const gestureUsesRightClick = SETTINGS.enableGesture && (triggerBtns.right !== false || triggerBtns.penRight === true);
+			if (!gestureUsesRightClick && !SETTINGS.enableWheelGestures && !SETTINGS.enableSpecialGestures) return;
 
 			if (e.composedPath().some(el => el.hasAttribute && el.hasAttribute('data-gesture-ignore'))) return;
 
@@ -791,7 +856,7 @@
 					return false;
 				}
 			}
-		}, true);
+		}, { capture: true });
 
 		document.addEventListener('pointerdown', (e) => {
 			if (e.button === 0) {
@@ -802,13 +867,25 @@
 			}
 		}, true);
 
-		document.addEventListener('pointerdown', (e) => {
-			if (!SETTINGS.enableGesture || isBlacklisted) return;
+		function isTriggerButton(pointerType, button) {
+			const btns = SETTINGS.gestureTriggerButtons;
+			if (pointerType === 'pen') return button === 2 && btns.penRight === true;
+			if (pointerType !== 'mouse') return false;
+			switch (button) {
+				case 2: return btns.right !== false;
+				case 1: return btns.middle === true;
+				case 3: return btns.side1 === true;
+				case 4: return btns.side2 === true;
+				default: return false;
+			}
+		}
 
-			if ((e.pointerType === 'mouse') && e.button === 2) {
+		eventManager.add(isGestureEnabled, document, 'pointerdown', (e) => {
+			if (isTriggerButton(e.pointerType, e.button)) {
 				if (e.composedPath().some(el => el.hasAttribute && el.hasAttribute('data-gesture-ignore'))) return;
 
 				gestureState.isRightButton = true;
+				gestureState.gestureButton = e.button;
 				gestureState.isDrag = false;
 				gestureState.preventContextMenu = false;
 				if (preventContextMenuTimeoutId) {
@@ -817,11 +894,14 @@
 				}
 				recognizer.start(e.clientX, e.clientY, e.timeStamp);
 
-			}
-		}, true);
+				if (e.button === 1 || e.pointerType === 'pen' && e.button === 2) {
+					e.preventDefault();
+				}
 
-		document.addEventListener('pointermove', (e) => {
-			if (!SETTINGS.enableGesture || isBlacklisted) return;
+			}
+		}, { capture: true });
+
+		eventManager.add(isGestureEnabled, document, 'pointermove', (e) => {
 			if (!gestureState.isRightButton) return;
 
 			const result = recognizer.move(e.clientX, e.clientY, e.timeStamp);
@@ -876,10 +956,9 @@
 				const actionName = getActionName(result.pattern);
 				visualizer.updateAction(result.pattern, actionName ? [actionName] : []);
 			}
-		}, true);
+		}, { capture: true });
 
-		document.addEventListener('pointerup', (e) => {
-			if (!SETTINGS.enableGesture || isBlacklisted) return;
+		eventManager.add(isGestureEnabled, document, 'pointerup', (e) => {
 			if (gestureState.isRightButton) {
 				if (recognizer.isActive()) {
 					e.preventDefault();
@@ -895,13 +974,10 @@
 					safeSendMessage({ action: 'gestureStateUpdate', active: false });
 				}, 50);
 			}
-		}, true);
+		}, { capture: true });
 
 		let rockerLeftExecuted = false;
-		document.addEventListener('mousedown', (e) => {
-			if (isBlacklisted) return;
-			if (!SETTINGS.enableSpecialGestures) return;
-			
+		eventManager.add(isSpecialGestureEnabled, document, 'mousedown', (e) => {
 			if (e.button === 0 && (e.buttons & 2)) {
 				if (recognizer.isActive()) return;
 				const specialConfig = (SETTINGS.specialGestures || {}).leftClickHoldingRight;
@@ -930,24 +1006,23 @@
 				executeAction(specialConfig.action, specialConfig, e.clientX, e.clientY);
 				return;
 			}
-		}, true);
+		}, { capture: true });
 
-		document.addEventListener('click', (e) => {
+		eventManager.add(isSpecialGestureEnabled, document, 'click', (e) => {
 			if (rockerLeftExecuted) {
 				e.preventDefault();
 				e.stopPropagation();
 				rockerLeftExecuted = false;
 			}
-		}, true);
+		}, { capture: true });
 
-		document.addEventListener('mouseup', (e) => {
+		eventManager.add(isSpecialGestureEnabled, document, 'mouseup', (e) => {
 			if (e.button === 0 && rockerLeftExecuted) {
 				setTimeout(() => { rockerLeftExecuted = false; }, 10);
 			}
-		}, true);
+		}, { capture: true });
 
-		document.addEventListener('mousedown', (e) => {
-			if (!SETTINGS.enableDrag || isBlacklisted) return;
+		eventManager.add(isDragEnabled, document, 'mousedown', (e) => {
 			if (e.button !== 0) return;
 
 			let target = e.target;
@@ -984,7 +1059,7 @@
 				document.addEventListener('mouseup', restoreDraggable, true);
 				document.addEventListener('dragend', restoreDraggable, true);
 			}
-		}, true);
+		}, { capture: true });
 
 		function restoreDraggable() {
 			document.removeEventListener('mouseup', restoreDraggable, true);
@@ -997,54 +1072,37 @@
 			});
 		}
 
-		document.addEventListener('dragstart', (e) => {
-			if (!SETTINGS.enableDrag || isBlacklisted) return;
+		eventManager.add(isDragEnabled, document, 'dragstart', (e) => {
 			let dragContent = null;
 			let dragElement = null;
 			let dragType = null;
 
+			const dtItems = [...e.dataTransfer.items];
+			let isImage = dtItems.some(i => i.kind === 'file' && i.type.startsWith('image/'));
+			const isLink = !isImage && dtItems.some(i => i.type === 'text/uri-list');
+			const isText = !isImage && !isLink && dtItems.some(i => i.type === 'text/plain' || i.type === 'text/html');
+
 			const path = e.composedPath();
 
-			let targetImg = path.find(el => el.tagName === 'IMG');
+			if (SETTINGS.enableImageDrag && isImage) {
+				let targetImg = path.find(el => el.tagName === 'IMG');
 
 
-			if (SETTINGS.enableImageDrag && targetImg) {
-				dragContent = targetImg.src || targetImg.currentSrc;
-				dragElement = targetImg;
-				dragType = 'image';
-				const parentLink = path.find(el => el.tagName === 'A' && el.href);
-				if (parentLink) {
-					gestureState.parentLink = parentLink.href;
-				} else {
-					gestureState.parentLink = null;
-				}
-				window.getSelection().removeAllRanges();
-			}
-
-			if (!dragContent && SETTINGS.enableTextDrag) {
-				const selection = window.getSelection();
-				const text = selection.toString().trim();
-
-				const isShadowDOM = path.length > 0 && path[0] !== e.target;
-
-				if (text) {
-					if (isShadowDOM) {
-						dragContent = text;
-						dragType = 'text';
-					} else if (selection.rangeCount > 0) {
-						const range = selection.getRangeAt(0);
-						const rect = range.getBoundingClientRect();
-						const padding = 20;
-						if (e.clientX >= rect.left - padding && e.clientX <= rect.right + padding &&
-							e.clientY >= rect.top - padding && e.clientY <= rect.bottom + padding) {
-							dragContent = text;
-							dragType = 'text';
-						}
+				if (targetImg) {
+					dragContent = targetImg.src || targetImg.currentSrc;
+					dragElement = targetImg;
+					dragType = 'image';
+					const parentLink = path.find(el => el.tagName === 'A' && el.href);
+					if (parentLink) {
+						gestureState.parentLink = parentLink.href;
+					} else {
+						gestureState.parentLink = null;
 					}
+					window.getSelection().removeAllRanges();
 				}
 			}
 
-			if (!dragContent && SETTINGS.enableLinkDrag) {
+			if (!dragContent && SETTINGS.enableLinkDrag && isLink) {
 				const targetLink = path.find(el => el.tagName === 'A' && el.href);
 				if (targetLink) {
 					let rawHref = targetLink.getAttribute('href');
@@ -1053,7 +1111,7 @@
 						try {
 							const absoluteUrl = new URL(rawHref, document.baseURI).href;
 
-							if (absoluteUrl.startsWith('http') || absoluteUrl.startsWith('ftp') || absoluteUrl.startsWith('file') || absoluteUrl.startsWith('chrome-extension:') || absoluteUrl.startsWith('moz-extension:')) {
+							if (tryParseAsUrl(absoluteUrl, true)) {
 								dragContent = absoluteUrl;
 								dragType = 'link';
 								dragElement = targetLink;
@@ -1062,6 +1120,14 @@
 						} catch (err) {
 						}
 					}
+				}
+			}
+
+			if (!dragContent && SETTINGS.enableTextDrag && isText) {
+				const text = window.getSelection().toString().trim();
+				if (text) {
+					dragContent = text;
+					dragType = 'text';
 				}
 			}
 
@@ -1076,10 +1142,9 @@
 					gestureState.skipFirstDragOver = true;
 				}
 			}
-		});
+		}, { capture: false });
 
-		document.addEventListener('dragover', (e) => {
-			if (!SETTINGS.enableDrag || isBlacklisted) return;
+		eventManager.add(isDragEnabled, document, 'dragover', (e) => {
 			if (!gestureState.isDrag) return;
 
 			if (gestureState.skipFirstDragOver) {
@@ -1116,34 +1181,30 @@
 			}
 
 			if (result.directionChanged && SETTINGS.enableHUD) {
-				const hints = getDragHints(gestureState.dragType, result.pattern);
+				const hints = getDragHints(gestureState.dragType, result.pattern, gestureState.selectedText);
 				visualizer.updateAction(hints.length > 0 ? result.pattern : '', hints);
 			}
-		});
+		}, { capture: true });
 
-		document.addEventListener('dragenter', (e) => {
-			if (!SETTINGS.enableDrag || isBlacklisted) return;
+		eventManager.add(isDragEnabled, document, 'dragenter', (e) => {
 			if (!gestureState.isDrag) return;
 			if (!recognizer.isActive()) return;
 			if (hasDragAction(gestureState.dragType, recognizer.getPattern())) {
 				e.preventDefault();
 			}
-		}, true);
+		}, { capture: true });
 
-		document.addEventListener('dragleave', (e) => {
-			if (!SETTINGS.enableDrag || isBlacklisted) return;
+		eventManager.add(isDragEnabled, document, 'dragleave', (e) => {
 			if (gestureState.isDrag && e.relatedTarget === null) {
 				resetState();
 			}
-		}, true);
+		}, { capture: true });
 
-		document.addEventListener('dragend', (e) => {
-			if (!SETTINGS.enableDrag || isBlacklisted) return;
+		eventManager.add(isDragEnabled, document, 'dragend', (e) => {
 			resetState();
-		});
+		}, { capture: true });
 
-		document.addEventListener('drop', (e) => {
-			if (!SETTINGS.enableDrag || isBlacklisted) return;
+		eventManager.add(isDragEnabled, document, 'drop', (e) => {
 			try {
 				if (gestureState.isDrag && recognizer.isActive()) {
 					const pattern = recognizer.getPattern();
@@ -1156,7 +1217,7 @@
 			} finally {
 				resetState();
 			}
-		});
+		}, { capture: true });
 
 		document.addEventListener('keydown', (e) => {
 			if (e.key === 'Escape') {
@@ -1174,9 +1235,7 @@
 			}
 		}, true);
 
-		document.addEventListener('wheel', (e) => {
-			if (isBlacklisted) return;
-			if (!SETTINGS.enableWheelGestures) return;
+		function handleWheelGesture(e) {
 			if (!(e.buttons & 2)) return;
 			if (recognizer.isActive()) return;
 			if (e.deltaY === 0) return;
@@ -1194,7 +1253,43 @@
 			wheelGestureTriggered = true;
 
 			executeAction(action, scrollConfig, e.clientX, e.clientY);
-		}, { capture: true, passive: false });
+		}
+
+		{
+			let wheelListenerActive = false;
+			const wheelOptions = { capture: true, passive: false };
+
+			function addWheelListener() {
+				if (wheelListenerActive || !isWheelGestureEnabled()) return;
+				document.addEventListener('wheel', onChromeWheel, wheelOptions);
+				wheelListenerActive = true;
+			}
+
+			function removeWheelListener() {
+				if (!wheelListenerActive) return;
+				document.removeEventListener('wheel', onChromeWheel, wheelOptions);
+				wheelListenerActive = false;
+			}
+
+			function onChromeWheel(e) {
+				if (!isWheelGestureEnabled() || !(e.buttons & 2)) {
+					removeWheelListener(); 
+					return;
+				}
+				handleWheelGesture(e);
+			}
+
+			eventManager.add(isWheelGestureEnabled, document, 'mousedown', (e) => {
+				if (e.button === 2) addWheelListener();
+			}, { capture: true });
+
+			eventManager.add(isWheelGestureEnabled, document, 'visibilitychange', () => {
+				addWheelListener();
+			});
+
+			eventManager.onUpdate(() => addWheelListener());
+		}
+
 
 		window.addEventListener('blur', () => {
 			if (gestureState.isRightButton) {
@@ -1302,14 +1397,22 @@
 				if (useActiveTab) msg_obj.useActiveTab = true;
 				if (action === 'openCustomUrl') {
 					msg_obj.customUrl = mergedConfig.customUrl || '';
+					msg_obj.position = mergedConfig.position || 'last';
 				} else if (action === 'closeTab') {
 					msg_obj.keepWindow = !!mergedConfig.keepWindow;
 					msg_obj.afterClose = mergedConfig.afterClose || 'default';
+					msg_obj.skipPinned = !!mergedConfig.skipPinned;
+				} else if (action === 'closeOtherTabs' || action === 'closeLeftTabs' || action === 'closeRightTabs' || action === 'closeAllTabs') {
+					msg_obj.skipPinned = !!mergedConfig.skipPinned;
 				} else if (action === 'switchLeftTab' || action === 'switchRightTab') {
 					msg_obj.noWrap = !!mergedConfig.noWrap;
 					msg_obj.moveTab = !!mergedConfig.moveTab;
 				} else if (action === 'switchFirstTab' || action === 'switchLastTab') {
 					msg_obj.moveTab = !!mergedConfig.moveTab;
+				} else if (action === 'refresh' || action === 'refreshAllTabs') {
+					msg_obj.hardReload = !!mergedConfig.hardReload;
+				} else if (action === 'newTab') {
+					msg_obj.position = mergedConfig.position || 'last';
 				} else if (action === 'actionChain') {
 					const chainId = mergedConfig.chainId;
 					const chain = SETTINGS.actionChains?.[chainId];
@@ -1353,7 +1456,7 @@
 			switch (config.action) {
 				case 'search': {
 					if (config.autoDetectUrl === true && dragType === 'text') {
-						const url = tryParseAsUrl(content);
+						const url = tryParseAsUrl(content, false);
 						if (url) return { url };
 					}
 					if (engine === 'system') return { query: content };
