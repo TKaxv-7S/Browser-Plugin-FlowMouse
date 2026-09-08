@@ -266,9 +266,13 @@ async function handleAction(request, sender) {
 				}
 				const tabs = await chrome.tabs.query({ windowId: sender.tab.windowId });
 				const currentPos = tabs.findIndex(t => t.id === sender.tab.id);
-				const afterClose = request.afterClose || 'default';
+				let afterClose = request.afterClose || 'default';
 
-				if (request.keepWindow && tabs.length === 1) {
+				if (request.preserveTab && afterClose === 'default') {
+					afterClose = currentPos === tabs.length - 1 ? 'left' : 'right';
+				}
+
+				if (!request.preserveTab && request.keepWindow && tabs.length === 1) {
 					await chrome.tabs.create({ active: true, windowId: sender.tab.windowId });
 				}
 
@@ -284,7 +288,13 @@ async function handleAction(request, sender) {
 					}
 				}
 
-				await chrome.tabs.remove(sender.tab.id);
+				if (request.preserveTab) {
+					if (tabs.length > 1 && !sender.tab.discarded) {
+						await chrome.tabs.discard(sender.tab.id);
+					}
+				} else {
+					await chrome.tabs.remove(sender.tab.id);
+				}
 			}
 			return { success: true };
 		}
@@ -939,7 +949,7 @@ async function handleAction(request, sender) {
 
 		case 'areaSelectBatchOpen': {
 			const urls = request.urls;
-			const interval = Math.max(0, Math.min(60000, (parseFloat(request.operationInterval) || 0) * 1000));
+			const interval = Math.max(0, Math.min(60000, (parseFloat(request.delay) || 0) * 1000));
 			if (urls?.length && sender.tab) {
 				let openerTabId = sender.tab.id;
 				const baseIndex = sender.tab.index + 1;
@@ -1372,6 +1382,14 @@ chrome.runtime.onInstalled.addListener((details) => {
 		if (details.reason === 'install' || (details.reason === 'update' && compareVersions(details.previousVersion, '1.50') > 0)) {
 			reinjectContentScripts(details.reason === 'update');
 		}
+	}
+
+	if (details.reason === 'install' || details.reason === 'update') {
+		chrome.storage.local.get(['installDate'], (items) => {
+			if (!items.installDate) {
+				chrome.storage.local.set({ installDate: new Date().toISOString().slice(0, 10) + 'T00:00:00.000Z' });
+			}
+		});
 	}
 });
 
